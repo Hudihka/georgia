@@ -8,9 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB2297C5726005B76BE /* AppDelegate.swift */; };
-		E9186EB7297C5726005B76BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB6297C5726005B76BE /* ViewController.swift */; };
 		E9186EBC297C5727005B76BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBB297C5727005B76BE /* Assets.xcassets */; };
 		E9186EBF297C5727005B76BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */; };
+		E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8BD2A098FE20028F33E /* ListModel.swift */; };
+		E91FB8C12A0990550028F33E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C02A0990550028F33E /* DataManager.swift */; };
+		E91FB8C42A0992200028F33E /* Vibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C32A0992200028F33E /* Vibro.swift */; };
+		E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C82A0993360028F33E /* BaseViewController.swift */; };
+		E91FB8CD2A0993360028F33E /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C92A0993360028F33E /* BaseCell.swift */; };
+		E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8CA2A0993360028F33E /* BaseNavigationController.swift */; };
+		E91FB8CF2A0993360028F33E /* Offsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8CB2A0993360028F33E /* Offsets.swift */; };
+		E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8D12A0994170028F33E /* EpicsViewControllerRouter.swift */; };
+		E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8D22A0994170028F33E /* EpicsViewControllerViewController.swift */; };
+		E91FB8D82A0994170028F33E /* EpicsViewControllerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8D32A0994170028F33E /* EpicsViewControllerProtocols.swift */; };
+		E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8D42A0994170028F33E /* EpicsViewControllerBuilder.swift */; };
+		E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8D52A0994170028F33E /* EpicsViewControllerViewModel.swift */; };
+		E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8DD2A0997B50028F33E /* EpicCell.swift */; };
+		E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E02A099D1D0028F33E /* NSObject.swift */; };
+		E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E22A099E210028F33E /* UINavigationController.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
@@ -20,10 +34,24 @@
 /* Begin PBXFileReference section */
 		E9186EAF297C5726005B76BE /* Georgia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Georgia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9186EB2297C5726005B76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9186EB6297C5726005B76BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9186EBB297C5727005B76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9186EBE297C5727005B76BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9186EC0297C5727005B76BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91FB8BD2A098FE20028F33E /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		E91FB8C02A0990550028F33E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E91FB8C32A0992200028F33E /* Vibro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibro.swift; sourceTree = "<group>"; };
+		E91FB8C82A0993360028F33E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E91FB8C92A0993360028F33E /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		E91FB8CA2A0993360028F33E /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		E91FB8CB2A0993360028F33E /* Offsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offsets.swift; sourceTree = "<group>"; };
+		E91FB8D12A0994170028F33E /* EpicsViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicsViewControllerRouter.swift; sourceTree = "<group>"; };
+		E91FB8D22A0994170028F33E /* EpicsViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicsViewControllerViewController.swift; sourceTree = "<group>"; };
+		E91FB8D32A0994170028F33E /* EpicsViewControllerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicsViewControllerProtocols.swift; sourceTree = "<group>"; };
+		E91FB8D42A0994170028F33E /* EpicsViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicsViewControllerBuilder.swift; sourceTree = "<group>"; };
+		E91FB8D52A0994170028F33E /* EpicsViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicsViewControllerViewModel.swift; sourceTree = "<group>"; };
+		E91FB8DD2A0997B50028F33E /* EpicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicCell.swift; sourceTree = "<group>"; };
+		E91FB8E02A099D1D0028F33E /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		E91FB8E22A099E210028F33E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
@@ -60,11 +88,81 @@
 		E9186EB1297C5726005B76BE /* Georgia */ = {
 			isa = PBXGroup;
 			children = (
+				E91FB8DF2A099CFD0028F33E /* Extensions */,
+				E91FB8D02A0993C00028F33E /* Controllers */,
+				E91FB8C22A0991D90028F33E /* UI */,
 				E9869DC72A0983DA00AF03DB /* Data */,
 				E9869DC62A0982CF00AF03DB /* Resources */,
-				E9186EB6297C5726005B76BE /* ViewController.swift */,
 			);
 			path = Georgia;
+			sourceTree = "<group>";
+		};
+		E91FB8BF2A09903F0028F33E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9869DD12A09861C00AF03DB /* BaseModels.swift */,
+				E91FB8BD2A098FE20028F33E /* ListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E91FB8C22A0991D90028F33E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8C72A0993360028F33E /* BaseUI */,
+				E9869DC82A09840B00AF03DB /* UIResources.swift */,
+				E91FB8C32A0992200028F33E /* Vibro.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E91FB8C72A0993360028F33E /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8C82A0993360028F33E /* BaseViewController.swift */,
+				E91FB8C92A0993360028F33E /* BaseCell.swift */,
+				E91FB8CA2A0993360028F33E /* BaseNavigationController.swift */,
+				E91FB8CB2A0993360028F33E /* Offsets.swift */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		E91FB8D02A0993C00028F33E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8DB2A0994BA0028F33E /* EpicsViewControllerBuilder */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E91FB8DB2A0994BA0028F33E /* EpicsViewControllerBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8D12A0994170028F33E /* EpicsViewControllerRouter.swift */,
+				E91FB8D22A0994170028F33E /* EpicsViewControllerViewController.swift */,
+				E91FB8D32A0994170028F33E /* EpicsViewControllerProtocols.swift */,
+				E91FB8D42A0994170028F33E /* EpicsViewControllerBuilder.swift */,
+				E91FB8D52A0994170028F33E /* EpicsViewControllerViewModel.swift */,
+				E91FB8DC2A09979A0028F33E /* Views */,
+			);
+			path = EpicsViewControllerBuilder;
+			sourceTree = "<group>";
+		};
+		E91FB8DC2A09979A0028F33E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8DD2A0997B50028F33E /* EpicCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E91FB8DF2A099CFD0028F33E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8E02A099D1D0028F33E /* NSObject.swift */,
+				E91FB8E22A099E210028F33E /* UINavigationController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
@@ -74,7 +172,6 @@
 				E9186EBB297C5727005B76BE /* Assets.xcassets */,
 				E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */,
 				E9186EC0297C5727005B76BE /* Info.plist */,
-				E9869DC82A09840B00AF03DB /* UIResources.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -83,7 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				E9869DCF2A0985F700AF03DB /* Content.swift */,
-				E9869DD12A09861C00AF03DB /* BaseModels.swift */,
+				E91FB8C02A0990550028F33E /* DataManager.swift */,
+				E91FB8BF2A09903F0028F33E /* Models */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -164,9 +262,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9186EB7297C5726005B76BE /* ViewController.swift in Sources */,
+				E91FB8C42A0992200028F33E /* Vibro.swift in Sources */,
 				E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */,
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
+				E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */,
+				E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */,
+				E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */,
+				E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */,
+				E91FB8C12A0990550028F33E /* DataManager.swift in Sources */,
+				E91FB8CD2A0993360028F33E /* BaseCell.swift in Sources */,
+				E91FB8D82A0994170028F33E /* EpicsViewControllerProtocols.swift in Sources */,
+				E91FB8CF2A0993360028F33E /* Offsets.swift in Sources */,
+				E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */,
+				E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */,
+				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
+				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
+				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,
+				E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */,
 				E9869DD02A0985F700AF03DB /* Content.swift in Sources */,
 				E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */,
 			);
@@ -312,7 +424,7 @@
 				INFOPLIST_FILE = Georgia/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -344,7 +456,7 @@
 				INFOPLIST_FILE = Georgia/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

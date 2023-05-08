@@ -16,11 +16,7 @@ enum EnumColors {
     static let black = UIColor.black
     static let green = UIColor.green
     static let red   = UIColor.red
-}
-
-enum ConstreintConstant {
-    static let constant8: CGFloat       = 8
-    static let constant16: CGFloat      = 16
+    static let gray  = UIColor(red: 209/255, green: 209/255, blue: 209/255, alpha: 1)
 }
 
 enum EnumFont {

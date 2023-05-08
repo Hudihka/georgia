@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 protocol EpicsViewControllerCallBack: AnyObject {
+    func updateContent()
 }
 
 final class EpicsViewControllerBuilder {

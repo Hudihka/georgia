@@ -14,4 +14,13 @@ final class EpicsViewControllerRouter: EpicsViewControllerRouterProtocol {
 	init(dataStore: EpicsViewControllerDataStoreProtocol) {
 		self.dataStore = dataStore
 	}
+    
+    func openEpic() {
+        guard let epic = dataStore.selectedEpic, let VC = VC else {
+            return
+        }
+        
+        let testVC = TestEpicBuilder.build(epic: epic)
+        VC.present(testVC, animated: true)
+    }
 }

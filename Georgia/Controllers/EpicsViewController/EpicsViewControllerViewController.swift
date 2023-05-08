@@ -13,10 +13,10 @@ final class EpicsViewController: BaseViewController {
     }
     
     private let router: EpicsViewControllerRouterProtocol
-    private let VM: (EpicsViewControllerViewModelProtocolIn & EpicsViewControllerViewModelProtocolOut)
+    private var VM: (EpicsViewControllerViewModelProtocolIn & EpicsViewControllerViewModelProtocolOut)
     
-    private let tableView = UITableView(frame: .zero, style: .grouped)
-    private var content: [ListModel] = DataManager.shared.generateStartContent() {
+    private let tableView = UITableView(frame: .zero, style: .plain)
+    private var content: [ListModel] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -40,12 +40,12 @@ final class EpicsViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        VM.fetchContent()
     }
     
     override func desingUI() {
         title = "Темы"
         
-
         tableView.register(
             EpicCell.self,
             forCellReuseIdentifier: EpicCell.className
@@ -64,11 +64,14 @@ final class EpicsViewController: BaseViewController {
         view.addSubview(tableView)
         
         tableView.snp.makeConstraints { make in
-            make.top.bottom.right.left.equalToSuperview()
+            make.bottom.top.right.left.equalToSuperview()
         }
     }
     
     override func lissenVM() {
+        VM.content = { [weak self] arr in
+            self?.content = arr
+        }
     }
 }
 
@@ -91,4 +94,21 @@ extension EpicsViewController: UITableViewDataSource {
     }
 }
 
-extension EpicsViewController: UITableViewDelegate {}
+extension EpicsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let epic = content[indexPath.row]
+        
+        if epic.inProgress {
+            // показываем алерт
+        } else {
+            VM.beginEpic(epic: epic)
+            router.openEpic()
+        }
+    }
+}
+
+extension EpicsViewController: EpicsViewControllerCallBack {
+    func updateContent() {
+        VM.tapedAnswer()
+    }
+}

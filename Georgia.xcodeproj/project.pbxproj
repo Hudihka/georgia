@@ -25,6 +25,11 @@
 		E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8DD2A0997B50028F33E /* EpicCell.swift */; };
 		E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E02A099D1D0028F33E /* NSObject.swift */; };
 		E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E22A099E210028F33E /* UINavigationController.swift */; };
+		E91FB8E92A09A8090028F33E /* TestEpicRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E42A09A8090028F33E /* TestEpicRouter.swift */; };
+		E91FB8EA2A09A8090028F33E /* TestEpicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E52A09A8090028F33E /* TestEpicViewController.swift */; };
+		E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */; };
+		E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */; };
+		E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
@@ -52,6 +57,11 @@
 		E91FB8DD2A0997B50028F33E /* EpicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicCell.swift; sourceTree = "<group>"; };
 		E91FB8E02A099D1D0028F33E /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		E91FB8E22A099E210028F33E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		E91FB8E42A09A8090028F33E /* TestEpicRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicRouter.swift; sourceTree = "<group>"; };
+		E91FB8E52A09A8090028F33E /* TestEpicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicViewController.swift; sourceTree = "<group>"; };
+		E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicProtocols.swift; sourceTree = "<group>"; };
+		E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicBuilder.swift; sourceTree = "<group>"; };
+		E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicViewModel.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
@@ -130,12 +140,13 @@
 		E91FB8D02A0993C00028F33E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E91FB8DB2A0994BA0028F33E /* EpicsViewControllerBuilder */,
+				E91FB8EE2A09A8130028F33E /* TestEpicViewController */,
+				E91FB8DB2A0994BA0028F33E /* EpicsViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		E91FB8DB2A0994BA0028F33E /* EpicsViewControllerBuilder */ = {
+		E91FB8DB2A0994BA0028F33E /* EpicsViewController */ = {
 			isa = PBXGroup;
 			children = (
 				E91FB8D12A0994170028F33E /* EpicsViewControllerRouter.swift */,
@@ -145,7 +156,7 @@
 				E91FB8D52A0994170028F33E /* EpicsViewControllerViewModel.swift */,
 				E91FB8DC2A09979A0028F33E /* Views */,
 			);
-			path = EpicsViewControllerBuilder;
+			path = EpicsViewController;
 			sourceTree = "<group>";
 		};
 		E91FB8DC2A09979A0028F33E /* Views */ = {
@@ -163,6 +174,18 @@
 				E91FB8E22A099E210028F33E /* UINavigationController.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E91FB8EE2A09A8130028F33E /* TestEpicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8E42A09A8090028F33E /* TestEpicRouter.swift */,
+				E91FB8E52A09A8090028F33E /* TestEpicViewController.swift */,
+				E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */,
+				E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */,
+				E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */,
+			);
+			path = TestEpicViewController;
 			sourceTree = "<group>";
 		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
@@ -264,19 +287,24 @@
 			files = (
 				E91FB8C42A0992200028F33E /* Vibro.swift in Sources */,
 				E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */,
+				E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */,
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
 				E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */,
 				E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */,
 				E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */,
+				E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */,
 				E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */,
 				E91FB8C12A0990550028F33E /* DataManager.swift in Sources */,
 				E91FB8CD2A0993360028F33E /* BaseCell.swift in Sources */,
+				E91FB8EA2A09A8090028F33E /* TestEpicViewController.swift in Sources */,
 				E91FB8D82A0994170028F33E /* EpicsViewControllerProtocols.swift in Sources */,
 				E91FB8CF2A0993360028F33E /* Offsets.swift in Sources */,
 				E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */,
 				E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */,
+				E91FB8E92A09A8090028F33E /* TestEpicRouter.swift in Sources */,
 				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
+				E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */,
 				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,
 				E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */,
 				E9869DD02A0985F700AF03DB /* Content.swift in Sources */,

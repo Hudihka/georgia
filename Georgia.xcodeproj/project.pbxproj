@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB2297C5726005B76BE /* AppDelegate.swift */; };
-		E9186EBC297C5727005B76BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBB297C5727005B76BE /* Assets.xcassets */; };
-		E9186EBF297C5727005B76BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */; };
 		E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8BD2A098FE20028F33E /* ListModel.swift */; };
 		E91FB8C12A0990550028F33E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C02A0990550028F33E /* DataManager.swift */; };
 		E91FB8C42A0992200028F33E /* Vibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C32A0992200028F33E /* Vibro.swift */; };
@@ -43,14 +41,14 @@
 		E91FB9072A0A6F050028F33E /* SaveImпDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */; };
 		E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */; };
 		E95E05C42A0A832900853A38 /* ZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05BE2A0A832900853A38 /* ZoomCell.swift */; };
-		E95E05C62A0A832900853A38 /* PageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */; };
 		E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05C12A0A832900853A38 /* ZoomView.swift */; };
-		E95E05C82A0A832900853A38 /* ZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C22A0A832900853A38 /* ZoomCell.xib */; };
-		E95E05C92A0A832900853A38 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05C32A0A832900853A38 /* PageViewController.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
 		E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9869DD42A0987FB00AF03DB /* SnapKit */; };
+		E9D939232A0A882800BD6F31 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D939222A0A882800BD6F31 /* ZoomViewController.swift */; };
+		E9D939242A0A889A00BD6F31 /* PageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */; };
+		E9D939252A0A88A000BD6F31 /* ZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C22A0A832900853A38 /* ZoomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,10 +93,10 @@
 		E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PageStoryboard.storyboard; sourceTree = "<group>"; };
 		E95E05C12A0A832900853A38 /* ZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
 		E95E05C22A0A832900853A38 /* ZoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomCell.xib; sourceTree = "<group>"; };
-		E95E05C32A0A832900853A38 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
+		E9D939222A0A882800BD6F31 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +263,7 @@
 				E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */,
 				E95E05C12A0A832900853A38 /* ZoomView.swift */,
 				E95E05C22A0A832900853A38 /* ZoomCell.xib */,
-				E95E05C32A0A832900853A38 /* PageViewController.swift */,
+				E9D939222A0A882800BD6F31 /* ZoomViewController.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -356,10 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95E05C62A0A832900853A38 /* PageStoryboard.storyboard in Resources */,
-				E9186EBF297C5727005B76BE /* LaunchScreen.storyboard in Resources */,
-				E95E05C82A0A832900853A38 /* ZoomCell.xib in Resources */,
-				E9186EBC297C5727005B76BE /* Assets.xcassets in Resources */,
+				E9D939252A0A88A000BD6F31 /* ZoomCell.xib in Resources */,
+				E9D939242A0A889A00BD6F31 /* PageStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +388,7 @@
 				E91FB8EA2A09A8090028F33E /* TestEpicViewController.swift in Sources */,
 				E91FB8D82A0994170028F33E /* EpicsViewControllerProtocols.swift in Sources */,
 				E91FB8CF2A0993360028F33E /* Offsets.swift in Sources */,
+				E9D939232A0A882800BD6F31 /* ZoomViewController.swift in Sources */,
 				E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */,
 				E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */,
 				E91FB8FE2A0A51820028F33E /* ViewControllelQwestion.swift in Sources */,
@@ -401,7 +398,6 @@
 				E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */,
 				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
 				E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */,
-				E95E05C92A0A832900853A38 /* PageViewController.swift in Sources */,
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
 				E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */,
 				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,

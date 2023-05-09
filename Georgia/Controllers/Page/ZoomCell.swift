@@ -84,7 +84,7 @@ class ZoomCell: UICollectionViewCell {
 				self.closeBlock(true)
 			} else {
 				self.closeBlock(false)
-				UIView.animate(withDuration: timeInterval) {
+                UIView.animate(withDuration: 0.3) {
 					self.zoomView?.frame = CGRect(origin: .zero, size: size)
 				}
 			}

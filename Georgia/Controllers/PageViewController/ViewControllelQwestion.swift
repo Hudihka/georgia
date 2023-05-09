@@ -19,6 +19,17 @@ final class ViewControllerQwestion: UIViewController {
         qwestion.number
     }
     
+    private let viewContent = UIView()
+    private let labelTitle: UILabel = {
+        let label = UILabel()
+        label.textColor = EnumColors.black
+        label.font = EnumFont.semibold(22).font
+        label.textAlignment = .left
+        label.numberOfLines = 0
+        
+        return label
+    }()
+    
     init(qwestion: Qwestion, answer: AnswerTest?) {
         self.qwestion = qwestion
         self.answer = answer
@@ -36,14 +47,43 @@ final class ViewControllerQwestion: UIViewController {
         
         self.view.backgroundColor = EnumColors.white
         
-        let label = UILabel()
-        view.addSubview(label)
-        label.numberOfLines = 0
-        label.text = qwestion.title
-        label.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(20)
-            make.height.greaterThanOrEqualTo(100)
-            make.centerY.equalTo(view.snp.centerY)
+        desingUI()
+    }
+    
+    private func desingUI() {
+        let scrollView = UIScrollView()
+        view.addSubview(scrollView)
+        scrollView.snp.makeConstraints { make in
+            make.left.top.right.bottom.equalToSuperview()
+        }
+        
+        scrollView.addSubview(viewContent)
+        viewContent.snp.makeConstraints { make in
+            make.left.right.top.bottom.equalToSuperview()
+            make.width.equalTo(wDdevice)
+            make.height.greaterThanOrEqualTo(scrollView.snp.height)
+        }
+        
+        var uiimageView: UIImageView? = nil
+        if let link = qwestion.linkImage {
+            uiimageView = UIImageView()
+            viewContent.addSubview(uiimageView!)
+            uiimageView?.snp.makeConstraints { make in
+                make.top.left.right.equalToSuperview()
+                make.height.equalTo(wDdevice)
+            }
+        }
+        
+        viewContent.addSubview(labelTitle)
+        labelTitle.snp.makeConstraints { make in
+            make.left.right.equalToSuperview().inset(Offsets.constant16)
+            make.height.greaterThanOrEqualTo(40)
+            
+            if let viewImage = uiimageView {
+                make.top.equalTo(viewImage.snp.bottom).offset(Offsets.constant16)
+            } else {
+                make.top.equalToSuperview()
+            }
         }
     }
 }

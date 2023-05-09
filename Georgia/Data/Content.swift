@@ -3451,78 +3451,82 @@ final class Content {
                                                Qwestion(
                                                number: 1138, title: "Запрещено или нет. движение учебного автомобиля по направлению стрелки, если за рулем сидит ученик?", linkImage: Optional("http://teoria.on.ge/files/new/0ad3d42a08607cada6b86cdb8b88f466.jpg"), answer: Answer(rightOpinion: 0, fist: "Запрещено", second: "Не запрещено"))]),
         EpicWithQwestion(
-            name: "Знаки обслуживания", qwestions: [Qwestion(
-                number: 1171, title: "С данных дорожных знаков, какой дает информацию о пункте первычной медицинской помощи?", linkImage: Optional("http://teoria.on.ge/files/new/a901a6df4efe1f0194956b18590bb438.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                        )
-            ),
-                                                    Qwestion(
-                                                        number: 1172, title: "С данных дорожных знаков, какой дает информацию о месте станции автозаправки?", linkImage: Optional("http://teoria.on.ge/files/new/cf523bb9c0a786867f3b13211e8b938e.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                       )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1173, title: "С данных дорожных знаков, какой дает информацию о месте технического обслуживания автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/248849087cdb671683f975a56f582381.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                                       )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1174, title: "С данных дорожных знаков, какой дает информацию о месте мойки автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/f96b91b60fdd8a77c2b1195d59ba197b.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                   )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1175, title: "С данных дорожных знаков, какой дает информацию о пункте телефона?", linkImage: Optional("http://teoria.on.ge/files/new/dbc746d46e04397d56058a341b2830bb.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                            )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1176, title: "С данных дорожных знаков, какой дает информацию о пункте питания?", linkImage: Optional("http://teoria.on.ge/files/new/d7e0bafd00f969cb04387165930e60ac.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                           )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1177, title: "С данных дорожных знаков, какой дает информацию о питьевой воде?", linkImage: Optional("http://teoria.on.ge/files/new/8ee47be53c5ad87705944b807a7451e8.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+            name: "Знаки обслуживания",
+            qwestions: [
+                Qwestion(
+                    number: 1171,
+                    title: "С данных дорожных знаков, какой дает информацию о пункте первычной медицинской помощи?",
+                    linkImage: Optional("http://teoria.on.ge/files/new/a901a6df4efe1f0194956b18590bb438.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                             )
+                ),
+                Qwestion(
+                    number: 1172, title: "С данных дорожных знаков, какой дает информацию о месте станции автозаправки?", linkImage: Optional("http://teoria.on.ge/files/new/cf523bb9c0a786867f3b13211e8b938e.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                                   )
+                ),
+                Qwestion(
+                    number: 1173, title: "С данных дорожных знаков, какой дает информацию о месте технического обслуживания автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/248849087cdb671683f975a56f582381.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                                                   )
+                ),
+                Qwestion(
+                    number: 1174, title: "С данных дорожных знаков, какой дает информацию о месте мойки автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/f96b91b60fdd8a77c2b1195d59ba197b.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                               )
+                ),
+                Qwestion(
+                    number: 1175, title: "С данных дорожных знаков, какой дает информацию о пункте телефона?", linkImage: Optional("http://teoria.on.ge/files/new/dbc746d46e04397d56058a341b2830bb.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                        )
+                ),
+                Qwestion(
+                    number: 1176, title: "С данных дорожных знаков, какой дает информацию о пункте питания?", linkImage: Optional("http://teoria.on.ge/files/new/d7e0bafd00f969cb04387165930e60ac.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                       )
+                ),
+                Qwestion(
+                    number: 1177, title: "С данных дорожных знаков, какой дает информацию о питьевой воде?", linkImage: Optional("http://teoria.on.ge/files/new/8ee47be53c5ad87705944b807a7451e8.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                      )
+                ),
+                Qwestion(
+                    number: 1178, title: "С данных дорожных знаков, какой дает информацию о гостинице или мотеле?", linkImage: Optional("http://teoria.on.ge/files/new/957702fd8f48d8787697def11e908845.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                             )
+                ),
+                Qwestion(
+                    number: 1179, title: "С данных дорожных знаков, какой дает информацию о кемпинге?", linkImage: Optional("http://teoria.on.ge/files/new/ae40558159556ea34892a5cba3290a8d.jpg"), answer: Answer(rightOpinion: 0, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                 )
+                ),
+                Qwestion(
+                    number: 1181, title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/45defebbb01b82640b03bb83e9243415.jpg"), answer: Answer(rightOpinion: 0, fist: "Место слияния с автомагистралью выезда с другой дороги", second: "Перекресток с пересеканием равнозначных дорог", three: Optional("Означает участок дороги, на котором ширина проезжей части сужается с обеих сторон")
+                                                                                                                                                                                      )
+                ),
+                Qwestion(
+                    number: 1182, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/6ce7e17e143a2f2e4f51f516ed5eb7ec.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании постового патрульной полиции", second: "О существовании зоны радиосвязи с аварийной службой")),
+                Qwestion(
+                    number: 1184, title: "С данных дорожных знаков, какой дает информацию о существовании контрольного  пункта международных автомобильных перевозов?", linkImage: Optional("http://teoria.on.ge/files/new/0b1975f7d633deefada7cc0b0ecfcdbe.jpg"), answer: Answer(rightOpinion: 0, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                                                                                 )
+                ),
+                Qwestion(
+                    number: 1185, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ee10b91a2eae31aeedd8aaa422c9f9f4.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании контрольного  пункта международных автомобильных перевозов", second: "О существовании постового патрульной полиции")),
+                Qwestion(
+                    number: 1186, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/19527981a506b68c4b7896d28cb59d41.jpg"), answer: Answer(rightOpinion: 1, fist: "О существовании зоны радиосвязи с аварийной службой", second: "О существовании зоны приема радиостанции передающей информацию о дорожном движении")),
+                Qwestion(
+                    number: 1187, title: "С данных дорожных знаков, какой дает информацию о существовании зоны приема радиостанции передающей информацию о дорожном движении?", linkImage: Optional("http://teoria.on.ge/files/new/74ec754a48eaadc61c087d6dbc562ec5.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                                                                                         )
+                ),
+                Qwestion(
+                    number: 1188, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ad06160d8fa36463f1f3646edc751608.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании зоны радиосвязи с аварийной службой", second: "О существовании зоны приема радиостанции передающей информацию о дорожном движении")),
+                Qwestion(
+                    number: 1189, title: "С данных дорожных знаков, какой дает информацию о существовании зоны радиосвязи с аварийной службой?", linkImage: Optional("http://teoria.on.ge/files/new/9bc840eb8c9ce40f313edc1d009f2503.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
                                                                                                                                                                                                                                                           )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1178, title: "С данных дорожных знаков, какой дает информацию о гостинице или мотеле?", linkImage: Optional("http://teoria.on.ge/files/new/957702fd8f48d8787697def11e908845.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                 )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1179, title: "С данных дорожных знаков, какой дает информацию о кемпинге?", linkImage: Optional("http://teoria.on.ge/files/new/ae40558159556ea34892a5cba3290a8d.jpg"), answer: Answer(rightOpinion: 0, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                     )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1181, title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/45defebbb01b82640b03bb83e9243415.jpg"), answer: Answer(rightOpinion: 0, fist: "Место слияния с автомагистралью выезда с другой дороги", second: "Перекресток с пересеканием равнозначных дорог", three: Optional("Означает участок дороги, на котором ширина проезжей части сужается с обеих сторон")
-                                                                                                                                                                                                                          )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1182, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/6ce7e17e143a2f2e4f51f516ed5eb7ec.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании постового патрульной полиции", second: "О существовании зоны радиосвязи с аварийной службой")),
-                                                    Qwestion(
-                                                        number: 1184, title: "С данных дорожных знаков, какой дает информацию о существовании контрольного  пункта международных автомобильных перевозов?", linkImage: Optional("http://teoria.on.ge/files/new/0b1975f7d633deefada7cc0b0ecfcdbe.jpg"), answer: Answer(rightOpinion: 0, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                                                                     )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1185, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ee10b91a2eae31aeedd8aaa422c9f9f4.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании контрольного  пункта международных автомобильных перевозов", second: "О существовании постового патрульной полиции")),
-                                                    Qwestion(
-                                                        number: 1186, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/19527981a506b68c4b7896d28cb59d41.jpg"), answer: Answer(rightOpinion: 1, fist: "О существовании зоны радиосвязи с аварийной службой", second: "О существовании зоны приема радиостанции передающей информацию о дорожном движении")),
-                                                    Qwestion(
-                                                        number: 1187, title: "С данных дорожных знаков, какой дает информацию о существовании зоны приема радиостанции передающей информацию о дорожном движении?", linkImage: Optional("http://teoria.on.ge/files/new/74ec754a48eaadc61c087d6dbc562ec5.jpg"), answer: Answer(rightOpinion: 1, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                                                                             )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1188, title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ad06160d8fa36463f1f3646edc751608.jpg"), answer: Answer(rightOpinion: 0, fist: "О существовании зоны радиосвязи с аварийной службой", second: "О существовании зоны приема радиостанции передающей информацию о дорожном движении")),
-                                                    Qwestion(
-                                                        number: 1189, title: "С данных дорожных знаков, какой дает информацию о существовании зоны радиосвязи с аварийной службой?", linkImage: Optional("http://teoria.on.ge/files/new/9bc840eb8c9ce40f313edc1d009f2503.jpg"), answer: Answer(rightOpinion: 2, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                                              )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1191, title: "В данной ситуации, водитель имеет право с целю долговременного отдыха автомобиль поставить:", linkImage: Optional("http://teoria.on.ge/files/new/167e4ccdb6d68bb50d1a03834ccb0915.jpg"), answer: Answer(rightOpinion: 2, fist: "На месте А", second: "На месте В", three: Optional("Через 800 метров на специальном выделенном месте или за пределами дороги")
-                                                                                                                                                                                                                                                                                     )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1192, title: "Грузовой автомобиль и желтый легковой автомобиль продолжают движение по направлению стрелки, а водитель белого легкового автомобиля остановился с целью долговременного отдыха. Водитель, какого автомобиля нарушит правила дорожного движения, если средняя полоса данной дороги употребляется для движения в обоих направлениях?", linkImage: Optional("http://teoria.on.ge/files/new/e9b555c1d750ba095dfbbf3178ac5260.jpg"), answer: Answer(rightOpinion: 1, fist: "Только водители грузового автомобиля и белого легкового автомобиля", second: "Только водители желтого автомобиля и белого легкового автомобиля", three: Optional("Только водитель белого легкового автомобиля"), four: Optional("Только водитель желтого легкового автомобиля")
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            )
-                                                    ),
-                                                    Qwestion(
-                                                        number: 1240, title: "С данных дорожных знаков, какой дает информацию  о плавательном бассейне или пляже?", linkImage: Optional("http://teoria.on.ge/files/new/6ef40680855f2cdf6d88a20a1456432f.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
-                                                                                                                                                                                                                                                                             )
-                                                    )
+                ),
+                Qwestion(
+                    number: 1191, title: "В данной ситуации, водитель имеет право с целю долговременного отдыха автомобиль поставить:", linkImage: Optional("http://teoria.on.ge/files/new/167e4ccdb6d68bb50d1a03834ccb0915.jpg"), answer: Answer(rightOpinion: 2, fist: "На месте А", second: "На месте В", three: Optional("Через 800 метров на специальном выделенном месте или за пределами дороги")
+                                                                                                                                                                                                                                                 )
+                ),
+                Qwestion(
+                    number: 1192, title: "Грузовой автомобиль и желтый легковой автомобиль продолжают движение по направлению стрелки, а водитель белого легкового автомобиля остановился с целью долговременного отдыха. Водитель, какого автомобиля нарушит правила дорожного движения, если средняя полоса данной дороги употребляется для движения в обоих направлениях?", linkImage: Optional("http://teoria.on.ge/files/new/e9b555c1d750ba095dfbbf3178ac5260.jpg"), answer: Answer(rightOpinion: 1, fist: "Только водители грузового автомобиля и белого легкового автомобиля", second: "Только водители желтого автомобиля и белого легкового автомобиля", three: Optional("Только водитель белого легкового автомобиля"), four: Optional("Только водитель желтого легкового автомобиля")
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        )
+                ),
+                Qwestion(
+                    number: 1240, title: "С данных дорожных знаков, какой дает информацию  о плавательном бассейне или пляже?", linkImage: Optional("http://teoria.on.ge/files/new/6ef40680855f2cdf6d88a20a1456432f.jpg"), answer: Answer(rightOpinion: 3, fist: "I", second: "II", three: Optional("III"), four: Optional("IV")
+                                                                                                                                                                                                                                         )
+                )
             ]
             
         ),

@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         
+        let content = Content.epicQwestions.flatMap({ $0.qwestions }).compactMap({ $0.linkImage })
+        print(content.count)
+        var counter = 0
+        
+        let imageView = UIImageView()
+        content.forEach { string in
+            SaveImg.shared.updateUI(imageURL: string, imageView: imageView) { _ in
+                counter += 1
+                print("\(counter)/\(content.count)")
+            }
+        }
+        
         window = UIWindow(frame: CGRect(origin: CGPoint.zero, size: UIScreen.main.bounds.size))
         window?.rootViewController = EpicsViewControllerBuilder.build()
         window?.makeKeyAndVisible()

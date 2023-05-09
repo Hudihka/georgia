@@ -37,7 +37,7 @@ struct Answer {
     let three: String?
     let four: String?
     
-    init(rightOpinion: Int, fist: String, second: String, three: String?, four: String? = nil) {
+    init(rightOpinion: Int, fist: String, second: String, three: String? = nil, four: String? = nil) {
         self.rightOpinion = rightOpinion
         
         self.fist = fist

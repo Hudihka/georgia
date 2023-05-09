@@ -11,6 +11,16 @@ import UIKit
 let hDdevice = UIScreen.main.bounds.size.height
 let wDdevice = UIScreen.main.bounds.size.width
 
+var isIPhoneWithBang: Bool {
+    UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
+}
+
+let statusBarHeight: CGFloat = isIPhoneWithBang ? 44 : 20
+let navigBarHeight: CGFloat = 44
+let heightTabBar: CGFloat = isIPhoneWithBang ? 84 : 49
+
+let indentNavigationBarHeight: CGFloat = statusBarHeight + navigBarHeight // 88 : 64
+
 enum EnumColors {
     static let white = UIColor.white
     static let black = UIColor.black

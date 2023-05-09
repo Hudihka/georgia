@@ -11,12 +11,14 @@ import Foundation
 
 final class TestEpicViewController: BaseViewController {
     private enum Constant {
+        static let heightCollection: CGFloat = 46
     }
     
     private let router: TestEpicRouterProtocol
     private var VM: (TestEpicViewModelProtocolIn & TestEpicViewModelProtocolOut)
     
     private let collectionQwestions = CollectionQwestions()
+    private var pageVC: PageViewController?
     
     // MARK: - Initialization
     
@@ -59,9 +61,10 @@ final class TestEpicViewController: BaseViewController {
         view.addSubview(collectionQwestions)
         collectionQwestions.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
-            make.height.equalTo(46)
+            make.height.equalTo(Constant.heightCollection)
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
         }
+        
     }
     
     override func lissenVM() {
@@ -71,7 +74,8 @@ final class TestEpicViewController: BaseViewController {
             }
             
             self.collectionQwestions.content = content.collectionQwesrions
-//            self.title = content.title
+            self.pageVC = PageViewController(qwestions: content.qwestions, answers: content.listAnswers)
+            self.laoutPageVC()
         }
     }
     
@@ -80,5 +84,20 @@ final class TestEpicViewController: BaseViewController {
     @objc
     private func close() {
         router.close()
+    }
+}
+
+private extension TestEpicViewController {
+    func laoutPageVC() {
+        guard let pageVC = pageVC else {
+            return
+        }
+        
+        addChild(pageVC)
+        let y = indentNavigationBarHeight + Constant.heightCollection
+        let hView = hDdevice - y
+        pageVC.view.frame = CGRect(x: 0, y: y, width: wDdevice, height: hView)
+        view.addSubview(pageVC.view)
+        pageVC.didMove(toParent: self)
     }
 }

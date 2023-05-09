@@ -30,6 +30,11 @@
 		E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */; };
 		E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */; };
 		E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */; };
+		E91FB8F02A09B3F00028F33E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8EF2A09B3F00028F33E /* TestModel.swift */; };
+		E91FB8F32A09BC470028F33E /* CollectionQwestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8F22A09BC470028F33E /* CollectionQwestions.swift */; };
+		E91FB8F52A09BDED0028F33E /* AnswerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8F42A09BDED0028F33E /* AnswerCollectionCell.swift */; };
+		E91FB8F72A09BE160028F33E /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8F62A09BE160028F33E /* BaseCollectionCell.swift */; };
+		E91FB8F92A09C0590028F33E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8F82A09C0590028F33E /* UIView.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
@@ -62,6 +67,11 @@
 		E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicProtocols.swift; sourceTree = "<group>"; };
 		E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicBuilder.swift; sourceTree = "<group>"; };
 		E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEpicViewModel.swift; sourceTree = "<group>"; };
+		E91FB8EF2A09B3F00028F33E /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		E91FB8F22A09BC470028F33E /* CollectionQwestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionQwestions.swift; sourceTree = "<group>"; };
+		E91FB8F42A09BDED0028F33E /* AnswerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCollectionCell.swift; sourceTree = "<group>"; };
+		E91FB8F62A09BE160028F33E /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		E91FB8F82A09C0590028F33E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
@@ -112,6 +122,7 @@
 			children = (
 				E9869DD12A09861C00AF03DB /* BaseModels.swift */,
 				E91FB8BD2A098FE20028F33E /* ListModel.swift */,
+				E91FB8EF2A09B3F00028F33E /* TestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +142,7 @@
 			children = (
 				E91FB8C82A0993360028F33E /* BaseViewController.swift */,
 				E91FB8C92A0993360028F33E /* BaseCell.swift */,
+				E91FB8F62A09BE160028F33E /* BaseCollectionCell.swift */,
 				E91FB8CA2A0993360028F33E /* BaseNavigationController.swift */,
 				E91FB8CB2A0993360028F33E /* Offsets.swift */,
 			);
@@ -172,6 +184,7 @@
 			children = (
 				E91FB8E02A099D1D0028F33E /* NSObject.swift */,
 				E91FB8E22A099E210028F33E /* UINavigationController.swift */,
+				E91FB8F82A09C0590028F33E /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,8 +197,18 @@
 				E91FB8E62A09A8090028F33E /* TestEpicProtocols.swift */,
 				E91FB8E72A09A8090028F33E /* TestEpicBuilder.swift */,
 				E91FB8E82A09A8090028F33E /* TestEpicViewModel.swift */,
+				E91FB8F12A09BC200028F33E /* Views */,
 			);
 			path = TestEpicViewController;
+			sourceTree = "<group>";
+		};
+		E91FB8F12A09BC200028F33E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB8F22A09BC470028F33E /* CollectionQwestions.swift */,
+				E91FB8F42A09BDED0028F33E /* AnswerCollectionCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
@@ -287,13 +310,18 @@
 			files = (
 				E91FB8C42A0992200028F33E /* Vibro.swift in Sources */,
 				E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */,
+				E91FB8F02A09B3F00028F33E /* TestModel.swift in Sources */,
+				E91FB8F32A09BC470028F33E /* CollectionQwestions.swift in Sources */,
+				E91FB8F92A09C0590028F33E /* UIView.swift in Sources */,
 				E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */,
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
+				E91FB8F72A09BE160028F33E /* BaseCollectionCell.swift in Sources */,
 				E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */,
 				E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */,
 				E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */,
 				E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */,
 				E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */,
+				E91FB8F52A09BDED0028F33E /* AnswerCollectionCell.swift in Sources */,
 				E91FB8C12A0990550028F33E /* DataManager.swift in Sources */,
 				E91FB8CD2A0993360028F33E /* BaseCell.swift in Sources */,
 				E91FB8EA2A09A8090028F33E /* TestEpicViewController.swift in Sources */,

@@ -8,13 +8,13 @@
 import UIKit
 
 protocol TestEpicViewModelProtocolIn {
-    init(epic: ListModel)
+    init(epic: TestStruct)
     
     func fetchData() 
 }
 
 protocol TestEpicViewModelProtocolOut {
-    var content: (ListModel) -> Void { get set }
+    var content: (TestStruct) -> Void { get set }
 }
 
 protocol TestEpicDataStoreProtocol {

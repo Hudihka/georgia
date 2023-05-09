@@ -16,6 +16,7 @@ enum EnumColors {
     static let black = UIColor.black
     static let green = UIColor.green
     static let red   = UIColor.red
+    static let clear = UIColor.clear
     static let gray  = UIColor(red: 209/255, green: 209/255, blue: 209/255, alpha: 1)
 }
 

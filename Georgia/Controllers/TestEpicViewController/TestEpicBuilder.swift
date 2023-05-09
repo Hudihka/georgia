@@ -13,8 +13,8 @@ protocol TestEpicCallBack: AnyObject {
 }
 
 final class TestEpicBuilder {
-    static func build(epic: ListModel) -> BaseNavigationController {
-        let VM = TestEpicViewModel(epic: epic)
+    static func build(epicTest: TestStruct) -> BaseNavigationController {
+        let VM = TestEpicViewModel(epic: epicTest)
         let router = TestEpicRouter(dataStore: VM)
         let VC = TestEpicViewController(
             VM: VM,

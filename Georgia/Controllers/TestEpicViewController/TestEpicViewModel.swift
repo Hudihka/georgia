@@ -6,17 +6,18 @@
 //
 
 final class TestEpicViewModel: TestEpicViewModelProtocolOut, TestEpicDataStoreProtocol, TestEpicViewModelProtocolIn {
-    
-    private var selectedEpic: ListModel {
+    private let nameEpic: String
+    private var selectedEpic: TestStruct {
         didSet {
             content(selectedEpic)
         }
     }
     
-    var content: (ListModel) -> Void = { _ in }
+    var content: (TestStruct) -> Void = { _ in }
     
-    init(epic: ListModel) {
+    init(epic: TestStruct) {
         self.selectedEpic = epic
+        self.nameEpic = epic.name
     }
     
     func fetchData() {

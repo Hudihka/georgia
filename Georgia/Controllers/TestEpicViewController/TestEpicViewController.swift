@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 
 final class TestEpicViewController: BaseViewController {
@@ -14,6 +15,8 @@ final class TestEpicViewController: BaseViewController {
     
     private let router: TestEpicRouterProtocol
     private var VM: (TestEpicViewModelProtocolIn & TestEpicViewModelProtocolOut)
+    
+    private let collectionQwestions = CollectionQwestions()
     
     // MARK: - Initialization
     
@@ -41,10 +44,24 @@ final class TestEpicViewController: BaseViewController {
     }
     
     override func desingUI() {
-        
+        let closeBB = UIBarButtonItem(
+            image: UIImage(systemName: "xmark"),
+            style: .plain,
+            target: self,
+            action: #selector(close)
+        )
+
+        navigationItem.leftBarButtonItem = closeBB
     }
     
     override func layoutUI() {
+        
+        view.addSubview(collectionQwestions)
+        collectionQwestions.snp.makeConstraints { make in
+            make.left.right.equalToSuperview()
+            make.height.equalTo(46)
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+        }
     }
     
     override func lissenVM() {
@@ -53,7 +70,15 @@ final class TestEpicViewController: BaseViewController {
                 return
             }
             
-            self.title = content.title
+            self.collectionQwestions.content = content.collectionQwesrions
+//            self.title = content.title
         }
+    }
+    
+    // MARK: - Actions
+    
+    @objc
+    private func close() {
+        router.close()
     }
 }

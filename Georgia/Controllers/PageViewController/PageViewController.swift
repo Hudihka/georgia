@@ -96,10 +96,6 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
         return self.qwestions.count
     }
     
-    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
-        return self.currentIndex
-    }
-    
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
         let qwestion = qwestions[index]
         let answerTest = answers.first(where: { $0.idQwestion == qwestion.number })

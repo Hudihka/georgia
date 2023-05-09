@@ -94,7 +94,7 @@ private extension TestEpicViewController {
         }
         
         addChild(pageVC)
-        let y = indentNavigationBarHeight + Constant.heightCollection
+        let y = indentNavigationBarHeight + Constant.heightCollection + 16
         let hView = hDdevice - y
         pageVC.view.frame = CGRect(x: 0, y: y, width: wDdevice, height: hView)
         view.addSubview(pageVC.view)

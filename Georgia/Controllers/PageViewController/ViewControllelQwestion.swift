@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DTPhotoViewerController
 
 final class ViewControllerQwestion: UIViewController {
     private let qwestion: Qwestion
@@ -30,6 +31,7 @@ final class ViewControllerQwestion: UIViewController {
         return label
     }()
     private var stackButton: StackButton?
+    private var uiimageView: UIImageView? = nil
     
     init(qwestion: Qwestion, answerTest: AnswerTest?) {
         self.qwestion = qwestion
@@ -65,7 +67,6 @@ final class ViewControllerQwestion: UIViewController {
             make.height.greaterThanOrEqualTo(scrollView.snp.height)
         }
         
-        var uiimageView: UIImageView? = nil
         if let link = qwestion.linkImage {
             uiimageView = UIImageView()
             guard let uiimageView = uiimageView else {
@@ -79,18 +80,25 @@ final class ViewControllerQwestion: UIViewController {
             }
             
             let button = UIButton()
+            button.isEnabled = false
             button.addTarget(self, action: #selector(buttonImageAction), for: .touchUpInside)
             button.setTitle(nil, for: .normal)
-            uiimageView.addSubview(button)
+            
+            viewContent.addSubview(button)
             button.snp.makeConstraints { make in
-                make.top.bottom.left.right.equalToSuperview()
+                make.top.left.right.equalToSuperview()
+                make.height.equalTo(wDdevice)
             }
             
             SaveImg.shared.updateUI(
                 imageURL: link,
-                imageView: uiimageView,
-                completion: nil
-            )
+                imageView: uiimageView
+            ) { _ in
+                button.isEnabled = true
+            }
+            
+            
+            
         }
         
         viewContent.addSubview(labelTitle)
@@ -129,7 +137,9 @@ final class ViewControllerQwestion: UIViewController {
     }
     
     @objc
-    private func buttonImageAction(sender: UIButton!) {
-      print("Button tapped")
+    private func buttonImageAction() {
+        let viewController = DTPhotoViewerController(referencedView: nil, image: uiimageView?.image)
+//        viewController.automaticallyUpdateReferencedViewVisibility = false
+        self.present(viewController, animated: true, completion: nil)
     }
 }

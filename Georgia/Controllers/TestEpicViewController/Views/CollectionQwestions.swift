@@ -15,6 +15,8 @@ final class CollectionQwestions: UICollectionView {
         }
     }
     
+    var tapedQwestion: (Int) -> Void = { _ in }
+    
     init() {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -92,5 +94,9 @@ extension CollectionQwestions: UICollectionViewDelegateFlowLayout {
         minimumLineSpacingForSectionAt section: Int
     ) -> CGFloat {
         Offsets.constant8
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        tapedQwestion(content[indexPath.row].idQwestion)
     }
 }

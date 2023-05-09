@@ -73,6 +73,10 @@ final class TestEpicViewController: BaseViewController {
             self.pageVC = PageViewController(qwestions: content.qwestions, answers: content.listAnswers)
             self.laoutPageVC()
         }
+        
+        collectionQwestions.tapedQwestion = { [weak self] qwestionId in
+            self?.pageVC?.scrollTo(qwestionId: qwestionId)
+        }
     }
     
     // MARK: - Actions

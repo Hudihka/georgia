@@ -16,7 +16,6 @@ final class PageViewController: UIPageViewController {
         }
     }
     
-    private var currentIndex: Int = 0
     
     init(qwestions: [Qwestion], answers: [AnswerTest]?) {
         self.qwestions = qwestions
@@ -43,7 +42,15 @@ final class PageViewController: UIPageViewController {
         self.didMove(toParent: self)
     }
     
-    
+    func scrollTo(qwestionId: Int) {
+        guard let index = qwestions.firstIndex(where: { $0.number == qwestionId }) else {
+            return
+        }
+        
+        let VC = generateNextVC(index: index)
+        
+        setViewControllers([VC], direction: .forward, animated: true, completion: nil)
+    }
     
 }
 

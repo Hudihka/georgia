@@ -16,6 +16,7 @@ final class PageViewController: UIPageViewController {
         }
     }
     
+    var numberQwestion: (Int) -> Void = { _ in }
     
     init(qwestions: [Qwestion], answers: [AnswerTest]?) {
         self.qwestions = qwestions
@@ -37,6 +38,7 @@ final class PageViewController: UIPageViewController {
         self.view.backgroundColor = EnumColors.white
         
         let VC = generateNextVC(index: 0)
+        numberQwestion(qwestions.first?.number ?? 0)
         self.setViewControllers([VC], direction: .forward, animated: true, completion: nil)
         
         self.didMove(toParent: self)
@@ -107,6 +109,7 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
         let qwestion = qwestions[index]
         let answerTest = answers.first(where: { $0.idQwestion == qwestion.number })
         
+        numberQwestion(qwestion.number)
         return ViewControllerQwestion(qwestion: qwestion, answerTest: answerTest)
     }
 }

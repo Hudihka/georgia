@@ -49,6 +49,7 @@
 		E9D939232A0A882800BD6F31 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D939222A0A882800BD6F31 /* ZoomViewController.swift */; };
 		E9D939242A0A889A00BD6F31 /* PageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */; };
 		E9D939252A0A88A000BD6F31 /* ZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C22A0A832900853A38 /* ZoomCell.xib */; };
+		E9DDA93A2A0AC5A200FF3B5D /* Content2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDA9392A0AC5A200FF3B5D /* Content2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
 		E9D939222A0A882800BD6F31 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		E9DDA9392A0AC5A200FF3B5D /* Content2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +286,7 @@
 			children = (
 				E91FB9032A0A6EA80028F33E /* SaveImage */,
 				E9869DCF2A0985F700AF03DB /* Content.swift */,
+				E9DDA9392A0AC5A200FF3B5D /* Content2.swift */,
 				E91FB8C02A0990550028F33E /* DataManager.swift */,
 				E91FB8BF2A09903F0028F33E /* Models */,
 			);
@@ -372,6 +375,7 @@
 				E91FB8F02A09B3F00028F33E /* TestModel.swift in Sources */,
 				E91FB8F32A09BC470028F33E /* CollectionQwestions.swift in Sources */,
 				E91FB8F92A09C0590028F33E /* UIView.swift in Sources */,
+				E9DDA93A2A0AC5A200FF3B5D /* Content2.swift in Sources */,
 				E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */,
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
 				E91FB8F72A09BE160028F33E /* BaseCollectionCell.swift in Sources */,

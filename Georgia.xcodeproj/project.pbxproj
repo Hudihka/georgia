@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BEBCF5019232C78A80387AF /* Pods_Georgia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD818AC02276F1455525C3 /* Pods_Georgia.framework */; };
 		E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB2297C5726005B76BE /* AppDelegate.swift */; };
 		E9186EBC297C5727005B76BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBB297C5727005B76BE /* Assets.xcassets */; };
 		E9186EBF297C5727005B76BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */; };
@@ -43,6 +42,11 @@
 		E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9042A0A6ED50028F33E /* SaveImg.swift */; };
 		E91FB9072A0A6F050028F33E /* SaveImпDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */; };
 		E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */; };
+		E95E05C42A0A832900853A38 /* ZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05BE2A0A832900853A38 /* ZoomCell.swift */; };
+		E95E05C62A0A832900853A38 /* PageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */; };
+		E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05C12A0A832900853A38 /* ZoomView.swift */; };
+		E95E05C82A0A832900853A38 /* ZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C22A0A832900853A38 /* ZoomCell.xib */; };
+		E95E05C92A0A832900853A38 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05C32A0A832900853A38 /* PageViewController.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
@@ -50,9 +54,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E0F5ACD32AA273D25D12FA1 /* Pods-Georgia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Georgia.debug.xcconfig"; path = "Target Support Files/Pods-Georgia/Pods-Georgia.debug.xcconfig"; sourceTree = "<group>"; };
-		A3BD818AC02276F1455525C3 /* Pods_Georgia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Georgia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB699F76C766B0CF5A96858C /* Pods-Georgia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Georgia.release.xcconfig"; path = "Target Support Files/Pods-Georgia/Pods-Georgia.release.xcconfig"; sourceTree = "<group>"; };
 		E9186EAF297C5726005B76BE /* Georgia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Georgia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9186EB2297C5726005B76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9186EBB297C5727005B76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +91,11 @@
 		E91FB9042A0A6ED50028F33E /* SaveImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImg.swift; sourceTree = "<group>"; };
 		E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveImпDirectory.swift"; sourceTree = "<group>"; };
 		E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImageExtension.swift; sourceTree = "<group>"; };
+		E95E05BE2A0A832900853A38 /* ZoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomCell.swift; sourceTree = "<group>"; };
+		E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PageStoryboard.storyboard; sourceTree = "<group>"; };
+		E95E05C12A0A832900853A38 /* ZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
+		E95E05C22A0A832900853A38 /* ZoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomCell.xib; sourceTree = "<group>"; };
+		E95E05C32A0A832900853A38 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
@@ -101,38 +107,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */,
-				5BEBCF5019232C78A80387AF /* Pods_Georgia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68BFCB1CA2FC235968939100 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8E0F5ACD32AA273D25D12FA1 /* Pods-Georgia.debug.xcconfig */,
-				BB699F76C766B0CF5A96858C /* Pods-Georgia.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		97D0514A83593F98DC6E8532 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3BD818AC02276F1455525C3 /* Pods_Georgia.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E9186EA6297C5726005B76BE = {
 			isa = PBXGroup;
 			children = (
 				E9186EB1297C5726005B76BE /* Georgia */,
 				E9186EB0297C5726005B76BE /* Products */,
-				68BFCB1CA2FC235968939100 /* Pods */,
-				97D0514A83593F98DC6E8532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +176,7 @@
 		E91FB8D02A0993C00028F33E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E95E05BD2A0A832900853A38 /* Page */,
 				E91FB8FA2A0A4E3C0028F33E /* PageViewController */,
 				E91FB8EE2A09A8130028F33E /* TestEpicViewController */,
 				E91FB8DB2A0994BA0028F33E /* EpicsViewController */,
@@ -272,6 +258,18 @@
 			path = SaveImage;
 			sourceTree = "<group>";
 		};
+		E95E05BD2A0A832900853A38 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				E95E05BE2A0A832900853A38 /* ZoomCell.swift */,
+				E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */,
+				E95E05C12A0A832900853A38 /* ZoomView.swift */,
+				E95E05C22A0A832900853A38 /* ZoomCell.xib */,
+				E95E05C32A0A832900853A38 /* PageViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,11 +299,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9186EC3297C5727005B76BE /* Build configuration list for PBXNativeTarget "Georgia" */;
 			buildPhases = (
-				A4E617883A8B0CA3E27E30D5 /* [CP] Check Pods Manifest.lock */,
 				E9186EAB297C5726005B76BE /* Sources */,
 				E9186EAC297C5726005B76BE /* Frameworks */,
 				E9186EAD297C5726005B76BE /* Resources */,
-				B19C625456F18CCD8ABB4E09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,7 +340,7 @@
 			);
 			mainGroup = E9186EA6297C5726005B76BE;
 			packageReferences = (
-				E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = E9186EB0297C5726005B76BE /* Products */;
 			projectDirPath = "";
@@ -360,54 +356,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95E05C62A0A832900853A38 /* PageStoryboard.storyboard in Resources */,
 				E9186EBF297C5727005B76BE /* LaunchScreen.storyboard in Resources */,
+				E95E05C82A0A832900853A38 /* ZoomCell.xib in Resources */,
 				E9186EBC297C5727005B76BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A4E617883A8B0CA3E27E30D5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Georgia-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B19C625456F18CCD8ABB4E09 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Georgia/Pods-Georgia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Georgia/Pods-Georgia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Georgia/Pods-Georgia-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9186EAB297C5726005B76BE /* Sources */ = {
@@ -439,10 +395,13 @@
 				E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */,
 				E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */,
 				E91FB8FE2A0A51820028F33E /* ViewControllelQwestion.swift in Sources */,
+				E95E05C42A0A832900853A38 /* ZoomCell.swift in Sources */,
 				E91FB8FC2A0A4E560028F33E /* PageViewController.swift in Sources */,
 				E91FB8E92A09A8090028F33E /* TestEpicRouter.swift in Sources */,
+				E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */,
 				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
 				E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */,
+				E95E05C92A0A832900853A38 /* PageViewController.swift in Sources */,
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
 				E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */,
 				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,
@@ -583,7 +542,6 @@
 		};
 		E9186EC4297C5727005B76BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E0F5ACD32AA273D25D12FA1 /* Pods-Georgia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -616,7 +574,6 @@
 		};
 		E9186EC5297C5727005B76BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB699F76C766B0CF5A96858C /* Pods-Georgia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -671,7 +628,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+		E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -684,7 +641,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		E9869DD42A0987FB00AF03DB /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			package = E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

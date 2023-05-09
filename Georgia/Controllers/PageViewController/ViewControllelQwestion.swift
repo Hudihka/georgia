@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DTPhotoViewerController
 
 final class ViewControllerQwestion: UIViewController {
     private let qwestion: Qwestion
@@ -138,8 +137,10 @@ final class ViewControllerQwestion: UIViewController {
     
     @objc
     private func buttonImageAction() {
-        let viewController = DTPhotoViewerController(referencedView: nil, image: uiimageView?.image)
-//        viewController.automaticallyUpdateReferencedViewVisibility = false
-        self.present(viewController, animated: true, completion: nil)
+        guard let img = uiimageView?.image else {
+            return
+        }
+        
+        ZoomViewController.presentPageVC(self, image: img)
     }
 }

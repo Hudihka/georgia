@@ -40,15 +40,11 @@
 		E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9042A0A6ED50028F33E /* SaveImg.swift */; };
 		E91FB9072A0A6F050028F33E /* SaveImпDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */; };
 		E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */; };
-		E95E05C42A0A832900853A38 /* ZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05BE2A0A832900853A38 /* ZoomCell.swift */; };
-		E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E05C12A0A832900853A38 /* ZoomView.swift */; };
+		E95D6F422A0AE9D500E9C6B5 /* DTPhotoViewerController in Frameworks */ = {isa = PBXBuildFile; productRef = E95D6F412A0AE9D500E9C6B5 /* DTPhotoViewerController */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
 		E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9869DD42A0987FB00AF03DB /* SnapKit */; };
-		E9D939232A0A882800BD6F31 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D939222A0A882800BD6F31 /* ZoomViewController.swift */; };
-		E9D939242A0A889A00BD6F31 /* PageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */; };
-		E9D939252A0A88A000BD6F31 /* ZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95E05C22A0A832900853A38 /* ZoomCell.xib */; };
 		E9DDA93A2A0AC5A200FF3B5D /* Content2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDA9392A0AC5A200FF3B5D /* Content2.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,14 +86,9 @@
 		E91FB9042A0A6ED50028F33E /* SaveImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImg.swift; sourceTree = "<group>"; };
 		E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveImпDirectory.swift"; sourceTree = "<group>"; };
 		E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImageExtension.swift; sourceTree = "<group>"; };
-		E95E05BE2A0A832900853A38 /* ZoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomCell.swift; sourceTree = "<group>"; };
-		E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PageStoryboard.storyboard; sourceTree = "<group>"; };
-		E95E05C12A0A832900853A38 /* ZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
-		E95E05C22A0A832900853A38 /* ZoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomCell.xib; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
-		E9D939222A0A882800BD6F31 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		E9DDA9392A0AC5A200FF3B5D /* Content2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95D6F422A0AE9D500E9C6B5 /* DTPhotoViewerController in Frameworks */,
 				E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,11 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EFC136D2C287FF05E1908F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9186EA6297C5726005B76BE = {
 			isa = PBXGroup;
 			children = (
 				E9186EB1297C5726005B76BE /* Georgia */,
 				E9186EB0297C5726005B76BE /* Products */,
+				0EFC136D2C287FF05E1908F7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,7 +176,6 @@
 		E91FB8D02A0993C00028F33E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E95E05BD2A0A832900853A38 /* Page */,
 				E91FB8FA2A0A4E3C0028F33E /* PageViewController */,
 				E91FB8EE2A09A8130028F33E /* TestEpicViewController */,
 				E91FB8DB2A0994BA0028F33E /* EpicsViewController */,
@@ -258,18 +257,6 @@
 			path = SaveImage;
 			sourceTree = "<group>";
 		};
-		E95E05BD2A0A832900853A38 /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				E95E05BE2A0A832900853A38 /* ZoomCell.swift */,
-				E95E05C02A0A832900853A38 /* PageStoryboard.storyboard */,
-				E95E05C12A0A832900853A38 /* ZoomView.swift */,
-				E95E05C22A0A832900853A38 /* ZoomCell.xib */,
-				E9D939222A0A882800BD6F31 /* ZoomViewController.swift */,
-			);
-			path = Page;
-			sourceTree = "<group>";
-		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +298,7 @@
 			name = Georgia;
 			packageProductDependencies = (
 				E9869DD42A0987FB00AF03DB /* SnapKit */,
+				E95D6F412A0AE9D500E9C6B5 /* DTPhotoViewerController */,
 			);
 			productName = Georgia;
 			productReference = E9186EAF297C5726005B76BE /* Georgia.app */;
@@ -341,7 +329,8 @@
 			);
 			mainGroup = E9186EA6297C5726005B76BE;
 			packageReferences = (
-				E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				E95D6F402A0AE9D500E9C6B5 /* XCRemoteSwiftPackageReference "DTPhotoViewerController" */,
 			);
 			productRefGroup = E9186EB0297C5726005B76BE /* Products */;
 			projectDirPath = "";
@@ -357,8 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D939252A0A88A000BD6F31 /* ZoomCell.xib in Resources */,
-				E9D939242A0A889A00BD6F31 /* PageStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,14 +379,11 @@
 				E91FB8EA2A09A8090028F33E /* TestEpicViewController.swift in Sources */,
 				E91FB8D82A0994170028F33E /* EpicsViewControllerProtocols.swift in Sources */,
 				E91FB8CF2A0993360028F33E /* Offsets.swift in Sources */,
-				E9D939232A0A882800BD6F31 /* ZoomViewController.swift in Sources */,
 				E91FB8CE2A0993360028F33E /* BaseNavigationController.swift in Sources */,
 				E91FB8D92A0994170028F33E /* EpicsViewControllerBuilder.swift in Sources */,
 				E91FB8FE2A0A51820028F33E /* ViewControllelQwestion.swift in Sources */,
-				E95E05C42A0A832900853A38 /* ZoomCell.swift in Sources */,
 				E91FB8FC2A0A4E560028F33E /* PageViewController.swift in Sources */,
 				E91FB8E92A09A8090028F33E /* TestEpicRouter.swift in Sources */,
-				E95E05C72A0A832900853A38 /* ZoomView.swift in Sources */,
 				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
 				E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */,
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
@@ -628,7 +612,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		E95D6F402A0AE9D500E9C6B5 /* XCRemoteSwiftPackageReference "DTPhotoViewerController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tungvoduc/DTPhotoViewerController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -639,9 +631,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E95D6F412A0AE9D500E9C6B5 /* DTPhotoViewerController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95D6F402A0AE9D500E9C6B5 /* XCRemoteSwiftPackageReference "DTPhotoViewerController" */;
+			productName = DTPhotoViewerController;
+		};
 		E9869DD42A0987FB00AF03DB /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = E9869DD32A0987FB00AF03DB /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

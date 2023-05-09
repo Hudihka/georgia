@@ -45,4 +45,8 @@ struct Answer {
         self.three = three
         self.four = four
     }
+    
+    var qwestions: [String] {
+        [fist, second, three, four].compactMap({ $0 })
+    }
 }

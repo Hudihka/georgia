@@ -9,7 +9,7 @@ import UIKit
 
 final class ViewControllerQwestion: UIViewController {
     private let qwestion: Qwestion
-    private var answer: AnswerTest? {
+    private var answerTest: AnswerTest? {
         didSet {
             
         }
@@ -29,10 +29,11 @@ final class ViewControllerQwestion: UIViewController {
         
         return label
     }()
+    private var stackButton: StackButton?
     
-    init(qwestion: Qwestion, answer: AnswerTest?) {
+    init(qwestion: Qwestion, answerTest: AnswerTest?) {
         self.qwestion = qwestion
-        self.answer = answer
+        self.answerTest = answerTest
         
         super.init(nibName: nil, bundle: nil)
         
@@ -67,14 +68,33 @@ final class ViewControllerQwestion: UIViewController {
         var uiimageView: UIImageView? = nil
         if let link = qwestion.linkImage {
             uiimageView = UIImageView()
-            viewContent.addSubview(uiimageView!)
-            uiimageView?.snp.makeConstraints { make in
+            guard let uiimageView = uiimageView else {
+                return
+            }
+            
+            viewContent.addSubview(uiimageView)
+            uiimageView.snp.makeConstraints { make in
                 make.top.left.right.equalToSuperview()
                 make.height.equalTo(wDdevice)
             }
+            
+            let button = UIButton()
+            button.addTarget(self, action: #selector(buttonImageAction), for: .touchUpInside)
+            button.setTitle(nil, for: .normal)
+            uiimageView.addSubview(button)
+            button.snp.makeConstraints { make in
+                make.top.bottom.left.right.equalToSuperview()
+            }
+            
+            SaveImg.shared.updateUI(
+                imageURL: link,
+                imageView: uiimageView,
+                completion: nil
+            )
         }
         
         viewContent.addSubview(labelTitle)
+        labelTitle.text = qwestion.title
         labelTitle.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(Offsets.constant16)
             make.height.greaterThanOrEqualTo(40)
@@ -85,5 +105,31 @@ final class ViewControllerQwestion: UIViewController {
                 make.top.equalToSuperview()
             }
         }
+        
+        stackButton = StackButton(answer: qwestion.answer, answerTest: answerTest)
+        guard let stackButton = stackButton else {
+            return
+        }
+        
+        viewContent.addSubview(stackButton)
+        stackButton.snp.makeConstraints { make in
+            make.right.left.equalToSuperview()
+            make.height.greaterThanOrEqualTo(20)
+            make.top.equalTo(labelTitle.snp.bottom)
+        }
+        
+        let falseDownView = UIView()
+        viewContent.addSubview(falseDownView)
+        falseDownView.snp.makeConstraints { make in
+            make.height.greaterThanOrEqualTo(0)
+            make.left.right.equalToSuperview()
+            make.top.equalTo(stackButton.snp.bottom)
+            make.bottom.equalTo(viewContent.snp.bottom)
+        }
+    }
+    
+    @objc
+    private func buttonImageAction(sender: UIButton!) {
+      print("Button tapped")
     }
 }

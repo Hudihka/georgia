@@ -102,9 +102,9 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
     
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
         let qwestion = qwestions[index]
-        let answer = answers.first(where: { $0.idQwestion == qwestion.number })
+        let answerTest = answers.first(where: { $0.idQwestion == qwestion.number })
         
-        return ViewControllerQwestion(qwestion: qwestion, answer: answer)
+        return ViewControllerQwestion(qwestion: qwestion, answerTest: answerTest)
     }
 }
 

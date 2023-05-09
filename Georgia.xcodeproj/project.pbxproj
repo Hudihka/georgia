@@ -37,6 +37,11 @@
 		E91FB8F92A09C0590028F33E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8F82A09C0590028F33E /* UIView.swift */; };
 		E91FB8FC2A0A4E560028F33E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8FB2A0A4E560028F33E /* PageViewController.swift */; };
 		E91FB8FE2A0A51820028F33E /* ViewControllelQwestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8FD2A0A51820028F33E /* ViewControllelQwestion.swift */; };
+		E91FB9002A0A5FFE0028F33E /* StackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8FF2A0A5FFE0028F33E /* StackButton.swift */; };
+		E91FB9022A0A67450028F33E /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9012A0A67450028F33E /* UIStackView.swift */; };
+		E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9042A0A6ED50028F33E /* SaveImg.swift */; };
+		E91FB9072A0A6F050028F33E /* SaveImпDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */; };
+		E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */; };
 		E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DC82A09840B00AF03DB /* UIResources.swift */; };
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
@@ -76,6 +81,11 @@
 		E91FB8F82A09C0590028F33E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E91FB8FB2A0A4E560028F33E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E91FB8FD2A0A51820028F33E /* ViewControllelQwestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllelQwestion.swift; sourceTree = "<group>"; };
+		E91FB8FF2A0A5FFE0028F33E /* StackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackButton.swift; sourceTree = "<group>"; };
+		E91FB9012A0A67450028F33E /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		E91FB9042A0A6ED50028F33E /* SaveImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImg.swift; sourceTree = "<group>"; };
+		E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveImпDirectory.swift"; sourceTree = "<group>"; };
+		E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImageExtension.swift; sourceTree = "<group>"; };
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
@@ -190,6 +200,7 @@
 				E91FB8E02A099D1D0028F33E /* NSObject.swift */,
 				E91FB8E22A099E210028F33E /* UINavigationController.swift */,
 				E91FB8F82A09C0590028F33E /* UIView.swift */,
+				E91FB9012A0A67450028F33E /* UIStackView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,8 +232,19 @@
 			children = (
 				E91FB8FB2A0A4E560028F33E /* PageViewController.swift */,
 				E91FB8FD2A0A51820028F33E /* ViewControllelQwestion.swift */,
+				E91FB8FF2A0A5FFE0028F33E /* StackButton.swift */,
 			);
 			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		E91FB9032A0A6EA80028F33E /* SaveImage */ = {
+			isa = PBXGroup;
+			children = (
+				E91FB9042A0A6ED50028F33E /* SaveImg.swift */,
+				E91FB9062A0A6F050028F33E /* SaveImпDirectory.swift */,
+				E91FB9082A0A6F3B0028F33E /* SaveImageExtension.swift */,
+			);
+			path = SaveImage;
 			sourceTree = "<group>";
 		};
 		E9869DC62A0982CF00AF03DB /* Resources */ = {
@@ -239,6 +261,7 @@
 		E9869DC72A0983DA00AF03DB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E91FB9032A0A6EA80028F33E /* SaveImage */,
 				E9869DCF2A0985F700AF03DB /* Content.swift */,
 				E91FB8C02A0990550028F33E /* DataManager.swift */,
 				E91FB8BF2A09903F0028F33E /* Models */,
@@ -322,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91FB9072A0A6F050028F33E /* SaveImпDirectory.swift in Sources */,
 				E91FB8C42A0992200028F33E /* Vibro.swift in Sources */,
 				E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */,
 				E91FB8F02A09B3F00028F33E /* TestModel.swift in Sources */,
@@ -331,7 +355,9 @@
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
 				E91FB8F72A09BE160028F33E /* BaseCollectionCell.swift in Sources */,
 				E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */,
+				E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */,
 				E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */,
+				E91FB9022A0A67450028F33E /* UIStackView.swift in Sources */,
 				E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */,
 				E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */,
 				E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */,
@@ -347,11 +373,13 @@
 				E91FB8FC2A0A4E560028F33E /* PageViewController.swift in Sources */,
 				E91FB8E92A09A8090028F33E /* TestEpicRouter.swift in Sources */,
 				E91FB8DE2A0997B50028F33E /* EpicCell.swift in Sources */,
+				E91FB9052A0A6ED50028F33E /* SaveImg.swift in Sources */,
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
 				E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */,
 				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,
 				E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */,
 				E9869DD02A0985F700AF03DB /* Content.swift in Sources */,
+				E91FB9002A0A5FFE0028F33E /* StackButton.swift in Sources */,
 				E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

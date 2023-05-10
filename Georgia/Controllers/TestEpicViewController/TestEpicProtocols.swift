@@ -8,13 +8,14 @@
 import UIKit
 
 protocol TestEpicViewModelProtocolIn {
-    init(epic: TestStruct)
+    init(epic: EpicWithQwestion)
     
     func fetchData() 
 }
 
 protocol TestEpicViewModelProtocolOut {
-    var content: (TestStruct) -> Void { get set }
+    var content: (EpicWithQwestion) -> Void { get set }
+    var tapedAnswer: ([Qwestion]) -> Void { get set }
 }
 
 protocol TestEpicDataStoreProtocol {

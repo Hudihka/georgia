@@ -28,6 +28,12 @@ final class QwestionCollectionCell: BaseCollectionCell {
             labelNumber.text = "\(number)"
         }
     }
+    
+    var selectedIndex: Bool = false {
+        didSet {
+            contentView.addBorder(number: selectedIndex ? 8 : 3, color: EnumColors.black)
+        }
+    }
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -44,19 +50,18 @@ final class QwestionCollectionCell: BaseCollectionCell {
         labelNumber.snp.makeConstraints { make in
             make.top.bottom.left.right.equalToSuperview()
         }
+        
+        contentView.addBorder(number: 3, color: EnumColors.black)
     }
     
     private func updateContent() {
         switch qwestionOption {
         case .clearOption:
             contentView.backgroundColor = EnumColors.white
-            contentView.addBorder(number: 3, color: EnumColors.black)
         case .falseOption:
             contentView.backgroundColor = EnumColors.red
-            contentView.addBorder(number: 3, color: EnumColors.clear)
         case .trueOption:
             contentView.backgroundColor = EnumColors.green
-            contentView.addBorder(number: 3, color: EnumColors.clear)
         }
     }
 }

@@ -69,9 +69,18 @@ final class TestEpicViewController: BaseViewController {
                 return
             }
             
-            self.collectionQwestions.content = content.collectionQwesrions
-            self.pageVC = PageViewController(qwestions: content.qwestions, answers: content.listAnswers)
+            self.collectionQwestions.content = content.qwestions
+            self.pageVC = PageViewController(qwestions: content.qwestions)
             self.laoutPageVC()
+        }
+        
+        VM.tapedAnswer = { [weak self] qwestions in
+            guard let self = self else {
+                return
+            }
+            
+            self.collectionQwestions.content = qwestions
+            self.pageVC?.qwestions = qwestions
         }
         
         collectionQwestions.tapedQwestion = { [weak self] qwestionId in
@@ -103,6 +112,10 @@ private extension TestEpicViewController {
         
         pageVC.numberQwestion = { [weak self] number in
             self?.title = "\(number)"
+        }
+        
+        pageVC.indexQwestion = { [weak self] index in
+            self?.collectionQwestions.selectedIndex = index
         }
     }
 }

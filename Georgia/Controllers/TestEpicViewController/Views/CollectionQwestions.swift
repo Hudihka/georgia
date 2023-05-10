@@ -15,6 +15,12 @@ final class CollectionQwestions: UICollectionView {
         }
     }
     
+    var selectedIndex: Int = 0 {
+        didSet {
+            reloadData()
+        }
+    }
+    
     var tapedQwestion: (Int) -> Void = { _ in }
     
     init() {
@@ -65,6 +71,7 @@ extension CollectionQwestions: UICollectionViewDataSource {
         
         cell.qwestionOption = content[indexPath.row].option
         cell.number = indexPath.row + 1
+        cell.selectedIndex = selectedIndex == indexPath.row
         
         return cell
     }

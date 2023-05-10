@@ -89,6 +89,8 @@ final class StackButton: UIView {
             make.width.equalTo(widthLabel)
         }
         
+        view.addBorder(number: 3, color: EnumColors.black)
+        
         if let answerTest = qwestion?.answerTest {
             if answerTest.indexTrue == index + 1 {
                 view.backgroundColor = EnumColors.green
@@ -96,7 +98,6 @@ final class StackButton: UIView {
                 view.backgroundColor = EnumColors.red
             }
         } else {
-            view.addBorder(number: 3, color: EnumColors.black)
             
             let button = UIButton()
             button.tag = index + 1
@@ -119,11 +120,15 @@ final class StackButton: UIView {
             return
         }
         
-        
         let trueAnswer = sender.tag == qwestion.answer.rightOpinion
+        if !trueAnswer {
+            Vibro.weak()
+        }
+        
         let newQwestion = Qwestion(
             number: qwestion.idQwestion,
             title: qwestion.title,
+            linkImage: qwestion.linkImage,
             answer: qwestion.answer,
             option: trueAnswer ? .trueOption : .falseOption,
             answerTest: Qwestion.AnswerTest(
@@ -132,6 +137,6 @@ final class StackButton: UIView {
             )
         )
         
-//        DataManager.shared.addAnswer
+        DataManager.shared.addAnswerFor(qwestion: newQwestion)
     }
 }

@@ -6,21 +6,22 @@
 //
 
 final class TestEpicViewModel: TestEpicViewModelProtocolOut, TestEpicDataStoreProtocol, TestEpicViewModelProtocolIn {
-    private let nameEpic: String
-    private var selectedEpic: TestStruct {
-        didSet {
-            content(selectedEpic)
-        }
-    }
+    private let selectedEpic: EpicWithQwestion
+    private let manager = DataManager.shared
     
-    var content: (TestStruct) -> Void = { _ in }
+    var content: (EpicWithQwestion) -> Void = { _ in }
+    var tapedAnswer: ([Qwestion]) -> Void = { _ in }
     
-    init(epic: TestStruct) {
+    init(epic: EpicWithQwestion) {
         self.selectedEpic = epic
-        self.nameEpic = epic.name
     }
     
     func fetchData() {
         content(selectedEpic)
+        
+        manager.updateQwestionList = { [weak self] qwestions in
+            self?.tapedAnswer(qwestions)
+        }
+        
     }
 }

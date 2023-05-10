@@ -8,13 +8,11 @@
 import Foundation
 
 struct EpicWithQwestion {
-    
     let name: String
     let qwestions: [Qwestion]
-    
 }
 
-struct Qwestion {
+struct Qwestion: Codable {
     let idQwestion: Int
     let title: String
     let linkImage: String?
@@ -39,13 +37,13 @@ struct Qwestion {
         self.answerTest = answerTest
     }
     
-    enum Option {
+    enum Option: Codable {
         case trueOption
         case falseOption
         case clearOption
     }
     
-    struct AnswerTest {
+    struct AnswerTest: Codable {
         let indexTrue: Int
         let indexWrong: Int?
         
@@ -56,7 +54,7 @@ struct Qwestion {
     
 }
 
-struct Answer {
+struct Answer: Codable {
     let rightOpinion: Int
     
     let fist: String

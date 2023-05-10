@@ -8,13 +8,21 @@
 import UIKit
 
 final class PageViewController: UIPageViewController {
-    private var qwestions: [Qwestion] = [] {
+    var qwestions: [Qwestion] = [] {
         didSet {
-            
+            let VC = generateNextVC(index: currentIndex)
+            setViewControllers([VC], direction: .forward, animated: false, completion: nil)
+        }
+    }
+    
+    private var currentIndex = 0 {
+        didSet {
+            indexQwestion(currentIndex)
         }
     }
     
     var numberQwestion: (Int) -> Void = { _ in }
+    var indexQwestion: (Int) -> Void = { _ in }
     
     init(qwestions: [Qwestion]) {
         self.qwestions = qwestions
@@ -42,7 +50,10 @@ final class PageViewController: UIPageViewController {
     }
     
     func scrollTo(qwestionId: Int) {
-        guard let index = qwestions.firstIndex(where: { $0.idQwestion == qwestionId }) else {
+        guard
+            let index = qwestions.firstIndex(where: { $0.idQwestion == qwestionId }),
+            index != currentIndex
+        else {
             return
         }
         
@@ -103,6 +114,7 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
     }
     
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
+        currentIndex = index
         let qwestion = qwestions[index]
         
         numberQwestion(qwestion.idQwestion)

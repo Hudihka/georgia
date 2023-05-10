@@ -14,41 +14,40 @@ final class DataManager {
     private let content = Content.epicQwestions
     private var epicWorking = ""
     
+    var updateQwestionList: ([Qwestion]) -> Void = { _ in }
+    
     func generateStartContent() -> [ListModel] {
         content.map({ ListModel(title: $0.name, countQwestion: $0.qwestions.count, mistakes: 0, inProgress: false) })
     }
     
-    func generateTestModel(epic: ListModel) -> TestStruct {
+    func generateTestModel(epic: ListModel) -> EpicWithQwestion {
         generateTestModel(epicName: epic.title)
     }
     
-    func generateTestModel(epicTitle: String) -> TestStruct {
+    func generateTestModel(epicTitle: String) -> EpicWithQwestion {
         generateTestModel(epicName: epicTitle)
     }
     
-    func addAnswerFor(Qwestion: Qwestion) {
-
-        // сохраняем структуру
-
-
+    func addAnswerFor(qwestion: Qwestion) {
+        UserDefManager.saveQwestion(qwestion: qwestion)
+        let newQwestions = generateTestModel(epicName: epicWorking)
+        
+        updateQwestionList(newQwestions.qwestions)
     }
     
     private func generateTestModel(
         epicName: String
-    ) -> TestStruct {
+    ) -> EpicWithQwestion {
         epicWorking = epicName
         
-//        let qwestions = content.first(where: { $0.name == epicName })?.qwestions.map({
-            // узнаем есть ли в юд такая структура
-//            let qw = UserDefManager.
-//            return qw == nil ? $0 : qw
-//        })
+        let qwestions = content.first(where: { $0.name == epicName })?.qwestions.compactMap({
+            let qw = UserDefManager.getsavedQwestion(id: $0.idQwestion)
+            return qw == nil ? $0 : qw
+        })
         
-        let qwestions = content.first(where: { $0.name == epicName })?.qwestions ?? []
-        
-        return TestStruct(
+        return EpicWithQwestion(
             name: epicName,
-            qwestions: qwestions
+            qwestions: qwestions ?? []
         )
     }
 }

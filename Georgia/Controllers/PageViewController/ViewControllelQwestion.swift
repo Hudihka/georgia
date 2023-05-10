@@ -112,14 +112,11 @@ final class ViewControllerQwestion: UIViewController {
             }
         }
         
-        guard let qwestion = qwestion else {
-            return
-        }
+        guard let qwestion = qwestion else { return }
+        
         stackButton = StackButton(qwestion: qwestion)
         
-        guard let stackButton = stackButton else {
-            return
-        }
+        guard let stackButton = stackButton else { return }
         
         viewContent.addSubview(stackButton)
         stackButton.snp.makeConstraints { make in
@@ -146,5 +143,9 @@ final class ViewControllerQwestion: UIViewController {
         
         let viewController = DTPhotoViewerController(referencedView: imgView, image: imgView.image)
         self.present(viewController, animated: true, completion: nil)
+    }
+    
+    func updateQwestion(qwestion: Qwestion) {
+        self.qwestion = qwestion
     }
 }

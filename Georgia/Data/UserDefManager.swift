@@ -41,6 +41,12 @@ final class UserDefManager {
         }
     }
     
+    static func removeQwestion(id: Int) {
+        let key = EnumKeys.qwestion(value: id).key
+        
+        ud.removeObject(forKey: key)
+    }
+    
     static func getsavedQwestion(id: Int) -> Qwestion? {
         let key = EnumKeys.qwestion(value: id).key
         

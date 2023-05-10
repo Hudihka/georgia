@@ -15,18 +15,35 @@ final class DataManager {
     private var epicWorking = ""
     
     var updateQwestionList: ([Qwestion]) -> Void = { _ in }
+    var updateEpicList: ([EpicWithQwestion]) -> Void = { _ in }
     
     func generateStartContent() -> [EpicWithQwestion] {
-        []
-//        content.map({ ListModel(title: $0.name, countQwestion: $0.qwestions.count, mistakes: 0, inProgress: false) })
+        content.map({
+            let qwestions = $0.qwestions.compactMap({ oldQw in
+                let qw = UserDefManager.getsavedQwestion(id: oldQw.idQwestion)
+                return qw == nil ? oldQw : qw
+            })
+            
+            return EpicWithQwestion(name: $0.name, qwestions: qwestions)
+        })
     }
     
-    func generateTestModel(epic: EpicWithQwestion) -> EpicWithQwestion {
-        generateTestModel(epicName: epic.name)
-    }
-    
-    func generateTestModel(epicTitle: String) -> EpicWithQwestion {
-        generateTestModel(epicName: epicTitle)
+    func clear(epic: EpicWithQwestion) {
+        let epics = content.map({
+            let qwestions = epic.name != $0.name ?
+            $0.qwestions.compactMap({ oldQw in
+                let qw = UserDefManager.getsavedQwestion(id: oldQw.idQwestion)
+                return qw == nil ? oldQw : qw
+            }) :
+            $0.qwestions.compactMap({ oldQw in
+                UserDefManager.removeQwestion(id: oldQw.idQwestion)
+                return oldQw
+            })
+            
+            return EpicWithQwestion(name: $0.name, qwestions: qwestions)
+        })
+        
+        updateEpicList(epics)
     }
     
     func addAnswerFor(qwestion: Qwestion) {
@@ -34,6 +51,7 @@ final class DataManager {
         let newQwestions = generateTestModel(epicName: epicWorking)
         
         updateQwestionList(newQwestions.qwestions)
+        updateEpicList(generateStartContent())
     }
     
     private func generateTestModel(

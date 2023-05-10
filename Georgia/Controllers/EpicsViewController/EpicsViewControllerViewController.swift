@@ -99,16 +99,53 @@ extension EpicsViewController: UITableViewDelegate {
         let epic = content[indexPath.row]
         
         if epic.inProgress {
-            // показываем алерт
+            showAlertFor(
+                epic: epic
+            ) { [weak self] _ in
+                self?.openAndRemove(epic: epic)
+            } nextAnswer: { [weak self] _ in
+                self?.open(epic: epic)
+            }
+            
         } else {
             VM.beginEpic(epic: epic)
             router.openEpic()
         }
+    }
+    
+    func open(epic: EpicWithQwestion) {
+        VM.beginEpic(epic: epic)
+        router.openEpic()
+    }
+    
+    func openAndRemove(epic: EpicWithQwestion) {
+        VM.clearAndOpenEpic(epic: epic)
+        router.openEpic()
     }
 }
 
 extension EpicsViewController: EpicsViewControllerCallBack {
     func updateContent() {
         VM.tapedAnswer()
+    }
+}
+
+extension EpicsViewController {
+    func showAlertFor(
+        epic: EpicWithQwestion,
+        removeAnswer: @escaping (UIAlertAction) -> Void,
+        nextAnswer: @escaping (UIAlertAction
+    ) -> Void) {
+        let alert = UIAlertController(
+            title: "Хотите продолжить \(epic.name)?",
+            message: nil,
+            preferredStyle: UIAlertController.Style.alert
+        )
+        
+        alert.addAction(UIAlertAction(title: "Продолжить", style: UIAlertAction.Style.default, handler: nextAnswer))
+        alert.addAction(UIAlertAction(title: "Начать с начала", style: UIAlertAction.Style.destructive, handler: removeAnswer))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
     }
 }

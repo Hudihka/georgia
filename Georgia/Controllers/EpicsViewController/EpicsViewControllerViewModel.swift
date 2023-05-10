@@ -25,10 +25,10 @@ extension EpicsViewControllerViewModel: EpicsViewControllerViewModelProtocolIn {
     }
     
     func clearAndOpenEpic(epic: EpicWithQwestion) {
-        self.selectedEpic = epic
-        // чистим user def от этой темы
+        let epics = dataManager.clear(epic: epic)
+        self.selectedEpic = epics.first(where: {$0.name == epic.name })
         
-        fetchContent()
+        content(epics)
     }
     
     func beginEpic(epic: EpicWithQwestion) {

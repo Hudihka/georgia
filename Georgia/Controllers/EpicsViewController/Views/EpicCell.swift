@@ -32,7 +32,7 @@ final class EpicCell: BaseCell {
     private let labelMisstake: UILabel = {
         let label = UILabel()
         label.textColor = EnumColors.red
-        label.font = EnumFont.regular(16).font
+        label.font = EnumFont.bold(16).font
         label.textAlignment = .right
         
         return label
@@ -71,7 +71,7 @@ final class EpicCell: BaseCell {
         
         contentView.addSubview(labelMisstake)
         labelMisstake.snp.makeConstraints { make in
-            make.left.equalToSuperview().inset(Offsets.constant16)
+            make.right.equalToSuperview().inset(Offsets.constant16)
             make.top.equalTo(labelSubtitle.snp.top)
             make.bottom.equalTo(labelSubtitle.snp.bottom)
             make.width.equalTo(50)

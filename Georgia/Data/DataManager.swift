@@ -28,8 +28,8 @@ final class DataManager {
         })
     }
     
-    func clear(epic: EpicWithQwestion) {
-        let epics = content.map({
+    func clear(epic: EpicWithQwestion) -> [EpicWithQwestion] {
+        content.map({
             let qwestions = epic.name != $0.name ?
             $0.qwestions.compactMap({ oldQw in
                 let qw = UserDefManager.getsavedQwestion(id: oldQw.idQwestion)
@@ -42,8 +42,6 @@ final class DataManager {
             
             return EpicWithQwestion(name: $0.name, qwestions: qwestions)
         })
-        
-        updateEpicList(epics)
     }
     
     func addAnswerFor(qwestion: Qwestion) {

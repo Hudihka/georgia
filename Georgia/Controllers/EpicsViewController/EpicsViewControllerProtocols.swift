@@ -10,18 +10,18 @@ import UIKit
 protocol EpicsViewControllerViewModelProtocolIn {
     func fetchContent()
     
-    func clearAndOpenEpic(epic: ListModel)
-    func beginEpic(epic: ListModel)
+    func clearAndOpenEpic(epic: EpicWithQwestion)
+    func beginEpic(epic: EpicWithQwestion)
     
     func tapedAnswer()
 }
 
 protocol EpicsViewControllerViewModelProtocolOut {
-    var content: ([ListModel]) -> Void { get set }
+    var content: ([EpicWithQwestion]) -> Void { get set }
 }
 
 protocol EpicsViewControllerDataStoreProtocol {
-    var selectedEpic: ListModel? { get set }
+    var selectedEpic: EpicWithQwestion? { get set }
 }
 
 protocol EpicsViewControllerRouterProtocol {

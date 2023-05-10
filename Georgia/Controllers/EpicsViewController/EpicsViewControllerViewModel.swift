@@ -6,9 +6,9 @@
 //
 
 final class EpicsViewControllerViewModel: EpicsViewControllerViewModelProtocolOut, EpicsViewControllerDataStoreProtocol {
-    var selectedEpic: ListModel? = nil
+    var selectedEpic: EpicWithQwestion? = nil
     
-    var content: ([ListModel]) -> Void = { _ in }
+    var content: ([EpicWithQwestion]) -> Void = { _ in }
     
     
 }
@@ -19,14 +19,14 @@ extension EpicsViewControllerViewModel: EpicsViewControllerViewModelProtocolIn {
         content(returnContent)
     }
     
-    func clearAndOpenEpic(epic: ListModel) {
+    func clearAndOpenEpic(epic: EpicWithQwestion) {
         self.selectedEpic = epic
         // чистим user def от этой темы
         
         fetchContent()
     }
     
-    func beginEpic(epic: ListModel) {
+    func beginEpic(epic: EpicWithQwestion) {
         self.selectedEpic = epic
     }
     

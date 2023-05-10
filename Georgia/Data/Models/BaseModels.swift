@@ -12,6 +12,22 @@ struct EpicWithQwestion {
     let qwestions: [Qwestion]
 }
 
+extension EpicWithQwestion {
+    var mistakes: Int {
+        qwestions.filter({ $0.answerTest?.isWrong ?? false }).count
+    }
+    
+    var inProgress: Bool {
+        let count = qwestions.compactMap({ $0.answerTest }).count
+        
+        if count < qwestions.count, count != 0 {
+            return true
+        }
+        
+        return false
+    }
+}
+
 struct Qwestion: Codable {
     let idQwestion: Int
     let title: String

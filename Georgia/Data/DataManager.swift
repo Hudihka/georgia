@@ -16,12 +16,13 @@ final class DataManager {
     
     var updateQwestionList: ([Qwestion]) -> Void = { _ in }
     
-    func generateStartContent() -> [ListModel] {
-        content.map({ ListModel(title: $0.name, countQwestion: $0.qwestions.count, mistakes: 0, inProgress: false) })
+    func generateStartContent() -> [EpicWithQwestion] {
+        []
+//        content.map({ ListModel(title: $0.name, countQwestion: $0.qwestions.count, mistakes: 0, inProgress: false) })
     }
     
-    func generateTestModel(epic: ListModel) -> EpicWithQwestion {
-        generateTestModel(epicName: epic.title)
+    func generateTestModel(epic: EpicWithQwestion) -> EpicWithQwestion {
+        generateTestModel(epicName: epic.name)
     }
     
     func generateTestModel(epicTitle: String) -> EpicWithQwestion {

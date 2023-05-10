@@ -38,7 +38,7 @@ final class EpicCell: BaseCell {
         return label
     }()
     
-    var epic: ListModel? {
+    var epic: EpicWithQwestion? {
         didSet {
             updateCell()
         }
@@ -84,9 +84,9 @@ final class EpicCell: BaseCell {
             return
         }
         
-        labelTitle.text = epic.title
-        labelSubtitle.text = "Вопросов: \(epic.countQwestion)"
-        labelMisstake.text = epic.mistakes == 0 ? "" : "\(epic.mistakes)/\(epic.countQwestion)"
+        labelTitle.text = epic.name
+        labelSubtitle.text = "Вопросов: \(epic.qwestions.count)"
+        labelMisstake.text = epic.mistakes == 0 ? "" : "\(epic.mistakes)/\(epic.qwestions.count)"
         contentView.backgroundColor = epic.inProgress ? EnumColors.gray : EnumColors.white
     }
 }

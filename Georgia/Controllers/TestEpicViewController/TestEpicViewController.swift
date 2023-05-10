@@ -80,7 +80,7 @@ final class TestEpicViewController: BaseViewController {
             }
             
             self.collectionQwestions.content = qwestions
-            self.pageVC?.qwestions = qwestions
+            self.pageVC?.update(qwestions: qwestions)
         }
         
         collectionQwestions.tapedQwestion = { [weak self] qwestionId in
@@ -108,11 +108,6 @@ private extension TestEpicViewController {
         pageVC.view.frame = CGRect(x: 0, y: y, width: wDdevice, height: hView)
         view.addSubview(pageVC.view)
         pageVC.didMove(toParent: self)
-        
-        
-        pageVC.numberQwestion = { [weak self] number in
-            self?.title = "\(number)"
-        }
         
         pageVC.indexQwestion = { [weak self] index in
             self?.collectionQwestions.selectedIndex = index

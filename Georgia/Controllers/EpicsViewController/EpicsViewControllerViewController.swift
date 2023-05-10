@@ -16,7 +16,7 @@ final class EpicsViewController: BaseViewController {
     private var VM: (EpicsViewControllerViewModelProtocolIn & EpicsViewControllerViewModelProtocolOut)
     
     private let tableView = UITableView(frame: .zero, style: .plain)
-    private var content: [ListModel] = [] {
+    private var content: [EpicWithQwestion] = [] {
         didSet {
             tableView.reloadData()
         }

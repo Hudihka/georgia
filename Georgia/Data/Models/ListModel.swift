@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct ListModel {
-    let title: String
-    let countQwestion: Int
-    let mistakes: Int
-    let inProgress: Bool
-}
+//struct ListModel {
+//    let title: String
+//    let countQwestion: Int
+//    let mistakes: Int
+//    let inProgress: Bool
+//}

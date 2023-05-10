@@ -8,20 +8,8 @@
 import UIKit
 
 final class PageViewController: UIPageViewController {
-    var qwestions: [Qwestion] = [] {
-        didSet {
-            let VC = generateNextVC(index: currentIndex)
-            setViewControllers([VC], direction: .forward, animated: false, completion: nil)
-        }
-    }
+    private var qwestions: [Qwestion] = []
     
-    private var currentIndex = 0 {
-        didSet {
-            indexQwestion(currentIndex)
-        }
-    }
-    
-    var numberQwestion: (Int) -> Void = { _ in }
     var indexQwestion: (Int) -> Void = { _ in }
     
     init(qwestions: [Qwestion]) {
@@ -43,7 +31,6 @@ final class PageViewController: UIPageViewController {
         self.view.backgroundColor = EnumColors.white
         
         let VC = generateNextVC(index: 0)
-        numberQwestion(qwestions.first?.idQwestion ?? 0)
         self.setViewControllers([VC], direction: .forward, animated: true, completion: nil)
         
         self.didMove(toParent: self)
@@ -51,17 +38,26 @@ final class PageViewController: UIPageViewController {
     
     func scrollTo(qwestionId: Int) {
         guard
-            let index = qwestions.firstIndex(where: { $0.idQwestion == qwestionId }),
-            index != currentIndex
+            let index = qwestions.firstIndex(where: { $0.idQwestion == qwestionId })
         else {
             return
         }
         
         let VC = generateNextVC(index: index)
         
-        setViewControllers([VC], direction: .forward, animated: true, completion: nil)
+        setViewControllers([VC], direction: .forward, animated: false, completion: nil)
     }
     
+    func update(qwestions: [Qwestion]) {
+        self.qwestions = qwestions
+        viewControllers?
+            .compactMap({ $0 as? ViewControllerQwestion })
+            .forEach({ vc in
+                if let qwest = qwestions.first(where: { $0.idQwestion == vc.idQwestion }) {
+                    vc.updateQwestion(qwestion: qwest)
+                }
+            })
+    }
 }
 
 
@@ -114,10 +110,9 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
     }
     
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
-        currentIndex = index
         let qwestion = qwestions[index]
+        indexQwestion(index)
         
-        numberQwestion(qwestion.idQwestion)
         return ViewControllerQwestion(qwestion: qwestion)
     }
 }

@@ -25,6 +25,15 @@ final class StackButton: UIView {
         return item
     }()
     
+    private var labelQwestion: UILabel = {
+        let labelNumberQwestion = UILabel()
+        labelNumberQwestion.textColor = EnumColors.red
+        labelNumberQwestion.font = EnumFont.regular(18).font
+        labelNumberQwestion.textAlignment = .right
+        
+        return labelNumberQwestion
+    }()
+    
     init(qwestion: Qwestion) {
         self.qwestion = qwestion
         
@@ -42,6 +51,12 @@ final class StackButton: UIView {
         addSubview(verticalStackView)
         verticalStackView.snp.makeConstraints { make in
             make.top.bottom.left.right.equalToSuperview().inset(Offsets.constant16)
+        }
+        
+        addSubview(labelQwestion)
+        labelQwestion.snp.makeConstraints { make in
+            make.top.right.equalToSuperview()
+            make.height.width.greaterThanOrEqualTo(10)
         }
         
         reloadStack()

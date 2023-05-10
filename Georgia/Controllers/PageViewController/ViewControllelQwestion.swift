@@ -11,7 +11,7 @@ import DTPhotoViewerController
 final class ViewControllerQwestion: UIViewController {
     private var qwestion: Qwestion? {
         didSet {
-            
+            stackButton?.qwestion = qwestion
         }
     }
     

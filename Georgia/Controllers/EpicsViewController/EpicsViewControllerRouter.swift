@@ -20,7 +20,7 @@ final class EpicsViewControllerRouter: EpicsViewControllerRouterProtocol {
             return
         }
         
-        
+        DataManager.shared.setEpicWorking(name: epic.name)
         let testVC = TestEpicBuilder.build(epicTest: epic)
         VC.present(testVC, animated: true)
     }

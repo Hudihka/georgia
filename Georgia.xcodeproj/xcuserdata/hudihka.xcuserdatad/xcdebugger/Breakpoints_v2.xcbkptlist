@@ -70,9 +70,9 @@
             filePath = "Georgia/Resources/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "firstLoadImages()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -86,8 +86,8 @@
             filePath = "Georgia/Resources/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "firstLoadImages()"
             landmarkType = "7">
          </BreakpointContent>

@@ -52,6 +52,10 @@ final class DataManager {
         updateEpicList(generateStartContent())
     }
     
+    func setEpicWorking(name: String) {
+        self.epicWorking = name
+    }
+    
     private func generateTestModel(
         epicName: String
     ) -> EpicWithQwestion {

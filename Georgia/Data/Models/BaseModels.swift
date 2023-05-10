@@ -26,6 +26,12 @@ extension EpicWithQwestion {
         
         return false
     }
+    
+    var procent: Int {
+        let count = qwestions.compactMap({ $0.answerTest }).count
+        
+        return count * 100 / qwestions.count
+    }
 }
 
 struct Qwestion: Codable {

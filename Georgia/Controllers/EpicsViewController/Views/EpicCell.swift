@@ -38,6 +38,15 @@ final class EpicCell: BaseCell {
         return label
     }()
     
+    private let labelProcent: UILabel = {
+        let label = UILabel()
+        label.textColor = EnumColors.black
+        label.font = EnumFont.bold(16).font
+        label.textAlignment = .right
+        
+        return label
+    }()
+    
     var epic: EpicWithQwestion? {
         didSet {
             updateCell()
@@ -77,6 +86,14 @@ final class EpicCell: BaseCell {
             make.width.equalTo(50)
         }
         
+        contentView.addSubview(labelProcent)
+        labelProcent.snp.makeConstraints { make in
+            make.right.equalTo(labelMisstake.snp.left).offset(Offsets.constant8)
+            make.top.equalTo(labelSubtitle.snp.top)
+            make.bottom.equalTo(labelSubtitle.snp.bottom)
+            make.width.equalTo(50)
+        }
+        
     }
     
     private func updateCell() {
@@ -87,6 +104,7 @@ final class EpicCell: BaseCell {
         labelTitle.text = epic.name
         labelSubtitle.text = "Вопросов: \(epic.qwestions.count)"
         labelMisstake.text = epic.mistakes == 0 ? "" : "\(epic.mistakes)/\(epic.qwestions.count)"
+        labelProcent.text = epic.inProgress ? "\(epic.procent)%" : nil
         contentView.backgroundColor = epic.inProgress ? EnumColors.gray : EnumColors.white
     }
 }

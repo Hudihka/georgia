@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tPR-7g-IYf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -15,16 +16,28 @@
                     <view key="view" contentMode="scaleToFill" id="gVD-zV-pFw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="georgia" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-sn-02S">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2xE-Oi-5hs"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="4Wv-sn-02S" firstAttribute="top" secondItem="gVD-zV-pFw" secondAttribute="top" id="0lU-0q-NBt"/>
+                            <constraint firstItem="4Wv-sn-02S" firstAttribute="trailing" secondItem="2xE-Oi-5hs" secondAttribute="trailing" id="Eba-gi-hBY"/>
+                            <constraint firstAttribute="bottom" secondItem="4Wv-sn-02S" secondAttribute="bottom" id="LKh-IQ-NE1"/>
+                            <constraint firstItem="4Wv-sn-02S" firstAttribute="leading" secondItem="2xE-Oi-5hs" secondAttribute="leading" id="WsD-mi-0vF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0w2-5O-1Qo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="210"/>
+            <point key="canvasLocation" x="1453.6231884057972" y="209.59821428571428"/>
         </scene>
     </scenes>
     <resources>
+        <image name="georgia" width="3072" height="1729"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

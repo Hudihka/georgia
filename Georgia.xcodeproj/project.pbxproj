@@ -44,6 +44,8 @@
 		E9869DD02A0985F700AF03DB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DCF2A0985F700AF03DB /* Content.swift */; };
 		E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9869DD12A09861C00AF03DB /* BaseModels.swift */; };
 		E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9869DD42A0987FB00AF03DB /* SnapKit */; };
+		E98F23EC2A0C295F00ABE154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */; };
+		E98F23ED2A0C2A1500ABE154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBB297C5727005B76BE /* Assets.xcassets */; };
 		E9BE46842A0AED83003C8B6C /* UserDefManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE46832A0AED83003C8B6C /* UserDefManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -343,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98F23ED2A0C2A1500ABE154 /* Assets.xcassets in Resources */,
+				E98F23EC2A0C295F00ABE154 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,15 +25,6 @@ final class StackButton: UIView {
         return item
     }()
     
-    private var labelQwestion: UILabel = {
-        let labelNumberQwestion = UILabel()
-        labelNumberQwestion.textColor = EnumColors.red
-        labelNumberQwestion.font = EnumFont.regular(18).font
-        labelNumberQwestion.textAlignment = .right
-        
-        return labelNumberQwestion
-    }()
-    
     init(qwestion: Qwestion) {
         self.qwestion = qwestion
         
@@ -53,13 +44,6 @@ final class StackButton: UIView {
             make.top.bottom.left.right.equalToSuperview().inset(Offsets.constant16)
         }
         
-        addSubview(labelQwestion)
-        labelQwestion.snp.makeConstraints { make in
-            make.top.right.equalToSuperview()
-            make.height.width.greaterThanOrEqualTo(10)
-        }
-        labelQwestion.text = "#\(qwestion?.idQwestion ?? 0)"
-        
         reloadStack()
     }
     
@@ -69,12 +53,19 @@ final class StackButton: UIView {
             let viw = generateViewButton(index: ind)
             verticalStackView.addArrangedSubview(viw)
         }
+        
+        let button = generateViewButtonWeb()
+        verticalStackView.addArrangedSubview(button)
+        button.snp.makeConstraints { make in
+            make.width.equalToSuperview()
+            make.height.equalTo(40)
+        }
     }
     
     private func generateViewButton(index: Int) -> UIView {
         let view = UIView()
         view.backgroundColor = EnumColors.white
-        view.addRadius(number: 6)
+        view.addRadius(number: 8)
         
         let labelNumber = UILabel()
         labelNumber.textColor = EnumColors.black
@@ -130,6 +121,19 @@ final class StackButton: UIView {
         return view
     }
     
+    private func generateViewButtonWeb() -> UIView {
+        let button = UIButton()
+        button.addTarget(self, action: #selector(buttonActionWeb), for: .touchUpInside)
+        button.setTitle(nil, for: .normal)
+        button.addRadius(number: 8)
+        button.backgroundColor = .black
+        button.setTitleColor(EnumColors.white, for: .normal)
+        button.setTitle("На сайт (#\(qwestion?.idQwestion ?? 0))", for: .normal)
+        button.titleLabel?.font = EnumFont.semibold(18).font
+        
+        return button
+    }
+    
     @objc
     private func buttonAction(sender: UIButton!) {
         guard let qwestion = qwestion else {
@@ -154,5 +158,16 @@ final class StackButton: UIView {
         )
         
         DataManager.shared.addAnswerFor(qwestion: newQwestion)
+    }
+    
+    @objc
+    private func buttonActionWeb(sender: UIButton!) {
+        guard
+            let id = qwestion?.idQwestion,
+            let url = URL(string: "http://teoria.on.ge/tickets?ticket=\(id)")
+        else {
+            return
+        }
+        UIApplication.shared.open(url)
     }
 }

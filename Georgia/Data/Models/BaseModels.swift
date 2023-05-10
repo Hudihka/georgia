@@ -15,18 +15,45 @@ struct EpicWithQwestion {
 }
 
 struct Qwestion {
-    let number: Int
+    let idQwestion: Int
     let title: String
     let linkImage: String?
     let answer: Answer
+    let option: Option
+    let answerTest: AnswerTest?
     
-    init(number: Int, title: String, linkImage: String? = nil, answer: Answer) {
-        self.number = number
+    init(
+        number: Int,
+        title: String,
+        linkImage: String? = nil,
+        answer: Answer,
+        option: Option = .clearOption,
+        answerTest: AnswerTest? = nil
+    ) {
+        self.idQwestion = number
         
         self.title = title
         self.linkImage = linkImage
         self.answer = answer
+        self.option = option
+        self.answerTest = answerTest
     }
+    
+    enum Option {
+        case trueOption
+        case falseOption
+        case clearOption
+    }
+    
+    struct AnswerTest {
+        let indexTrue: Int
+        let indexWrong: Int?
+        
+        var isWrong: Bool {
+            indexWrong != nil
+        }
+    }
+    
 }
 
 struct Answer {

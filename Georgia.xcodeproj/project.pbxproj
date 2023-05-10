@@ -178,9 +178,9 @@
 		E91FB8D02A0993C00028F33E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E91FB8FA2A0A4E3C0028F33E /* PageViewController */,
-				E91FB8EE2A09A8130028F33E /* TestEpicViewController */,
 				E91FB8DB2A0994BA0028F33E /* EpicsViewController */,
+				E91FB8EE2A09A8130028F33E /* TestEpicViewController */,
+				E91FB8FA2A0A4E3C0028F33E /* PageViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

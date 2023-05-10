@@ -8,8 +8,7 @@
 import UIKit
 
 final class StackButton: UIView {
-    private let answer: Answer
-    var answerTest: AnswerTest? {
+    var qwestion: Qwestion? {
         didSet {
             verticalStackView.safelyRemoveArrangedSubviews()
             reloadStack()
@@ -26,9 +25,8 @@ final class StackButton: UIView {
         return item
     }()
     
-    init(answer: Answer, answerTest: AnswerTest?) {
-        self.answer = answer
-        self.answerTest = answerTest
+    init(qwestion: Qwestion) {
+        self.qwestion = qwestion
         
         super.init(frame: .zero)
         
@@ -50,7 +48,8 @@ final class StackButton: UIView {
     }
     
     func reloadStack() {
-        for ind in 0...answer.qwestions.count - 1 {
+        let count = (qwestion?.answer.qwestions.count ?? 1) - 1
+        for ind in 0...count {
             let viw = generateViewButton(index: ind)
             verticalStackView.addArrangedSubview(viw)
         }
@@ -72,7 +71,7 @@ final class StackButton: UIView {
         labelQwestion.font = EnumFont.semibold(18).font
         labelQwestion.textAlignment = .left
         labelQwestion.numberOfLines = 0
-        labelQwestion.text = answer.qwestions[index]
+        labelQwestion.text = qwestion?.answer.qwestions[index]
         
         view.addSubview(labelNumber)
         labelNumber.snp.makeConstraints { make in
@@ -90,7 +89,7 @@ final class StackButton: UIView {
             make.width.equalTo(widthLabel)
         }
         
-        if let answerTest = answerTest {
+        if let answerTest = qwestion?.answerTest {
             if answerTest.indexTrue == index + 1 {
                 view.backgroundColor = EnumColors.green
             } else if answerTest.indexWrong == index + 1 {
@@ -116,6 +115,23 @@ final class StackButton: UIView {
     
     @objc
     private func buttonAction(sender: UIButton!) {
-      print("Button tapped")
+        guard let qwestion = qwestion else {
+            return
+        }
+        
+        
+        let trueAnswer = sender.tag == qwestion.answer.rightOpinion
+        let newQwestion = Qwestion(
+            number: qwestion.idQwestion,
+            title: qwestion.title,
+            answer: qwestion.answer,
+            option: trueAnswer ? .trueOption : .falseOption,
+            answerTest: Qwestion.AnswerTest(
+                indexTrue: qwestion.answer.rightOpinion,
+                indexWrong: trueAnswer ? nil : sender.tag
+            )
+        )
+        
+//        DataManager.shared.addAnswer
     }
 }

@@ -9,7 +9,7 @@ import UIKit
 
 final class CollectionQwestions: UICollectionView {
     
-    var content: [CollectionQwesrions] = [] {
+    var content: [Qwestion] = [] {
         didSet {
             reloadData()
         }
@@ -63,7 +63,9 @@ extension CollectionQwestions: UICollectionViewDataSource {
             fatalError()
         }
         
-        cell.qwestion = content[indexPath.row]
+        cell.qwestionOption = content[indexPath.row].option
+        cell.number = indexPath.row + 1
+        
         return cell
     }
 }

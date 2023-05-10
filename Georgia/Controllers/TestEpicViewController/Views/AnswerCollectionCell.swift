@@ -17,9 +17,15 @@ final class QwestionCollectionCell: BaseCollectionCell {
         return label
     }()
     
-    var qwestion: CollectionQwesrions? {
+    var qwestionOption: Qwestion.Option = .clearOption {
         didSet {
             updateContent()
+        }
+    }
+    
+    var number: Int = 0 {
+        didSet {
+            labelNumber.text = "\(number)"
         }
     }
 
@@ -41,13 +47,7 @@ final class QwestionCollectionCell: BaseCollectionCell {
     }
     
     private func updateContent() {
-        guard let qwestion = qwestion else {
-            return
-        }
-        
-        labelNumber.text = "\(qwestion.number)"
-        
-        switch qwestion.option {
+        switch qwestionOption {
         case .clearOption:
             contentView.backgroundColor = EnumColors.white
             contentView.addBorder(number: 3, color: EnumColors.black)

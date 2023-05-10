@@ -77,10 +77,6 @@ final class TestEpicViewController: BaseViewController {
         collectionQwestions.tapedQwestion = { [weak self] qwestionId in
             self?.pageVC?.scrollTo(qwestionId: qwestionId)
         }
-        
-        pageVC?.numberQwestion = { [weak self] number in
-            self?.title = "\(number)"
-        }
     }
     
     // MARK: - Actions
@@ -103,5 +99,10 @@ private extension TestEpicViewController {
         pageVC.view.frame = CGRect(x: 0, y: y, width: wDdevice, height: hView)
         view.addSubview(pageVC.view)
         pageVC.didMove(toParent: self)
+        
+        
+        pageVC.numberQwestion = { [weak self] number in
+            self?.title = "\(number)"
+        }
     }
 }

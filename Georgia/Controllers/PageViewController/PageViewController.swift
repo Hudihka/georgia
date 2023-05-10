@@ -8,9 +8,7 @@
 import UIKit
 
 final class PageViewController: UIPageViewController {
-    
-    private let qwestions: [Qwestion]
-    private var answers: [AnswerTest] = [] {
+    private var qwestions: [Qwestion] = [] {
         didSet {
             
         }
@@ -18,9 +16,8 @@ final class PageViewController: UIPageViewController {
     
     var numberQwestion: (Int) -> Void = { _ in }
     
-    init(qwestions: [Qwestion], answers: [AnswerTest]?) {
+    init(qwestions: [Qwestion]) {
         self.qwestions = qwestions
-        self.answers = answers ?? []
         
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal)
         
@@ -38,14 +35,14 @@ final class PageViewController: UIPageViewController {
         self.view.backgroundColor = EnumColors.white
         
         let VC = generateNextVC(index: 0)
-        numberQwestion(qwestions.first?.number ?? 0)
+        numberQwestion(qwestions.first?.idQwestion ?? 0)
         self.setViewControllers([VC], direction: .forward, animated: true, completion: nil)
         
         self.didMove(toParent: self)
     }
     
     func scrollTo(qwestionId: Int) {
-        guard let index = qwestions.firstIndex(where: { $0.number == qwestionId }) else {
+        guard let index = qwestions.firstIndex(where: { $0.idQwestion == qwestionId }) else {
             return
         }
         
@@ -66,7 +63,7 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
         
         guard
             let currentVC = viewController as? ViewControllerQwestion,
-            var index = qwestions.firstIndex(where: { $0.number == currentVC.idQwestion })
+            var index = qwestions.firstIndex(where: { $0.idQwestion == currentVC.idQwestion })
         else {
             return nil
         }
@@ -87,7 +84,7 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
         
         guard
             let currentVC = viewController as? ViewControllerQwestion,
-            var index = qwestions.firstIndex(where: { $0.number == currentVC.idQwestion })
+            var index = qwestions.firstIndex(where: { $0.idQwestion == currentVC.idQwestion })
         else {
             return nil
         }
@@ -107,10 +104,9 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
     
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
         let qwestion = qwestions[index]
-        let answerTest = answers.first(where: { $0.idQwestion == qwestion.number })
         
-        numberQwestion(qwestion.number)
-        return ViewControllerQwestion(qwestion: qwestion, answerTest: answerTest)
+        numberQwestion(qwestion.idQwestion)
+        return ViewControllerQwestion(qwestion: qwestion)
     }
 }
 

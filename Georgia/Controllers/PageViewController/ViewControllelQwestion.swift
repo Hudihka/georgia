@@ -9,15 +9,14 @@ import UIKit
 import DTPhotoViewerController
 
 final class ViewControllerQwestion: UIViewController {
-    private let qwestion: Qwestion
-    private var answerTest: AnswerTest? {
+    private var qwestion: Qwestion? {
         didSet {
             
         }
     }
     
     var idQwestion: Int {
-        qwestion.number
+        qwestion?.idQwestion ?? 0
     }
     
     private let viewContent = UIView()
@@ -33,9 +32,8 @@ final class ViewControllerQwestion: UIViewController {
     private var stackButton: StackButton?
     private var uiimageView: UIImageView? = nil
     
-    init(qwestion: Qwestion, answerTest: AnswerTest?) {
+    init(qwestion: Qwestion) {
         self.qwestion = qwestion
-        self.answerTest = answerTest
         
         super.init(nibName: nil, bundle: nil)
         
@@ -67,7 +65,7 @@ final class ViewControllerQwestion: UIViewController {
             make.height.greaterThanOrEqualTo(scrollView.snp.height)
         }
         
-        if let link = qwestion.linkImage {
+        if let link = qwestion?.linkImage {
             uiimageView = UIImageView()
             guard let uiimageView = uiimageView else {
                 return
@@ -102,7 +100,7 @@ final class ViewControllerQwestion: UIViewController {
         }
         
         viewContent.addSubview(labelTitle)
-        labelTitle.text = qwestion.title
+        labelTitle.text = qwestion?.title
         labelTitle.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(Offsets.constant16)
             make.height.greaterThanOrEqualTo(40)
@@ -114,7 +112,11 @@ final class ViewControllerQwestion: UIViewController {
             }
         }
         
-        stackButton = StackButton(answer: qwestion.answer, answerTest: answerTest)
+        guard let qwestion = qwestion else {
+            return
+        }
+        stackButton = StackButton(qwestion: qwestion)
+        
         guard let stackButton = stackButton else {
             return
         }

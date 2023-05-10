@@ -83,6 +83,14 @@ final class TestEpicViewController: BaseViewController {
             self.pageVC?.update(qwestions: qwestions)
         }
         
+        VM.selectedCwestionIndex = { [weak self] ind in
+            guard let self = self else {
+                return
+            }
+            
+            self.collectionQwestions.selectedIndex = ind
+        }
+        
         collectionQwestions.tapedQwestion = { [weak self] qwestionId in
             self?.pageVC?.scrollTo(qwestionId: qwestionId)
         }
@@ -108,9 +116,5 @@ private extension TestEpicViewController {
         pageVC.view.frame = CGRect(x: 0, y: y, width: wDdevice, height: hView)
         view.addSubview(pageVC.view)
         pageVC.didMove(toParent: self)
-        
-        pageVC.indexQwestion = { [weak self] index in
-            self?.collectionQwestions.selectedIndex = index
-        }
     }
 }

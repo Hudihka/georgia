@@ -11,6 +11,7 @@ final class TestEpicViewModel: TestEpicViewModelProtocolOut, TestEpicDataStorePr
     
     var content: (EpicWithQwestion) -> Void = { _ in }
     var tapedAnswer: ([Qwestion]) -> Void = { _ in }
+    var selectedCwestionIndex: (Int) -> Void = { _ in }
     
     init(epic: EpicWithQwestion) {
         self.selectedEpic = epic
@@ -22,6 +23,16 @@ final class TestEpicViewModel: TestEpicViewModelProtocolOut, TestEpicDataStorePr
         manager.updateQwestionList = { [weak self] qwestions in
             self?.tapedAnswer(qwestions)
         }
+        
+        manager.selectedQwestionId = { [weak self] id in
+            if
+                let self = self,
+                let ind = self.selectedEpic.qwestions.firstIndex(where: { $0.idQwestion == id })
+            {
+                self.selectedCwestionIndex(ind)
+            }
+        }
+
         
     }
 }

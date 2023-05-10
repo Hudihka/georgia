@@ -16,6 +16,7 @@ protocol TestEpicViewModelProtocolIn {
 protocol TestEpicViewModelProtocolOut {
     var content: (EpicWithQwestion) -> Void { get set }
     var tapedAnswer: ([Qwestion]) -> Void { get set }
+    var selectedCwestionIndex: (Int) -> Void { get set }
 }
 
 protocol TestEpicDataStoreProtocol {

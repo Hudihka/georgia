@@ -58,6 +58,7 @@ final class StackButton: UIView {
             make.top.right.equalToSuperview()
             make.height.width.greaterThanOrEqualTo(10)
         }
+        labelQwestion.text = "#\(qwestion?.idQwestion ?? 0)"
         
         reloadStack()
     }

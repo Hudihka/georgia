@@ -16,6 +16,7 @@ final class DataManager {
     
     var updateQwestionList: ([Qwestion]) -> Void = { _ in }
     var updateEpicList: ([EpicWithQwestion]) -> Void = { _ in }
+    var selectedQwestionId: (Int) -> Void = { _ in }
     
     func generateStartContent() -> [EpicWithQwestion] {
         content.map({
@@ -70,5 +71,12 @@ final class DataManager {
             name: epicName,
             qwestions: qwestions ?? []
         )
+    }
+    
+    func selectedQwestion(id: Int?) {
+        guard let id = id else {
+            return
+        }
+        selectedQwestionId(id)
     }
 }

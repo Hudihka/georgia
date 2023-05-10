@@ -51,6 +51,12 @@ final class ViewControllerQwestion: UIViewController {
         desingUI()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        DataManager.shared.selectedQwestion(id: qwestion?.idQwestion)
+    }
+    
     private func desingUI() {
         let scrollView = UIScrollView()
         view.addSubview(scrollView)

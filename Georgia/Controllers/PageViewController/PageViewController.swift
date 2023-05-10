@@ -10,8 +10,6 @@ import UIKit
 final class PageViewController: UIPageViewController {
     private var qwestions: [Qwestion] = []
     
-    var indexQwestion: (Int) -> Void = { _ in }
-    
     init(qwestions: [Qwestion]) {
         self.qwestions = qwestions
         
@@ -111,7 +109,6 @@ extension PageViewController: UIPageViewControllerDataSource, UIPageViewControll
     
     private func generateNextVC(index: Int) -> ViewControllerQwestion {
         let qwestion = qwestions[index]
-        indexQwestion(index)
         
         return ViewControllerQwestion(qwestion: qwestion)
     }

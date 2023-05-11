@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90505F32A0CEC08007FC30E /* Content2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90505F22A0CEC08007FC30E /* Content2.swift */; };
 		E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB2297C5726005B76BE /* AppDelegate.swift */; };
 		E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8BD2A098FE20028F33E /* ListModel.swift */; };
 		E91FB8C12A0990550028F33E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C02A0990550028F33E /* DataManager.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90505F22A0CEC08007FC30E /* Content2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content2.swift; sourceTree = "<group>"; };
 		E9186EAF297C5726005B76BE /* Georgia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Georgia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9186EB2297C5726005B76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9186EBB297C5727005B76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 			children = (
 				E91FB9032A0A6EA80028F33E /* SaveImage */,
 				E9869DCF2A0985F700AF03DB /* Content.swift */,
+				E90505F22A0CEC08007FC30E /* Content2.swift */,
 				E91FB8C02A0990550028F33E /* DataManager.swift */,
 				E9BE46832A0AED83003C8B6C /* UserDefManager.swift */,
 				E91FB8BF2A09903F0028F33E /* Models */,
@@ -371,6 +374,7 @@
 				E91FB9022A0A67450028F33E /* UIStackView.swift in Sources */,
 				E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */,
 				E91FB8ED2A09A8090028F33E /* TestEpicViewModel.swift in Sources */,
+				E90505F32A0CEC08007FC30E /* Content2.swift in Sources */,
 				E91FB8D62A0994170028F33E /* EpicsViewControllerRouter.swift in Sources */,
 				E91FB8F52A09BDED0028F33E /* AnswerCollectionCell.swift in Sources */,
 				E91FB8C12A0990550028F33E /* DataManager.swift in Sources */,

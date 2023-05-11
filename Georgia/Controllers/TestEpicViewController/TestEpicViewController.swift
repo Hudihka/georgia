@@ -72,6 +72,11 @@ final class TestEpicViewController: BaseViewController {
             self.collectionQwestions.content = content.qwestions
             self.pageVC = PageViewController(qwestions: content.qwestions)
             self.laoutPageVC()
+            
+            if let index = content.activeindex {
+                self.collectionQwestions.selectedIndex = index
+                self.pageVC?.scrollTo(qwestionIndex: index)
+            }
         }
         
         VM.tapedAnswer = { [weak self] qwestions in
@@ -89,6 +94,7 @@ final class TestEpicViewController: BaseViewController {
             }
             
             self.collectionQwestions.selectedIndex = ind
+            
         }
         
         collectionQwestions.tapedQwestion = { [weak self] qwestionId in

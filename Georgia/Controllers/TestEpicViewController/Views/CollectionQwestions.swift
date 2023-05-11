@@ -18,6 +18,7 @@ final class CollectionQwestions: UICollectionView {
     var selectedIndex: Int = 0 {
         didSet {
             reloadData()
+            scrollToIndex()
         }
     }
     
@@ -51,6 +52,14 @@ final class CollectionQwestions: UICollectionView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func scrollToIndex() {
+        scrollToItem(
+            at: IndexPath(item: selectedIndex, section: 0),
+            at: .centeredHorizontally,
+            animated: true
+        )
     }
 }
 

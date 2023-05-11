@@ -32,6 +32,10 @@ extension EpicWithQwestion {
         
         return count * 100 / qwestions.count
     }
+    
+    var activeindex: Int? {
+        qwestions.compactMap({ $0.answerTest }).isEmpty ? nil : qwestions.firstIndex(where: { $0.answerTest == nil })
+    }
 }
 
 struct Qwestion: Codable {

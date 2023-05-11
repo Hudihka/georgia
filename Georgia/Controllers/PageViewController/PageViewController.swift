@@ -46,6 +46,12 @@ final class PageViewController: UIPageViewController {
         setViewControllers([VC], direction: .forward, animated: false, completion: nil)
     }
     
+    func scrollTo(qwestionIndex: Int) {
+        let VC = generateNextVC(index: qwestionIndex)
+        
+        setViewControllers([VC], direction: .forward, animated: false, completion: nil)
+    }
+    
     func update(qwestions: [Qwestion]) {
         self.qwestions = qwestions
         viewControllers?

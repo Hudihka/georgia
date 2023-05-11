@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E90505F32A0CEC08007FC30E /* Content2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90505F22A0CEC08007FC30E /* Content2.swift */; };
 		E9186EB3297C5726005B76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186EB2297C5726005B76BE /* AppDelegate.swift */; };
-		E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8BD2A098FE20028F33E /* ListModel.swift */; };
 		E91FB8C12A0990550028F33E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C02A0990550028F33E /* DataManager.swift */; };
 		E91FB8C42A0992200028F33E /* Vibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C32A0992200028F33E /* Vibro.swift */; };
 		E91FB8CC2A0993360028F33E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB8C82A0993360028F33E /* BaseViewController.swift */; };
@@ -57,7 +56,6 @@
 		E9186EBB297C5727005B76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9186EBE297C5727005B76BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9186EC0297C5727005B76BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91FB8BD2A098FE20028F33E /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		E91FB8C02A0990550028F33E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E91FB8C32A0992200028F33E /* Vibro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibro.swift; sourceTree = "<group>"; };
 		E91FB8C82A0993360028F33E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				E9869DD12A09861C00AF03DB /* BaseModels.swift */,
-				E91FB8BD2A098FE20028F33E /* ListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -393,7 +390,6 @@
 				E91FB8D72A0994170028F33E /* EpicsViewControllerViewController.swift in Sources */,
 				E91FB8EC2A09A8090028F33E /* TestEpicBuilder.swift in Sources */,
 				E91FB8DA2A0994170028F33E /* EpicsViewControllerViewModel.swift in Sources */,
-				E91FB8BE2A098FE20028F33E /* ListModel.swift in Sources */,
 				E9869DD02A0985F700AF03DB /* Content.swift in Sources */,
 				E91FB9002A0A5FFE0028F33E /* StackButton.swift in Sources */,
 				E9869DD22A09861C00AF03DB /* BaseModels.swift in Sources */,

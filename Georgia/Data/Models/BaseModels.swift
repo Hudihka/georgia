@@ -18,13 +18,7 @@ extension EpicWithQwestion {
     }
     
     var inProgress: Bool {
-        let count = qwestions.compactMap({ $0.answerTest }).count
-        
-        if count < qwestions.count, count != 0 {
-            return true
-        }
-        
-        return false
+        qwestions.compactMap({ $0.answerTest }).count != 0
     }
     
     var procent: Int {

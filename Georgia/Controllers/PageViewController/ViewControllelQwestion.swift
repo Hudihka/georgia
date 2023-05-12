@@ -89,7 +89,7 @@ final class ViewControllerQwestion: UIViewController {
             }
             
             let button = UIButton()
-            button.isEnabled = false
+            button.isEnabled = true
             button.addTarget(self, action: #selector(buttonImageAction), for: .touchUpInside)
             button.setTitle(nil, for: .normal)
             

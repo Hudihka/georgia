@@ -63,22 +63,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B7624C22-F737-403F-83DF-558D6AF2CFA3"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Georgia/Resources/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "firstLoadImages()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "3645BBFF-2979-49D3-BDB5-4184A01AFB44"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -90,54 +74,6 @@
             endingLineNumber = "117"
             landmarkName = "generateNextVC(index:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CC5A6D21-242C-40DA-A968-B0E1863CA5C1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Georgia/Resources/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "firstLoadImages()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CC5A6D21-242C-40DA-A968-B0E1863CA5C1 - f3d4a0a568adad80"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #3 (Georgia.Qwestion) -&gt; () in Georgia.AppDelegate.firstLoadImages() -&gt; ()"
-                  moduleName = "Georgia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hudihka/Desktop/georgia/Georgia/Resources/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "687">
-               </Location>
-               <Location
-                  uuid = "CC5A6D21-242C-40DA-A968-B0E1863CA5C1 - 841418b59ae4d65f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String, Swift.String) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #3 (Georgia.Qwestion) -&gt; () in Georgia.AppDelegate.firstLoadImages() -&gt; ()"
-                  moduleName = "Georgia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hudihka/Desktop/georgia/Georgia/Resources/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "59">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

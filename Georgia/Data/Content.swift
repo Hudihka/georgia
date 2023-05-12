@@ -15,7 +15,8 @@ final class Content {
          qwestions: [
             Qwestion(
                             number: 1,
-                            title: "У водителя, какого автомобиля появляется обязательство уступить дорогу в случае передвижения по стрелке?", linkImage: Optional("http://teoria.on.ge/files/new/f24b95a352dc25441ea2b32cb823623b.jpg"),
+                            title: "У водителя, какого автомобиля появляется обязательство уступить дорогу в случае передвижения по стрелке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f24b95a352dc25441ea2b32cb823623b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя грузового автомобиля",
@@ -24,7 +25,8 @@ final class Content {
             ),
             Qwestion(
                             number: 5,
-                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если у машины скорой помощи включена специальная проблесковая маячок синего цвета и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/c673f95351dca30eb05681f5077cfa53.jpg"),
+                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если у машины скорой помощи включена специальная проблесковая маячок синего цвета и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c673f95351dca30eb05681f5077cfa53.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать автомобиль скорой помощи, потом – легковой автомобиль и в конце – грузовой автомобиль",
@@ -34,7 +36,8 @@ final class Content {
             ),
             Qwestion(
                             number: 6,
-                            title: "В  какой очередности должны проехать автомобили перекресток в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/77f726bef8f32a5e1290518e29980cc1.jpg"),
+                            title: "В  какой очередности должны проехать автомобили перекресток в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/77f726bef8f32a5e1290518e29980cc1.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – грузовой автомобиль, в конце – автобус",
@@ -44,7 +47,8 @@ final class Content {
             ),
             Qwestion(
                             number: 7,
-                            title: "В  какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/9a1e009e7ef6e3da9369223b546f1730.jpg"),
+                            title: "В  какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9a1e009e7ef6e3da9369223b546f1730.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать автобус, потом – мотоцикл, в конце – легковой автомобиль",
@@ -54,7 +58,8 @@ final class Content {
             ),
             Qwestion(
                             number: 13,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в случая пересечения на месте указанном стрелками траектории?", linkImage: Optional("http://teoria.on.ge/files/new/321f4d57d580aaa58682476e7f2a591d.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в случая пересечения на месте указанном стрелками траектории?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/321f4d57d580aaa58682476e7f2a591d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя крестного автомобиля",
@@ -63,7 +68,8 @@ final class Content {
             ),
             Qwestion(
                             number: 16,
-                            title: "По какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/3b38890ac2a3b77b5fe1e0ce03917830.jpg"),
+                            title: "По какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3b38890ac2a3b77b5fe1e0ce03917830.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать автомобиль оперативной службы, потом – легковой автомобиль и трактор, в конце – автобус",
@@ -73,7 +79,8 @@ final class Content {
             ),
             Qwestion(
                             number: 17,
-                            title: "По какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/bd50517f07fe7d9c94001727eb5693ca.jpg"),
+                            title: "По какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bd50517f07fe7d9c94001727eb5693ca.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать автомобиль оперативной службы, потом – легковой автомобиль, в конце – грузовой автомобиль",
@@ -83,7 +90,8 @@ final class Content {
             ),
             Qwestion(
                             number: 20,
-                            title: "Водитель, какого транспортного средства обязан в случае движения по направлению стрелки уступить дорогу пешеходам?", linkImage: Optional("http://teoria.on.ge/files/new/23a5b6fbc746a000248ed840fedf9ab4.jpg"),
+                            title: "Водитель, какого транспортного средства обязан в случае движения по направлению стрелки уступить дорогу пешеходам?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/23a5b6fbc746a000248ed840fedf9ab4.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель грузового автомобиля",
@@ -93,7 +101,8 @@ final class Content {
             ),
             Qwestion(
                             number: 26,
-                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/f1dc0deecff0fbf81b92f6c28be10c80.jpg"),
+                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f1dc0deecff0fbf81b92f6c28be10c80.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – квадроцикль, в конце – автобус",
@@ -103,7 +112,8 @@ final class Content {
             ),
             Qwestion(
                             number: 29,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/2e6ff4f9e64e8fae74ee0d10796e58ac.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2e6ff4f9e64e8fae74ee0d10796e58ac.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – грузовой автомобиль, в конце – легковой автомобиль",
@@ -113,7 +123,8 @@ final class Content {
             ),
             Qwestion(
                             number: 41,
-                            title: "В какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/3a161a6513d96a4e7680f0cfabfff5e0.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства движущие по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3a161a6513d96a4e7680f0cfabfff5e0.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – трамвай, в конце – грузовой автомобиль",
@@ -123,7 +134,8 @@ final class Content {
             ),
             Qwestion(
                             number: 42,
-                            title: "Перед водителем, какого транспортного средства возникает обязательство уступить дорогу  у водителя легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/941e0cfc8c88a7916b2a58f48f1e264f.jpg"),
+                            title: "Перед водителем, какого транспортного средства возникает обязательство уступить дорогу  у водителя легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/941e0cfc8c88a7916b2a58f48f1e264f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в отношении водителя мотоцикла",
@@ -133,7 +145,8 @@ final class Content {
             ),
             Qwestion(
                             number: 47,
-                            title: "В отношении водителей, каких из транспортных средств возникает обязательство уступить дорогу у водителя желтого легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/99f13668c2223dc0144ea948fb4494e7.jpg"),
+                            title: "В отношении водителей, каких из транспортных средств возникает обязательство уступить дорогу у водителя желтого легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/99f13668c2223dc0144ea948fb4494e7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в отношении водителей трамвая и синего легкового автомобиля",
@@ -143,7 +156,8 @@ final class Content {
             ),
             Qwestion(
                             number: 48,
-                            title: "В отношении водителя, какого из транспортных средств возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/3b9cb657091b7a23ecd8f024309966b9.jpg"),
+                            title: "В отношении водителя, какого из транспортных средств возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3b9cb657091b7a23ecd8f024309966b9.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в отношении водителя грузового автомобиля",
@@ -153,7 +167,8 @@ final class Content {
             ),
             Qwestion(
                             number: 49,
-                            title: "В отношении водителей, каких из транспортных средств возникает обязательство уступить дорогу у водителя белого легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/15d2f199a79a74100d7c93a9a9a3f5e4.jpg"),
+                            title: "В отношении водителей, каких из транспортных средств возникает обязательство уступить дорогу у водителя белого легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/15d2f199a79a74100d7c93a9a9a3f5e4.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "В отношении водителей всех транспортных средств",
@@ -163,7 +178,8 @@ final class Content {
             ),
             Qwestion(
                             number: 50,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/0c4a1a3395845cf3e9df50650af1227a.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0c4a1a3395845cf3e9df50650af1227a.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – красный автомобиль, потом – трамвай - А и в конце – трамвай – В",
@@ -173,7 +189,8 @@ final class Content {
             ),
             Qwestion(
                             number: 53,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/611046fa56a9be72caf9a6c4b91e2c70.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/611046fa56a9be72caf9a6c4b91e2c70.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – первый трамвай и второй трамвай и в конце – грузовой автомобиль",
@@ -183,7 +200,8 @@ final class Content {
             ),
             Qwestion(
                             number: 54,
-                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если  с правой стороны перекрестка входящая дорога грунтовая?", linkImage: Optional("http://teoria.on.ge/files/new/41b37cd39eb01874dfd0d892936eea20.jpg"),
+                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если  с правой стороны перекрестка входящая дорога грунтовая?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/41b37cd39eb01874dfd0d892936eea20.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать грузовой автомобиль, потом – автобус, потом - мотоцикл и в конце – легковой автомобиль",
@@ -193,7 +211,8 @@ final class Content {
             ),
             Qwestion(
                             number: 65,
-                            title: "В какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/d0513af67bf1644ce66c3f4ef6fbb47e.jpg"),
+                            title: "В какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d0513af67bf1644ce66c3f4ef6fbb47e.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – белый автомобиль, в конце – зеленый автомобиль",
@@ -203,7 +222,8 @@ final class Content {
             ),
             Qwestion(
                             number: 66,
-                            title: "В какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a92009b687252fda88ba245f8079af36.jpg"),
+                            title: "В какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a92009b687252fda88ba245f8079af36.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – грузовой автомобиль, в конце красный автомобиль",
@@ -213,7 +233,8 @@ final class Content {
             ),
             Qwestion(
                             number: 68,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/c96230403b794805316ec101c10c7bc1.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c96230403b794805316ec101c10c7bc1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать синий автомобиль, потом – трамвай, в конце – зеленый автомобиль",
@@ -223,7 +244,8 @@ final class Content {
             ),
             Qwestion(
                             number: 69,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fb08b995127936ac9c9f0a22da92959c.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fb08b995127936ac9c9f0a22da92959c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – первый трамвай, в конце второй трамвай",
@@ -233,7 +255,8 @@ final class Content {
             ),
             Qwestion(
                             number: 73,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если светофор не работает?", linkImage: Optional("http://teoria.on.ge/files/new/a2b30166979141a5b0bd88d8f2224e75.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если светофор не работает?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a2b30166979141a5b0bd88d8f2224e75.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать автобус, потом – легковой автомобиль, потом – грузовой автомобиль, в конце – мотоцикл",
@@ -243,7 +266,8 @@ final class Content {
             ),
             Qwestion(
                             number: 76,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/570ecfddf2886e0c0614cbc069981974.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/570ecfddf2886e0c0614cbc069981974.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Сперва должен проехать автобус, потом – легковой автомобиль, потом – мотоцикл, в конце – трамвай",
@@ -253,7 +277,8 @@ final class Content {
             ),
             Qwestion(
                             number: 78,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/e38c4aebb924fc1f91a37995332d85d4.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e38c4aebb924fc1f91a37995332d85d4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать красный легковой автомобиль, потом – грузовой автомобиль, в конце – зеленый легковой автомобиль",
@@ -263,7 +288,8 @@ final class Content {
             ),
             Qwestion(
                             number: 80,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b7567041eab43f56eacfd0c11e8e0dc9.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b7567041eab43f56eacfd0c11e8e0dc9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – мотоцикл, в конце – красный автомобиль",
@@ -273,7 +299,8 @@ final class Content {
             ),
             Qwestion(
                             number: 81,
-                            title: "Водителю, какого транспортного средства дается преимущество  в случае движения по направлению стрелки, если дорожные знаки покрыты снегом?", linkImage: Optional("http://teoria.on.ge/files/new/826de239097abe0c81a0bcc256ba23de.jpg"),
+                            title: "Водителю, какого транспортного средства дается преимущество  в случае движения по направлению стрелки, если дорожные знаки покрыты снегом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/826de239097abe0c81a0bcc256ba23de.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю белого автомобиля",
@@ -282,7 +309,8 @@ final class Content {
             ),
             Qwestion(
                             number: 88,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/992f6e16b949441afad7408a4e2fb0d9.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/992f6e16b949441afad7408a4e2fb0d9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя белого автомобиля",
@@ -291,7 +319,8 @@ final class Content {
             ),
             Qwestion(
                             number: 89,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/8c41ef25113de562c57a098766b9835a.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8c41ef25113de562c57a098766b9835a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать автобус, потом – легковой автомобиль, в конце – грузовой автомобиль",
@@ -301,7 +330,8 @@ final class Content {
             ),
             Qwestion(
                             number: 92,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/bcea1964411fe28a7e7c0d42a0aa79a9.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bcea1964411fe28a7e7c0d42a0aa79a9.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать желтый автомобиль, потом – синий автомобиль, в конце – грузовой автомобиль",
@@ -311,7 +341,8 @@ final class Content {
             ),
             Qwestion(
                             number: 96,
-                            title: "У водителя, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/22dd8a2f4a9191cb116f3a58672ca351.jpg"),
+                            title: "У водителя, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/22dd8a2f4a9191cb116f3a58672ca351.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкого автомобиля",
@@ -320,7 +351,8 @@ final class Content {
             ),
             Qwestion(
                             number: 113,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/13dd39224a6d2f7ad68c962ec1880bd8.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/13dd39224a6d2f7ad68c962ec1880bd8.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в отношении водителя автобуса",
@@ -330,7 +362,8 @@ final class Content {
             ),
             Qwestion(
                             number: 114,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя синего автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b4c550da979791e37bb9c2f1aea84e0e.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя синего автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b4c550da979791e37bb9c2f1aea84e0e.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в отношении водителя зеленного легкового автомобиля",
@@ -340,7 +373,8 @@ final class Content {
             ),
             Qwestion(
                             number: 119,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя красного легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/1a6712b8419e0f3de66197fff925ba25.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя красного легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1a6712b8419e0f3de66197fff925ba25.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только в отношении водителя мотоцикла",
@@ -350,7 +384,8 @@ final class Content {
             ),
             Qwestion(
                             number: 120,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя зеленого легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a6c532e6522f7327d5aef879615e00ed.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя зеленого легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a6c532e6522f7327d5aef879615e00ed.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в отношении водителя грузового автомобиля",
@@ -360,7 +395,8 @@ final class Content {
             ),
             Qwestion(
                             number: 128,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/32a266737b74666cdaff299fb11d663f.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/32a266737b74666cdaff299fb11d663f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя белого автомобиля",
@@ -369,7 +405,8 @@ final class Content {
             ),
             Qwestion(
                             number: 134,
-                            title: "В какой очередности должны проехать перекресток автомобили, в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/05218b673a37bceeb81319ff81f55b02.jpg"),
+                            title: "В какой очередности должны проехать перекресток автомобили, в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/05218b673a37bceeb81319ff81f55b02.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать, серый автомобиль, потом – желтый автомобиль, в конце красный автомобиль",
@@ -379,7 +416,8 @@ final class Content {
             ),
             Qwestion(
                             number: 171,
-                            title: "Обязан ли водитель легкового автомобиля уступить дорогу пешеходам в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a965330003625428f32684c0f8d16ce1.jpg"),
+                            title: "Обязан ли водитель легкового автомобиля уступить дорогу пешеходам в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a965330003625428f32684c0f8d16ce1.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -388,7 +426,8 @@ final class Content {
             ),
             Qwestion(
                             number: 504,
-                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b72089d025bd203dcb4a2b9ca161af4d.jpg"),
+                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b72089d025bd203dcb4a2b9ca161af4d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать мопед, потом – трамвай, в конце – легковой автомобиль",
@@ -398,7 +437,8 @@ final class Content {
             ),
             Qwestion(
                             number: 511,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/5fe5e5e71f3eebb96f804cac7d8651f3.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5fe5e5e71f3eebb96f804cac7d8651f3.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать велосипед, потом – белый автомобиль, в конце – зеленый автомобиль",
@@ -408,7 +448,8 @@ final class Content {
             ),
             Qwestion(
                             number: 512,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/6dddb0f648d4c7373ad19a353a60eaaa.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6dddb0f648d4c7373ad19a353a60eaaa.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать зеленый автомобиль, потом – красный автомобиль, в конце – велосипед",
@@ -427,7 +468,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1025,
-                            title: "По какой очередности должны проехать перекресток автомобили в случае движения по направлению стрелки, если у оперативного автомобиля не включен специальный проблесковый мигающий синий сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/e89f36a8781d2939ff62e8edcf4be2da.jpg"),
+                            title: "По какой очередности должны проехать перекресток автомобили в случае движения по направлению стрелки, если у оперативного автомобиля не включен специальный проблесковый мигающий синий сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e89f36a8781d2939ff62e8edcf4be2da.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Сперва должен проехать мотоцикл, потом легковой автомобиль, в конце – автомобиль оперативной службы",
@@ -437,7 +479,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1250,
-                            title: "На перекрестке, при существовании данных дорожных отметок, водитель легкового автомобиля имеет право продолжить движение?", linkImage: Optional("http://teoria.on.ge/files/new/93804cdae7275d0fa0591b65d7928078.jpg"),
+                            title: "На перекрестке, при существовании данных дорожных отметок, водитель легкового автомобиля имеет право продолжить движение?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/93804cdae7275d0fa0591b65d7928078.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в направление А",
@@ -447,7 +490,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1275,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случая движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fe42c6f7c34a9cc4cee41a71954dffd9.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случая движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fe42c6f7c34a9cc4cee41a71954dffd9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкового автомобиля",
@@ -466,7 +510,8 @@ final class Content {
          name: "Движение, маневрирование, ходовая часть",
             qwestions: [Qwestion(
                             number: 2,
-                            title: "Обязан или нет, водитель красного автомобиля, при выходе на дорогу с прилегающей территории уступить пешеходам дорогу?", linkImage: Optional("http://teoria.on.ge/files/new/3901279bfb0b8ba384efab93b45e69c7.jpg"),
+                            title: "Обязан или нет, водитель красного автомобиля, при выходе на дорогу с прилегающей территории уступить пешеходам дорогу?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3901279bfb0b8ba384efab93b45e69c7.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -475,7 +520,8 @@ final class Content {
             ),
             Qwestion(
                             number: 10,
-                            title: "Водитель легкового автомобиля имеет право исполнить маневр разворота:", linkImage: Optional("http://teoria.on.ge/files/new/6d9b1fd3c78faaef3f782e8f4a283c1a.jpg"),
+                            title: "Водитель легкового автомобиля имеет право исполнить маневр разворота:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6d9b1fd3c78faaef3f782e8f4a283c1a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "В направлении А",
@@ -485,7 +531,8 @@ final class Content {
             ),
             Qwestion(
                             number: 24,
-                            title: "У водителя, какого автомобиля возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/4c5f63b19320c0fbc7e52fd5e9b0b216.jpg"),
+                            title: "У водителя, какого автомобиля возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4c5f63b19320c0fbc7e52fd5e9b0b216.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя черного автомобиля",
@@ -494,7 +541,8 @@ final class Content {
             ),
             Qwestion(
                             number: 27,
-                            title: "Водителю легкового автомобиля запрещается движение:", linkImage: Optional("http://teoria.on.ge/files/new/a5e5f8f41cec989ceb34c4c6667dc209.jpg"),
+                            title: "Водителю легкового автомобиля запрещается движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a5e5f8f41cec989ceb34c4c6667dc209.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "В направлении А",
@@ -504,7 +552,8 @@ final class Content {
             ),
             Qwestion(
                             number: 52,
-                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/66847801ca37e1d2d5f74b4a7ceb46d5.jpg"),
+                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/66847801ca37e1d2d5f74b4a7ceb46d5.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водитель желтого автомобиля",
@@ -514,7 +563,8 @@ final class Content {
             ),
             Qwestion(
                             number: 91,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/eb734499318cf458170f43d40101ddbe.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/eb734499318cf458170f43d40101ddbe.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя желтого автомобиля",
@@ -523,7 +573,8 @@ final class Content {
             ),
             Qwestion(
                             number: 97,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу  у водителя трактора в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/59817d47816dc33abd6246c776c781eb.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу  у водителя трактора в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/59817d47816dc33abd6246c776c781eb.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в отношении водителя легкового автомобиля",
@@ -533,7 +584,8 @@ final class Content {
             ),
             Qwestion(
                             number: 121,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/c8f9926b38fc92a58012521155e789a7.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c8f9926b38fc92a58012521155e789a7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя белого автомобиля",
@@ -542,7 +594,8 @@ final class Content {
             ),
             Qwestion(
                             number: 137,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя белого легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/1f567cc13dcb844541c9ce62c386a2bc.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу у водителя белого легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1f567cc13dcb844541c9ce62c386a2bc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в отношении водителя мотоцикла",
@@ -552,7 +605,8 @@ final class Content {
             ),
             Qwestion(
                             number: 138,
-                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, если автобус двигается по установленному маршруту?", linkImage: Optional("http://teoria.on.ge/files/new/18539be947f2c1298118b59670c40741.jpg"),
+                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, если автобус двигается по установленному маршруту?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/18539be947f2c1298118b59670c40741.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водитель легкового автомобиля",
@@ -562,7 +616,8 @@ final class Content {
             ),
             Qwestion(
                             number: 230,
-                            title: "Водитель, какого транспортного средства, передвигающий по направлению стрелки, нарушает правила дорожного движения?", linkImage: Optional("http://teoria.on.ge/files/new/5e515647e2c87d03e55f03a3511b0348.jpg"),
+                            title: "Водитель, какого транспортного средства, передвигающий по направлению стрелки, нарушает правила дорожного движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5e515647e2c87d03e55f03a3511b0348.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водитель трактора.",
@@ -572,7 +627,8 @@ final class Content {
             ),
             Qwestion(
                             number: 297,
-                            title: "Данный грузовой автомобиль с разрешенным грузовым весом более 3,5 т. Водителю какого транспортного средства не запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/95351e994678c1a75416e14cab4c9f75.jpg"),
+                            title: "Данный грузовой автомобиль с разрешенным грузовым весом более 3,5 т. Водителю какого транспортного средства не запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/95351e994678c1a75416e14cab4c9f75.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю мопеда",
@@ -600,7 +656,8 @@ final class Content {
             ),
             Qwestion(
                             number: 359,
-                            title: "В отношении водителя, какого автомобиля присваевается преимущество водителю серого автомобиля в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/356c122b948f28a592df63c5dee98e6f.jpg"),
+                            title: "В отношении водителя, какого автомобиля присваевается преимущество водителю серого автомобиля в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/356c122b948f28a592df63c5dee98e6f.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в отношении водителя мотоцикла",
@@ -610,7 +667,8 @@ final class Content {
             ),
             Qwestion(
                             number: 360,
-                            title: "При движении по направлению стрелки преимуществом пользуется:", linkImage: Optional("http://teoria.on.ge/files/new/f5290c9d2e5d319aafa5d84f8198d14b.jpg"),
+                            title: "При движении по направлению стрелки преимуществом пользуется:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f5290c9d2e5d319aafa5d84f8198d14b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель синего автомобиля",
@@ -619,7 +677,8 @@ final class Content {
             ),
             Qwestion(
                             number: 361,
-                            title: "В данной ситуации, транспортными средствами, во время одновременной перемены линий движения, преимущества проезда дается:", linkImage: Optional("http://teoria.on.ge/files/new/84c940503c4376add21c81b7c097fe29.jpg"),
+                            title: "В данной ситуации, транспортными средствами, во время одновременной перемены линий движения, преимущества проезда дается:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/84c940503c4376add21c81b7c097fe29.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водителю легкового автомобиля",
@@ -628,7 +687,8 @@ final class Content {
             ),
             Qwestion(
                             number: 367,
-                            title: "Для выезда с дороги  водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/334795513f8a86b49e9352bf4c5493c5.jpg"),
+                            title: "Для выезда с дороги  водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/334795513f8a86b49e9352bf4c5493c5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в направление А",
@@ -638,7 +698,8 @@ final class Content {
             ),
             Qwestion(
                             number: 369,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если трактор движется со скоростью 25 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/c071f021a8e940d358c3db22de1fd34d.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если трактор движется со скоростью 25 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c071f021a8e940d358c3db22de1fd34d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -647,7 +708,8 @@ final class Content {
             ),
             Qwestion(
                             number: 371,
-                            title: "Запрещается ли водителю поворот по направлению стрелки, если видимость ограничена до 90 метров?", linkImage: Optional("http://teoria.on.ge/files/new/d1ff7d510de1e75e8caf3a4eacb3ee3d.jpg"),
+                            title: "Запрещается ли водителю поворот по направлению стрелки, если видимость ограничена до 90 метров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d1ff7d510de1e75e8caf3a4eacb3ee3d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -656,7 +718,8 @@ final class Content {
             ),
             Qwestion(
                             number: 374,
-                            title: "В данной ситуации поворот автомобиля допустим:", linkImage: Optional("http://teoria.on.ge/files/new/64a231a10670a19f60a53fd7cc8d838b.jpg"),
+                            title: "В данной ситуации поворот автомобиля допустим:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/64a231a10670a19f60a53fd7cc8d838b.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только в направление А",
@@ -666,7 +729,8 @@ final class Content {
             ),
             Qwestion(
                             number: 376,
-                            title: "В данной ситуации разворот автомобиля допустим:", linkImage: Optional("http://teoria.on.ge/files/new/073889249071781d1e069a74a2266fd8.jpg"),
+                            title: "В данной ситуации разворот автомобиля допустим:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/073889249071781d1e069a74a2266fd8.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в направление А",
@@ -676,7 +740,8 @@ final class Content {
             ),
             Qwestion(
                             number: 383,
-                            title: "Водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/e5d93603489e10332039fd9e0f630ec4.jpg"),
+                            title: "Водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e5d93603489e10332039fd9e0f630ec4.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только налево",
@@ -686,7 +751,8 @@ final class Content {
             ),
             Qwestion(
                             number: 384,
-                            title: "Водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/7c5e32aac04d004587d9f6cb49e1dcbb.jpg"),
+                            title: "Водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7c5e32aac04d004587d9f6cb49e1dcbb.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только направо",
@@ -696,7 +762,8 @@ final class Content {
             ),
             Qwestion(
                             number: 385,
-                            title: "Водитель автомобиля проехал правый поворот. Запрещается ему или нет для въезда в поворот по направлению стрелки движение задним ходом?", linkImage: Optional("http://teoria.on.ge/files/new/32771b5fde4cb3bbbb9e3926f7bc1e39.jpg"),
+                            title: "Водитель автомобиля проехал правый поворот. Запрещается ему или нет для въезда в поворот по направлению стрелки движение задним ходом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/32771b5fde4cb3bbbb9e3926f7bc1e39.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -715,7 +782,8 @@ final class Content {
             ),
             Qwestion(
                             number: 388,
-                            title: "Водитель легкового автомобиля имеет права двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/ba09fe661c64e49788f59499e73bad56.jpg"),
+                            title: "Водитель легкового автомобиля имеет права двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ba09fe661c64e49788f59499e73bad56.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в направление А",
@@ -772,7 +840,8 @@ final class Content {
             ),
             Qwestion(
                             number: 402,
-                            title: "Обязан ли водитель легкового автомобиля, включить сигнал указывающий поворот направо в случае передвижения по направлению стрелки, если за ним не следует транспортное средство?", linkImage: Optional("http://teoria.on.ge/files/new/f236c622875f9123c1797f2043852328.jpg"),
+                            title: "Обязан ли водитель легкового автомобиля, включить сигнал указывающий поворот направо в случае передвижения по направлению стрелки, если за ним не следует транспортное средство?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f236c622875f9123c1797f2043852328.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -781,7 +850,8 @@ final class Content {
             ),
             Qwestion(
                             number: 404,
-                            title: "На каком, рисунке указан сигнал поворота налево рукой водителем мотоциклета?", linkImage: Optional("http://teoria.on.ge/files/new/30b160353a85dad8743acd06a4c2549d.jpg"),
+                            title: "На каком, рисунке указан сигнал поворота налево рукой водителем мотоциклета?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/30b160353a85dad8743acd06a4c2549d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -791,7 +861,8 @@ final class Content {
             ),
             Qwestion(
                             number: 405,
-                            title: "На каком, рисунке указан сигнал поворота направо рукой водителем мотоциклета?", linkImage: Optional("http://teoria.on.ge/files/new/07d3661840a7a13cd748f64fb3af113b.jpg"),
+                            title: "На каком, рисунке указан сигнал поворота направо рукой водителем мотоциклета?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/07d3661840a7a13cd748f64fb3af113b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -801,7 +872,8 @@ final class Content {
             ),
             Qwestion(
                             number: 406,
-                            title: "На каком, рисунке указан сигнал торможения рукой водителем мотоциклета?", linkImage: Optional("http://teoria.on.ge/files/new/96e3b44e8e38df0eb770174212ea6045.jpg"),
+                            title: "На каком, рисунке указан сигнал торможения рукой водителем мотоциклета?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/96e3b44e8e38df0eb770174212ea6045.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -811,7 +883,8 @@ final class Content {
             ),
             Qwestion(
                             number: 407,
-                            title: "На каком, рисунке указан сигнал торможения рукой водителем легкового автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/ceb132f66a1994f4dece641a54a6e5b0.jpg"),
+                            title: "На каком, рисунке указан сигнал торможения рукой водителем легкового автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ceb132f66a1994f4dece641a54a6e5b0.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -821,7 +894,8 @@ final class Content {
             ),
             Qwestion(
                             number: 408,
-                            title: "На каком, рисунке указан сигнал поворота направо рукой водителем легкового автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/4bce1a01288eaad07ac759d0ad8b3466.jpg"),
+                            title: "На каком, рисунке указан сигнал поворота направо рукой водителем легкового автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4bce1a01288eaad07ac759d0ad8b3466.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -831,7 +905,8 @@ final class Content {
             ),
             Qwestion(
                             number: 409,
-                            title: "На каком, рисунке указан сигнал поворота налево или разворота рукой водителем легкового автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/b996a6dae6014e677c3aef67089c62b6.jpg"),
+                            title: "На каком, рисунке указан сигнал поворота налево или разворота рукой водителем легкового автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b996a6dae6014e677c3aef67089c62b6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -851,7 +926,8 @@ final class Content {
             ),
             Qwestion(
                             number: 435,
-                            title: "В данной ситуации, запрещается или нет водителю белого легкового автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/f833c912c045d9206f4e1635a14c2897.jpg"),
+                            title: "В данной ситуации, запрещается или нет водителю белого легкового автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f833c912c045d9206f4e1635a14c2897.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -887,7 +963,8 @@ final class Content {
             ),
             Qwestion(
                             number: 455,
-                            title: "В данной ситуации, водителю, какого транспортного средства не запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/3cb07c7791ff364838a0fffd676d0820.jpg"),
+                            title: "В данной ситуации, водителю, какого транспортного средства не запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3cb07c7791ff364838a0fffd676d0820.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водителю квадроцикла",
@@ -897,7 +974,8 @@ final class Content {
             ),
             Qwestion(
                             number: 462,
-                            title: "В населенном пункте водитель маршрутного автобуса начинает выезд с остановочного пункта, водитель легкового автомобиля должен:", linkImage: Optional("http://teoria.on.ge/files/new/234dfffe6f2ecaf510ba839ea41e6d07.jpg"),
+                            title: "В населенном пункте водитель маршрутного автобуса начинает выезд с остановочного пункта, водитель легкового автомобиля должен:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/234dfffe6f2ecaf510ba839ea41e6d07.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Не меняя скорость продолжить движение",
@@ -906,7 +984,8 @@ final class Content {
             ),
             Qwestion(
                             number: 464,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в ненаселенном пункте в случае движения по направлению стрелки, если водитель маршрутного транспортного средства начинает выезд с остановочного пункта?", linkImage: Optional("http://teoria.on.ge/files/new/61b976c1cf034e9ed69b7d1e76f62174.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в ненаселенном пункте в случае движения по направлению стрелки, если водитель маршрутного транспортного средства начинает выезд с остановочного пункта?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/61b976c1cf034e9ed69b7d1e76f62174.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкового автомобиля",
@@ -915,7 +994,8 @@ final class Content {
             ),
             Qwestion(
                             number: 468,
-                            title: "Запрещается ли водителю  разворот автомобиля по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/5d75b8df2320db0b7857e57d9a951be0.jpg"),
+                            title: "Запрещается ли водителю  разворот автомобиля по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5d75b8df2320db0b7857e57d9a951be0.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -924,7 +1004,8 @@ final class Content {
             ),
             Qwestion(
                             number: 481,
-                            title: "В данной ситуации, какому водителю дается преимущество проезда, если водитель желтого автомобиля начинает движение после высадки пассажиров, а водитель черного автомобиля останавливается с целью посадки пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/3eeafde9ed08770484d0aa3136ca78b9.jpg"),
+                            title: "В данной ситуации, какому водителю дается преимущество проезда, если водитель желтого автомобиля начинает движение после высадки пассажиров, а водитель черного автомобиля останавливается с целью посадки пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3eeafde9ed08770484d0aa3136ca78b9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю желтого автомобиля",
@@ -933,7 +1014,8 @@ final class Content {
             ),
             Qwestion(
                             number: 483,
-                            title: "В данной ситуации имеет право или нет, водитель легкового автомобиля продолжить движение без остановки?", linkImage: Optional("http://teoria.on.ge/files/new/41ee2bccedff34cd018fa4e382ab3dd2.jpg"),
+                            title: "В данной ситуации имеет право или нет, водитель легкового автомобиля продолжить движение без остановки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/41ee2bccedff34cd018fa4e382ab3dd2.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -942,7 +1024,8 @@ final class Content {
             ),
             Qwestion(
                             number: 489,
-                            title: "Водителю, какого стоячего транспортного средства присваивается преимущество в случае начало движения по направлению стрелки, если водитель маршрутного автобуса начинает движение в населенном пункте с отмеченной остановки?", linkImage: Optional("http://teoria.on.ge/files/new/d3223d216e21bf9e4b1d1121a985bfa8.jpg"),
+                            title: "Водителю, какого стоячего транспортного средства присваивается преимущество в случае начало движения по направлению стрелки, если водитель маршрутного автобуса начинает движение в населенном пункте с отмеченной остановки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d3223d216e21bf9e4b1d1121a985bfa8.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю легкового автомобиля.",
@@ -951,7 +1034,8 @@ final class Content {
             ),
             Qwestion(
                             number: 544,
-                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/693e24d2a836bed4e0658f34b7fa14c6.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/693e24d2a836bed4e0658f34b7fa14c6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю желтого автомобиля",
@@ -1039,7 +1123,8 @@ final class Content {
          name: "Сигналы светофора",
             qwestions: [Qwestion(
                             number: 4,
-                            title: "У водителя, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/3d3547b9cf89d34451ed9ccef0fe0f1c.jpg"),
+                            title: "У водителя, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3d3547b9cf89d34451ed9ccef0fe0f1c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя синего автомобиля",
@@ -1048,7 +1133,8 @@ final class Content {
             ),
             Qwestion(
                             number: 14,
-                            title: "Имеет ли право, водитель красного автомобиля на продолжение движения по направлению стрелки, если после зеленного сигнала светофора, при включении желтого сигнала светофора без резкого торможения он не смог остановиться на «Стоп» линии?", linkImage: Optional("http://teoria.on.ge/files/new/6cf54746857403e7caed949422f912f9.jpg"),
+                            title: "Имеет ли право, водитель красного автомобиля на продолжение движения по направлению стрелки, если после зеленного сигнала светофора, при включении желтого сигнала светофора без резкого торможения он не смог остановиться на «Стоп» линии?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6cf54746857403e7caed949422f912f9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -1057,7 +1143,8 @@ final class Content {
             ),
             Qwestion(
                             number: 21,
-                            title: "В отношении, какого участника дорожного движения появится обязательство уступить дорогу в случае движения водителя красного автомобиля по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/8948bd2903975e845c90b9f45c804508.jpg"),
+                            title: "В отношении, какого участника дорожного движения появится обязательство уступить дорогу в случае движения водителя красного автомобиля по направлению стрелки, если у автомобиля оперативной службы включена специальная проблесковая мигалка и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8948bd2903975e845c90b9f45c804508.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "В отношении пешехода и водителя автомобиля оперативной службы",
@@ -1067,7 +1154,8 @@ final class Content {
             ),
             Qwestion(
                             number: 23,
-                            title: "Обязан ли водитель легкового автомобиля уступить дорогу водителю автобуса, который заканчивает переход на перекрестке?", linkImage: Optional("http://teoria.on.ge/files/new/5859480d5f86653f38088d6ce0102684.jpg"),
+                            title: "Обязан ли водитель легкового автомобиля уступить дорогу водителю автобуса, который заканчивает переход на перекрестке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5859480d5f86653f38088d6ce0102684.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -1076,7 +1164,8 @@ final class Content {
             ),
             Qwestion(
                             number: 63,
-                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки на этот сигнал светофора, если после перекрестка проезжая часть забита (заблокирована) транспортными средствами?", linkImage: Optional("http://teoria.on.ge/files/new/a17e52233cefa6214a1d8a57f1e5be47.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки на этот сигнал светофора, если после перекрестка проезжая часть забита (заблокирована) транспортными средствами?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a17e52233cefa6214a1d8a57f1e5be47.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водителю серого автомобиля",
@@ -1086,7 +1175,8 @@ final class Content {
             ),
             Qwestion(
                             number: 75,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если светофор отключен?", linkImage: Optional("http://teoria.on.ge/files/new/82b9ab61d11c94fe8d2977dc2764ec74.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если светофор отключен?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/82b9ab61d11c94fe8d2977dc2764ec74.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать автобус, потом – легковой автомобиль, потом – мотоцикл, в конце – трамвай",
@@ -1096,7 +1186,8 @@ final class Content {
             ),
             Qwestion(
                             number: 102,
-                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/27b41a24ba75a032cce6fbe2e08c385c.jpg"),
+                            title: "В какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/27b41a24ba75a032cce6fbe2e08c385c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – грузовой автомобиль, в конце – мотоцикл",
@@ -1106,7 +1197,8 @@ final class Content {
             ),
             Qwestion(
                             number: 105,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/74f99397766ea40c09024fd7443c70e1.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/74f99397766ea40c09024fd7443c70e1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкого автомобиля",
@@ -1115,7 +1207,8 @@ final class Content {
             ),
             Qwestion(
                             number: 106,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a815525427cc805f141501623e96f242.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a815525427cc805f141501623e96f242.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя легкого автомобиля",
@@ -1124,7 +1217,8 @@ final class Content {
             ),
             Qwestion(
                             number: 107,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/c4ff0e791ebf698d113efc7f424b04a2.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c4ff0e791ebf698d113efc7f424b04a2.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкого автомобиля",
@@ -1133,7 +1227,8 @@ final class Content {
             ),
             Qwestion(
                             number: 108,
-                            title: "Водитель, какого транспортного средства первым проедет перекресток в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/7fd8bb903310f3e34e0964df0bee87c9.jpg"),
+                            title: "Водитель, какого транспортного средства первым проедет перекресток в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7fd8bb903310f3e34e0964df0bee87c9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водитель легкового автомобиля",
@@ -1142,7 +1237,8 @@ final class Content {
             ),
             Qwestion(
                             number: 109,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/f6a6101caf25f69bd0addf36273be912.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f6a6101caf25f69bd0addf36273be912.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя трамвая",
@@ -1151,7 +1247,8 @@ final class Content {
             ),
             Qwestion(
                             number: 110,
-                            title: "Имеет ли право водитель синего автомобиля продолжить движение по направлению стрелки на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/78a27223fbe0708c220cb1f404d26990.jpg"),
+                            title: "Имеет ли право водитель синего автомобиля продолжить движение по направлению стрелки на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/78a27223fbe0708c220cb1f404d26990.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -1160,7 +1257,8 @@ final class Content {
             ),
             Qwestion(
                             number: 115,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки, на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/3e702ca9189162815f83661b5736c86b.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки, на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3e702ca9189162815f83661b5736c86b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя белого автомобиля",
@@ -1169,7 +1267,8 @@ final class Content {
             ),
             Qwestion(
                             number: 116,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/bd48cd22335f257fb53856be248b7144.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bd48cd22335f257fb53856be248b7144.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя желтого автомобиля",
@@ -1178,7 +1277,8 @@ final class Content {
             ),
             Qwestion(
                             number: 118,
-                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу  у водителя белого автомобиля в случае движения по направлению стрелки, если на светофоре горит желтый мигающий фонарный сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/39749a3d04d498843b4603661bb1ef70.jpg"),
+                            title: "В отношении водителя, какого транспортного средства возникает обязательство уступить дорогу  у водителя белого автомобиля в случае движения по направлению стрелки, если на светофоре горит желтый мигающий фонарный сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/39749a3d04d498843b4603661bb1ef70.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в отношении водителя трамвая",
@@ -1188,7 +1288,8 @@ final class Content {
             ),
             Qwestion(
                             number: 126,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/0044c117899348a202c3ef7fc6c5d959.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0044c117899348a202c3ef7fc6c5d959.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя красного автомобиля",
@@ -1197,7 +1298,8 @@ final class Content {
             ),
             Qwestion(
                             number: 141,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/1dac0d962e3eeda99b03f3b1030da499.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1dac0d962e3eeda99b03f3b1030da499.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У водителя легкового автомобиля",
@@ -1206,7 +1308,8 @@ final class Content {
             ),
             Qwestion(
                             number: 142,
-                            title: "Водитель легкового автомобиля имеет право продолжать движение:", linkImage: Optional("http://teoria.on.ge/files/new/d1e05a4c39d3098ce00863bba07e10d0.jpg"),
+                            title: "Водитель легкового автомобиля имеет право продолжать движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d1e05a4c39d3098ce00863bba07e10d0.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "В направление А",
@@ -1216,7 +1319,8 @@ final class Content {
             ),
             Qwestion(
                             number: 143,
-                            title: "Водитель легкового автомобиля имеет право продолжать движение:", linkImage: Optional("http://teoria.on.ge/files/new/46a061c5d7a34a7a68df2a3f9a79e182.jpg"),
+                            title: "Водитель легкового автомобиля имеет право продолжать движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/46a061c5d7a34a7a68df2a3f9a79e182.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в направление А",
@@ -1226,7 +1330,8 @@ final class Content {
             ),
             Qwestion(
                             number: 144,
-                            title: "На этот сигнал реверсивного светофора водитель синего автомобиля должен:", linkImage: Optional("http://teoria.on.ge/files/new/01cb7940ccd2a1cbd364a1e3a09c2a5a.jpg"),
+                            title: "На этот сигнал реверсивного светофора водитель синего автомобиля должен:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/01cb7940ccd2a1cbd364a1e3a09c2a5a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Перейти на левую линию",
@@ -1236,7 +1341,8 @@ final class Content {
             ),
             Qwestion(
                             number: 146,
-                            title: "Имеет ли право водитель легкового автомобиля войти на полосу реверсивного движения, на этот сигнал реверсивного светофора?", linkImage: Optional("http://teoria.on.ge/files/new/25d72ae6d553fbcbb0771869784942cb.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля войти на полосу реверсивного движения, на этот сигнал реверсивного светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/25d72ae6d553fbcbb0771869784942cb.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -1245,7 +1351,8 @@ final class Content {
             ),
             Qwestion(
                             number: 148,
-                            title: "В каком направлении может продолжить движение водитель красного автомобиля на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/c898dfdd53b152e290759bd2d3750048.jpg"),
+                            title: "В каком направлении может продолжить движение водитель красного автомобиля на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c898dfdd53b152e290759bd2d3750048.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только вперед и налево",
@@ -1255,7 +1362,8 @@ final class Content {
             ),
             Qwestion(
                             number: 149,
-                            title: "В каком направлении может продолжить движение водитель синего автомобиля на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/69c0c22a4a5ecc6ec1f341081ea1cef3.jpg"),
+                            title: "В каком направлении может продолжить движение водитель синего автомобиля на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/69c0c22a4a5ecc6ec1f341081ea1cef3.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только вперед и налево",
@@ -1265,7 +1373,8 @@ final class Content {
             ),
             Qwestion(
                             number: 150,
-                            title: "Обязан ли водитель легкового автомобиля уступить дорогу пешеходам в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/282ddaca19823ed19379d67f5b4b0fff.jpg"),
+                            title: "Обязан ли водитель легкового автомобиля уступить дорогу пешеходам в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/282ddaca19823ed19379d67f5b4b0fff.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -1274,7 +1383,8 @@ final class Content {
             ),
             Qwestion(
                             number: 151,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если на светофоре горит желтый мигающий фонарный сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/897fbc70dfc4c4ab337c83a30fe1c4cc.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если на светофоре горит желтый мигающий фонарный сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/897fbc70dfc4c4ab337c83a30fe1c4cc.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -1283,7 +1393,8 @@ final class Content {
             ),
             Qwestion(
                             number: 152,
-                            title: "Имеет ли право водитель автомобиля продолжить движение по направлению стрелки, если после зеленого мигающего фонарного сигнала светофора, во время загорания желтого фонарного сигнала, без резкого торможения не сможет остановиться у «Стоп» линии?", linkImage: Optional("http://teoria.on.ge/files/new/6f027dd971f8c7a9689bc5ef78c5aab9.jpg"),
+                            title: "Имеет ли право водитель автомобиля продолжить движение по направлению стрелки, если после зеленого мигающего фонарного сигнала светофора, во время загорания желтого фонарного сигнала, без резкого торможения не сможет остановиться у «Стоп» линии?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6f027dd971f8c7a9689bc5ef78c5aab9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -1292,7 +1403,8 @@ final class Content {
             ),
             Qwestion(
                             number: 153,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/f98e478a0ffa666d72158dda1be32089.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f98e478a0ffa666d72158dda1be32089.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -1301,7 +1413,8 @@ final class Content {
             ),
             Qwestion(
                             number: 157,
-                            title: "В каком направлении может продолжить движение водитель красного автомобиля на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/9a349b0942d52b2a2c53971ae5b78231.jpg"),
+                            title: "В каком направлении может продолжить движение водитель красного автомобиля на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9a349b0942d52b2a2c53971ae5b78231.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только прямо и налево",
@@ -1311,7 +1424,8 @@ final class Content {
             ),
             Qwestion(
                             number: 158,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/79c195e8039b58e0e8354ff4008ba34a.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/79c195e8039b58e0e8354ff4008ba34a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Не имеет право",
@@ -1320,7 +1434,8 @@ final class Content {
             ),
             Qwestion(
                             number: 165,
-                            title: "Водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b473de0e186e7f8ba55b4280150f8ecc.jpg"),
+                            title: "Водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b473de0e186e7f8ba55b4280150f8ecc.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю синего автомобиля",
@@ -1330,7 +1445,8 @@ final class Content {
             ),
             Qwestion(
                             number: 166,
-                            title: "В данной ситуации водитель автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/47cebc14b7c9b23f202afdfb650a3a5c.jpg"),
+                            title: "В данной ситуации водитель автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/47cebc14b7c9b23f202afdfb650a3a5c.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "В направлении А",
@@ -1340,7 +1456,8 @@ final class Content {
             ),
             Qwestion(
                             number: 167,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/00fe78d21d876aa792fe1a3d0c340562.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/00fe78d21d876aa792fe1a3d0c340562.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -1349,7 +1466,8 @@ final class Content {
             ),
             Qwestion(
                             number: 168,
-                            title: "В данной ситуации, обязан ли водитель синего автомобиля при исполнении маневра (разворота) поворота по направлению стрелки, остановиться на запрещающий движение фонарного сигнала светофора, расположенного между разделительными полосами?", linkImage: Optional("http://teoria.on.ge/files/new/57a58c8742a5716a64c4a8e66f2ccbd7.jpg"),
+                            title: "В данной ситуации, обязан ли водитель синего автомобиля при исполнении маневра (разворота) поворота по направлению стрелки, остановиться на запрещающий движение фонарного сигнала светофора, расположенного между разделительными полосами?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/57a58c8742a5716a64c4a8e66f2ccbd7.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обязан",
@@ -1359,7 +1477,8 @@ final class Content {
             ),
             Qwestion(
                             number: 169,
-                            title: "В данной ситуации, обязан ли водитель синего автомобиля  при исполнении маневра поворота по направлению стрелки, остановиться на запрещающий движение фонарный сигнал светофора, расположенного между разделительными полосами?", linkImage: Optional("http://teoria.on.ge/files/new/1d2423ca2f874e26194cf0be4f917206.jpg"),
+                            title: "В данной ситуации, обязан ли водитель синего автомобиля  при исполнении маневра поворота по направлению стрелки, остановиться на запрещающий движение фонарный сигнал светофора, расположенного между разделительными полосами?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1d2423ca2f874e26194cf0be4f917206.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Обязан",
@@ -1368,7 +1487,8 @@ final class Content {
             ),
             Qwestion(
                             number: 170,
-                            title: "В каком направлении может продолжить движение водитель легкового автомобиля, на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/2f082e56350285d0323d5d2fe34f453e.jpg"),
+                            title: "В каком направлении может продолжить движение водитель легкового автомобиля, на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2f082e56350285d0323d5d2fe34f453e.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только прямо и налево.",
@@ -1378,7 +1498,8 @@ final class Content {
             ),
             Qwestion(
                             number: 175,
-                            title: "Водителю, какого автомобиля присваивается преимущество в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/d7e18efabd31042faa46c582e396146a.jpg"),
+                            title: "Водителю, какого автомобиля присваивается преимущество в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d7e18efabd31042faa46c582e396146a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю красного автомобиля",
@@ -1474,7 +1595,8 @@ final class Content {
             ),
             Qwestion(
                             number: 327,
-                            title: "Какой водитель остановил автомобиль с соблюдением правил дорожного движения на запретный сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/5f22a8a54c0d1985efb807bfee72c14b.jpg"),
+                            title: "Какой водитель остановил автомобиль с соблюдением правил дорожного движения на запретный сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5f22a8a54c0d1985efb807bfee72c14b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель белого автомобиля",
@@ -1484,7 +1606,8 @@ final class Content {
             ),
             Qwestion(
                             number: 389,
-                            title: "Водитель легкового автомобиля имеет права двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/6a317d781a44b356180391dc7f3c5193.jpg"),
+                            title: "Водитель легкового автомобиля имеет права двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6a317d781a44b356180391dc7f3c5193.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только в направление А",
@@ -1494,7 +1617,8 @@ final class Content {
             ),
             Qwestion(
                             number: 477,
-                            title: "В отношении водителя,  какого трамвая возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/ee4b0dcfa638ca4260fe65d54c77c019.jpg"),
+                            title: "В отношении водителя,  какого трамвая возникает обязательство уступить дорогу у водителя легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ee4b0dcfa638ca4260fe65d54c77c019.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в отношении водителя первого трамвая",
@@ -1504,7 +1628,8 @@ final class Content {
             ),
             Qwestion(
                             number: 480,
-                            title: "Водитель, какого транспортного средства может продолжить движение по направлению стрелки, на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/e5d7431eda8c9fd87d949a4764350777.jpg"),
+                            title: "Водитель, какого транспортного средства может продолжить движение по направлению стрелки, на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e5d7431eda8c9fd87d949a4764350777.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Водители обоих транспортных средств",
@@ -1514,7 +1639,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1252,
-                            title: "Нарушит или нет, водитель легкового автомобиля правила дорожного движения, в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/8c5113fe03f745d71c037760b1396d0c.jpg"),
+                            title: "Нарушит или нет, водитель легкового автомобиля правила дорожного движения, в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8c5113fe03f745d71c037760b1396d0c.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -1523,7 +1649,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1276,
-                            title: "В данной ситуации обязан ли водитель легкового автомобиля, при движении в направлении стрелки, остановиться на световой сигнал светофора запрещающего движение, находящиеся на выходе из перекрестка?", linkImage: Optional("http://teoria.on.ge/files/new/133136555e8b0a76f85132b2ac2fabe1.jpg"),
+                            title: "В данной ситуации обязан ли водитель легкового автомобиля, при движении в направлении стрелки, остановиться на световой сигнал светофора запрещающего движение, находящиеся на выходе из перекрестка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/133136555e8b0a76f85132b2ac2fabe1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Обязан",
@@ -1532,7 +1659,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1278,
-                            title: "В данной ситуации, водитель легкового автомобиля обязан или нет, при движении по направлению стрелки, остановиться на световой сигнал светофора запрещающего движение?", linkImage: Optional("http://teoria.on.ge/files/new/be0f4d97f22edf1ae64fd94899715bf8.jpg"),
+                            title: "В данной ситуации, водитель легкового автомобиля обязан или нет, при движении по направлению стрелки, остановиться на световой сигнал светофора запрещающего движение?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/be0f4d97f22edf1ae64fd94899715bf8.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Обязан",
@@ -2533,7 +2661,8 @@ final class Content {
          name: "Сигналы регулятора",
             qwestions: [Qwestion(
                             number: 15,
-                            title: "Водителям, какого транспортного средства запрещается движение по направлению стрелки на этот знак регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/172cb4b5ebaba8250b23ede0e2f26746.jpg"),
+                            title: "Водителям, какого транспортного средства запрещается движение по направлению стрелки на этот знак регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/172cb4b5ebaba8250b23ede0e2f26746.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водителям трамвая и легкового автомобиля",
@@ -2543,7 +2672,8 @@ final class Content {
             ),
             Qwestion(
                             number: 18,
-                            title: "Водитель, какого из транспортных средств нарушит правила дорожного движения при движении по направлению стрелки  на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/0b5a4e3f0d8846b6936fb2ba75b9dbe5.jpg"),
+                            title: "Водитель, какого из транспортных средств нарушит правила дорожного движения при движении по направлению стрелки  на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0b5a4e3f0d8846b6936fb2ba75b9dbe5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель красного легкового автомобиля",
@@ -2553,7 +2683,8 @@ final class Content {
             ),
             Qwestion(
                             number: 33,
-                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/8d034f093e77d70f1928a3d4d4192af1.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8d034f093e77d70f1928a3d4d4192af1.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водителю мотоцикла",
@@ -2563,7 +2694,8 @@ final class Content {
             ),
             Qwestion(
                             number: 35,
-                            title: "У автомашины скорой помощи включена специальная проблесковая мигалка синего цвета и звуковые сигналы. Водители, какого автомобиля могут продолжить движение по направлению стрелки на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/79a9e7d9e19768ba041083dfd273ae63.jpg"),
+                            title: "У автомашины скорой помощи включена специальная проблесковая мигалка синего цвета и звуковые сигналы. Водители, какого автомобиля могут продолжить движение по направлению стрелки на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/79a9e7d9e19768ba041083dfd273ae63.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водители скорой помощи, грузового автомобиля и красного легкового автомобиля",
@@ -2573,7 +2705,8 @@ final class Content {
             ),
             Qwestion(
                             number: 38,
-                            title: "В каком направлении может продолжить движение водитель легкового автомобиля на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/0f824c6f15656125aab1ffd9246204f6.jpg"),
+                            title: "В каком направлении может продолжить движение водитель легкового автомобиля на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0f824c6f15656125aab1ffd9246204f6.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в направлении А, В и С",
@@ -2583,7 +2716,8 @@ final class Content {
             ),
             Qwestion(
                             number: 39,
-                            title: "Водители, каких автомобилей могут продолжить движение по направлению стрелки на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/3e516ac82f6a3f4618709505fd1a838e.jpg"),
+                            title: "Водители, каких автомобилей могут продолжить движение по направлению стрелки на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3e516ac82f6a3f4618709505fd1a838e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водители грузового, желтого и красного автомобилей",
@@ -2593,7 +2727,8 @@ final class Content {
             ),
             Qwestion(
                             number: 45,
-                            title: "Водитель, какого транспортного средства не нарушит правила дорожного движения в случае движения по направлению стрелки на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/6bfd74b3649a8a4d76bbc83633e4680f.jpg"),
+                            title: "Водитель, какого транспортного средства не нарушит правила дорожного движения в случае движения по направлению стрелки на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6bfd74b3649a8a4d76bbc83633e4680f.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель легкового автомобиля",
@@ -2603,7 +2738,8 @@ final class Content {
             ),
             Qwestion(
                             number: 139,
-                            title: "В данной ситуации, водителю, какого транспортного средства присваивается преимущество проезда, если по этому сигналу регулировщика траектория их движений пересекаются?", linkImage: Optional("http://teoria.on.ge/files/new/5b28a3a3e8d7d6da68888cf7453d5bda.jpg"),
+                            title: "В данной ситуации, водителю, какого транспортного средства присваивается преимущество проезда, если по этому сигналу регулировщика траектория их движений пересекаются?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5b28a3a3e8d7d6da68888cf7453d5bda.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водителю грузового автомобиля",
@@ -2612,7 +2748,8 @@ final class Content {
             ),
             Qwestion(
                             number: 140,
-                            title: "Водитель, какого автомобиля имеет право продолжить движение по направлению стрелки, на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/f11750afe6d907e084bb0a9c9eaa8d78.jpg"),
+                            title: "Водитель, какого автомобиля имеет право продолжить движение по направлению стрелки, на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f11750afe6d907e084bb0a9c9eaa8d78.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водитель белого автомобиля",
@@ -2622,7 +2759,8 @@ final class Content {
             ),
             Qwestion(
                             number: 193,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение на перекрестке на право, на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/092d1a44d245180c334473238960265c.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение на перекрестке на право, на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/092d1a44d245180c334473238960265c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -2631,7 +2769,8 @@ final class Content {
             ),
             Qwestion(
                             number: 194,
-                            title: "В каком направлении имеет право продолжить движение водитель белого автомобиля на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/12e8360b2cb00d9b2ae9351f7e7e0ee6.jpg"),
+                            title: "В каком направлении имеет право продолжить движение водитель белого автомобиля на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/12e8360b2cb00d9b2ae9351f7e7e0ee6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только налево",
@@ -2641,7 +2780,8 @@ final class Content {
             ),
             Qwestion(
                             number: 195,
-                            title: "В каком направлении имеет право продолжить движение водитель автомобиля на этот   сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/e0ecc4eefd35c67fe3c447a8396726d4.jpg"),
+                            title: "В каком направлении имеет право продолжить движение водитель автомобиля на этот   сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e0ecc4eefd35c67fe3c447a8396726d4.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только налево",
@@ -2651,7 +2791,8 @@ final class Content {
             ),
             Qwestion(
                             number: 196,
-                            title: "У водителя, какого автомобиля есть право продолжить движение по направлению стрелки на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/9917ac0c258a7727c50004e78a99ea54.jpg"),
+                            title: "У водителя, какого автомобиля есть право продолжить движение по направлению стрелки на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9917ac0c258a7727c50004e78a99ea54.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только у водителя желтого автомобиля",
@@ -2661,7 +2802,8 @@ final class Content {
             ),
             Qwestion(
                             number: 198,
-                            title: "Двигаться по направлению стрелки имеет право:", linkImage: Optional("http://teoria.on.ge/files/new/a5cd6662e140d1a28caec1866c561751.jpg"),
+                            title: "Двигаться по направлению стрелки имеет право:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a5cd6662e140d1a28caec1866c561751.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водитель автомобиля",
@@ -2671,7 +2813,8 @@ final class Content {
             ),
             Qwestion(
                             number: 199,
-                            title: "У водителя, какого автомобиля есть право продолжить движение по направлению стрелки на этот сигнал регулировщика, если у машины оперативной службы включена специальная синяя блестящая мигалка и звуковые сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/98e7cb8a76ae50f756b17d6b254fb83e.jpg"),
+                            title: "У водителя, какого автомобиля есть право продолжить движение по направлению стрелки на этот сигнал регулировщика, если у машины оперативной службы включена специальная синяя блестящая мигалка и звуковые сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/98e7cb8a76ae50f756b17d6b254fb83e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только у водителя автомобиля оперативной службы",
@@ -2681,7 +2824,8 @@ final class Content {
             ),
             Qwestion(
                             number: 200,
-                            title: "У водителя, какого автомобиля есть право продолжить движение на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/a854d0e3eeb61975bff905933ea8d4a2.jpg"),
+                            title: "У водителя, какого автомобиля есть право продолжить движение на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a854d0e3eeb61975bff905933ea8d4a2.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "У водителей обоих автомобилей",
@@ -2691,7 +2835,8 @@ final class Content {
             ),
             Qwestion(
                             number: 202,
-                            title: "Имеют ли право пешеходы переходить на пешеходном переходе на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/c4bb66cea650d9ddeaf413c8ee3c2d6e.jpg"),
+                            title: "Имеют ли право пешеходы переходить на пешеходном переходе на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c4bb66cea650d9ddeaf413c8ee3c2d6e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеют право",
@@ -2700,7 +2845,8 @@ final class Content {
             ),
             Qwestion(
                             number: 203,
-                            title: "У водителя, какого автомобиля возникает обязательство уступить дорогу в случае передвижения по стрелке на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/8a8786618a1e374c5933ceccc79daf5f.jpg"),
+                            title: "У водителя, какого автомобиля возникает обязательство уступить дорогу в случае передвижения по стрелке на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8a8786618a1e374c5933ceccc79daf5f.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя автомобиля",
@@ -2709,7 +2855,8 @@ final class Content {
             ),
             Qwestion(
                             number: 205,
-                            title: "На этот сигнал регулировщика продолжить движение по направлению стрелки имеет право:", linkImage: Optional("http://teoria.on.ge/files/new/972cea6df002fc2eda7c2a13117d67a9.jpg"),
+                            title: "На этот сигнал регулировщика продолжить движение по направлению стрелки имеет право:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/972cea6df002fc2eda7c2a13117d67a9.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водитель синего автомобиля.",
@@ -2719,7 +2866,8 @@ final class Content {
             ),
             Qwestion(
                             number: 206,
-                            title: "Водитель автомобиля, в каком направлении имеет право двигаться на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/8f618bf21ab0e33a5338f92a2fe16564.jpg"),
+                            title: "Водитель автомобиля, в каком направлении имеет право двигаться на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8f618bf21ab0e33a5338f92a2fe16564.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только прямо и налево",
@@ -2729,7 +2877,8 @@ final class Content {
             ),
             Qwestion(
                             number: 207,
-                            title: "Водитель автомобиля, в каком направлении имеет право двигаться на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/d8d1bfefdb930a9ddf7d31542775bf5b.jpg"),
+                            title: "Водитель автомобиля, в каком направлении имеет право двигаться на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d8d1bfefdb930a9ddf7d31542775bf5b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только прямо",
@@ -2739,7 +2888,8 @@ final class Content {
             ),
             Qwestion(
                             number: 211,
-                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/f71bdcffa9cde38ffa407f346cb3a023.jpg"),
+                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f71bdcffa9cde38ffa407f346cb3a023.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только по направлению А и С",
@@ -2749,7 +2899,8 @@ final class Content {
             ),
             Qwestion(
                             number: 212,
-                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/0a471b8dd26de0da2ec1591134d78b9c.jpg"),
+                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0a471b8dd26de0da2ec1591134d78b9c.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Ни в одном из направлений",
@@ -2759,7 +2910,8 @@ final class Content {
             ),
             Qwestion(
                             number: 213,
-                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/a6425abfb4509eec30ba3dc507517864.jpg"),
+                            title: "На этот сигнал регулировщика водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a6425abfb4509eec30ba3dc507517864.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только по направлению А и С",
@@ -2818,7 +2970,8 @@ final class Content {
             ),
             Qwestion(
                             number: 427,
-                            title: "В данной ситуации, водитель автомобиля обязан:", linkImage: Optional("http://teoria.on.ge/files/new/a0c0104d34d233c1dc6e5bad07e4b3d6.jpg"),
+                            title: "В данной ситуации, водитель автомобиля обязан:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a0c0104d34d233c1dc6e5bad07e4b3d6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Продолжить движение",
@@ -2828,7 +2981,8 @@ final class Content {
             ),
             Qwestion(
                             number: 428,
-                            title: "В данной ситуации, водитель автомобиля обязан:", linkImage: Optional("http://teoria.on.ge/files/new/f409077d8b399508d519da6b06096887.jpg"),
+                            title: "В данной ситуации, водитель автомобиля обязан:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f409077d8b399508d519da6b06096887.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Продолжить движение",
@@ -2838,7 +2992,8 @@ final class Content {
             ),
             Qwestion(
                             number: 437,
-                            title: "В данной ситуации, водитель имеет или нет, право продолжить путь без остановки, если на автомобиле оперативной службы включена синяя  блестящая специальная мигалка и звуковые сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/d8537bf67dc5d656ecb8a19e31a9264f.jpg"),
+                            title: "В данной ситуации, водитель имеет или нет, право продолжить путь без остановки, если на автомобиле оперативной службы включена синяя  блестящая специальная мигалка и звуковые сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d8537bf67dc5d656ecb8a19e31a9264f.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -2875,7 +3030,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1024,
-                            title: "Водитель, какого автомобиля имеет право продолжить движение по направлению стрелки на этот сигнал регулировщика, если у автомобиля оперативной службы включен специальный проблесковый мигающий синий сигнал и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/74f9aa4d6c770b2b5ec5636245f97d72.jpg"),
+                            title: "Водитель, какого автомобиля имеет право продолжить движение по направлению стрелки на этот сигнал регулировщика, если у автомобиля оперативной службы включен специальный проблесковый мигающий синий сигнал и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/74f9aa4d6c770b2b5ec5636245f97d72.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Водители обоих автомобилей",
@@ -2885,7 +3041,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1281,
-                            title: "В каком направлении может продолжить движение водитель легкового автомобиля на этот сигнал регулировщика?", linkImage: Optional("http://teoria.on.ge/files/new/586da1545be583568fbe8d798656e64a.jpg"),
+                            title: "В каком направлении может продолжить движение водитель легкового автомобиля на этот сигнал регулировщика?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/586da1545be583568fbe8d798656e64a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только по направлениям В и С",
@@ -2895,7 +3052,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1282,
-                            title: "В каком направлении может продолжить движение водитель легкового автомобиля, если регулировщик конкретно указывает на движение влево?", linkImage: Optional("http://teoria.on.ge/files/new/b64896f0b095b1dd40b2d4926495614b.jpg"),
+                            title: "В каком направлении может продолжить движение водитель легкового автомобиля, если регулировщик конкретно указывает на движение влево?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b64896f0b095b1dd40b2d4926495614b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только прямо",
@@ -2907,7 +3065,8 @@ final class Content {
          qwestions: [
             Qwestion(
                             number: 37,
-                            title: "Из данных опознавательных знаков, который является «Различающим знаком государства регистратора» транспортного средства регистрированного в Грузии находящегося в международном передвижении?", linkImage: Optional("http://teoria.on.ge/files/new/09c7cb4e7aa6d76b2e1b39f9da8c9b78.jpg"),
+                            title: "Из данных опознавательных знаков, который является «Различающим знаком государства регистратора» транспортного средства регистрированного в Грузии находящегося в международном передвижении?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/09c7cb4e7aa6d76b2e1b39f9da8c9b78.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -3013,7 +3172,8 @@ final class Content {
             ),
             Qwestion(
                             number: 390,
-                            title: "Сколько проезжих частей имеет данная дорога?", linkImage: Optional("http://teoria.on.ge/files/new/7fc7239e2f736f8201537e08069be427.jpg"),
+                            title: "Сколько проезжих частей имеет данная дорога?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7fc7239e2f736f8201537e08069be427.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Один",
@@ -3023,7 +3183,8 @@ final class Content {
             ),
             Qwestion(
                             number: 391,
-                            title: "Сколько проезжих частей имеет данная дорога?", linkImage: Optional("http://teoria.on.ge/files/new/8c91007d90a90a6832126350a382a72e.jpg"),
+                            title: "Сколько проезжих частей имеет данная дорога?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8c91007d90a90a6832126350a382a72e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Один",
@@ -3445,7 +3606,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1219,
-                            title: "Какой опознавательный знак прикрепляется на задней части того механического транспортного средства, на котором установлены шины с шипами?", linkImage: Optional("http://teoria.on.ge/files/new/ed71cfedcadada1ee52af81fe5e283bc.jpg"),
+                            title: "Какой опознавательный знак прикрепляется на задней части того механического транспортного средства, на котором установлены шины с шипами?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ed71cfedcadada1ee52af81fe5e283bc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только III",
@@ -3455,7 +3617,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1220,
-                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть транспортного средства перевозящего опасный груз?", linkImage: Optional("http://teoria.on.ge/files/new/a49d4f27cdd5b8881cc394bee274205b.jpg"),
+                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть транспортного средства перевозящего опасный груз?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a49d4f27cdd5b8881cc394bee274205b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I",
@@ -3465,7 +3628,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1224,
-                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть механического транспортного средства, которым управляет водитель с пониженной слышимостью?", linkImage: Optional("http://teoria.on.ge/files/new/0c09fdddfdefbd03923fde6996f7017c.jpg"),
+                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть механического транспортного средства, которым управляет водитель с пониженной слышимостью?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0c09fdddfdefbd03923fde6996f7017c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только III",
@@ -3475,7 +3639,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1225,
-                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть механического транспортного средства, предназначенного для учения вождения?", linkImage: Optional("http://teoria.on.ge/files/new/85a9633c352f9530d716a12ef5b81efc.jpg"),
+                            title: "Какой опознавательный знак прикрепляется на переднюю и заднюю часть механического транспортного средства, предназначенного для учения вождения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/85a9633c352f9530d716a12ef5b81efc.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только III",
@@ -3485,7 +3650,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1226,
-                            title: "Какой опознавательный знак прикрепляется на том транспортном средстве, скорость, которого с предусмотрением груза и механическими характеристиками меньше законном установленного?", linkImage: Optional("http://teoria.on.ge/files/new/fa66967e41c52799fae243596cbbe8bf.jpg"),
+                            title: "Какой опознавательный знак прикрепляется на том транспортном средстве, скорость, которого с предусмотрением груза и механическими характеристиками меньше законном установленного?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fa66967e41c52799fae243596cbbe8bf.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только III",
@@ -3495,7 +3661,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1227,
-                            title: "По усмотрению водителя, какой опознавательный знак можно установить на передней и задней части того механического транспортного средства, которым управляют лица с ограниченными возможностями, или на транспорт, который перевозит такие лица?", linkImage: Optional("http://teoria.on.ge/files/new/7a221746e6c9812b1f5d36557b69f32b.jpg"),
+                            title: "По усмотрению водителя, какой опознавательный знак можно установить на передней и задней части того механического транспортного средства, которым управляют лица с ограниченными возможностями, или на транспорт, который перевозит такие лица?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7a221746e6c9812b1f5d36557b69f32b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только III",
@@ -3505,7 +3672,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1228,
-                            title: "По усмотрению водителя, какой опознавательный знак можно установить на транспортное средство, которым управляет врач?", linkImage: Optional("http://teoria.on.ge/files/new/e49c7f81122131c80a062d8ed03f7117.jpg"),
+                            title: "По усмотрению водителя, какой опознавательный знак можно установить на транспортное средство, которым управляет врач?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e49c7f81122131c80a062d8ed03f7117.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только III",
@@ -3515,7 +3683,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1230,
-                            title: "Данный дорожный знак ставится", linkImage: Optional("http://teoria.on.ge/files/new/d09e0997ef6cdba358f51f083e706aff.jpg"),
+                            title: "Данный дорожный знак ставится",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d09e0997ef6cdba358f51f083e706aff.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "У постов патрульной полиции",
@@ -3603,7 +3772,8 @@ final class Content {
          name: "По специальному сигналу",
             qwestions: [Qwestion(
                             number: 51,
-                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если у автомобиля скорой помощи включен специальный синий проблесковый маячок и звуковой сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/72d8f515408e97c495051140f3978ccd.jpg"),
+                            title: "В какой очередности должны проехать перекресток автомобили движущие по направлению стрелки, если у автомобиля скорой помощи включен специальный синий проблесковый маячок и звуковой сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/72d8f515408e97c495051140f3978ccd.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва - автомобиль скорой помощи, потом – автобус и в конце – легковой автомобиль",
@@ -3622,7 +3792,8 @@ final class Content {
             ),
             Qwestion(
                             number: 472,
-                            title: "В данной ситуации нарушает или нет, водитель требования установленные для вынужденной остановки, если невозможно поврежденный автомобиль незамедлительно убрать с дороги?", linkImage: Optional("http://teoria.on.ge/files/new/5e7c1dc2755182d50cc3ee09ffdf9c99.jpg"),
+                            title: "В данной ситуации нарушает или нет, водитель требования установленные для вынужденной остановки, если невозможно поврежденный автомобиль незамедлительно убрать с дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5e7c1dc2755182d50cc3ee09ffdf9c99.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Не нарушает",
@@ -3719,7 +3890,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1013,
-                            title: "Автомобиль оперативной службы провожает с включенными проблесковыми мигающими  синего цвета и звуковыми сигналами, грузовой автомобиль с включенными фарами ближнего освещения. В отношении, какого автомобиля появится обязательство водителю автобуса уступить дорогу в случае движения по направлению стрелки на этот сигнал светофора?", linkImage: Optional("http://teoria.on.ge/files/new/abfdbab322268654603c6c188699d3a5.jpg"),
+                            title: "Автомобиль оперативной службы провожает с включенными проблесковыми мигающими  синего цвета и звуковыми сигналами, грузовой автомобиль с включенными фарами ближнего освещения. В отношении, какого автомобиля появится обязательство водителю автобуса уступить дорогу в случае движения по направлению стрелки на этот сигнал светофора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/abfdbab322268654603c6c188699d3a5.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "В отношении ни одного водителя автомобиля",
@@ -3729,7 +3901,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1014,
-                            title: "Водитель автомобиля оперативной службы, в каком направлении имеет право продолжить движение на этот сигнал светофора, если у автомобиля включен блестящий специальный мигающий синий сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/f28a8eacd01283e3626b2f5718a62fcd.jpg"),
+                            title: "Водитель автомобиля оперативной службы, в каком направлении имеет право продолжить движение на этот сигнал светофора, если у автомобиля включен блестящий специальный мигающий синий сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f28a8eacd01283e3626b2f5718a62fcd.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только прямо и направо",
@@ -3739,7 +3912,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1015,
-                            title: "Обязан или нет, водитель красного автомобиля, уступить дорогу водителю автомобиля оперативной службы, если на автомобиле не включены синий блестящий специальный мигающий и голосовые сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/5ea63c32f48b49e1e0eacb913d1081d2.jpg"),
+                            title: "Обязан или нет, водитель красного автомобиля, уступить дорогу водителю автомобиля оперативной службы, если на автомобиле не включены синий блестящий специальный мигающий и голосовые сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5ea63c32f48b49e1e0eacb913d1081d2.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Обязан.",
@@ -3748,7 +3922,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1016,
-                            title: "У автомобиля оперативной службы включены специальные проблесковые синий мигающие и звуковые сигналы. Водитель красного автомобиля не нарушит правила дорожного движения, если:", linkImage: Optional("http://teoria.on.ge/files/new/c2d103ea6e0b12ea0529b5097ed9e714.jpg"),
+                            title: "У автомобиля оперативной службы включены специальные проблесковые синий мигающие и звуковые сигналы. Водитель красного автомобиля не нарушит правила дорожного движения, если:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c2d103ea6e0b12ea0529b5097ed9e714.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Пропустит желтый автомобиль и переедет на правую полосу",
@@ -3758,7 +3933,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1017,
-                            title: "Автомобиль оперативной службы стоит, с включенным  специальным проблесковым синим мигающим сигналом. Водитель легкового автомобиля должен двигаться на скорости не более:", linkImage: Optional("http://teoria.on.ge/files/new/94c1b6e6fa5875359893fe3dce800ec5.jpg"),
+                            title: "Автомобиль оперативной службы стоит, с включенным  специальным проблесковым синим мигающим сигналом. Водитель легкового автомобиля должен двигаться на скорости не более:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/94c1b6e6fa5875359893fe3dce800ec5.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "90 км/ч",
@@ -3768,7 +3944,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1018,
-                            title: "По какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки, если у оперативного автомобиля включены проблесковый  специальный мигающий синий и звуковой сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/5b8f89439ca33ed2e7feaf46d093a5ce.jpg"),
+                            title: "По какой очередности должны проехать автомобили перекресток в случае движения по направлению стрелки, если у оперативного автомобиля включены проблесковый  специальный мигающий синий и звуковой сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5b8f89439ca33ed2e7feaf46d093a5ce.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Сперва должен проехать серый легковой автомобиль, потом – мотоцикл, в конце – автомобиль оперативной службы",
@@ -3778,7 +3955,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1019,
-                            title: "В каком направлении имеет право продолжить движение автомобиль оперативной службы на том сигнале светофора, если у автомобиля не включен специальный проблесковый мигающий синий сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/083dda912abec5e1b7d6dea06732e76e.jpg"),
+                            title: "В каком направлении имеет право продолжить движение автомобиль оперативной службы на том сигнале светофора, если у автомобиля не включен специальный проблесковый мигающий синий сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/083dda912abec5e1b7d6dea06732e76e.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только прямо и направо",
@@ -3788,7 +3966,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1020,
-                            title: "У водителя, какого автомобиля возникнет обязательство уступить дорогу в случае движения по направлению стрелки, если у автомобиля оперативной службы не включен специальный проблесковый мигающий синий сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/bd51e545be6264c00ea4341e22f75fc2.jpg"),
+                            title: "У водителя, какого автомобиля возникнет обязательство уступить дорогу в случае движения по направлению стрелки, если у автомобиля оперативной службы не включен специальный проблесковый мигающий синий сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bd51e545be6264c00ea4341e22f75fc2.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя автомобиля оперативной службы",
@@ -3797,7 +3976,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1021,
-                            title: "Грузовой автомобиль выполняет на автомагистрали уборочные работы. Имеет ли право водитель грузового автомобиля продолжить движение по направлению стрелки, если  у автомобиля включен специальный проблесковый мигающий желтый сигнал?", linkImage: Optional("http://teoria.on.ge/files/new/faf72d13e5560338451fb3430b61cec2.jpg"),
+                            title: "Грузовой автомобиль выполняет на автомагистрали уборочные работы. Имеет ли право водитель грузового автомобиля продолжить движение по направлению стрелки, если  у автомобиля включен специальный проблесковый мигающий желтый сигнал?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/faf72d13e5560338451fb3430b61cec2.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -3806,7 +3986,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1026,
-                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если у автомобиля оперативной службы включен специальный проблесковый мигающий синий сигнал и звуковые сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/b2562dbb9a1bd25008703ef27dfca29f.jpg"),
+                            title: "По какой очередности должны проехать перекресток транспортные средства в случае движения по направлению стрелки, если у автомобиля оперативной службы включен специальный проблесковый мигающий синий сигнал и звуковые сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b2562dbb9a1bd25008703ef27dfca29f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Сперва должен проехать легковой автомобиль, потом – мотоцикл, в конце – автомобиль оперативной службы",
@@ -3816,7 +3997,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1028,
-                            title: "У водителя, какого автомобиля возникнет обязательство уступить дорогу в случая движения по направлению стрелки, если у автомобиля скорой помощи включен специальный проблесковый мигающий синий сигнал и звуковые сигналы?", linkImage: Optional("http://teoria.on.ge/files/new/5d6c70b8978330e026d935c84d8a2480.jpg"),
+                            title: "У водителя, какого автомобиля возникнет обязательство уступить дорогу в случая движения по направлению стрелки, если у автомобиля скорой помощи включен специальный проблесковый мигающий синий сигнал и звуковые сигналы?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5d6c70b8978330e026d935c84d8a2480.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя легкового автомобиля",
@@ -3825,7 +4007,8 @@ final class Content {
          name: "Жилая зона, автобусный приоритет",
             qwestions: [Qwestion(
                             number: 59,
-                            title: "В отношении, какого участника дорожного движения возникает обязательство у водителя белого автомобиля уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/bfb35055b7803d9a58d5f3c4125ce87d.jpg"),
+                            title: "В отношении, какого участника дорожного движения возникает обязательство у водителя белого автомобиля уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bfb35055b7803d9a58d5f3c4125ce87d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в отношении водителя мотоцикла",
@@ -3854,7 +4037,8 @@ final class Content {
             ),
             Qwestion(
                             number: 503,
-                            title: "В отношении, какого участника дорожного движения возникает обязанность уступить дорогу у водителя легкового автомобиля в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/f5dd3e57ed7a97395c3fd33d7da8490e.jpg"),
+                            title: "В отношении, какого участника дорожного движения возникает обязанность уступить дорогу у водителя легкового автомобиля в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f5dd3e57ed7a97395c3fd33d7da8490e.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в отношении пешеходов",
@@ -3864,7 +4048,8 @@ final class Content {
             ),
             Qwestion(
                             number: 513,
-                            title: "Имеют право или нет, пешеходы движущие в жилой зоне  без основания препятствовать движению белого автомобиля:", linkImage: Optional("http://teoria.on.ge/files/new/58c1bd7891578a5abda291ca1eff7496.jpg"),
+                            title: "Имеют право или нет, пешеходы движущие в жилой зоне  без основания препятствовать движению белого автомобиля:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/58c1bd7891578a5abda291ca1eff7496.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеют право, поскольку в жилой зоне у пешехода есть преимущество в отношении других участников дорожного движения.",
@@ -3873,7 +4058,8 @@ final class Content {
             ),
             Qwestion(
                             number: 515,
-                            title: "В жилой зоне водитель легкового автомобиля имеет право двигаться не более:", linkImage: Optional("http://teoria.on.ge/files/new/71b8ccc64dea7b721207bb3d50582e37.jpg"),
+                            title: "В жилой зоне водитель легкового автомобиля имеет право двигаться не более:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/71b8ccc64dea7b721207bb3d50582e37.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "На скорости 20 км/ч",
@@ -3883,7 +4069,8 @@ final class Content {
             ),
             Qwestion(
                             number: 518,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/ed3642b99b92f9c4ae3806585cbda29a.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу, в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ed3642b99b92f9c4ae3806585cbda29a.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя легкового автомобиля.",
@@ -3892,7 +4079,8 @@ final class Content {
             ),
             Qwestion(
                             number: 519,
-                            title: "В отношении, какого транспортного средства появляется обязательство уступить дорогу водителю легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/f7955aa4c77926c747c88ce21a7939e3.jpg"),
+                            title: "В отношении, какого транспортного средства появляется обязательство уступить дорогу водителю легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f7955aa4c77926c747c88ce21a7939e3.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в отношении пешеходов",
@@ -3931,7 +4119,8 @@ final class Content {
          name: "Указательные знаки",
             qwestions: [Qwestion(
                             number: 64,
-                            title: "У водителя легкового автомобиля есть право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/c6b5d807dcf42a963da6523ff2816981.jpg"),
+                            title: "У водителя легкового автомобиля есть право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c6b5d807dcf42a963da6523ff2816981.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только в направление А, С и D",
@@ -3941,7 +4130,8 @@ final class Content {
             ),
             Qwestion(
                             number: 370,
-                            title: "Водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/ea7d3e519f8b9e288f7055cf149e4639.jpg"),
+                            title: "Водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ea7d3e519f8b9e288f7055cf149e4639.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "В направление А",
@@ -3951,7 +4141,8 @@ final class Content {
             ),
             Qwestion(
                             number: 375,
-                            title: "В данной ситуации, водитель проехавший поворот, с целью въехать в правый поворот:", linkImage: Optional("http://teoria.on.ge/files/new/ce1122bb8f7252667a3bf51162387249.jpg"),
+                            title: "В данной ситуации, водитель проехавший поворот, с целью въехать в правый поворот:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ce1122bb8f7252667a3bf51162387249.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Имеет право повернуть автомобиль в направление А",
@@ -3961,7 +4152,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1140,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/1f38a098de916a1a4e604831ab33ac6d.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1f38a098de916a1a4e604831ab33ac6d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Разрешает движение только в прямом направлении",
@@ -3971,7 +4163,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1142,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/97b35143c5148fee7ebe09e3c3980979.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/97b35143c5148fee7ebe09e3c3980979.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Указывает дорогу или проезжую часть, на котором транспортными средствами движение по всей ширине осуществляется в одном направлении",
@@ -3981,7 +4174,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1145,
-                            title: "С данных дорожных знаков, какой обозначает объезд направления разделительной линии, острова или какого-либо препятствия безопасности только по направлению справа?", linkImage: Optional("http://teoria.on.ge/files/new/c8340497b00196738ad7c020b5a3870f.jpg"),
+                            title: "С данных дорожных знаков, какой обозначает объезд направления разделительной линии, острова или какого-либо препятствия безопасности только по направлению справа?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c8340497b00196738ad7c020b5a3870f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -3991,7 +4185,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1147,
-                            title: "С данных дорожных знаков, какой обозначает объезд направления разделительной линии, острова или какого-либо препятствия безопасности только  по направлению слева или справа?", linkImage: Optional("http://teoria.on.ge/files/new/064406dbc1641abcc4467f07d12aa026.jpg"),
+                            title: "С данных дорожных знаков, какой обозначает объезд направления разделительной линии, острова или какого-либо препятствия безопасности только  по направлению слева или справа?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/064406dbc1641abcc4467f07d12aa026.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -4001,7 +4196,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1149,
-                            title: "С данных дорожных знаков, какой обозначает тропинку предназначенную для движения на велосипеде, которая конструктивно выделена от другой дороги или от других элементов дороги?", linkImage: Optional("http://teoria.on.ge/files/new/f9fef95fb5b76045e5716626cbdb8de4.jpg"),
+                            title: "С данных дорожных знаков, какой обозначает тропинку предназначенную для движения на велосипеде, которая конструктивно выделена от другой дороги или от других элементов дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f9fef95fb5b76045e5716626cbdb8de4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -4011,7 +4207,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1151,
-                            title: "С данных дорожных знаков, какой устанавливает минимальный предел скорости движения на дороге?", linkImage: Optional("http://teoria.on.ge/files/new/7d8c36ffc2781903e57613c79a103fa9.jpg"),
+                            title: "С данных дорожных знаков, какой устанавливает минимальный предел скорости движения на дороге?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7d8c36ffc2781903e57613c79a103fa9.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -4021,7 +4218,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1152,
-                            title: "С данных дорожных знаков, какой обозначает участок дороги, на котором движущему транспортному средству, на не более двух ведущих покрышках, обязательно должны быть закреплены цепы против скольжения?", linkImage: Optional("http://teoria.on.ge/files/new/ed25ddd1db39de380378579a796fa139.jpg"),
+                            title: "С данных дорожных знаков, какой обозначает участок дороги, на котором движущему транспортному средству, на не более двух ведущих покрышках, обязательно должны быть закреплены цепы против скольжения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ed25ddd1db39de380378579a796fa139.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -4031,7 +4229,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1154,
-                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае движения по направлению стрелки, если они въезжают на территорию двора?", linkImage: Optional("http://teoria.on.ge/files/new/fc2e656d58eaaa122f8a6c3055afd31a.jpg"),
+                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае движения по направлению стрелки, если они въезжают на территорию двора?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fc2e656d58eaaa122f8a6c3055afd31a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель белого автомобиля",
@@ -4041,7 +4240,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1155,
-                            title: "Водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/54a384cc941e61877f13abcb6db28826.jpg"),
+                            title: "Водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/54a384cc941e61877f13abcb6db28826.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только прямо и направо",
@@ -4051,7 +4251,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1156,
-                            title: "Водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/6d74e1a36129975840617d32767e88cb.jpg"),
+                            title: "Водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6d74e1a36129975840617d32767e88cb.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только прямо",
@@ -4061,7 +4262,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1157,
-                            title: "Водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/a73fc8b77e5ef6db49f9edb62b7200a1.jpg"),
+                            title: "Водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a73fc8b77e5ef6db49f9edb62b7200a1.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только налево",
@@ -4071,7 +4273,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1159,
-                            title: "Водитель, какого автомобиля нарушает правила дорожного движения, если зеленый автомобиль въезжает во двор, а желтый остановлен?", linkImage: Optional("http://teoria.on.ge/files/new/c9ffb9d6192fb93cfe2ac87ea791f52a.jpg"),
+                            title: "Водитель, какого автомобиля нарушает правила дорожного движения, если зеленый автомобиль въезжает во двор, а желтый остановлен?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c9ffb9d6192fb93cfe2ac87ea791f52a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водитель зеленного автомобиля",
@@ -4081,7 +4284,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1160,
-                            title: "В данной ситуации, запрещается или нет, водителю легкового автомобиля исполнение маневра разворота по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b03e468e4d53912276ef9ae575b747a1.jpg"),
+                            title: "В данной ситуации, запрещается или нет, водителю легкового автомобиля исполнение маневра разворота по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b03e468e4d53912276ef9ae575b747a1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -4090,7 +4294,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1161,
-                            title: "В данной ситуации, запрещается или нет, водителю легкового автомобиля движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/0acec2b0efa506f7e28281923ab9eaeb.jpg"),
+                            title: "В данной ситуации, запрещается или нет, водителю легкового автомобиля движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0acec2b0efa506f7e28281923ab9eaeb.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -4099,7 +4304,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1163,
-                            title: "Водитель, какого транспортного средства не нарушает правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fc76fb65f633eb70fa4c32d8b9f29112.jpg"),
+                            title: "Водитель, какого транспортного средства не нарушает правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fc76fb65f633eb70fa4c32d8b9f29112.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водитель легкового автомобиля",
@@ -4109,7 +4315,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1164,
-                            title: "В данной ситуации, водитель легкового автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/294bdccb817eafad5b4f458502782d69.jpg"),
+                            title: "В данной ситуации, водитель легкового автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/294bdccb817eafad5b4f458502782d69.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в направление А",
@@ -4119,7 +4326,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1168,
-                            title: "С данных дорожных знаков, какой обозначает места разворота?", linkImage: Optional("http://teoria.on.ge/files/new/634439031cb74304f23b7a35ef98cdd5.jpg"),
+                            title: "С данных дорожных знаков, какой обозначает места разворота?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/634439031cb74304f23b7a35ef98cdd5.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только II",
@@ -4129,7 +4337,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1170,
-                            title: "С данных дорожных знаков действие, какого распространяется только на тех перекрестках проезжих частей, перед которыми они стоят?", linkImage: Optional("http://teoria.on.ge/files/new/f21053634b3226874c8e977c1a831c95.jpg"),
+                            title: "С данных дорожных знаков действие, какого распространяется только на тех перекрестках проезжих частей, перед которыми они стоят?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f21053634b3226874c8e977c1a831c95.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только I и II",
@@ -4139,7 +4348,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1232,
-                            title: "Сданных дорожных знаков действие, какого не распространяется с места его установки до ближайшего после него находящего перекрестка?", linkImage: Optional("http://teoria.on.ge/files/new/3213a49188645a75bf1d6f0546f3469e.jpg"),
+                            title: "Сданных дорожных знаков действие, какого не распространяется с места его установки до ближайшего после него находящего перекрестка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3213a49188645a75bf1d6f0546f3469e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и IV",
@@ -4169,7 +4379,8 @@ final class Content {
             ),
             Qwestion(
                             number: 999,
-                            title: "Водитель легкового автомобиля стоит на боковой с плотным покрытием. Нарушит он или нет правила дорожного движения, если в условиях недостаточной видимости не включит габаритные освещения?", linkImage: Optional("http://teoria.on.ge/files/new/93632cd0aea3a59f0bfe6aa39f3d5b8f.jpg"),
+                            title: "Водитель легкового автомобиля стоит на боковой с плотным покрытием. Нарушит он или нет правила дорожного движения, если в условиях недостаточной видимости не включит габаритные освещения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/93632cd0aea3a59f0bfe6aa39f3d5b8f.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -4178,7 +4389,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1000,
-                            title: "Имеет ли право водитель автомобиля двигаться по направлению стрелки, если при движении в темное время суток вышли с строя задние габаритные освещения?", linkImage: Optional("http://teoria.on.ge/files/new/1071b221c23d2b71763d66c8462b6bd2.jpg"),
+                            title: "Имеет ли право водитель автомобиля двигаться по направлению стрелки, если при движении в темное время суток вышли с строя задние габаритные освещения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1071b221c23d2b71763d66c8462b6bd2.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -4187,7 +4399,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1001,
-                            title: "Водитель автомобиля нарушит или нет, правила дорожного движения, если в условиях недостаточной видимости автомашина стоит на картине указанном месте с не включенными внешними приборами?", linkImage: Optional("http://teoria.on.ge/files/new/ed7e8f294c39a93ce0c765e157a6e08f.jpg"),
+                            title: "Водитель автомобиля нарушит или нет, правила дорожного движения, если в условиях недостаточной видимости автомашина стоит на картине указанном месте с не включенными внешними приборами?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ed7e8f294c39a93ce0c765e157a6e08f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нарушит",
@@ -4234,7 +4447,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1325,
-                            title: "На каком рисунке, указано правильное расположение рук на рулевом колесе?", linkImage: Optional("http://teoria.on.ge/files/new/8275c322f5a24b9f5ee3bf7d3db6a509.jpg"),
+                            title: "На каком рисунке, указано правильное расположение рук на рулевом колесе?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8275c322f5a24b9f5ee3bf7d3db6a509.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -4340,7 +4554,8 @@ final class Content {
          name: "Велосипед, мопед и вождение скота",
             qwestions: [Qwestion(
                             number: 99,
-                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки, если легковой автомобиль выезжает с территории автозаправочной станции?", linkImage: Optional("http://teoria.on.ge/files/new/5f541596e9c9c3b2508054962fabd9c1.jpg"),
+                            title: "У водителя, какого транспортного средства возникает обязательство уступить дорогу в случае движения по направлению стрелки, если легковой автомобиль выезжает с территории автозаправочной станции?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5f541596e9c9c3b2508054962fabd9c1.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя легкового автомобиля",
@@ -4561,7 +4776,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1270,
-                            title: "У водителя, какого транспортного средства появилось обязанность уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/53a46d17ab6118958214ec68bcd2ff3d.jpg"),
+                            title: "У водителя, какого транспортного средства появилось обязанность уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/53a46d17ab6118958214ec68bcd2ff3d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "У водителя велосипеда",
@@ -4589,7 +4805,8 @@ final class Content {
          name: "Железнодорожный переезд",
             qwestions: [Qwestion(
                             number: 155,
-                            title: "Если в светофоре включен желтый мигающий фонарный сигнал:", linkImage: Optional("http://teoria.on.ge/files/new/846c4ff80b2386b0891cdf953bdc41c3.jpg"),
+                            title: "Если в светофоре включен желтый мигающий фонарный сигнал:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/846c4ff80b2386b0891cdf953bdc41c3.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водитель обязан остановиться у «Стоп» линии",
@@ -4626,7 +4843,8 @@ final class Content {
             ),
             Qwestion(
                             number: 377,
-                            title: "Водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/e2b3b3aac8397306a0f64aa7727ca959.jpg"),
+                            title: "Водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e2b3b3aac8397306a0f64aa7727ca959.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водителю грузового автомобиля",
@@ -4636,7 +4854,8 @@ final class Content {
             ),
             Qwestion(
                             number: 414,
-                            title: "В данной ситуации водитель должен остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/a69aab2cd6b90038960978e6a001b388.jpg"),
+                            title: "В данной ситуации водитель должен остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a69aab2cd6b90038960978e6a001b388.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Вдоль светофора",
@@ -4646,7 +4865,8 @@ final class Content {
             ),
             Qwestion(
                             number: 415,
-                            title: "Полушлагбаум закрыт, водитель автотранспортного средства не нарушит правила дорожного движения, если:", linkImage: Optional("http://teoria.on.ge/files/new/0ef4f472c3f8af3ab1e677193bd80074.jpg"),
+                            title: "Полушлагбаум закрыт, водитель автотранспортного средства не нарушит правила дорожного движения, если:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0ef4f472c3f8af3ab1e677193bd80074.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Остановится от полушлагбаума на расстоянии не менее 5 метров.",
@@ -4656,7 +4876,8 @@ final class Content {
             ),
             Qwestion(
                             number: 416,
-                            title: "В данной ситуации водитель автотранспортного средства обязан:", linkImage: Optional("http://teoria.on.ge/files/new/dbb2dd3dfcd02f216b0fafc6dbd88a56.jpg"),
+                            title: "В данной ситуации водитель автотранспортного средства обязан:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/dbb2dd3dfcd02f216b0fafc6dbd88a56.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Продолжить движение, т.к.  шлагбаум поднят",
@@ -4665,7 +4886,8 @@ final class Content {
             ),
             Qwestion(
                             number: 417,
-                            title: "В данной ситуации, какой из водителей, остановившись у железнодорожного переезда, нарушает правила дорожного движения?", linkImage: Optional("http://teoria.on.ge/files/new/f10a6583fa38e6f133452f6e9e295099.jpg"),
+                            title: "В данной ситуации, какой из водителей, остановившись у железнодорожного переезда, нарушает правила дорожного движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f10a6583fa38e6f133452f6e9e295099.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водитель желтого автомобиля",
@@ -4675,7 +4897,8 @@ final class Content {
             ),
             Qwestion(
                             number: 418,
-                            title: "В данной ситуации запрещается ли водителю синего автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/5cb00bb75340a9cb4fce47e4e2515e23.jpg"),
+                            title: "В данной ситуации запрещается ли водителю синего автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5cb00bb75340a9cb4fce47e4e2515e23.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -4684,7 +4907,8 @@ final class Content {
             ),
             Qwestion(
                             number: 419,
-                            title: "Регулировщик стоит к автомобилю с правой стороны, руки спущены. В данной ситуации водитель легкового автомобиля:", linkImage: Optional("http://teoria.on.ge/files/new/03300191ca1de98a4ed0e5871f3d336f.jpg"),
+                            title: "Регулировщик стоит к автомобилю с правой стороны, руки спущены. В данной ситуации водитель легкового автомобиля:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/03300191ca1de98a4ed0e5871f3d336f.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Обязан замедлить движение и остановиться.",
@@ -4694,7 +4918,8 @@ final class Content {
             ),
             Qwestion(
                             number: 421,
-                            title: "Поезд оканчивает проезд железнодорожного переезда, водитель автомобиля имеет право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/d753a0470476db0fe8858a5206a6a3f6.jpg"),
+                            title: "Поезд оканчивает проезд железнодорожного переезда, водитель автомобиля имеет право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d753a0470476db0fe8858a5206a6a3f6.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Незамедлительно, после проезда поезда",
@@ -4703,7 +4928,8 @@ final class Content {
             ),
             Qwestion(
                             number: 422,
-                            title: "В данной ситуации, водитель автомобиля обязан остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/312547a678df355ebfdd14c218767fea.jpg"),
+                            title: "В данной ситуации, водитель автомобиля обязан остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/312547a678df355ebfdd14c218767fea.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На расстоянии не менее 5 метров от полушлагбаума",
@@ -4713,7 +4939,8 @@ final class Content {
             ),
             Qwestion(
                             number: 423,
-                            title: "В данной ситуации, водитель автомобиля обязан остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/59e0373425b099277a38ce059d2cd5d9.jpg"),
+                            title: "В данной ситуации, водитель автомобиля обязан остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/59e0373425b099277a38ce059d2cd5d9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Непосредственно у шлагбаума",
@@ -4722,7 +4949,8 @@ final class Content {
             ),
             Qwestion(
                             number: 425,
-                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a843be2e4ab0cd101f02ea7484dde880.jpg"),
+                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a843be2e4ab0cd101f02ea7484dde880.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водителям обоих автомобилей",
@@ -4732,7 +4960,8 @@ final class Content {
             ),
             Qwestion(
                             number: 430,
-                            title: "В данной ситуации, запрещается ли водителю движение задним ходом по направлению стрелки и потом исполнение маневра поворота?", linkImage: Optional("http://teoria.on.ge/files/new/6847ab3124b90ce3f0edf92d04ffe235.jpg"),
+                            title: "В данной ситуации, запрещается ли водителю движение задним ходом по направлению стрелки и потом исполнение маневра поворота?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6847ab3124b90ce3f0edf92d04ffe235.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -4741,7 +4970,8 @@ final class Content {
             ),
             Qwestion(
                             number: 431,
-                            title: "В данной ситуации, на желтом мигающем сигнале фонаря светофора:", linkImage: Optional("http://teoria.on.ge/files/new/4706e43765f988770829b4628dadba7c.jpg"),
+                            title: "В данной ситуации, на желтом мигающем сигнале фонаря светофора:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4706e43765f988770829b4628dadba7c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водитель обязан остановиться у «Стоп» линии и подождать изменение сигнала",
@@ -4751,7 +4981,8 @@ final class Content {
             ),
             Qwestion(
                             number: 436,
-                            title: "В данной ситуации, запрещается или нет водителю синего легкового автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/4707a6a4e3cfb08d7c45df731402d416.jpg"),
+                            title: "В данной ситуации, запрещается или нет водителю синего легкового автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4707a6a4e3cfb08d7c45df731402d416.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -4760,7 +4991,8 @@ final class Content {
             ),
             Qwestion(
                             number: 440,
-                            title: "Имеет или нет, право водитель красного автомобиля заехать на железнодорожный переезд, если после переезда возникла пробка?", linkImage: Optional("http://teoria.on.ge/files/new/87ed725f1a517bd7573573e117b6ef26.jpg"),
+                            title: "Имеет или нет, право водитель красного автомобиля заехать на железнодорожный переезд, если после переезда возникла пробка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/87ed725f1a517bd7573573e117b6ef26.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -4799,7 +5031,8 @@ final class Content {
          name: "Информационно-указательные знаки",
             qwestions: [Qwestion(
                             number: 187,
-                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/c96a22ae3908cafe6db866a5b09eeaa9.jpg"),
+                            title: "Водитель, какого автомобиля нарушит правила дорожного движения в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c96a22ae3908cafe6db866a5b09eeaa9.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водитель белого автомобиля",
@@ -4809,7 +5042,8 @@ final class Content {
             ),
             Qwestion(
                             number: 189,
-                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/ddf225177abe90d6f86dcbf545656978.jpg"),
+                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ddf225177abe90d6f86dcbf545656978.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водитель легкового автомобиля",
@@ -4819,7 +5053,8 @@ final class Content {
             ),
             Qwestion(
                             number: 192,
-                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/25848bd82d96a62ca446fea8272c7c29.jpg"),
+                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения, в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/25848bd82d96a62ca446fea8272c7c29.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель грузового автомобиля",
@@ -4829,7 +5064,8 @@ final class Content {
             ),
             Qwestion(
                             number: 337,
-                            title: "Какое транспортное средство стоит с нарушением правил о стоянке?", linkImage: Optional("http://teoria.on.ge/files/new/b44e43f69122c803b039a3dd3b5bb90b.jpg"),
+                            title: "Какое транспортное средство стоит с нарушением правил о стоянке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b44e43f69122c803b039a3dd3b5bb90b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Мотоцикл",
@@ -4839,7 +5075,8 @@ final class Content {
             ),
             Qwestion(
                             number: 484,
-                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/c4bbd21f0d172457209a67fbd3430ad8.jpg"),
+                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c4bbd21f0d172457209a67fbd3430ad8.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю синего автомобиля",
@@ -4849,7 +5086,8 @@ final class Content {
             ),
             Qwestion(
                             number: 486,
-                            title: "Водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/c2c189778c213cdccbf3fcca103081c0.jpg"),
+                            title: "Водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c2c189778c213cdccbf3fcca103081c0.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только в направление А и С",
@@ -4859,7 +5097,8 @@ final class Content {
             ),
             Qwestion(
                             number: 488,
-                            title: "Водитель легкового транспорта имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/1250e21c4baee42d9c092bbd5f3b2b80.jpg"),
+                            title: "Водитель легкового транспорта имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1250e21c4baee42d9c092bbd5f3b2b80.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только прямо и направо",
@@ -4869,7 +5108,8 @@ final class Content {
             ),
             Qwestion(
                             number: 768,
-                            title: "Из данных дорожных знаков, какой обозначает автомагистраль, на которой действуют требования норм упорядующих движение на автомагистрали?", linkImage: Optional("http://teoria.on.ge/files/new/49cd09c5443e2c5afbf15db574703cdd.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает автомагистраль, на которой действуют требования норм упорядующих движение на автомагистрали?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/49cd09c5443e2c5afbf15db574703cdd.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только II.",
@@ -4879,7 +5119,8 @@ final class Content {
             ),
             Qwestion(
                             number: 770,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/0486c7fd8a2c8fcff7d57c2e0287bd5d.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0486c7fd8a2c8fcff7d57c2e0287bd5d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещенные направления на указанных полосах",
@@ -4889,7 +5130,8 @@ final class Content {
             ),
             Qwestion(
                             number: 771,
-                            title: "Из данных дорожных знаков, какой обозначает дорогу, которая предназначена только для движения автомобилем и мотоциклом?", linkImage: Optional("http://teoria.on.ge/files/new/abd6a7d028b30d7b5369f7545d943821.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает дорогу, которая предназначена только для движения автомобилем и мотоциклом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/abd6a7d028b30d7b5369f7545d943821.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -4899,7 +5141,8 @@ final class Content {
             ),
             Qwestion(
                             number: 774,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/920d1c0ba0bc03880ed773e6e6d73e6f.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/920d1c0ba0bc03880ed773e6e6d73e6f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Конец участка реверсивной дороги",
@@ -4909,7 +5152,8 @@ final class Content {
             ),
             Qwestion(
                             number: 776,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/1331dc060b7a97688162fff2ee2fe169.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1331dc060b7a97688162fff2ee2fe169.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Разрешенное направление движения по полосе",
@@ -4919,7 +5163,8 @@ final class Content {
             ),
             Qwestion(
                             number: 777,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/ee2f6df263ce36c598038d86177e7f98.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ee2f6df263ce36c598038d86177e7f98.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Завершение зоны ограничения стоянки",
@@ -4929,7 +5174,8 @@ final class Content {
             ),
             Qwestion(
                             number: 778,
-                            title: "Данные дорожные знаки:", linkImage: Optional("http://teoria.on.ge/files/new/d238c2fec0423d1b5a943caac514741b.jpg"),
+                            title: "Данные дорожные знаки:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d238c2fec0423d1b5a943caac514741b.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Указывают выход на дорогу с односторонним движением или проезжую часть",
@@ -4939,7 +5185,8 @@ final class Content {
             ),
             Qwestion(
                             number: 779,
-                            title: "Из данных дорожных знаков, какой обозначает начала отрезка дороги имеющее реверсивное движение?", linkImage: Optional("http://teoria.on.ge/files/new/c84199ab357f857fadc18f2c736f5030.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает начала отрезка дороги имеющее реверсивное движение?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c84199ab357f857fadc18f2c736f5030.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -4949,7 +5196,8 @@ final class Content {
             ),
             Qwestion(
                             number: 780,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/8432c64b54146c4df4df153f1bf89cdc.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8432c64b54146c4df4df153f1bf89cdc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Дорогу с двухсторонним движением",
@@ -4959,7 +5207,8 @@ final class Content {
             ),
             Qwestion(
                             number: 782,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/088b6c2277dc39ad59d0e9acf6a26e65.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/088b6c2277dc39ad59d0e9acf6a26e65.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Выезд на разгоночную полосу",
@@ -4969,7 +5218,8 @@ final class Content {
             ),
             Qwestion(
                             number: 784,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/d827adf3bce00215ed0c23c32e08724d.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d827adf3bce00215ed0c23c32e08724d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Завершение жилой зоны",
@@ -4979,7 +5229,8 @@ final class Content {
             ),
             Qwestion(
                             number: 785,
-                            title: "Из данных дорожных знаков, какой обозначает выезд на полосу дороги предназначенной для маршрутных транспортных средств?", linkImage: Optional("http://teoria.on.ge/files/new/f69ac7221f14c18d1e4c8d93117559c6.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает выезд на полосу дороги предназначенной для маршрутных транспортных средств?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f69ac7221f14c18d1e4c8d93117559c6.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -4989,7 +5240,8 @@ final class Content {
             ),
             Qwestion(
                             number: 787,
-                            title: "Действие дорожных знаков, стоящих на полосе движения распространяется:", linkImage: Optional("http://teoria.on.ge/files/new/ab09a818b4a1da3462b479d68d67d82e.jpg"),
+                            title: "Действие дорожных знаков, стоящих на полосе движения распространяется:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ab09a818b4a1da3462b479d68d67d82e.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только на полосу движения, на которой он стоит",
@@ -4998,7 +5250,8 @@ final class Content {
             ),
             Qwestion(
                             number: 789,
-                            title: "Данный дорожный знак указывает:", linkImage: Optional("http://teoria.on.ge/files/new/96a94ae2777014f501fc40877cd6170a.jpg"),
+                            title: "Данный дорожный знак указывает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/96a94ae2777014f501fc40877cd6170a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только на количество полос движения",
@@ -5008,7 +5261,8 @@ final class Content {
             ),
             Qwestion(
                             number: 790,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/4b41fa5af6c55cf24a09d282f427f777.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4b41fa5af6c55cf24a09d282f427f777.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Опасную обочину",
@@ -5018,7 +5272,8 @@ final class Content {
             ),
             Qwestion(
                             number: 792,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/915b07493147c8dd5715846dd389f43b.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/915b07493147c8dd5715846dd389f43b.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Завершение жилой зоны",
@@ -5028,7 +5283,8 @@ final class Content {
             ),
             Qwestion(
                             number: 794,
-                            title: "Из данных дорожных знаков, какой обозначает завершение того населенного пункта, в котором не действуют правила установленные  для движения в населенном пункте?", linkImage: Optional("http://teoria.on.ge/files/new/eac6b507c3bb612b42221c183267cc9a.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает завершение того населенного пункта, в котором не действуют правила установленные  для движения в населенном пункте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/eac6b507c3bb612b42221c183267cc9a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5038,7 +5294,8 @@ final class Content {
             ),
             Qwestion(
                             number: 796,
-                            title: "Из данных дорожных знаков, какой обозначает территорию, в рамках которой регламентирована стоянка?", linkImage: Optional("http://teoria.on.ge/files/new/81f45d82711773d2dff4ec46aceabdc4.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает территорию, в рамках которой регламентирована стоянка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/81f45d82711773d2dff4ec46aceabdc4.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только II и IV",
@@ -5048,7 +5305,8 @@ final class Content {
             ),
             Qwestion(
                             number: 798,
-                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b062e295f859ab0c5db9a13d67392ac8.jpg"),
+                            title: "В данной ситуации, водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b062e295f859ab0c5db9a13d67392ac8.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водителю легкового автомобиля",
@@ -5058,7 +5316,8 @@ final class Content {
             ),
             Qwestion(
                             number: 799,
-                            title: "В данной ситуации, водителю, какого автомобиля не запрещается выполнить маневр разворота по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/4a23c8167d89cdc658651a276a88d8dc.jpg"),
+                            title: "В данной ситуации, водителю, какого автомобиля не запрещается выполнить маневр разворота по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4a23c8167d89cdc658651a276a88d8dc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Ни одному",
@@ -5068,7 +5327,8 @@ final class Content {
             ),
             Qwestion(
                             number: 800,
-                            title: "Какой из водителей транспортных средств, движущий по направлению стрелки нарушает правила дорожного движения?", linkImage: Optional("http://teoria.on.ge/files/new/a90ac50aad4ce8f7773826aa21c5154c.jpg"),
+                            title: "Какой из водителей транспортных средств, движущий по направлению стрелки нарушает правила дорожного движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a90ac50aad4ce8f7773826aa21c5154c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водитель мотоцикла",
@@ -5088,7 +5348,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1234,
-                            title: "С данных дорожных   знаков, какой указывает о существовании полосы аварийной остановки на крутом спуске?", linkImage: Optional("http://teoria.on.ge/files/new/5d537ede597004ed4968082ebe81d089.jpg"),
+                            title: "С данных дорожных   знаков, какой указывает о существовании полосы аварийной остановки на крутом спуске?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5d537ede597004ed4968082ebe81d089.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5098,7 +5359,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1236,
-                            title: "С данных дорожных знаков, кокой указывает на длину зоны поворота?", linkImage: Optional("http://teoria.on.ge/files/new/5ec1aae5e90b1dfb49ac689be2e3a08b.jpg"),
+                            title: "С данных дорожных знаков, кокой указывает на длину зоны поворота?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5ec1aae5e90b1dfb49ac689be2e3a08b.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -5108,7 +5370,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1238,
-                            title: "С данных дорожных знаков в зоне действия, которого разрешен разворот?", linkImage: Optional("http://teoria.on.ge/files/new/bb16a46f9c312e92f878c4f932b34ed3.jpg"),
+                            title: "С данных дорожных знаков в зоне действия, которого разрешен разворот?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bb16a46f9c312e92f878c4f932b34ed3.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Ни одного",
@@ -5118,7 +5381,8 @@ final class Content {
          name: "Скорость движения",
             qwestions: [Qwestion(
                             number: 224,
-                            title: "На какой скорости могут продолжить движение водитель автомобиля категории «В» в населенном пункте, в зоне действия данного дорожного знака?", linkImage: Optional("http://teoria.on.ge/files/new/9c9be8b9cefc6398b077d5bed2df4079.jpg"),
+                            title: "На какой скорости могут продолжить движение водитель автомобиля категории «В» в населенном пункте, в зоне действия данного дорожного знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9c9be8b9cefc6398b077d5bed2df4079.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Не более 40 км/ч",
@@ -5128,7 +5392,8 @@ final class Content {
             ),
             Qwestion(
                             number: 225,
-                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если все транспортные средства двигаются на скорости 100 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/f64456ee63938ad7dd7246b6e6da90a5.jpg"),
+                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если все транспортные средства двигаются на скорости 100 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f64456ee63938ad7dd7246b6e6da90a5.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель грузового автомобиля",
@@ -5138,7 +5403,8 @@ final class Content {
             ),
             Qwestion(
                             number: 226,
-                            title: "На какой максимальной скорости имеет право передвигаться водитель автомобиля категории «В» на этом участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/d6655adec1787d3a0ad8b67b4829c0a9.jpg"),
+                            title: "На какой максимальной скорости имеет право передвигаться водитель автомобиля категории «В» на этом участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d6655adec1787d3a0ad8b67b4829c0a9.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Скоростью 60 км/ч",
@@ -5148,7 +5414,8 @@ final class Content {
             ),
             Qwestion(
                             number: 228,
-                            title: "В ненаселенном пункте, в зоне действия данного дорожного знака водитель автомобиля категории «В» имеет право двигаться скоростью не более:", linkImage: Optional("http://teoria.on.ge/files/new/a82c6bbf32559f5aa9ea4412cec6f820.jpg"),
+                            title: "В ненаселенном пункте, в зоне действия данного дорожного знака водитель автомобиля категории «В» имеет право двигаться скоростью не более:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a82c6bbf32559f5aa9ea4412cec6f820.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Скоростью 60 км/ч",
@@ -5158,7 +5425,8 @@ final class Content {
             ),
             Qwestion(
                             number: 229,
-                            title: "С какой максимальной скоростью может продолжить движение водитель автомобиля с легким прицепом категории «В» после знака указывающего окончание населенного пункта?", linkImage: Optional("http://teoria.on.ge/files/new/88b06e5d1e6b2e95e2bdc1459d08effd.jpg"),
+                            title: "С какой максимальной скоростью может продолжить движение водитель автомобиля с легким прицепом категории «В» после знака указывающего окончание населенного пункта?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/88b06e5d1e6b2e95e2bdc1459d08effd.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "50 км/ч",
@@ -5168,7 +5436,8 @@ final class Content {
             ),
             Qwestion(
                             number: 231,
-                            title: "Какой максимальной скоростью имеет право двигаться водитель автомобиля категории «В1» в ненаселенном пункте, на данном участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/9485d48ccce657d345dbd1ae957ecd1d.jpg"),
+                            title: "Какой максимальной скоростью имеет право двигаться водитель автомобиля категории «В1» в ненаселенном пункте, на данном участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9485d48ccce657d345dbd1ae957ecd1d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Скоростью 60 км/ч",
@@ -5178,7 +5447,8 @@ final class Content {
             ),
             Qwestion(
                             number: 232,
-                            title: "Какой максимальной скоростью имеет право двигаться водитель прицепной автомобили категории «ВЕ» в ненаселенном пункте на этом участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/9cb58ed6d9ac9f16f6a4aa9a65a974ed.jpg"),
+                            title: "Какой максимальной скоростью имеет право двигаться водитель прицепной автомобили категории «ВЕ» в ненаселенном пункте на этом участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9cb58ed6d9ac9f16f6a4aa9a65a974ed.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "60 км/ч",
@@ -5188,7 +5458,8 @@ final class Content {
             ),
             Qwestion(
                             number: 233,
-                            title: "С какой максимальной скоростью имеет право двигаться водитель автомобиля категории «ВЕ» на автомагистрале?", linkImage: Optional("http://teoria.on.ge/files/new/108e31829a5cb07e87361e2f6f29cbb1.jpg"),
+                            title: "С какой максимальной скоростью имеет право двигаться водитель автомобиля категории «ВЕ» на автомагистрале?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/108e31829a5cb07e87361e2f6f29cbb1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "60 км/ч",
@@ -5198,7 +5469,8 @@ final class Content {
             ),
             Qwestion(
                             number: 235,
-                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если все транспортные средства двигаются скоростью 100 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/948c27853de87c681b84a770ba2ea884.jpg"),
+                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если все транспортные средства двигаются скоростью 100 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/948c27853de87c681b84a770ba2ea884.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель легкового автомобиля",
@@ -5208,7 +5480,8 @@ final class Content {
             ),
             Qwestion(
                             number: 248,
-                            title: "Какой максимальной скоростью имеет право продолжить движение водитель буксирующего автомобиля категории  «В» в населенном пункте на этом участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/76b15a1a64511314be598ab4a307025d.jpg"),
+                            title: "Какой максимальной скоростью имеет право продолжить движение водитель буксирующего автомобиля категории  «В» в населенном пункте на этом участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/76b15a1a64511314be598ab4a307025d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Скоростью 50 км/ч",
@@ -5218,7 +5491,8 @@ final class Content {
             ),
             Qwestion(
                             number: 250,
-                            title: "Какой максимальной скоростью имеет право двигаться  водитель автомобиля категории  «В» в ненаселенном пункте на указанном участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/b8da133f8754727fd7a9d38b18f19319.jpg"),
+                            title: "Какой максимальной скоростью имеет право двигаться  водитель автомобиля категории  «В» в ненаселенном пункте на указанном участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b8da133f8754727fd7a9d38b18f19319.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Скоростью 50 км/ч",
@@ -5238,7 +5512,8 @@ final class Content {
             ),
             Qwestion(
                             number: 257,
-                            title: "В зоне действия данного дорожного знака движение транспортного средства категории «В» без прицепа разрешено не более:", linkImage: Optional("http://teoria.on.ge/files/new/bf84a24dab861f0c98e5a73b3f0610d2.jpg"),
+                            title: "В зоне действия данного дорожного знака движение транспортного средства категории «В» без прицепа разрешено не более:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bf84a24dab861f0c98e5a73b3f0610d2.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Скоростью 110 км/ч",
@@ -5248,7 +5523,8 @@ final class Content {
             ),
             Qwestion(
                             number: 307,
-                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если они двигаются, скоростью 90 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/15ee5250ad2bf48edc943954d9628447.jpg"),
+                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если они двигаются, скоростью 90 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/15ee5250ad2bf48edc943954d9628447.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель квдроцикла.",
@@ -5268,7 +5544,8 @@ final class Content {
             ),
             Qwestion(
                             number: 540,
-                            title: "С какой  максимальной скоростью может продолжить движение водитель грузового автомобиля, если буксировка осуществляется жесткой цепкой?", linkImage: Optional("http://teoria.on.ge/files/new/eb647cae3fe57dd43b5a0dc309dbeac5.jpg"),
+                            title: "С какой  максимальной скоростью может продолжить движение водитель грузового автомобиля, если буксировка осуществляется жесткой цепкой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/eb647cae3fe57dd43b5a0dc309dbeac5.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "На скорости 50 км/ч",
@@ -5288,7 +5565,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1158,
-                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае движения в направлении стрелки со скоростью 90 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/246ea8a4f2c82985a6c5319b0655f914.jpg"),
+                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае движения в направлении стрелки со скоростью 90 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/246ea8a4f2c82985a6c5319b0655f914.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -5297,7 +5575,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1271,
-                            title: "С какой максимальной скоростью имеет право водитель автомобиля категории “В” продолжить движение в зоне действиий дорожного знака?", linkImage: Optional("http://teoria.on.ge/files/new/5c6e08619abea928de545364b9e17381.jpg"),
+                            title: "С какой максимальной скоростью имеет право водитель автомобиля категории “В” продолжить движение в зоне действиий дорожного знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5c6e08619abea928de545364b9e17381.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Скоростью 60 км/ч",
@@ -5307,7 +5586,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1273,
-                            title: "На какой максимальной скорости может продолжить движение водитель автомобиля категории «В» на полосе, отмеченной дорожным знаком?", linkImage: Optional("http://teoria.on.ge/files/new/39e8433138cfdecd29f390a67db89236.jpg"),
+                            title: "На какой максимальной скорости может продолжить движение водитель автомобиля категории «В» на полосе, отмеченной дорожным знаком?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/39e8433138cfdecd29f390a67db89236.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Скоростью не более 50 км/ч",
@@ -5322,7 +5602,8 @@ final class Content {
          name: "Запрещающие знаки",
             qwestions: [Qwestion(
                             number: 254,
-                            title: "В зоне действия данного дорожного знака движение транспортным средством категории АМ разрешено не более:", linkImage: Optional("http://teoria.on.ge/files/new/116063828e9b734620a55bd4d0eae81d.jpg"),
+                            title: "В зоне действия данного дорожного знака движение транспортным средством категории АМ разрешено не более:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/116063828e9b734620a55bd4d0eae81d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Со скоростью 20 км/ч",
@@ -5332,7 +5613,8 @@ final class Content {
             ),
             Qwestion(
                             number: 255,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/b89eaaeced09a1f551959900e08101ba.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b89eaaeced09a1f551959900e08101ba.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещает движение с большей скоростью, чем указанно на знаке",
@@ -5342,7 +5624,8 @@ final class Content {
             ),
             Qwestion(
                             number: 353,
-                            title: "Имеет ли право водитель на картине указанном месте, остановить автомобиль на автостоянке в четные дни с 19ᵒᵒ часов  до 21ᵒᵒ часов?", linkImage: Optional("http://teoria.on.ge/files/new/d4f1011e3e0f3e3304ce0b60ed8a7bae.jpg"),
+                            title: "Имеет ли право водитель на картине указанном месте, остановить автомобиль на автостоянке в четные дни с 19ᵒᵒ часов  до 21ᵒᵒ часов?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d4f1011e3e0f3e3304ce0b60ed8a7bae.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -5351,7 +5634,8 @@ final class Content {
             ),
             Qwestion(
                             number: 545,
-                            title: "В данной ситуации водителю, какого автомобиля не запрещается движение по направлению стрелки, если у грузового автомобиля фактическая масса 7т.?", linkImage: Optional("http://teoria.on.ge/files/new/d1d327fc6eae302be11251328f5b6cc3.jpg"),
+                            title: "В данной ситуации водителю, какого автомобиля не запрещается движение по направлению стрелки, если у грузового автомобиля фактическая масса 7т.?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d1d327fc6eae302be11251328f5b6cc3.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водителю грузового автомобиля",
@@ -5361,7 +5645,8 @@ final class Content {
             ),
             Qwestion(
                             number: 673,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/997c21b93d60b3212b9d0269deaa0c3d.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/997c21b93d60b3212b9d0269deaa0c3d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещает водителю продолжение движения без остановки",
@@ -5371,7 +5656,8 @@ final class Content {
             ),
             Qwestion(
                             number: 675,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/5fb685b821e8710fc6d349679d90e14c.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5fb685b821e8710fc6d349679d90e14c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Запрещает водителю продолжение движения без остановки",
@@ -5381,7 +5667,8 @@ final class Content {
             ),
             Qwestion(
                             number: 677,
-                            title: "Из данных дорожных знаков, который запрещает в зоне своего действия движение механическими транспортными средствами всех видов?", linkImage: Optional("http://teoria.on.ge/files/new/778a6c3e83863334df47d4fd61357124.jpg"),
+                            title: "Из данных дорожных знаков, который запрещает в зоне своего действия движение механическими транспортными средствами всех видов?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/778a6c3e83863334df47d4fd61357124.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и III",
@@ -5391,7 +5678,8 @@ final class Content {
             ),
             Qwestion(
                             number: 679,
-                            title: "Из данных дорожных знаков, в зоне действия которых запрещается движение мотоциклами всех видов?", linkImage: Optional("http://teoria.on.ge/files/new/d9368e5c26e97cee22447dd902f47a40.jpg"),
+                            title: "Из данных дорожных знаков, в зоне действия которых запрещается движение мотоциклами всех видов?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d9368e5c26e97cee22447dd902f47a40.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и IV",
@@ -5401,7 +5689,8 @@ final class Content {
             ),
             Qwestion(
                             number: 681,
-                            title: "Из данных дорожных знаков, в зоне действия которых запрещается движение трактором и самоходной машины?", linkImage: Optional("http://teoria.on.ge/files/new/1e95525a94783ba48f5d1824d6ad3469.jpg"),
+                            title: "Из данных дорожных знаков, в зоне действия которых запрещается движение трактором и самоходной машины?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1e95525a94783ba48f5d1824d6ad3469.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только I и III",
@@ -5411,7 +5700,8 @@ final class Content {
             ),
             Qwestion(
                             number: 683,
-                            title: "Из данных дорожных знаков, какой запрещает движение всем видам грузового автомобиля с прицепом и трактора с прицепом, также буксировка механических транспортных средств?", linkImage: Optional("http://teoria.on.ge/files/new/ada6530c6d442d10c457e6adb6610857.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение всем видам грузового автомобиля с прицепом и трактора с прицепом, также буксировка механических транспортных средств?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ada6530c6d442d10c457e6adb6610857.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5421,7 +5711,8 @@ final class Content {
             ),
             Qwestion(
                             number: 685,
-                            title: "Из данных дорожных знаков, в зоне действия которого запрещается движение трактора с прицепом?", linkImage: Optional("http://teoria.on.ge/files/new/63d8aee2855625c493d0c1a0802e6e2c.jpg"),
+                            title: "Из данных дорожных знаков, в зоне действия которого запрещается движение трактора с прицепом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/63d8aee2855625c493d0c1a0802e6e2c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I и III",
@@ -5431,7 +5722,8 @@ final class Content {
             ),
             Qwestion(
                             number: 687,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/b288f5e262250f34f36be062a772b8e5.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b288f5e262250f34f36be062a772b8e5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Обозначает участок дороги, который выходит к стойбищу скота  (животных), где  вероятно их появление на проезжую часть",
@@ -5441,7 +5733,8 @@ final class Content {
             ),
             Qwestion(
                             number: 689,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/156940c6871e05bc08e953968e8c8a0f.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/156940c6871e05bc08e953968e8c8a0f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещает движение всех типов мотоцикла",
@@ -5451,7 +5744,8 @@ final class Content {
             ),
             Qwestion(
                             number: 691,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/a3009e7f87fbef70ddf727811abbe441.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a3009e7f87fbef70ddf727811abbe441.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Предупреждает о возможном появлении детей на дороге",
@@ -5461,7 +5755,8 @@ final class Content {
             ),
             Qwestion(
                             number: 696,
-                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, габаритная высота (с грузом или без груза) которых превышает отмеченной на знаке?", linkImage: Optional("http://teoria.on.ge/files/new/2399fdf6b5cf309811088556d52d153f.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, габаритная высота (с грузом или без груза) которых превышает отмеченной на знаке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2399fdf6b5cf309811088556d52d153f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5471,7 +5766,8 @@ final class Content {
             ),
             Qwestion(
                             number: 697,
-                            title: "Данный дорожный знак запрещает:", linkImage: Optional("http://teoria.on.ge/files/new/9a77f1a8007fe07b7bcb69c242f9453a.jpg"),
+                            title: "Данный дорожный знак запрещает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9a77f1a8007fe07b7bcb69c242f9453a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Движение того транспортного средства, габаритная ширина которого превышает отмеченной на знаке",
@@ -5481,7 +5777,8 @@ final class Content {
             ),
             Qwestion(
                             number: 698,
-                            title: "Из данных дорожных знаков, какой запрещает движение транспортного средства, габаритная ширина (с грузом или без груза) которого превышает отмеченной на знаке?", linkImage: Optional("http://teoria.on.ge/files/new/53a71108eea78c567df217174e11b8e1.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение транспортного средства, габаритная ширина (с грузом или без груза) которого превышает отмеченной на знаке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/53a71108eea78c567df217174e11b8e1.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5491,7 +5788,8 @@ final class Content {
             ),
             Qwestion(
                             number: 699,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/d0cf2e6c453913d1a96e19f253b783e8.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d0cf2e6c453913d1a96e19f253b783e8.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещает движение тех транспортных средств, габаритная высота (с грузом или без груза) которых превышает отмеченной на знаке",
@@ -5501,7 +5799,8 @@ final class Content {
             ),
             Qwestion(
                             number: 706,
-                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, у таможенно - пропускного пункта (зона таможенного контроля у таможенной границы Грузии) без остановки?", linkImage: Optional("http://teoria.on.ge/files/new/2ee7be6f3e10931fd737d348131b641c.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, у таможенно - пропускного пункта (зона таможенного контроля у таможенной границы Грузии) без остановки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2ee7be6f3e10931fd737d348131b641c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5511,7 +5810,8 @@ final class Content {
             ),
             Qwestion(
                             number: 708,
-                            title: "Из данных дорожных знаков, какой запрещает дальнейшее движение всех транспортных средств, из-за дорожно - транспортного происшествия или из-за другой опасности?", linkImage: Optional("http://teoria.on.ge/files/new/bda671f2c48193e8bd88668d28cedba1.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает дальнейшее движение всех транспортных средств, из-за дорожно - транспортного происшествия или из-за другой опасности?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bda671f2c48193e8bd88668d28cedba1.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5521,7 +5821,8 @@ final class Content {
             ),
             Qwestion(
                             number: 710,
-                            title: "Из данных дорожных знаков. какой запрещает проезжать контрольный пункт (около полицейского или карантинного поста, около пограничной или закрытой зоны, у выездов на платную дорогу и т.д.) без остановки?", linkImage: Optional("http://teoria.on.ge/files/new/74988a5bdfdca0fe129dc7c2ffa2482e.jpg"),
+                            title: "Из данных дорожных знаков. какой запрещает проезжать контрольный пункт (около полицейского или карантинного поста, около пограничной или закрытой зоны, у выездов на платную дорогу и т.д.) без остановки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/74988a5bdfdca0fe129dc7c2ffa2482e.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5531,7 +5832,8 @@ final class Content {
             ),
             Qwestion(
                             number: 712,
-                            title: "Из данных дорожных знаков, какой запрещает поворот направо на ближайшем пересечении проезжих дорог?", linkImage: Optional("http://teoria.on.ge/files/new/f5d6d94400738d1a5ad707628846950c.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает поворот направо на ближайшем пересечении проезжих дорог?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f5d6d94400738d1a5ad707628846950c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5541,7 +5843,8 @@ final class Content {
             ),
             Qwestion(
                             number: 714,
-                            title: "Из данных дорожных знаков, какой запрещает поворот налево на ближайшем пересечении проезжих дорог?", linkImage: Optional("http://teoria.on.ge/files/new/5fa6d84ad367f6f9bd80ed39d7a0babf.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает поворот налево на ближайшем пересечении проезжих дорог?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5fa6d84ad367f6f9bd80ed39d7a0babf.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5551,7 +5854,8 @@ final class Content {
             ),
             Qwestion(
                             number: 716,
-                            title: "Из данных дорожных знаков, какой запрещает разворот на ближайшем пересечении проезжих частей?", linkImage: Optional("http://teoria.on.ge/files/new/d2419ab6f0cecbe07a69a50f9a27b5a9.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает разворот на ближайшем пересечении проезжих частей?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d2419ab6f0cecbe07a69a50f9a27b5a9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5561,7 +5865,8 @@ final class Content {
             ),
             Qwestion(
                             number: 718,
-                            title: "Из данных дорожных знаков, какой запрещает обгон любого транспортного средства (кроме движущего скоростью менее 30км/ч)?", linkImage: Optional("http://teoria.on.ge/files/new/c7daad6ec169b4bb4944935614537b7f.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает обгон любого транспортного средства (кроме движущего скоростью менее 30км/ч)?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c7daad6ec169b4bb4944935614537b7f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5571,7 +5876,8 @@ final class Content {
             ),
             Qwestion(
                             number: 722,
-                            title: "С указанных дорожных знаков, какой запрещает движение на большей скорости (км/ч), указанной на знаке?", linkImage: Optional("http://teoria.on.ge/files/new/cf8cd8c04e50066de93946e2bac309fd.jpg"),
+                            title: "С указанных дорожных знаков, какой запрещает движение на большей скорости (км/ч), указанной на знаке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cf8cd8c04e50066de93946e2bac309fd.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -5581,7 +5887,8 @@ final class Content {
             ),
             Qwestion(
                             number: 724,
-                            title: "С указных дорожных знаков, какой запрещает пользоваться голосовым сигналом, кроме того случая, когда сигнал используется для предотвращения дорожно-транспортного происшествия?", linkImage: Optional("http://teoria.on.ge/files/new/37165e1e488e04bb654c3b789860d6e9.jpg"),
+                            title: "С указных дорожных знаков, какой запрещает пользоваться голосовым сигналом, кроме того случая, когда сигнал используется для предотвращения дорожно-транспортного происшествия?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/37165e1e488e04bb654c3b789860d6e9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5591,7 +5898,8 @@ final class Content {
             ),
             Qwestion(
                             number: 726,
-                            title: "Из данных дорожных знаков, какой обозначает завершение зоны действия знака 3.20 «Обгон запрещен»?", linkImage: Optional("http://teoria.on.ge/files/new/0ad896f8d6a97091a66b7fa79e9f1810.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает завершение зоны действия знака 3.20 «Обгон запрещен»?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0ad896f8d6a97091a66b7fa79e9f1810.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5601,7 +5909,8 @@ final class Content {
             ),
             Qwestion(
                             number: 731,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/b6ec3d39c1d402e9a51966ac735c2da6.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b6ec3d39c1d402e9a51966ac735c2da6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Запрещает движение на большей скорости (км/ч) указанного на знаке",
@@ -5611,7 +5920,8 @@ final class Content {
             ),
             Qwestion(
                             number: 732,
-                            title: "Из данных дорожных знаков, какой запрещает  остановку или стоянку транспортных средств?", linkImage: Optional("http://teoria.on.ge/files/new/11e983bd92bfcddf9713a602d13d83d4.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает  остановку или стоянку транспортных средств?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/11e983bd92bfcddf9713a602d13d83d4.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5621,7 +5931,8 @@ final class Content {
             ),
             Qwestion(
                             number: 735,
-                            title: "Данный дорожный знак запрещает:", linkImage: Optional("http://teoria.on.ge/files/new/42e00f8430d5fef8d59f0350ab60911c.jpg"),
+                            title: "Данный дорожный знак запрещает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/42e00f8430d5fef8d59f0350ab60911c.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Как стоянку, так и остановку транспортного средства",
@@ -5631,7 +5942,8 @@ final class Content {
             ),
             Qwestion(
                             number: 737,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/354a0b79263e50882150cf577e8468a9.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/354a0b79263e50882150cf577e8468a9.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Указывает об отсутствии осевой линии на проезжей части",
@@ -5641,7 +5953,8 @@ final class Content {
             ),
             Qwestion(
                             number: 738,
-                            title: "С указанных дорожных знаков, какой запрещает стоянку транспортных средств в четных числах месяца?", linkImage: Optional("http://teoria.on.ge/files/new/331232ad8205c217ccfb72b608ae70dc.jpg"),
+                            title: "С указанных дорожных знаков, какой запрещает стоянку транспортных средств в четных числах месяца?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/331232ad8205c217ccfb72b608ae70dc.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -5651,7 +5964,8 @@ final class Content {
             ),
             Qwestion(
                             number: 740,
-                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, которые осуществляют перевозку того опасного груза, который согласно законодательству должен быть отмечен соответствующим опознавательным знаком?", linkImage: Optional("http://teoria.on.ge/files/new/a52e16dc846b2503b1f2bdb8ea81bfd4.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, которые осуществляют перевозку того опасного груза, который согласно законодательству должен быть отмечен соответствующим опознавательным знаком?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a52e16dc846b2503b1f2bdb8ea81bfd4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5661,7 +5975,8 @@ final class Content {
             ),
             Qwestion(
                             number: 742,
-                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, которые осуществляют перевозку взрывчатых и быстровоспламеняемых грузов, который согласно действующему законодательству должен быть отмечен соответствующим опознавательным знаком?", linkImage: Optional("http://teoria.on.ge/files/new/c30382bfe9ad32dc32b02b481dcb965f.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает движение транспортных средств, которые осуществляют перевозку взрывчатых и быстровоспламеняемых грузов, который согласно действующему законодательству должен быть отмечен соответствующим опознавательным знаком?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c30382bfe9ad32dc32b02b481dcb965f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -5671,7 +5986,8 @@ final class Content {
             ),
             Qwestion(
                             number: 745,
-                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?", linkImage: Optional("http://teoria.on.ge/files/new/3a81e4d06fc12730f6d9b773f0aa54a5.jpg"),
+                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3a81e4d06fc12730f6d9b773f0aa54a5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только II",
@@ -5681,7 +5997,8 @@ final class Content {
             ),
             Qwestion(
                             number: 746,
-                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутных транспортных средствах?", linkImage: Optional("http://teoria.on.ge/files/new/01cc317aeb333de7cfbc5924f8c762a0.jpg"),
+                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутных транспортных средствах?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/01cc317aeb333de7cfbc5924f8c762a0.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только II",
@@ -5691,7 +6008,8 @@ final class Content {
             ),
             Qwestion(
                             number: 749,
-                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?", linkImage: Optional("http://teoria.on.ge/files/new/8ac9039785686e492077d23aa9adbe6f.jpg"),
+                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8ac9039785686e492077d23aa9adbe6f.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только I и III",
@@ -5701,7 +6019,8 @@ final class Content {
             ),
             Qwestion(
                             number: 750,
-                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?", linkImage: Optional("http://teoria.on.ge/files/new/131cacd40892f1d27dc27b4ee94ba105.jpg"),
+                            title: "Из данных дорожных знаков действие, которого не распространяется на маршрутные транспортные средства?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/131cacd40892f1d27dc27b4ee94ba105.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только I, II  и IV",
@@ -5711,7 +6030,8 @@ final class Content {
             ),
             Qwestion(
                             number: 751,
-                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортные средства, которые  обслуживают предприятие находящегося в зоне действия знака?", linkImage: Optional("http://teoria.on.ge/files/new/191e5b2e3f96387c1411ad9a647769cd.jpg"),
+                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортные средства, которые  обслуживают предприятие находящегося в зоне действия знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/191e5b2e3f96387c1411ad9a647769cd.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только I и II",
@@ -5721,7 +6041,8 @@ final class Content {
             ),
             Qwestion(
                             number: 752,
-                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортные средства, которые  обслуживают предприятие находящегося в зоне действия знака?", linkImage: Optional("http://teoria.on.ge/files/new/a276b374bc897fc314988119fdd28ce7.jpg"),
+                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортные средства, которые  обслуживают предприятие находящегося в зоне действия знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a276b374bc897fc314988119fdd28ce7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I,  II и III",
@@ -5731,7 +6052,8 @@ final class Content {
             ),
             Qwestion(
                             number: 754,
-                            title: "Из данных дорожных знаков, действие, которого не распространяется на транспортное средство, которое служит или принадлежит лицу проживающему или работающему в зоне действия знака?", linkImage: Optional("http://teoria.on.ge/files/new/5a26b9e41a1d29030e3c4be064014a93.jpg"),
+                            title: "Из данных дорожных знаков, действие, которого не распространяется на транспортное средство, которое служит или принадлежит лицу проживающему или работающему в зоне действия знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5a26b9e41a1d29030e3c4be064014a93.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только I и  II",
@@ -5741,7 +6063,8 @@ final class Content {
             ),
             Qwestion(
                             number: 756,
-                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортное средство, которое служит или принадлежит лицу проживающему или работающему в зоне действия знака?", linkImage: Optional("http://teoria.on.ge/files/new/df9c1a0ea55c9c55e583307d3f476d90.jpg"),
+                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортное средство, которое служит или принадлежит лицу проживающему или работающему в зоне действия знака?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/df9c1a0ea55c9c55e583307d3f476d90.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только I  и II",
@@ -5751,7 +6074,8 @@ final class Content {
             ),
             Qwestion(
                             number: 758,
-                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортное средство, которым управляет лицо имеющее статус со значительно или явно выраженными ограниченными возможностями или на транспорте, который перевозит отмеченных лиц?", linkImage: Optional("http://teoria.on.ge/files/new/e6bede6db418750862e935841d3c2395.jpg"),
+                            title: "Из данных дорожных знаков, действие какого не распространяется на транспортное средство, которым управляет лицо имеющее статус со значительно или явно выраженными ограниченными возможностями или на транспорте, который перевозит отмеченных лиц?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e6bede6db418750862e935841d3c2395.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только I, III  и IV",
@@ -5761,7 +6085,8 @@ final class Content {
             ),
             Qwestion(
                             number: 760,
-                            title: "Из данных дорожных знаков, действие, которого распространяется на том пересечении проезжей части, перед которым поставлен знак?", linkImage: Optional("http://teoria.on.ge/files/new/b59edf3a9a51149602816f106801cc3d.jpg"),
+                            title: "Из данных дорожных знаков, действие, которого распространяется на том пересечении проезжей части, перед которым поставлен знак?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b59edf3a9a51149602816f106801cc3d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I, III  и IV",
@@ -5771,7 +6096,8 @@ final class Content {
             ),
             Qwestion(
                             number: 762,
-                            title: "Из данных дорожных знаков, действие, которого распространяется на том пересечении проезжей части, перед которым поставлен знак?", linkImage: Optional("http://teoria.on.ge/files/new/bd05dced43b932312735857d7337dd14.jpg"),
+                            title: "Из данных дорожных знаков, действие, которого распространяется на том пересечении проезжей части, перед которым поставлен знак?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bd05dced43b932312735857d7337dd14.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I",
@@ -5781,7 +6107,8 @@ final class Content {
             ),
             Qwestion(
                             number: 764,
-                            title: "Действие данных дорожных знаков распространяется:", linkImage: Optional("http://teoria.on.ge/files/new/7a5696a157dcb418d1777b92d73aaeeb.jpg"),
+                            title: "Действие данных дорожных знаков распространяется:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7a5696a157dcb418d1777b92d73aaeeb.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "На той стороне дороги, на которой поставлены они",
@@ -5790,7 +6117,8 @@ final class Content {
             ),
             Qwestion(
                             number: 766,
-                            title: "Из данных дорожных знаков действие, которого распространяется с места установки знака до ближайшего перекрестка находящегося после него, а в населенном пункте, если нет перекрестка – до конца населенного пункта?", linkImage: Optional("http://teoria.on.ge/files/new/a84a572ef05fe203eba63c29b512c56a.jpg"),
+                            title: "Из данных дорожных знаков действие, которого распространяется с места установки знака до ближайшего перекрестка находящегося после него, а в населенном пункте, если нет перекрестка – до конца населенного пункта?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a84a572ef05fe203eba63c29b512c56a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I",
@@ -5800,7 +6128,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1102,
-                            title: "Нарушит или нет, водитель черного автомобиля правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/9c0acbea87795c6d4b712c62bd04f4b7.jpg"),
+                            title: "Нарушит или нет, водитель черного автомобиля правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9c0acbea87795c6d4b712c62bd04f4b7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нарушит",
@@ -5809,7 +6138,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1262,
-                            title: "В данной ситуации, водителю запрещается или нет, стоянка автомобиля на месте указанной стрелкой?", linkImage: Optional("http://teoria.on.ge/files/new/2d3b62024fd326917b4573c68383de51.jpg"),
+                            title: "В данной ситуации, водителю запрещается или нет, стоянка автомобиля на месте указанной стрелкой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2d3b62024fd326917b4573c68383de51.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -5818,7 +6148,8 @@ final class Content {
          name: "Предупреждающие знаки",
             qwestions: [Qwestion(
                             number: 256,
-                            title: "Из комбинации данных дорожных знаков, который будет установлен в ненаселенном пункте, на расстоянии 150-300 метров до железнодорожного переезда без шлагбаума, на левой стороне дороги?", linkImage: Optional("http://teoria.on.ge/files/new/708783337df3a92bb3096daa8bd9a52a.jpg"),
+                            title: "Из комбинации данных дорожных знаков, который будет установлен в ненаселенном пункте, на расстоянии 150-300 метров до железнодорожного переезда без шлагбаума, на левой стороне дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/708783337df3a92bb3096daa8bd9a52a.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -5828,7 +6159,8 @@ final class Content {
             ),
             Qwestion(
                             number: 497,
-                            title: "С данных опознавательных знаков, какой «Знак аварийной остановки»?", linkImage: Optional("http://teoria.on.ge/files/new/4ea43fbe99569246c327d5382bbb4339.jpg"),
+                            title: "С данных опознавательных знаков, какой «Знак аварийной остановки»?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4ea43fbe99569246c327d5382bbb4339.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5838,7 +6170,8 @@ final class Content {
             ),
             Qwestion(
                             number: 601,
-                            title: "Из данных дорожных знаков, которые предупреждают о приближении к железнодорожному переезду со шлагбаумом?", linkImage: Optional("http://teoria.on.ge/files/new/cff2be81e46665bb2fb0c9d1eea35e76.jpg"),
+                            title: "Из данных дорожных знаков, которые предупреждают о приближении к железнодорожному переезду со шлагбаумом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cff2be81e46665bb2fb0c9d1eea35e76.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5848,7 +6181,8 @@ final class Content {
             ),
             Qwestion(
                             number: 602,
-                            title: "Из данных дорожных знаков, какой ставиться повторно в ненаселенных пунктах?", linkImage: Optional("http://teoria.on.ge/files/new/834fab8defa6def8fc3928c8e113f63a.jpg"),
+                            title: "Из данных дорожных знаков, какой ставиться повторно в ненаселенных пунктах?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/834fab8defa6def8fc3928c8e113f63a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и II",
@@ -5858,7 +6192,8 @@ final class Content {
             ),
             Qwestion(
                             number: 605,
-                            title: "Из данных дорожных знаков, какой ставиться повторно в ненаселенных пунктах?", linkImage: Optional("http://teoria.on.ge/files/new/86ca21e5ca1ee7b12e646c93f3886aac.jpg"),
+                            title: "Из данных дорожных знаков, какой ставиться повторно в ненаселенных пунктах?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/86ca21e5ca1ee7b12e646c93f3886aac.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и II",
@@ -5868,7 +6203,8 @@ final class Content {
             ),
             Qwestion(
                             number: 607,
-                            title: "Какой дорожный знак предупреждает о приближении железнодорожному переезду без шлагбаума?", linkImage: Optional("http://teoria.on.ge/files/new/4412def1f1006a4a0c8f7e2e7e9968fc.jpg"),
+                            title: "Какой дорожный знак предупреждает о приближении железнодорожному переезду без шлагбаума?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4412def1f1006a4a0c8f7e2e7e9968fc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I",
@@ -5878,7 +6214,8 @@ final class Content {
             ),
             Qwestion(
                             number: 610,
-                            title: "Из данных дорожных знаков, какой предупреждает водителя о приближении переезда без шлагбаума двух или более железнодорожных рельсовых путей?", linkImage: Optional("http://teoria.on.ge/files/new/334bad847fbba599354bbe2ee74232a6.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает водителя о приближении переезда без шлагбаума двух или более железнодорожных рельсовых путей?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/334bad847fbba599354bbe2ee74232a6.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только I и II",
@@ -5888,7 +6225,8 @@ final class Content {
             ),
             Qwestion(
                             number: 611,
-                            title: "Данные дорожные знаки, 8.1.1 (расстояние до объекта) без доски  ставятся в ненаселенном пункте до начала опасного отрезка?", linkImage: Optional("http://teoria.on.ge/files/new/0d64895ca54522c606a51b4309b26396.jpg"),
+                            title: "Данные дорожные знаки, 8.1.1 (расстояние до объекта) без доски  ставятся в ненаселенном пункте до начала опасного отрезка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0d64895ca54522c606a51b4309b26396.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На расстоянии 50-100 метров",
@@ -5898,7 +6236,8 @@ final class Content {
             ),
             Qwestion(
                             number: 614,
-                            title: "Данные дорожные знаки повторно ставятся в ненаселенном пункте до начала опасного отрезка на расстоянии не менее?", linkImage: Optional("http://teoria.on.ge/files/new/24ce831ab85a5997dcae71ce1d83891e.jpg"),
+                            title: "Данные дорожные знаки повторно ставятся в ненаселенном пункте до начала опасного отрезка на расстоянии не менее?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/24ce831ab85a5997dcae71ce1d83891e.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "150 метров",
@@ -5908,7 +6247,8 @@ final class Content {
             ),
             Qwestion(
                             number: 616,
-                            title: "Можно или нет, чтобы данные дорожные знаки 8.1.1 (расстояние до объекта) без доски, соответственно, ставятся непосредственно перед подъемом или спуском (или спуском, и подъемом), если они следуют друг за другом?", linkImage: Optional("http://teoria.on.ge/files/new/64409250c606748ac85953e47191b279.jpg"),
+                            title: "Можно или нет, чтобы данные дорожные знаки 8.1.1 (расстояние до объекта) без доски, соответственно, ставятся непосредственно перед подъемом или спуском (или спуском, и подъемом), если они следуют друг за другом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/64409250c606748ac85953e47191b279.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нельзя",
@@ -5917,7 +6257,8 @@ final class Content {
             ),
             Qwestion(
                             number: 618,
-                            title: "С комбинации данных дорожных знаков, какой ставится в ненаселенном пункте, на расстоянии 150-300 метров до железнодорожного переезда со шлагбаумом, на правой стороне дороги?", linkImage: Optional("http://teoria.on.ge/files/new/405e9b8e76990e8155f7be9af1b07773.jpg"),
+                            title: "С комбинации данных дорожных знаков, какой ставится в ненаселенном пункте, на расстоянии 150-300 метров до железнодорожного переезда со шлагбаумом, на правой стороне дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/405e9b8e76990e8155f7be9af1b07773.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -5927,7 +6268,8 @@ final class Content {
             ),
             Qwestion(
                             number: 620,
-                            title: "Из данных дорожных знаков, какой означает перекресток с пересечением равнозначных дорог?", linkImage: Optional("http://teoria.on.ge/files/new/745309d597da55e61c43c3ddf74336e9.jpg"),
+                            title: "Из данных дорожных знаков, какой означает перекресток с пересечением равнозначных дорог?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/745309d597da55e61c43c3ddf74336e9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -5937,7 +6279,8 @@ final class Content {
             ),
             Qwestion(
                             number: 622,
-                            title: "Из данных дорожных знаков, какой предупреждает водителя о приближении к раздвижному мосту или паромному переезду?", linkImage: Optional("http://teoria.on.ge/files/new/46fd7b44b23df926af7a0669f5948f36.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает водителя о приближении к раздвижному мосту или паромному переезду?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/46fd7b44b23df926af7a0669f5948f36.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I и II",
@@ -5947,7 +6290,8 @@ final class Content {
             ),
             Qwestion(
                             number: 625,
-                            title: "Из данных дорожных знаков, какой обозначает опасный поворот дороги с малим радиусом или с ограниченной видимости?", linkImage: Optional("http://teoria.on.ge/files/new/3c76f13a72b9b1910d3a5bd4fc805b8a.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает опасный поворот дороги с малим радиусом или с ограниченной видимости?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3c76f13a72b9b1910d3a5bd4fc805b8a.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I",
@@ -5957,7 +6301,8 @@ final class Content {
             ),
             Qwestion(
                             number: 628,
-                            title: "Из данных дорожных знаков, какой предупреждает о приближении к участку дороги с крутым спуском?", linkImage: Optional("http://teoria.on.ge/files/new/1e7b23fe464f2d51dfbc577c5921fc3d.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает о приближении к участку дороги с крутым спуском?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1e7b23fe464f2d51dfbc577c5921fc3d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I",
@@ -5967,7 +6312,8 @@ final class Content {
             ),
             Qwestion(
                             number: 630,
-                            title: "Из данных дорожных знаков, какой обозначает обледеневший участок дороги, на котором коэффициент обхвата  покрышки с дорожным покрытием менее 0,4?", linkImage: Optional("http://teoria.on.ge/files/new/f2959021ac0d0944df65720addda5225.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает обледеневший участок дороги, на котором коэффициент обхвата  покрышки с дорожным покрытием менее 0,4?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f2959021ac0d0944df65720addda5225.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I",
@@ -5977,7 +6323,8 @@ final class Content {
             ),
             Qwestion(
                             number: 631,
-                            title: "Из данных дорожных знаков, какой обозначает участок дороги проезжая часть, которой повреждена?", linkImage: Optional("http://teoria.on.ge/files/new/090f365112a82b2c8bb07d34cd8af14a.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает участок дороги проезжая часть, которой повреждена?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/090f365112a82b2c8bb07d34cd8af14a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только II и III",
@@ -5987,7 +6334,8 @@ final class Content {
             ),
             Qwestion(
                             number: 633,
-                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором возможен выброс гравия, щебня и тому подобного из-под колес транспортных средств?", linkImage: Optional("http://teoria.on.ge/files/new/50a557a63f78b3c0038d5c1d781cc655.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором возможен выброс гравия, щебня и тому подобного из-под колес транспортных средств?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/50a557a63f78b3c0038d5c1d781cc655.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I и III",
@@ -5997,7 +6345,8 @@ final class Content {
             ),
             Qwestion(
                             number: 635,
-                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором ширина проезжей части сужается с обеих сторон?", linkImage: Optional("http://teoria.on.ge/files/new/eca75c729eee0f344e95577419e6d8b1.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором ширина проезжей части сужается с обеих сторон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/eca75c729eee0f344e95577419e6d8b1.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -6007,7 +6356,8 @@ final class Content {
             ),
             Qwestion(
                             number: 636,
-                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором ширина проезжей части сужается с правой стороны?", linkImage: Optional("http://teoria.on.ge/files/new/c964740880f428feb5734e0b15e7c430.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает участок дороги, на котором ширина проезжей части сужается с правой стороны?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c964740880f428feb5734e0b15e7c430.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -6017,7 +6367,8 @@ final class Content {
             ),
             Qwestion(
                             number: 638,
-                            title: "Из данных дорожных знаков, какой обозначает начало участка (проезжей части) дороги с двухсторонним движением, которому предшествовал участок с односторонним движением?", linkImage: Optional("http://teoria.on.ge/files/new/970700a86f0ea7fe49ed8c1b49bfccd4.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает начало участка (проезжей части) дороги с двухсторонним движением, которому предшествовал участок с односторонним движением?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/970700a86f0ea7fe49ed8c1b49bfccd4.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -6027,7 +6378,8 @@ final class Content {
             ),
             Qwestion(
                             number: 639,
-                            title: "Из данных дорожных знаков, какой предупреждает отмеченным дорожным знаком (5.19.1 или 5.19.2) или/же дорожной отметкой (1.14.1-1.14.3) о приближении к отмеченному переходу для пешеходов?", linkImage: Optional("http://teoria.on.ge/files/new/60fa0a866e6341d89935393b4df60037.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает отмеченным дорожным знаком (5.19.1 или 5.19.2) или/же дорожной отметкой (1.14.1-1.14.3) о приближении к отмеченному переходу для пешеходов?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/60fa0a866e6341d89935393b4df60037.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -6037,7 +6389,8 @@ final class Content {
             ),
             Qwestion(
                             number: 640,
-                            title: "Из данных дорожных знаков, какой предупреждает о существовании детского учреждения у дорожного отрезка, откуда большая вероятность появления детей на проезжую часть?", linkImage: Optional("http://teoria.on.ge/files/new/f2753619c81e92cd98fe5ad95850be28.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает о существовании детского учреждения у дорожного отрезка, откуда большая вероятность появления детей на проезжую часть?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f2753619c81e92cd98fe5ad95850be28.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -6047,7 +6400,8 @@ final class Content {
             ),
             Qwestion(
                             number: 641,
-                            title: "Из данных дорожных знаков, какой предупреждает отмеченным дорожным знаком (4.4) о приближении указанной вело тропинки к пересечению проезжей части?", linkImage: Optional("http://teoria.on.ge/files/new/9f3298cfb07b5e5c5ce3aa685d42fe25.jpg"),
+                            title: "Из данных дорожных знаков, какой предупреждает отмеченным дорожным знаком (4.4) о приближении указанной вело тропинки к пересечению проезжей части?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9f3298cfb07b5e5c5ce3aa685d42fe25.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -6057,7 +6411,8 @@ final class Content {
             ),
             Qwestion(
                             number: 645,
-                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, проезжая часть, которого не защищена от лавины, оползни или камнепада?", linkImage: Optional("http://teoria.on.ge/files/new/ad7e8bbe7d82b0c55d7aa55dbaea21e8.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, проезжая часть, которого не защищена от лавины, оползни или камнепада?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ad7e8bbe7d82b0c55d7aa55dbaea21e8.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -6067,7 +6422,8 @@ final class Content {
             ),
             Qwestion(
                             number: 646,
-                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, на котором может подняться сильный боковой ветер?", linkImage: Optional("http://teoria.on.ge/files/new/801fd0b9a13cdef97a781fa56e85b9a1.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, на котором может подняться сильный боковой ветер?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/801fd0b9a13cdef97a781fa56e85b9a1.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -6077,7 +6433,8 @@ final class Content {
             ),
             Qwestion(
                             number: 647,
-                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, проходящий в близи аэропорта, над котором самолеты или вертолеты летают на низкой высоте?", linkImage: Optional("http://teoria.on.ge/files/new/b70caa94cf5e8bc7379cfac868d0b004.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, проходящий в близи аэропорта, над котором самолеты или вертолеты летают на низкой высоте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b70caa94cf5e8bc7379cfac868d0b004.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -6087,7 +6444,8 @@ final class Content {
             ),
             Qwestion(
                             number: 649,
-                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, который временно загорожен?", linkImage: Optional("http://teoria.on.ge/files/new/07aeda8bc780645c04a627e49f88960b.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, который временно загорожен?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/07aeda8bc780645c04a627e49f88960b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -6097,7 +6455,8 @@ final class Content {
             ),
             Qwestion(
                             number: 650,
-                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, на котором возможно появиться такого вида опасность, которая не определена другими предупреждающими знаками?", linkImage: Optional("http://teoria.on.ge/files/new/5f08702f09a4a0d32b3d2638edf8df85.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, участок дороги, на котором возможно появиться такого вида опасность, которая не определена другими предупреждающими знаками?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5f08702f09a4a0d32b3d2638edf8df85.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -6107,7 +6466,8 @@ final class Content {
             ),
             Qwestion(
                             number: 651,
-                            title: "Из данных дорожных знаков, какой обозначает, движения на дороге с малорадиусными кривыми имеющими ограниченную видимость, также в местах проведения дорожных работ – направление объезда?", linkImage: Optional("http://teoria.on.ge/files/new/2463a0cc3e13b5a495210d9fcd7ba138.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, движения на дороге с малорадиусными кривыми имеющими ограниченную видимость, также в местах проведения дорожных работ – направление объезда?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2463a0cc3e13b5a495210d9fcd7ba138.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -6117,7 +6477,8 @@ final class Content {
             ),
             Qwestion(
                             number: 652,
-                            title: "Из данных дорожных знаков, какой обозначает направление движения на «Т» - образном перекрестке или на разветвление дорог или в местах проведения дорожных работ – направление объезда?", linkImage: Optional("http://teoria.on.ge/files/new/dd4a8db4ffd788247f41b8831c1caf78.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает направление движения на «Т» - образном перекрестке или на разветвление дорог или в местах проведения дорожных работ – направление объезда?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/dd4a8db4ffd788247f41b8831c1caf78.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -6127,7 +6488,8 @@ final class Content {
             ),
             Qwestion(
                             number: 653,
-                            title: "Из данных дорожных знаков, какой обозначает дорогу, на которую движущему водителю присваивается преимущество проезда нерегулированного перекрестка?", linkImage: Optional("http://teoria.on.ge/files/new/2854318cbb5e9dc23242a5576e8cf711.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает дорогу, на которую движущему водителю присваивается преимущество проезда нерегулированного перекрестка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2854318cbb5e9dc23242a5576e8cf711.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -6137,7 +6499,8 @@ final class Content {
          name: "Обгон путем обхода встречного транспортного средства",
             qwestions: [Qwestion(
                             number: 261,
-                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки, если водитель желтого автобуса уже начал обгон?", linkImage: Optional("http://teoria.on.ge/files/new/7e265624337a9acfec732dba37fe11fb.jpg"),
+                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки, если водитель желтого автобуса уже начал обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7e265624337a9acfec732dba37fe11fb.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6146,7 +6509,8 @@ final class Content {
             ),
             Qwestion(
                             number: 262,
-                            title: "Запрещается или нет водителю белого автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/8f219b3a7ef7533f8316db9b8d7a8237.jpg"),
+                            title: "Запрещается или нет водителю белого автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8f219b3a7ef7533f8316db9b8d7a8237.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6155,7 +6519,8 @@ final class Content {
             ),
             Qwestion(
                             number: 264,
-                            title: "В данной ситуации, запрещается или нет обгон водителю легкового автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/1cb044701b48034e8b7f6150a62b41ef.jpg"),
+                            title: "В данной ситуации, запрещается или нет обгон водителю легкового автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1cb044701b48034e8b7f6150a62b41ef.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6164,7 +6529,8 @@ final class Content {
             ),
             Qwestion(
                             number: 265,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/8df59441c680aaaf04f351eab07a1f43.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8df59441c680aaaf04f351eab07a1f43.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6173,7 +6539,8 @@ final class Content {
             ),
             Qwestion(
                             number: 267,
-                            title: "Запрещается или нет, водителю белого легкового автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/337f7cf0115b2aa1a6b28d3aa669b869.jpg"),
+                            title: "Запрещается или нет, водителю белого легкового автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/337f7cf0115b2aa1a6b28d3aa669b869.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6182,7 +6549,8 @@ final class Content {
             ),
             Qwestion(
                             number: 269,
-                            title: "Запрещается или нет, водителю серого легкового автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/1c9c7bb363fa1aaeec5b41dbc5cbcde7.jpg"),
+                            title: "Запрещается или нет, водителю серого легкового автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1c9c7bb363fa1aaeec5b41dbc5cbcde7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6191,7 +6559,8 @@ final class Content {
             ),
             Qwestion(
                             number: 270,
-                            title: "Имеет ли право водитель зеленного легкового автомобиля сделать обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a7501472ae5c79661bbb644750e0828c.jpg"),
+                            title: "Имеет ли право водитель зеленного легкового автомобиля сделать обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a7501472ae5c79661bbb644750e0828c.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -6200,7 +6569,8 @@ final class Content {
             ),
             Qwestion(
                             number: 271,
-                            title: "Имеет ли право водитель серого легкового автомобиля сделать обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fe8fa06785b686a3f1a79cb522cf053f.jpg"),
+                            title: "Имеет ли право водитель серого легкового автомобиля сделать обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fe8fa06785b686a3f1a79cb522cf053f.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6209,7 +6579,8 @@ final class Content {
             ),
             Qwestion(
                             number: 273,
-                            title: "Имеет право или нет, водитель красного автомобиля сделать обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/2dc198701cef86f5a940a9d6512b7368.jpg"),
+                            title: "Имеет право или нет, водитель красного автомобиля сделать обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2dc198701cef86f5a940a9d6512b7368.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6218,7 +6589,8 @@ final class Content {
             ),
             Qwestion(
                             number: 274,
-                            title: "Имеет или нет, водитель белого легкового автомобиля право на обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/afea0a6337230eae76b7a8316e6d50d5.jpg"),
+                            title: "Имеет или нет, водитель белого легкового автомобиля право на обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/afea0a6337230eae76b7a8316e6d50d5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6227,7 +6599,8 @@ final class Content {
             ),
             Qwestion(
                             number: 275,
-                            title: "Запрещается ли обгон водителю красного автомобиля по направлению стрелки, если трактор двигается скоростью 30 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/62003261effe748bce3c6106c0bf56c7.jpg"),
+                            title: "Запрещается ли обгон водителю красного автомобиля по направлению стрелки, если трактор двигается скоростью 30 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/62003261effe748bce3c6106c0bf56c7.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6236,7 +6609,8 @@ final class Content {
             ),
             Qwestion(
                             number: 276,
-                            title: "Водителю, какого автомобиля запрещается двигаться по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/1417b8e74ec5cd1c2a379e782920a7b6.jpg"),
+                            title: "Водителю, какого автомобиля запрещается двигаться по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1417b8e74ec5cd1c2a379e782920a7b6.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю зеленного автомобиля",
@@ -6246,7 +6620,8 @@ final class Content {
             ),
             Qwestion(
                             number: 277,
-                            title: "Водитель, какого автомобиля нарушает правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/d03b1dc90764bddfd38e1d82bcb49cc9.jpg"),
+                            title: "Водитель, какого автомобиля нарушает правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d03b1dc90764bddfd38e1d82bcb49cc9.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водитель грузового автомобиля",
@@ -6256,7 +6631,8 @@ final class Content {
             ),
             Qwestion(
                             number: 279,
-                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки, если средняя полоса данной дороги применяется для движения в обоих направлениях?", linkImage: Optional("http://teoria.on.ge/files/new/4f3807a49c89c40adf8fe86d8391ddbe.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки, если средняя полоса данной дороги применяется для движения в обоих направлениях?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4f3807a49c89c40adf8fe86d8391ddbe.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю грузового автомобиля",
@@ -6266,7 +6642,8 @@ final class Content {
             ),
             Qwestion(
                             number: 280,
-                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/52d85c3b37d932df1d8d961efc52e8f4.jpg"),
+                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/52d85c3b37d932df1d8d961efc52e8f4.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6285,7 +6662,8 @@ final class Content {
             ),
             Qwestion(
                             number: 282,
-                            title: "Запрещается ли водителю легкового автомобиля обгон  по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/0fa9ed8c19b700d213dc20bea1d13f17.jpg"),
+                            title: "Запрещается ли водителю легкового автомобиля обгон  по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0fa9ed8c19b700d213dc20bea1d13f17.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6294,7 +6672,8 @@ final class Content {
             ),
             Qwestion(
                             number: 283,
-                            title: "Запрещается ли  водителю легкового автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/8276c0d5610fa0c4e4b3bf5517c1ae02.jpg"),
+                            title: "Запрещается ли  водителю легкового автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8276c0d5610fa0c4e4b3bf5517c1ae02.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6303,7 +6682,8 @@ final class Content {
             ),
             Qwestion(
                             number: 285,
-                            title: "Нарушит или нет, правила дорожного движения водитель синего легкового автомобиля в случае движения по направлению стрелки, если расстояние до конца подъема 80 метров?", linkImage: Optional("http://teoria.on.ge/files/new/2db98d6ae8cfee2eb0e74e3932cc17a6.jpg"),
+                            title: "Нарушит или нет, правила дорожного движения водитель синего легкового автомобиля в случае движения по направлению стрелки, если расстояние до конца подъема 80 метров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2db98d6ae8cfee2eb0e74e3932cc17a6.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нарушит",
@@ -6312,7 +6692,8 @@ final class Content {
             ),
             Qwestion(
                             number: 286,
-                            title: "Запрещается ли водителю красного автомобиля сделать маневр обгона, переходя на противоположную полосу движения?", linkImage: Optional("http://teoria.on.ge/files/new/d80eee983d5c5a7001a418ef4c673dba.jpg"),
+                            title: "Запрещается ли водителю красного автомобиля сделать маневр обгона, переходя на противоположную полосу движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d80eee983d5c5a7001a418ef4c673dba.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6321,7 +6702,8 @@ final class Content {
             ),
             Qwestion(
                             number: 287,
-                            title: "Запрещается или нет водителю зеленного автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/5be30372747d6c8161c32d51c7b3cde7.jpg"),
+                            title: "Запрещается или нет водителю зеленного автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5be30372747d6c8161c32d51c7b3cde7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6330,7 +6712,8 @@ final class Content {
             ),
             Qwestion(
                             number: 288,
-                            title: "Нарушит ли правила дорожного движения водитель белого автомобиля в случае исполнения маневра по направлению стрелки, если с левой стороны пешеход начал переходить?", linkImage: Optional("http://teoria.on.ge/files/new/9fa4d0b64507c0d0ac12626ce18aee69.jpg"),
+                            title: "Нарушит ли правила дорожного движения водитель белого автомобиля в случае исполнения маневра по направлению стрелки, если с левой стороны пешеход начал переходить?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9fa4d0b64507c0d0ac12626ce18aee69.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6339,7 +6722,8 @@ final class Content {
             ),
             Qwestion(
                             number: 289,
-                            title: "В данной ситуации, водителю легкового автомобиля запрещается или нет обгон?", linkImage: Optional("http://teoria.on.ge/files/new/863de79092d97b3acdc0b16c6a259cdd.jpg"),
+                            title: "В данной ситуации, водителю легкового автомобиля запрещается или нет обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/863de79092d97b3acdc0b16c6a259cdd.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6348,7 +6732,8 @@ final class Content {
             ),
             Qwestion(
                             number: 290,
-                            title: "Имеет ли право водитель белого легкового автомобиля начать маневр обгона, если у водителя автобуса включен  указатель, указывающий на поворот влево, и у него начат обгон?", linkImage: Optional("http://teoria.on.ge/files/new/457cc1ae46b9d9de3b406f62301336ff.jpg"),
+                            title: "Имеет ли право водитель белого легкового автомобиля начать маневр обгона, если у водителя автобуса включен  указатель, указывающий на поворот влево, и у него начат обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/457cc1ae46b9d9de3b406f62301336ff.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6357,7 +6742,8 @@ final class Content {
             ),
             Qwestion(
                             number: 291,
-                            title: "Имеет ли право водитель грузового автомобиля начать маневр обгона, если у водителя легкового автомобиля включен  указатель поворота влево, и начат обгон?", linkImage: Optional("http://teoria.on.ge/files/new/8179691cf05c807a93c6e6428069166d.jpg"),
+                            title: "Имеет ли право водитель грузового автомобиля начать маневр обгона, если у водителя легкового автомобиля включен  указатель поворота влево, и начат обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8179691cf05c807a93c6e6428069166d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -6395,7 +6781,8 @@ final class Content {
             ),
             Qwestion(
                             number: 298,
-                            title: "Запрещается ли водителю легкового автомобиля движение в направлении стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/3295db2f800e83755f54d1886cf54366.jpg"),
+                            title: "Запрещается ли водителю легкового автомобиля движение в направлении стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3295db2f800e83755f54d1886cf54366.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6404,7 +6791,8 @@ final class Content {
             ),
             Qwestion(
                             number: 299,
-                            title: "Водитель, какого движущего по направлению стрелки автомобиля нарушает правила дорожного движения?", linkImage: Optional("http://teoria.on.ge/files/new/142a59031625df851ed8fec8a7c77ec4.jpg"),
+                            title: "Водитель, какого движущего по направлению стрелки автомобиля нарушает правила дорожного движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/142a59031625df851ed8fec8a7c77ec4.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водитель красного автомобиля",
@@ -6414,7 +6802,8 @@ final class Content {
             ),
             Qwestion(
                             number: 300,
-                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/ea290aa22e6f34919e9f14630eff8a51.jpg"),
+                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ea290aa22e6f34919e9f14630eff8a51.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нарушит",
@@ -6423,7 +6812,8 @@ final class Content {
             ),
             Qwestion(
                             number: 301,
-                            title: "Нарушает ли водитель синего легкового автомобиля правила обгона, если у водителя красного легкового автомобиля начат обгон?", linkImage: Optional("http://teoria.on.ge/files/new/5118321573cde6512fd6a2b53da4a38a.jpg"),
+                            title: "Нарушает ли водитель синего легкового автомобиля правила обгона, если у водителя красного легкового автомобиля начат обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5118321573cde6512fd6a2b53da4a38a.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушает",
@@ -6432,7 +6822,8 @@ final class Content {
             ),
             Qwestion(
                             number: 302,
-                            title: "Запрещается ли водителю легкового автомобиля обгон по направлению стрелки, если трактор двигается со скоростью 25 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/1cc215658c64fd4205f51122e2fbe2e0.jpg"),
+                            title: "Запрещается ли водителю легкового автомобиля обгон по направлению стрелки, если трактор двигается со скоростью 25 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1cc215658c64fd4205f51122e2fbe2e0.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6441,7 +6832,8 @@ final class Content {
             ),
             Qwestion(
                             number: 304,
-                            title: "Водителю, какого транспортного средства запрещается движение в направлении стрелки, если трактор движется со скоростью 25 км\\ч, а мопед -35 км\\ч?", linkImage: Optional("http://teoria.on.ge/files/new/0045d532f5159838b7d8db21ebf88d6e.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение в направлении стрелки, если трактор движется со скоростью 25 км\\ч, а мопед -35 км\\ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0045d532f5159838b7d8db21ebf88d6e.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водителю синего легкового автомобиля",
@@ -6451,7 +6843,8 @@ final class Content {
             ),
             Qwestion(
                             number: 305,
-                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/6b88978ef92622755ed151cf0b089f59.jpg"),
+                            title: "Нарушит ли правила дорожного движения водитель легкового автомобиля в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6b88978ef92622755ed151cf0b089f59.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6460,7 +6853,8 @@ final class Content {
             ),
             Qwestion(
                             number: 310,
-                            title: "Запрещается или нет, водителю легкового автомобиля обгон по направлению стрелки, если на указанном участке дороги видимость ограничена?", linkImage: Optional("http://teoria.on.ge/files/new/e0083bd50a0d10517c0911a6884feeb5.jpg"),
+                            title: "Запрещается или нет, водителю легкового автомобиля обгон по направлению стрелки, если на указанном участке дороги видимость ограничена?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e0083bd50a0d10517c0911a6884feeb5.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6469,7 +6863,8 @@ final class Content {
             ),
             Qwestion(
                             number: 311,
-                            title: "Запрещается или нет водителю легкового автомобиля обгон по направлению стрелки, если на указанном участке дороги видимость ограничена?", linkImage: Optional("http://teoria.on.ge/files/new/69072aaa8ec8be9faf8feadebaf7944b.jpg"),
+                            title: "Запрещается или нет водителю легкового автомобиля обгон по направлению стрелки, если на указанном участке дороги видимость ограничена?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/69072aaa8ec8be9faf8feadebaf7944b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6478,7 +6873,8 @@ final class Content {
             ),
             Qwestion(
                             number: 312,
-                            title: "В данной ситуации, водителю, какого транспортного средства запрещается двигаться по направлению стрелки, если буксирующий мотоцикл начал объезд препятствия?", linkImage: Optional("http://teoria.on.ge/files/new/f117a6ef03e0ce2d6fb5d85d9ef347f7.jpg"),
+                            title: "В данной ситуации, водителю, какого транспортного средства запрещается двигаться по направлению стрелки, если буксирующий мотоцикл начал объезд препятствия?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f117a6ef03e0ce2d6fb5d85d9ef347f7.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Водителям буксирующего и буксированного мотоциклов",
@@ -6488,7 +6884,8 @@ final class Content {
             ),
             Qwestion(
                             number: 313,
-                            title: "У водителя, какого транспортного средства появляется обязательство уступить дорогу в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/a551e42739d9728ac40bdc914c47b857.jpg"),
+                            title: "У водителя, какого транспортного средства появляется обязательство уступить дорогу в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a551e42739d9728ac40bdc914c47b857.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водителю легкового автомобиля",
@@ -6526,7 +6923,8 @@ final class Content {
             ),
             Qwestion(
                             number: 432,
-                            title: "В данной ситуации, запрещается или нет водителю автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/5d734bb372cf5a7a5c083c49c0a217ef.jpg"),
+                            title: "В данной ситуации, запрещается или нет водителю автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5d734bb372cf5a7a5c083c49c0a217ef.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6535,7 +6933,8 @@ final class Content {
             ),
             Qwestion(
                             number: 434,
-                            title: "В данной ситуации, запрещается или нет водителю автомобиля обгон по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fde8fa81ceb1f65f7ac11705c14d691c.jpg"),
+                            title: "В данной ситуации, запрещается или нет водителю автомобиля обгон по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fde8fa81ceb1f65f7ac11705c14d691c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -6553,7 +6952,8 @@ final class Content {
             ),
             Qwestion(
                             number: 469,
-                            title: "Имеет или нет, право водитель повернуть автомобиль по направлению стрелки, если туннель отмечен дорожным знаком 1.32 («Туннель»)?", linkImage: Optional("http://teoria.on.ge/files/new/1ee9d28a338a56225dd4a287b4f1074d.jpg"),
+                            title: "Имеет или нет, право водитель повернуть автомобиль по направлению стрелки, если туннель отмечен дорожным знаком 1.32 («Туннель»)?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1ee9d28a338a56225dd4a287b4f1074d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Имеет право, если туннель в населенном пункте.",
@@ -6563,7 +6963,8 @@ final class Content {
             ),
             Qwestion(
                             number: 492,
-                            title: "Водителю, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/269bf8ace815aa85dd6c9b1eb234a757.jpg"),
+                            title: "Водителю, какого транспортного средства присваивается преимущество в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/269bf8ace815aa85dd6c9b1eb234a757.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водителю черного автомобиля",
@@ -6572,7 +6973,8 @@ final class Content {
             ),
             Qwestion(
                             number: 507,
-                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/fd88f575426a4dee9532fadc52cfda23.jpg"),
+                            title: "Водителю, какого транспортного средства запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fd88f575426a4dee9532fadc52cfda23.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водителю велосипеда",
@@ -6582,7 +6984,8 @@ final class Content {
             ),
             Qwestion(
                             number: 508,
-                            title: "Запрещается ли водителю мопеда движение в направлении стрелки со скоростью 40 км\\ч?", linkImage: Optional("http://teoria.on.ge/files/new/7aca4aa781a4b60964c2977c499f6571.jpg"),
+                            title: "Запрещается ли водителю мопеда движение в направлении стрелки со скоростью 40 км\\ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/7aca4aa781a4b60964c2977c499f6571.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6591,7 +6994,8 @@ final class Content {
             ),
             Qwestion(
                             number: 510,
-                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/67804a985dad2e33ba839a82adbf112d.jpg"),
+                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/67804a985dad2e33ba839a82adbf112d.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водитель легкового автомобиля",
@@ -6621,7 +7025,8 @@ final class Content {
          name: "Перестань стоять",
             qwestions: [Qwestion(
                             number: 292,
-                            title: "Запрещается или нет, водителю в указанном месте стрелкой стоянка автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/a3549857eabcc2e7efb2d1884f7e3b33.jpg"),
+                            title: "Запрещается или нет, водителю в указанном месте стрелкой стоянка автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a3549857eabcc2e7efb2d1884f7e3b33.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6630,7 +7035,8 @@ final class Content {
             ),
             Qwestion(
                             number: 314,
-                            title: "В данной ситуации только водитель желтого маршрутного автобуса производит посадку-высадку пассажиров. Водитель, какого автомобиля не нарушает правила остановки?", linkImage: Optional("http://teoria.on.ge/files/new/4801306f4afeec48a98a889b23dc2bd4.jpg"),
+                            title: "В данной ситуации только водитель желтого маршрутного автобуса производит посадку-высадку пассажиров. Водитель, какого автомобиля не нарушает правила остановки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4801306f4afeec48a98a889b23dc2bd4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водитель легкового автомобиля.",
@@ -6649,7 +7055,8 @@ final class Content {
             ),
             Qwestion(
                             number: 317,
-                            title: "Имеет ли право водитель легкового автомобиля с целью посадки пассажиров остановиться на месте указанной стрелкой?", linkImage: Optional("http://teoria.on.ge/files/new/ae308e46e30f7986118f1a9888dd1c51.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля с целью посадки пассажиров остановиться на месте указанной стрелкой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ae308e46e30f7986118f1a9888dd1c51.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6658,7 +7065,8 @@ final class Content {
             ),
             Qwestion(
                             number: 320,
-                            title: "Какое транспортное средство остановлено с нарушением правил стоянки, если сперва остановился белый легкий автомобиль, потом – мотоцикл без коляски и в конце – мотоцикл с коляской?", linkImage: Optional("http://teoria.on.ge/files/new/b652b1fc736ea4aa0f8110ee44733b1f.jpg"),
+                            title: "Какое транспортное средство остановлено с нарушением правил стоянки, если сперва остановился белый легкий автомобиль, потом – мотоцикл без коляски и в конце – мотоцикл с коляской?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b652b1fc736ea4aa0f8110ee44733b1f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Белый легковой автомобиль",
@@ -6668,7 +7076,8 @@ final class Content {
             ),
             Qwestion(
                             number: 321,
-                            title: "Какое транспортное средство стоит с нарушением правил стоянки, если водитель красного автомобиля встал с целью долгого отдыха?", linkImage: Optional("http://teoria.on.ge/files/new/0c4ab2a9909a8fff70bb5877ffa248c3.jpg"),
+                            title: "Какое транспортное средство стоит с нарушением правил стоянки, если водитель красного автомобиля встал с целью долгого отдыха?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0c4ab2a9909a8fff70bb5877ffa248c3.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Черный автомобиль",
@@ -6678,7 +7087,8 @@ final class Content {
             ),
             Qwestion(
                             number: 322,
-                            title: "Имеет ли право водитель легкового автомобиля остановиться на месте указанном стрелкой с целью посадки пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/38feaeead550c3f20a3af48a4e0b95ce.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля остановиться на месте указанном стрелкой с целью посадки пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/38feaeead550c3f20a3af48a4e0b95ce.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -6687,7 +7097,8 @@ final class Content {
             ),
             Qwestion(
                             number: 324,
-                            title: "Водитель, какого автомобиля нарушит правила дорожного движения на мосту в случае остановки на месте указанной стрелкой?", linkImage: Optional("http://teoria.on.ge/files/new/57dc50c0b5970b5921382414fbdc51e3.jpg"),
+                            title: "Водитель, какого автомобиля нарушит правила дорожного движения на мосту в случае остановки на месте указанной стрелкой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/57dc50c0b5970b5921382414fbdc51e3.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель белого автомобиля.",
@@ -6697,7 +7108,8 @@ final class Content {
             ),
             Qwestion(
                             number: 326,
-                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения в случае остановки в указанном на картине месте?", linkImage: Optional("http://teoria.on.ge/files/new/cd9ab8d405daa1ca0d431a581d65b11a.jpg"),
+                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения в случае остановки в указанном на картине месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cd9ab8d405daa1ca0d431a581d65b11a.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Водители обоих автомобилей",
@@ -6707,7 +7119,8 @@ final class Content {
             ),
             Qwestion(
                             number: 329,
-                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае стоянки автомобиля на указанном месте автостоянки, если этим создает препятствие пешеходам?", linkImage: Optional("http://teoria.on.ge/files/new/0c2edfbbc17bfc3aa93efd4d8c821a7c.jpg"),
+                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае стоянки автомобиля на указанном месте автостоянки, если этим создает препятствие пешеходам?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0c2edfbbc17bfc3aa93efd4d8c821a7c.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6716,7 +7129,8 @@ final class Content {
             ),
             Qwestion(
                             number: 330,
-                            title: "Какой автомобиль стоит с нарушением правил о стоянке?", linkImage: Optional("http://teoria.on.ge/files/new/3f5eedabc8d64879b5206f817060f244.jpg"),
+                            title: "Какой автомобиль стоит с нарушением правил о стоянке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3f5eedabc8d64879b5206f817060f244.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Легковой автомобиль",
@@ -6726,7 +7140,8 @@ final class Content {
             ),
             Qwestion(
                             number: 339,
-                            title: "Имеет ли право водитель легкового автомобиля остановиться на месте указанном стрелкой, с целью посадки пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/bd7c8effc70a8fe82e893c3ac634d91c.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля остановиться на месте указанном стрелкой, с целью посадки пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bd7c8effc70a8fe82e893c3ac634d91c.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -6735,7 +7150,8 @@ final class Content {
             ),
             Qwestion(
                             number: 342,
-                            title: "В данной ситуации, запрещается или нет водителю, поставить грузовой автомобиль на отмеченном месте?", linkImage: Optional("http://teoria.on.ge/files/new/a53fcc7787d1385bdaebdfa58ca88251.jpg"),
+                            title: "В данной ситуации, запрещается или нет водителю, поставить грузовой автомобиль на отмеченном месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a53fcc7787d1385bdaebdfa58ca88251.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -6744,7 +7160,8 @@ final class Content {
             ),
             Qwestion(
                             number: 343,
-                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае остановки автомобиля на стоянке указанном стрелкой месте?", linkImage: Optional("http://teoria.on.ge/files/new/5120b84d74e06d125eb0afc4fef86f6d.jpg"),
+                            title: "Нарушит ли водитель легкового автомобиля правила дорожного движения в случае остановки автомобиля на стоянке указанном стрелкой месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5120b84d74e06d125eb0afc4fef86f6d.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Нарушит",
@@ -6753,7 +7170,8 @@ final class Content {
             ),
             Qwestion(
                             number: 345,
-                            title: "Какое транспортное средство стоит с нарушением правил стоянки?", linkImage: Optional("http://teoria.on.ge/files/new/31d933759a3e13ae52ea0e2fc7c5b7aa.jpg"),
+                            title: "Какое транспортное средство стоит с нарушением правил стоянки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/31d933759a3e13ae52ea0e2fc7c5b7aa.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только мотоцикл",
@@ -6763,7 +7181,8 @@ final class Content {
             ),
             Qwestion(
                             number: 346,
-                            title: "В населенном пункте, у данной дороги для каждого направления имеет одну полосу движения, водитель легкового автомобиля имеет право остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/a66ee730b3a7415278f677d629edcc7a.jpg"),
+                            title: "В населенном пункте, у данной дороги для каждого направления имеет одну полосу движения, водитель легкового автомобиля имеет право остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a66ee730b3a7415278f677d629edcc7a.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только на месте А и В.",
@@ -6773,7 +7192,8 @@ final class Content {
             ),
             Qwestion(
                             number: 348,
-                            title: "Водитель, какого автомобиля не нарушает правила дорожного движения в случае остановки на картине указанном месте?", linkImage: Optional("http://teoria.on.ge/files/new/3a57a44bfe54307fdc2e69ebd5490f1a.jpg"),
+                            title: "Водитель, какого автомобиля не нарушает правила дорожного движения в случае остановки на картине указанном месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3a57a44bfe54307fdc2e69ebd5490f1a.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водитель легкового автомобиля",
@@ -6783,7 +7203,8 @@ final class Content {
             ),
             Qwestion(
                             number: 350,
-                            title: "Какой автомобиль стоит с нарушением правил стоянки в ненаселенном пункте?", linkImage: Optional("http://teoria.on.ge/files/new/ca9047675ad7163762ecc6d4c2d689dc.jpg"),
+                            title: "Какой автомобиль стоит с нарушением правил стоянки в ненаселенном пункте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ca9047675ad7163762ecc6d4c2d689dc.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Оба автомобиля",
@@ -6793,7 +7214,8 @@ final class Content {
             ),
             Qwestion(
                             number: 352,
-                            title: "Нарушит ли водитель белого автомобиля правила дорожного движения, в случае остановки на картине указанном месте?", linkImage: Optional("http://teoria.on.ge/files/new/4883fa02d56f0744c3a4a516a998fa83.jpg"),
+                            title: "Нарушит ли водитель белого автомобиля правила дорожного движения, в случае остановки на картине указанном месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4883fa02d56f0744c3a4a516a998fa83.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушит",
@@ -6822,7 +7244,8 @@ final class Content {
             ),
             Qwestion(
                             number: 372,
-                            title: "Водитель, какого автомобиля нарушит правила дорожного движения, в случае остановки на мосту, на месте указанной стрелкой  с целью посадки пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/69b5d71ec61a2a71598979f1487166d2.jpg"),
+                            title: "Водитель, какого автомобиля нарушит правила дорожного движения, в случае остановки на мосту, на месте указанной стрелкой  с целью посадки пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/69b5d71ec61a2a71598979f1487166d2.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Водители обоих автомобилей",
@@ -6832,7 +7255,8 @@ final class Content {
             ),
             Qwestion(
                             number: 373,
-                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если с целью посадки пассажиров на мосту легковой автомобиль по направлению стрелки двигается задним ходом, а мотоцикл – осуществляет поворот по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/6d0aaa58449983d4ed7161f7817215fc.jpg"),
+                            title: "Водитель, какого транспортного средства нарушает правила дорожного движения, если с целью посадки пассажиров на мосту легковой автомобиль по направлению стрелки двигается задним ходом, а мотоцикл – осуществляет поворот по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6d0aaa58449983d4ed7161f7817215fc.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Водитель мотоцикла",
@@ -6860,7 +7284,8 @@ final class Content {
             ),
             Qwestion(
                             number: 478,
-                            title: "Какое транспортное средство стоит с нарушением правил о стоянке?", linkImage: Optional("http://teoria.on.ge/files/new/264b249c8dcd71114656999eb4d95592.jpg"),
+                            title: "Какое транспортное средство стоит с нарушением правил о стоянке?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/264b249c8dcd71114656999eb4d95592.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только грузовой автомобиль",
@@ -6870,7 +7295,8 @@ final class Content {
             ),
             Qwestion(
                             number: 479,
-                            title: "Имеет ли водитель легкового автомобиля право, остановиться на дороге двухстороннего движения в населенном пункте, указанном на картинке месте с целью посадки пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/28e975ca756dbce3379def4dee044277.jpg"),
+                            title: "Имеет ли водитель легкового автомобиля право, остановиться на дороге двухстороннего движения в населенном пункте, указанном на картинке месте с целью посадки пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/28e975ca756dbce3379def4dee044277.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -6879,7 +7305,8 @@ final class Content {
             ),
             Qwestion(
                             number: 482,
-                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если в трамвае находящемся на отмеченной остановке не происходит посадка – высадка пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/3ec71aec8485052dd5e32a1e20eecc77.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля продолжить движение по направлению стрелки, если в трамвае находящемся на отмеченной остановке не происходит посадка – высадка пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3ec71aec8485052dd5e32a1e20eecc77.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Имеет право",
@@ -6888,7 +7315,8 @@ final class Content {
             ),
             Qwestion(
                             number: 485,
-                            title: "Водитель, легкового автомобиля замыслил поворот с правой стороны на перекрестке, он не нарушает правила дорожного движения, если:", linkImage: Optional("http://teoria.on.ge/files/new/a73a45d4eb4510d7b7e184d452d68875.jpg"),
+                            title: "Водитель, легкового автомобиля замыслил поворот с правой стороны на перекрестке, он не нарушает правила дорожного движения, если:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a73a45d4eb4510d7b7e184d452d68875.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Обгонит автобус, перейдет на правую полосу и оттуда повернет направо",
@@ -6898,7 +7326,8 @@ final class Content {
             ),
             Qwestion(
                             number: 487,
-                            title: "Имеет ли право водитель легкового автомобиля остановиться в населенном пункте, на картине указанном месте с целью посадить пассажиров?", linkImage: Optional("http://teoria.on.ge/files/new/cadb2415ef90bec7d74b5d92f722e3cd.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля остановиться в населенном пункте, на картине указанном месте с целью посадить пассажиров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cadb2415ef90bec7d74b5d92f722e3cd.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не имеет право",
@@ -7004,7 +7433,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1247,
-                            title: "Водитель легкого автомобиля имеет право остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/6c492a46b366d21a72f3a7b70fc92b4f.jpg"),
+                            title: "Водитель легкого автомобиля имеет право остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6c492a46b366d21a72f3a7b70fc92b4f.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только на месте А",
@@ -7014,7 +7444,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1253,
-                            title: "Имеет ли право водитель легкового автомобиля с целью высадки пассажиров остановиться на месте указанном стрелкой?", linkImage: Optional("http://teoria.on.ge/files/new/465f571bd26a32985a7979a31fe0f145.jpg"),
+                            title: "Имеет ли право водитель легкового автомобиля с целью высадки пассажиров остановиться на месте указанном стрелкой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/465f571bd26a32985a7979a31fe0f145.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -7023,7 +7454,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1263,
-                            title: "Водитель легкового автомобиля имеет право остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/e27def79e322a71e0a0174eb7cf69908.jpg"),
+                            title: "Водитель легкового автомобиля имеет право остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e27def79e322a71e0a0174eb7cf69908.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только на месте А",
@@ -7033,7 +7465,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1269,
-                            title: "Водитель легкового автомобиля имеет право остановиться:", linkImage: Optional("http://teoria.on.ge/files/new/44a8070346a18bf27ecb8d9e2c31a89b.jpg"),
+                            title: "Водитель легкового автомобиля имеет право остановиться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/44a8070346a18bf27ecb8d9e2c31a89b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только на месте А",
@@ -7072,7 +7505,8 @@ final class Content {
             ),
             Qwestion(
                             number: 403,
-                            title: "Обязан или нет, водитель легкового автомобиля, включить сигнал указывающий поворот налево в случае передвижения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/b11d8c99953cdb01f390ea4c8e78c80e.jpg"),
+                            title: "Обязан или нет, водитель легкового автомобиля, включить сигнал указывающий поворот налево в случае передвижения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b11d8c99953cdb01f390ea4c8e78c80e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Не обязан",
@@ -7664,7 +8098,8 @@ final class Content {
          name: "Движение по шоссе",
             qwestions: [Qwestion(
                             number: 336,
-                            title: "При вынужденной остановке автомобиля на картине указанном месте водитель:", linkImage: Optional("http://teoria.on.ge/files/new/24e249e97768a07d4c1daa0aad2312c0.jpg"),
+                            title: "При вынужденной остановке автомобиля на картине указанном месте водитель:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/24e249e97768a07d4c1daa0aad2312c0.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только должен включить аварийную светосигнализацию",
@@ -7674,7 +8109,8 @@ final class Content {
             ),
             Qwestion(
                             number: 368,
-                            title: "На месте выезда с дороги, в случае существования полосы для разгона, водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/9ed708bcd2a8e4ffb6f7aa2b1da4bf43.jpg"),
+                            title: "На месте выезда с дороги, в случае существования полосы для разгона, водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9ed708bcd2a8e4ffb6f7aa2b1da4bf43.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в направление А",
@@ -7684,7 +8120,8 @@ final class Content {
             ),
             Qwestion(
                             number: 378,
-                            title: "Водитель красного автомобиля проехал первый поворот, запрещается ему или нет, въезд в поворот задним ходом по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/2fa400c81c8333206b7169066859bb17.jpg"),
+                            title: "Водитель красного автомобиля проехал первый поворот, запрещается ему или нет, въезд в поворот задним ходом по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2fa400c81c8333206b7169066859bb17.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -7693,7 +8130,8 @@ final class Content {
             ),
             Qwestion(
                             number: 379,
-                            title: "Водитель легкового автомобиля проехал место поперечного соединения проезжей части. Запрещается ему или нет, движение задним ходом по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/d832a2846110cb682d5895f9360d0d72.jpg"),
+                            title: "Водитель легкового автомобиля проехал место поперечного соединения проезжей части. Запрещается ему или нет, движение задним ходом по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d832a2846110cb682d5895f9360d0d72.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -7742,7 +8180,8 @@ final class Content {
             ),
             Qwestion(
                             number: 451,
-                            title: "Для выезда на автомагистраль водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/3fa5203d7218694b70d75ef44bd311c2.jpg"),
+                            title: "Для выезда на автомагистраль водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3fa5203d7218694b70d75ef44bd311c2.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "В направление А",
@@ -7752,7 +8191,8 @@ final class Content {
             ),
             Qwestion(
                             number: 452,
-                            title: "Для выезда на автомагистраль водитель легкового автомобиля имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/e2378dfc128f5aad2e3286c57cb92931.jpg"),
+                            title: "Для выезда на автомагистраль водитель легкового автомобиля имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e2378dfc128f5aad2e3286c57cb92931.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только в направление А",
@@ -7762,7 +8202,8 @@ final class Content {
             ),
             Qwestion(
                             number: 453,
-                            title: "В случае передвижения по направлению стрелки преимуществом пользуется:", linkImage: Optional("http://teoria.on.ge/files/new/bcda1ba802061116f9b906225772235b.jpg"),
+                            title: "В случае передвижения по направлению стрелки преимуществом пользуется:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bcda1ba802061116f9b906225772235b.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Водитель легкового автомобиля",
@@ -7771,7 +8212,8 @@ final class Content {
             ),
             Qwestion(
                             number: 454,
-                            title: "Водитель, какого автомобиля нарушает правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/29f3507b8f42dd5524ebbeb2afa1652a.jpg"),
+                            title: "Водитель, какого автомобиля нарушает правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/29f3507b8f42dd5524ebbeb2afa1652a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водитель грузового автомобиля",
@@ -7781,7 +8223,8 @@ final class Content {
             ),
             Qwestion(
                             number: 456,
-                            title: "Нарушает или нет водитель легкового автомобиля правила дорожного движения в случае принудительной остановки на автомагистрали в указанном месте?", linkImage: Optional("http://teoria.on.ge/files/new/b5e21cb097753091ce789cf2328e4b32.jpg"),
+                            title: "Нарушает или нет водитель легкового автомобиля правила дорожного движения в случае принудительной остановки на автомагистрали в указанном месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/b5e21cb097753091ce789cf2328e4b32.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Не нарушает",
@@ -7790,7 +8233,8 @@ final class Content {
             ),
             Qwestion(
                             number: 457,
-                            title: "В данной ситуации, водителю, какого транспортного средства не запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/840bc3b2ec591aa2e7fce63264ba92bf.jpg"),
+                            title: "В данной ситуации, водителю, какого транспортного средства не запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/840bc3b2ec591aa2e7fce63264ba92bf.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю грузового автомобиля",
@@ -7800,7 +8244,8 @@ final class Content {
             ),
             Qwestion(
                             number: 458,
-                            title: "Водитель грузового автомобиля выполняет дорожно-ремонтные работы, водителю, какого автомобиля запрещается движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/36fb52c5ed6be99ed12722382dc5fbc4.jpg"),
+                            title: "Водитель грузового автомобиля выполняет дорожно-ремонтные работы, водителю, какого автомобиля запрещается движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/36fb52c5ed6be99ed12722382dc5fbc4.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только водителю грузового автомобиля",
@@ -7810,7 +8255,8 @@ final class Content {
             ),
             Qwestion(
                             number: 460,
-                            title: "В данной ситуации нарушает или нет, водитель легкового автомобиля правила вынужденной остановки транспортного средства?", linkImage: Optional("http://teoria.on.ge/files/new/1494d2eaf0d202e32f02c225b0e7a204.jpg"),
+                            title: "В данной ситуации нарушает или нет, водитель легкового автомобиля правила вынужденной остановки транспортного средства?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1494d2eaf0d202e32f02c225b0e7a204.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Не нарушает",
@@ -7819,7 +8265,8 @@ final class Content {
          name: "Сигнализация аварийного маяка",
             qwestions: [Qwestion(
                             number: 344,
-                            title: "В  указанном на рисунке месте, вне населенного пункта, в случае остановки автомобиля, водитель:", linkImage: Optional("http://teoria.on.ge/files/new/4118754e5fa10113b652c66865fec639.jpg"),
+                            title: "В  указанном на рисунке месте, вне населенного пункта, в случае остановки автомобиля, водитель:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4118754e5fa10113b652c66865fec639.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Обязан включить аварийную световую сигнализацию",
@@ -7947,7 +8394,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1045,
-                            title: "Обязан ли водитель легкового автомобиля, включить аварийную световую сигнализацию и выставить знак аварийной остановки в случае принудительной остановки в указанном на рисунке месте?", linkImage: Optional("http://teoria.on.ge/files/new/94cb89456cef046972bbc00110328176.jpg"),
+                            title: "Обязан ли водитель легкового автомобиля, включить аварийную световую сигнализацию и выставить знак аварийной остановки в случае принудительной остановки в указанном на рисунке месте?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/94cb89456cef046972bbc00110328176.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Обязан только включить аварийную светосигнализацию",
@@ -7957,7 +8405,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1047,
-                            title: "В данной ситуации нарушает или нет, водитель требования, установленные при вынужденной остановки, если незамедлительный вывоз неисправного автомобиля невозможен?", linkImage: Optional("http://teoria.on.ge/files/new/43b15cae7851c24961f1a750c19533cf.jpg"),
+                            title: "В данной ситуации нарушает или нет, водитель требования, установленные при вынужденной остановки, если незамедлительный вывоз неисправного автомобиля невозможен?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/43b15cae7851c24961f1a750c19533cf.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушает",
@@ -8064,7 +8513,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1248,
-                            title: "В данной ситуации, какому водителю запрещается разворот транспортного средства по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/6c1f75cb1c21aa67ef53b74233eda3e6.jpg"),
+                            title: "В данной ситуации, какому водителю запрещается разворот транспортного средства по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6c1f75cb1c21aa67ef53b74233eda3e6.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только водителю мотоцикла",
@@ -8074,7 +8524,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1249,
-                            title: "В данной ситуации, какому водителю запрещается разворот транспортного средства по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/2d890a5694f87474d99d5cdf98da52c9.jpg"),
+                            title: "В данной ситуации, какому водителю запрещается разворот транспортного средства по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2d890a5694f87474d99d5cdf98da52c9.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водителю желтого автомобиля",
@@ -8084,7 +8535,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1254,
-                            title: "На проезжей части дороги нанесенные надписи означают:", linkImage: Optional("http://teoria.on.ge/files/new/6d105f180e0e45f4a01788d3ec37a817.jpg"),
+                            title: "На проезжей части дороги нанесенные надписи означают:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6d105f180e0e45f4a01788d3ec37a817.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Расстояние до ближайшего населенного пункта",
@@ -8094,7 +8546,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1255,
-                            title: "На проезжую часть дороги, нанесенная желтая разметка означает:", linkImage: Optional("http://teoria.on.ge/files/new/2161e3011f3f42c7962089ff665293e4.jpg"),
+                            title: "На проезжую часть дороги, нанесенная желтая разметка означает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2161e3011f3f42c7962089ff665293e4.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Остановку маршрутного транспортного средства и стоянку такси",
@@ -8103,7 +8556,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1256,
-                            title: "На проезжую часть дороги, нанесенная поперечная разметка означает место, где:", linkImage: Optional("http://teoria.on.ge/files/new/4157fd29ea66594f6e39291955c15cab.jpg"),
+                            title: "На проезжую часть дороги, нанесенная поперечная разметка означает место, где:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4157fd29ea66594f6e39291955c15cab.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Пешеходная тропинка пересекает проезжую часть дороги",
@@ -8112,7 +8566,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1257,
-                            title: "На проезжую часть дороги нанесенные двойные прерывающие линии означают:", linkImage: Optional("http://teoria.on.ge/files/new/42f937e7e0e78450cb75b69900fdf2f5.jpg"),
+                            title: "На проезжую часть дороги нанесенные двойные прерывающие линии означают:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/42f937e7e0e78450cb75b69900fdf2f5.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На перекрестке велосипедные тропинки",
@@ -8122,7 +8577,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1258,
-                            title: "Пересечение непрерывной линии обозначающей край проезжей части дороги разрешается, если водитель двигается:", linkImage: Optional("http://teoria.on.ge/files/new/1bb907e08a1b725456f52e2c72e91fb4.jpg"),
+                            title: "Пересечение непрерывной линии обозначающей край проезжей части дороги разрешается, если водитель двигается:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1bb907e08a1b725456f52e2c72e91fb4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "В направление А",
@@ -8131,7 +8587,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1259,
-                            title: "Надпись «BUS» нанесенная на проезжей части дороги означает специальную полосу, которая предназначена:", linkImage: Optional("http://teoria.on.ge/files/new/d80ba580d14b58905e5ee3f02025d673.jpg"),
+                            title: "Надпись «BUS» нанесенная на проезжей части дороги означает специальную полосу, которая предназначена:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d80ba580d14b58905e5ee3f02025d673.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Для тихоходных транспортных средств",
@@ -8141,7 +8598,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1260,
-                            title: "Разметка формы стрелы, нанесенный на середину полосы дорожного движения проезжей части дороги предупреждает:", linkImage: Optional("http://teoria.on.ge/files/new/1280059c84b5cf889493d8dbe44f977c.jpg"),
+                            title: "Разметка формы стрелы, нанесенный на середину полосы дорожного движения проезжей части дороги предупреждает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1280059c84b5cf889493d8dbe44f977c.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "О приближении к участку дороги с опасным поворотом",
@@ -8150,7 +8608,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1261,
-                            title: "Такая на мосту начерченная вертикальная разметка означает:", linkImage: Optional("http://teoria.on.ge/files/new/0fec63faec095cc586877225a395cbfe.jpg"),
+                            title: "Такая на мосту начерченная вертикальная разметка означает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0fec63faec095cc586877225a395cbfe.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Количество полос движения на проезжей части дороги.",
@@ -8159,7 +8618,8 @@ final class Content {
          name: "Буксировка",
             qwestions: [Qwestion(
                             number: 461,
-                            title: "Буксирование автомобиля, вышедшего из строя на автомагистрали, происходит самодельным оборудованием (веревка). Водитель буксирующего транспортного средства имеет право двигаться:", linkImage: Optional("http://teoria.on.ge/files/new/acb0d69d171c14b9b0fb07001d735dc7.jpg"),
+                            title: "Буксирование автомобиля, вышедшего из строя на автомагистрали, происходит самодельным оборудованием (веревка). Водитель буксирующего транспортного средства имеет право двигаться:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/acb0d69d171c14b9b0fb07001d735dc7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "По направлению А.",
@@ -8169,7 +8629,8 @@ final class Content {
             ),
             Qwestion(
                             number: 539,
-                            title: "Имеет ли право водитель буксирующего автомобиля продолжить движение по направлению стрелки, если буксировка происходит самодельным оборудованием (веревкой)?", linkImage: Optional("http://teoria.on.ge/files/new/674e5fc8406a66f20103008bfaebbf1a.jpg"),
+                            title: "Имеет ли право водитель буксирующего автомобиля продолжить движение по направлению стрелки, если буксировка происходит самодельным оборудованием (веревкой)?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/674e5fc8406a66f20103008bfaebbf1a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Имеет право",
@@ -8178,7 +8639,8 @@ final class Content {
             ),
             Qwestion(
                             number: 541,
-                            title: "Нарушает ли водитель буксирующего транспортного средства движущий по направлению стрелки требования установленные для буксирования механических транспортных средств?", linkImage: Optional("http://teoria.on.ge/files/new/0336c820f0b8ed26b447cbff5e1c1423.jpg"),
+                            title: "Нарушает ли водитель буксирующего транспортного средства движущий по направлению стрелки требования установленные для буксирования механических транспортных средств?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0336c820f0b8ed26b447cbff5e1c1423.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Нарушает",
@@ -8187,7 +8649,8 @@ final class Content {
             ),
             Qwestion(
                             number: 546,
-                            title: "Водитель, какого автомобиля нарушает правила дорожного движения, если трактор двигается скоростью 50 км/ч., а грузовой автомобиль осуществляет обгон?", linkImage: Optional("http://teoria.on.ge/files/new/005412fbc4afa1cd5bf3e19a3a82081f.jpg"),
+                            title: "Водитель, какого автомобиля нарушает правила дорожного движения, если трактор двигается скоростью 50 км/ч., а грузовой автомобиль осуществляет обгон?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/005412fbc4afa1cd5bf3e19a3a82081f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только водитель трактора",
@@ -8197,7 +8660,8 @@ final class Content {
             ),
             Qwestion(
                             number: 547,
-                            title: "Допускается ли, буксировка легкового автомобиля с неисправным механизмом рулевого управления данным способом?", linkImage: Optional("http://teoria.on.ge/files/new/6b2884ef79c61505ce58a2172b4062fc.jpg"),
+                            title: "Допускается ли, буксировка легкового автомобиля с неисправным механизмом рулевого управления данным способом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6b2884ef79c61505ce58a2172b4062fc.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Допускается",
@@ -8206,7 +8670,8 @@ final class Content {
             ),
             Qwestion(
                             number: 548,
-                            title: "Допускается ли, буксировка легкового автомобиля с неисправным механизмом рулевого управления данным способом?", linkImage: Optional("http://teoria.on.ge/files/new/c7d649444945c428efe993ec5cfc2b10.jpg"),
+                            title: "Допускается ли, буксировка легкового автомобиля с неисправным механизмом рулевого управления данным способом?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c7d649444945c428efe993ec5cfc2b10.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Допускается",
@@ -8215,7 +8680,8 @@ final class Content {
             ),
             Qwestion(
                             number: 549,
-                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения в случае движения по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/6a18781905494529aac4a432f94e0443.jpg"),
+                            title: "Водитель, какого транспортного средства нарушит правила дорожного движения в случае движения по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6a18781905494529aac4a432f94e0443.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Водитель буксирующего полуприцепного тягача.",
@@ -8224,7 +8690,8 @@ final class Content {
             ),
             Qwestion(
                             number: 550,
-                            title: "В данной ситуации, сколько требований дорожного движения нарушены, если буксированный состав с гибкой цепкой движется скоростью 50 км/ч., а между ними расстояние 5 метров?", linkImage: Optional("http://teoria.on.ge/files/new/93028c9319f87dbe7f330f3c93718cc0.jpg"),
+                            title: "В данной ситуации, сколько требований дорожного движения нарушены, если буксированный состав с гибкой цепкой движется скоростью 50 км/ч., а между ними расстояние 5 метров?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/93028c9319f87dbe7f330f3c93718cc0.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Два",
@@ -8234,7 +8701,8 @@ final class Content {
             ),
             Qwestion(
                             number: 552,
-                            title: "В данной ситуации, у водителя буксирующего автомобиля есть право продолжить движение:", linkImage: Optional("http://teoria.on.ge/files/new/fbc44eafe2e7a275ed97c26ddde198b7.jpg"),
+                            title: "В данной ситуации, у водителя буксирующего автомобиля есть право продолжить движение:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fbc44eafe2e7a275ed97c26ddde198b7.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "В направление А",
@@ -8244,7 +8712,8 @@ final class Content {
             ),
             Qwestion(
                             number: 553,
-                            title: "В данной ситуации запрещается или нет водителю буксирующего автомобиля, движение по направлению стрелки, если дорога обледеневшая?", linkImage: Optional("http://teoria.on.ge/files/new/8a153a9edf37bc758d30a6229e26a831.jpg"),
+                            title: "В данной ситуации запрещается или нет водителю буксирующего автомобиля, движение по направлению стрелки, если дорога обледеневшая?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8a153a9edf37bc758d30a6229e26a831.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -8350,7 +8819,8 @@ final class Content {
             ),
             Qwestion(
                             number: 590,
-                            title: "В данной ситуации, сколько правил дорожного движения нарушит водитель буксирующего грузового автомобиля в случае движения по направлению стрелки, если он движется со скоростью 60 км/ч?", linkImage: Optional("http://teoria.on.ge/files/new/db8cdaea0be1965469c4fa4fb13960a7.jpg"),
+                            title: "В данной ситуации, сколько правил дорожного движения нарушит водитель буксирующего грузового автомобиля в случае движения по направлению стрелки, если он движется со скоростью 60 км/ч?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/db8cdaea0be1965469c4fa4fb13960a7.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Ни одного",
@@ -8955,7 +9425,8 @@ final class Content {
          name: "Знаки приоритета",
             qwestions: [Qwestion(
                             number: 654,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/2f049d0ea967f656ca1effb162287e37.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/2f049d0ea967f656ca1effb162287e37.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Обозначает дорогу, на которую движущему водителю дается преимущество проезда нерегулированного перекрестка",
@@ -8965,7 +9436,8 @@ final class Content {
             ),
             Qwestion(
                             number: 655,
-                            title: "Из данных дорожных знаков, какой обозначает, конец того участка дороги, откуда он теряет статус главной дороги?", linkImage: Optional("http://teoria.on.ge/files/new/9fc0e80ff77372c3a68d4112de134466.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает, конец того участка дороги, откуда он теряет статус главной дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9fc0e80ff77372c3a68d4112de134466.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -8975,7 +9447,8 @@ final class Content {
             ),
             Qwestion(
                             number: 656,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/ef1355099ee026e22a33b821328407df.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ef1355099ee026e22a33b821328407df.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Дорогу, по которой движущему водителю присваивается преимущество проезда нерегулированного перекрестка",
@@ -8985,7 +9458,8 @@ final class Content {
             ),
             Qwestion(
                             number: 657,
-                            title: "Из данных дорожных знаков, какой обозначает пересечение с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?", linkImage: Optional("http://teoria.on.ge/files/new/0317f0a816cd8a076b7ca8e92c9e4be4.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает пересечение с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0317f0a816cd8a076b7ca8e92c9e4be4.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -8995,7 +9469,8 @@ final class Content {
             ),
             Qwestion(
                             number: 658,
-                            title: "Из данных дорожных знаков, какой обозначает примыкание с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?", linkImage: Optional("http://teoria.on.ge/files/new/e631c390253c9780665578de3766fdb9.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает примыкание с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e631c390253c9780665578de3766fdb9.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только II и IV",
@@ -9005,7 +9480,8 @@ final class Content {
             ),
             Qwestion(
                             number: 659,
-                            title: "Из данных дорожных знаков, какой обозначает примыкание с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?", linkImage: Optional("http://teoria.on.ge/files/new/372295438bf5297530969d3e3b0d6299.jpg"),
+                            title: "Из данных дорожных знаков, какой обозначает примыкание с такой дороги, на которой движущиеся водитель имеет обязательство уступления дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/372295438bf5297530969d3e3b0d6299.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I и III",
@@ -9015,7 +9491,8 @@ final class Content {
             ),
             Qwestion(
                             number: 660,
-                            title: "Из данных дорожных знаков, какой обязывает водителя уступить водителю транспортного средства  движущему на пересекающей дороге?", linkImage: Optional("http://teoria.on.ge/files/new/233c576795268f97201ef177581328be.jpg"),
+                            title: "Из данных дорожных знаков, какой обязывает водителя уступить водителю транспортного средства  движущему на пересекающей дороге?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/233c576795268f97201ef177581328be.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9025,7 +9502,8 @@ final class Content {
             ),
             Qwestion(
                             number: 661,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/cc0eb7bbd9004eeba37fdc66c4dcb2c3.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cc0eb7bbd9004eeba37fdc66c4dcb2c3.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Запрещает водителю въезд на узкий участок дороги",
@@ -9035,7 +9513,8 @@ final class Content {
             ),
             Qwestion(
                             number: 662,
-                            title: "Из данных дорожных знаков, какой запрещает водителю без остановки продолжить движение перед «Стоп-линии»?", linkImage: Optional("http://teoria.on.ge/files/new/25509f93a4aea1611ad917498d350226.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает водителю без остановки продолжить движение перед «Стоп-линии»?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/25509f93a4aea1611ad917498d350226.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -9045,7 +9524,8 @@ final class Content {
             ),
             Qwestion(
                             number: 663,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/bdd62e2ed1636a77257a1693c677ca4b.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bdd62e2ed1636a77257a1693c677ca4b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Запрещает въезд всеми транспортными средствами по данному направлению",
@@ -9055,7 +9535,8 @@ final class Content {
             ),
             Qwestion(
                             number: 664,
-                            title: "Из данных дорожных знаков, какой запрещает водителю въезд на узкий участок дороги, если это затрудняет движение в противоположенное направление?", linkImage: Optional("http://teoria.on.ge/files/new/0305a33b75f70144244cc4af6c45ffec.jpg"),
+                            title: "Из данных дорожных знаков, какой запрещает водителю въезд на узкий участок дороги, если это затрудняет движение в противоположенное направление?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0305a33b75f70144244cc4af6c45ffec.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -9065,7 +9546,8 @@ final class Content {
             ),
             Qwestion(
                             number: 665,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/856b3a1c4692ab3a01fc4a044627eaf9.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/856b3a1c4692ab3a01fc4a044627eaf9.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Обозначает начала дорожного участка, где на одной или на нескольких полосах направления движения может измениться в противоположное",
@@ -9075,7 +9557,8 @@ final class Content {
             ),
             Qwestion(
                             number: 666,
-                            title: "Из данных дорожных знаков, какой присваивает водителю преимущество в сравнении с транспортным средством движущим в противоположном направлении, при движении на узком участке дороги?", linkImage: Optional("http://teoria.on.ge/files/new/e1411ea309b78bd4ca96f6595efdfc8f.jpg"),
+                            title: "Из данных дорожных знаков, какой присваивает водителю преимущество в сравнении с транспортным средством движущим в противоположном направлении, при движении на узком участке дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e1411ea309b78bd4ca96f6595efdfc8f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9085,7 +9568,8 @@ final class Content {
             ),
             Qwestion(
                             number: 667,
-                            title: "Указанный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/a573c9e7ea2890fec2b2b2c8c7c62da1.jpg"),
+                            title: "Указанный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a573c9e7ea2890fec2b2b2c8c7c62da1.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Дает водителю преимущество в сравнении с транспортным средством движущим в противоположном направлении, при движении на узком участке дороги",
@@ -9095,7 +9579,8 @@ final class Content {
             ),
             Qwestion(
                             number: 668,
-                            title: "Из данных дорожных знаков, в действии зоны которого присваивается водителю преимущество проезда нерегулированного перекрестка?", linkImage: Optional("http://teoria.on.ge/files/new/5f1a1e290f286b860f65ba44f1898f25.jpg"),
+                            title: "Из данных дорожных знаков, в действии зоны которого присваивается водителю преимущество проезда нерегулированного перекрестка?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/5f1a1e290f286b860f65ba44f1898f25.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только II и IV",
@@ -9105,7 +9590,8 @@ final class Content {
             ),
             Qwestion(
                             number: 669,
-                            title: "Из данных дорожных знаков, какой ставится непосредственно перед началом узкого отрезка дороги?", linkImage: Optional("http://teoria.on.ge/files/new/1054af36b4f19173c19ea4eb4a4746cd.jpg"),
+                            title: "Из данных дорожных знаков, какой ставится непосредственно перед началом узкого отрезка дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/1054af36b4f19173c19ea4eb4a4746cd.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "II и III",
@@ -9115,7 +9601,8 @@ final class Content {
             ),
             Qwestion(
                             number: 670,
-                            title: "Если нет иной необходимости, данные дорожные знаки в ненаселенном пункте ставятся до начала опасного участка:", linkImage: Optional("http://teoria.on.ge/files/new/6badd5d8c674639024a817176f3a5f87.jpg"),
+                            title: "Если нет иной необходимости, данные дорожные знаки в ненаселенном пункте ставятся до начала опасного участка:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6badd5d8c674639024a817176f3a5f87.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На расстоянии 50-100 метров",
@@ -9125,7 +9612,8 @@ final class Content {
             ),
             Qwestion(
                             number: 671,
-                            title: "Если нет иной необходимости, данные дорожные знаки в населенном пункте  устанавливаются до начала опасного участка:", linkImage: Optional("http://teoria.on.ge/files/new/6674601e7e22e07e3c711f9a1f54bc3e.jpg"),
+                            title: "Если нет иной необходимости, данные дорожные знаки в населенном пункте  устанавливаются до начала опасного участка:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6674601e7e22e07e3c711f9a1f54bc3e.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "На расстоянии 50-100 метров",
@@ -9603,7 +10091,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1136,
-                            title: "В каком направлении не запрещено движение учебного автомобиля, если за рулем сидит ученик?", linkImage: Optional("http://teoria.on.ge/files/new/eb843c53a7c180628ff7ec80979d5d24.jpg"),
+                            title: "В каком направлении не запрещено движение учебного автомобиля, если за рулем сидит ученик?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/eb843c53a7c180628ff7ec80979d5d24.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "В направление А",
@@ -9613,7 +10102,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1137,
-                            title: "Запрещено или нет, движение учебного автомобиля по направлению стрелки, если за рулем сидит ученик?", linkImage: Optional("http://teoria.on.ge/files/new/502732040220b5988c374b3b5f4f82e3.jpg"),
+                            title: "Запрещено или нет, движение учебного автомобиля по направлению стрелки, если за рулем сидит ученик?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/502732040220b5988c374b3b5f4f82e3.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещено",
@@ -9622,7 +10112,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1138,
-                            title: "Запрещено или нет. движение учебного автомобиля по направлению стрелки, если за рулем сидит ученик?", linkImage: Optional("http://teoria.on.ge/files/new/0ad3d42a08607cada6b86cdb8b88f466.jpg"),
+                            title: "Запрещено или нет. движение учебного автомобиля по направлению стрелки, если за рулем сидит ученик?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0ad3d42a08607cada6b86cdb8b88f466.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещено",
@@ -9631,7 +10122,8 @@ final class Content {
          name: "Знаки обслуживания",
             qwestions: [Qwestion(
                             number: 1171,
-                            title: "С данных дорожных знаков, какой дает информацию о пункте первычной медицинской помощи?", linkImage: Optional("http://teoria.on.ge/files/new/a901a6df4efe1f0194956b18590bb438.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о пункте первычной медицинской помощи?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a901a6df4efe1f0194956b18590bb438.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -9641,7 +10133,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1172,
-                            title: "С данных дорожных знаков, какой дает информацию о месте станции автозаправки?", linkImage: Optional("http://teoria.on.ge/files/new/cf523bb9c0a786867f3b13211e8b938e.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о месте станции автозаправки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/cf523bb9c0a786867f3b13211e8b938e.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -9651,7 +10144,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1173,
-                            title: "С данных дорожных знаков, какой дает информацию о месте технического обслуживания автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/248849087cdb671683f975a56f582381.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о месте технического обслуживания автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/248849087cdb671683f975a56f582381.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9661,7 +10155,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1174,
-                            title: "С данных дорожных знаков, какой дает информацию о месте мойки автомобиля?", linkImage: Optional("http://teoria.on.ge/files/new/f96b91b60fdd8a77c2b1195d59ba197b.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о месте мойки автомобиля?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f96b91b60fdd8a77c2b1195d59ba197b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9671,7 +10166,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1175,
-                            title: "С данных дорожных знаков, какой дает информацию о пункте телефона?", linkImage: Optional("http://teoria.on.ge/files/new/dbc746d46e04397d56058a341b2830bb.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о пункте телефона?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/dbc746d46e04397d56058a341b2830bb.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9681,7 +10177,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1176,
-                            title: "С данных дорожных знаков, какой дает информацию о пункте питания?", linkImage: Optional("http://teoria.on.ge/files/new/d7e0bafd00f969cb04387165930e60ac.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о пункте питания?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/d7e0bafd00f969cb04387165930e60ac.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -9691,7 +10188,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1177,
-                            title: "С данных дорожных знаков, какой дает информацию о питьевой воде?", linkImage: Optional("http://teoria.on.ge/files/new/8ee47be53c5ad87705944b807a7451e8.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о питьевой воде?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/8ee47be53c5ad87705944b807a7451e8.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9701,7 +10199,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1178,
-                            title: "С данных дорожных знаков, какой дает информацию о гостинице или мотеле?", linkImage: Optional("http://teoria.on.ge/files/new/957702fd8f48d8787697def11e908845.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о гостинице или мотеле?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/957702fd8f48d8787697def11e908845.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -9711,7 +10210,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1179,
-                            title: "С данных дорожных знаков, какой дает информацию о кемпинге?", linkImage: Optional("http://teoria.on.ge/files/new/ae40558159556ea34892a5cba3290a8d.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о кемпинге?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ae40558159556ea34892a5cba3290a8d.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -9721,7 +10221,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1181,
-                            title: "Данный дорожный знак обозначает:", linkImage: Optional("http://teoria.on.ge/files/new/45defebbb01b82640b03bb83e9243415.jpg"),
+                            title: "Данный дорожный знак обозначает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/45defebbb01b82640b03bb83e9243415.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Место слияния с автомагистралью выезда с другой дороги",
@@ -9731,7 +10232,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1182,
-                            title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/6ce7e17e143a2f2e4f51f516ed5eb7ec.jpg"),
+                            title: "Данный дорожный знак дает информацию:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6ce7e17e143a2f2e4f51f516ed5eb7ec.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "О существовании постового патрульной полиции",
@@ -9740,7 +10242,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1184,
-                            title: "С данных дорожных знаков, какой дает информацию о существовании контрольного  пункта международных автомобильных перевозов?", linkImage: Optional("http://teoria.on.ge/files/new/0b1975f7d633deefada7cc0b0ecfcdbe.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о существовании контрольного  пункта международных автомобильных перевозов?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0b1975f7d633deefada7cc0b0ecfcdbe.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -9750,7 +10253,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1185,
-                            title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ee10b91a2eae31aeedd8aaa422c9f9f4.jpg"),
+                            title: "Данный дорожный знак дает информацию:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ee10b91a2eae31aeedd8aaa422c9f9f4.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "О существовании контрольного  пункта международных автомобильных перевозов",
@@ -9759,7 +10263,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1186,
-                            title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/19527981a506b68c4b7896d28cb59d41.jpg"),
+                            title: "Данный дорожный знак дает информацию:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/19527981a506b68c4b7896d28cb59d41.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "О существовании зоны радиосвязи с аварийной службой",
@@ -9768,7 +10273,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1187,
-                            title: "С данных дорожных знаков, какой дает информацию о существовании зоны приема радиостанции передающей информацию о дорожном движении?", linkImage: Optional("http://teoria.on.ge/files/new/74ec754a48eaadc61c087d6dbc562ec5.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о существовании зоны приема радиостанции передающей информацию о дорожном движении?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/74ec754a48eaadc61c087d6dbc562ec5.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "I",
@@ -9778,7 +10284,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1188,
-                            title: "Данный дорожный знак дает информацию:", linkImage: Optional("http://teoria.on.ge/files/new/ad06160d8fa36463f1f3646edc751608.jpg"),
+                            title: "Данный дорожный знак дает информацию:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ad06160d8fa36463f1f3646edc751608.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "О существовании зоны радиосвязи с аварийной службой",
@@ -9787,7 +10294,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1189,
-                            title: "С данных дорожных знаков, какой дает информацию о существовании зоны радиосвязи с аварийной службой?", linkImage: Optional("http://teoria.on.ge/files/new/9bc840eb8c9ce40f313edc1d009f2503.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию о существовании зоны радиосвязи с аварийной службой?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/9bc840eb8c9ce40f313edc1d009f2503.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "I",
@@ -9797,7 +10305,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1191,
-                            title: "В данной ситуации, водитель имеет право с целю долговременного отдыха автомобиль поставить:", linkImage: Optional("http://teoria.on.ge/files/new/167e4ccdb6d68bb50d1a03834ccb0915.jpg"),
+                            title: "В данной ситуации, водитель имеет право с целю долговременного отдыха автомобиль поставить:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/167e4ccdb6d68bb50d1a03834ccb0915.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На месте А",
@@ -9807,7 +10316,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1192,
-                            title: "Грузовой автомобиль и желтый легковой автомобиль продолжают движение по направлению стрелки, а водитель белого легкового автомобиля остановился с целью долговременного отдыха. Водитель, какого автомобиля нарушит правила дорожного движения, если средняя полоса данной дороги употребляется для движения в обоих направлениях?", linkImage: Optional("http://teoria.on.ge/files/new/e9b555c1d750ba095dfbbf3178ac5260.jpg"),
+                            title: "Грузовой автомобиль и желтый легковой автомобиль продолжают движение по направлению стрелки, а водитель белого легкового автомобиля остановился с целью долговременного отдыха. Водитель, какого автомобиля нарушит правила дорожного движения, если средняя полоса данной дороги употребляется для движения в обоих направлениях?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/e9b555c1d750ba095dfbbf3178ac5260.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только водители грузового автомобиля и белого легкового автомобиля",
@@ -9817,7 +10327,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1240,
-                            title: "С данных дорожных знаков, какой дает информацию  о плавательном бассейне или пляже?", linkImage: Optional("http://teoria.on.ge/files/new/6ef40680855f2cdf6d88a20a1456432f.jpg"),
+                            title: "С данных дорожных знаков, какой дает информацию  о плавательном бассейне или пляже?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/6ef40680855f2cdf6d88a20a1456432f.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "I",
@@ -9827,7 +10338,8 @@ final class Content {
          name: "Дополнительные информационные знаки",
             qwestions: [Qwestion(
                             number: 1193,
-                            title: "С данных табличек, какой указывает расстояние от знака до начала опасного участка, до места внесения соответствующего ограничения или спереди, до определенного объекта (места) по направлению движения?", linkImage: Optional("http://teoria.on.ge/files/new/c960f409282e0b2d589ef79e31cb6204.jpg"),
+                            title: "С данных табличек, какой указывает расстояние от знака до начала опасного участка, до места внесения соответствующего ограничения или спереди, до определенного объекта (места) по направлению движения?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/c960f409282e0b2d589ef79e31cb6204.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "I",
@@ -9837,7 +10349,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1196,
-                            title: "Данные дополнительные знаки (таблички) указывают:", linkImage: Optional("http://teoria.on.ge/files/new/ea9afd270042f01f597ec8c978e79f2f.jpg"),
+                            title: "Данные дополнительные знаки (таблички) указывают:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/ea9afd270042f01f597ec8c978e79f2f.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Направление действия знака, установленного перед перекрестком",
@@ -9847,7 +10360,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1198,
-                            title: "Данный дополнительный знак (табличка) указывает:", linkImage: Optional("http://teoria.on.ge/files/new/dfb7c51062825662cd354ca76e15b6f7.jpg"),
+                            title: "Данный дополнительный знак (табличка) указывает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/dfb7c51062825662cd354ca76e15b6f7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Расстояния от знака до начала опасного участка",
@@ -9857,7 +10371,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1199,
-                            title: "С данных знаков дополнительной информации (с табличек), какой указывает на зону действия знаков запрещающих остановки и стоянки?", linkImage: Optional("http://teoria.on.ge/files/new/04d4e6b2e4b7385673f5c4c9ada73b42.jpg"),
+                            title: "С данных знаков дополнительной информации (с табличек), какой указывает на зону действия знаков запрещающих остановки и стоянки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/04d4e6b2e4b7385673f5c4c9ada73b42.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только I и III",
@@ -9867,7 +10382,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1201,
-                            title: "Данный дополнительный знак (табличка) указывает:", linkImage: Optional("http://teoria.on.ge/files/new/81d55fdc0f163053755fdc365b6a286a.jpg"),
+                            title: "Данный дополнительный знак (табличка) указывает:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/81d55fdc0f163053755fdc365b6a286a.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Расстояние от знака до начала опасного участка",
@@ -9877,7 +10393,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1203,
-                            title: "С данных знаков дополнительной информации (с табличек), какой указывает зону действия знаков запрещающих остановки и стоянки вдоль стороны площади, здания, фасада и т.д.?", linkImage: Optional("http://teoria.on.ge/files/new/4332277d211a5c7c43757ff2d3dba967.jpg"),
+                            title: "С данных знаков дополнительной информации (с табличек), какой указывает зону действия знаков запрещающих остановки и стоянки вдоль стороны площади, здания, фасада и т.д.?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/4332277d211a5c7c43757ff2d3dba967.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только II и IV",
@@ -9887,7 +10404,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1205,
-                            title: "С данных знаков дополнительной информации (с табличек), какой указывает направление действия знака установленного перед перекрестком или направление движения, непосредственно к отмеченному объекту находящегося у дороги?", linkImage: Optional("http://teoria.on.ge/files/new/817fdd1baf5be53924fb3fa830261d03.jpg"),
+                            title: "С данных знаков дополнительной информации (с табличек), какой указывает направление действия знака установленного перед перекрестком или направление движения, непосредственно к отмеченному объекту находящегося у дороги?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/817fdd1baf5be53924fb3fa830261d03.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I",
@@ -9897,7 +10415,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1208,
-                            title: "С комбинации данных дорожных знаков, действие, какого распространяется только на легковые автомобили?", linkImage: Optional("http://teoria.on.ge/files/new/fc7cda05753ce6557e58558943302dc7.jpg"),
+                            title: "С комбинации данных дорожных знаков, действие, какого распространяется только на легковые автомобили?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/fc7cda05753ce6557e58558943302dc7.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Только IV",
@@ -9907,7 +10426,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1211,
-                            title: "С комбинации данных дорожных знаков, действие, какого распространяется в будние (рабочие) дни?", linkImage: Optional("http://teoria.on.ge/files/new/f09668e21eb3919526ab4c38db89bc03.jpg"),
+                            title: "С комбинации данных дорожных знаков, действие, какого распространяется в будние (рабочие) дни?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f09668e21eb3919526ab4c38db89bc03.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Только III",
@@ -9917,7 +10437,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1213,
-                            title: "С комбинации данных дорожных знаков, какой указывает на дни недели, когда действует знак?", linkImage: Optional("http://teoria.on.ge/files/new/113d78da7c2684f4338073e8d4a6456a.jpg"),
+                            title: "С комбинации данных дорожных знаков, какой указывает на дни недели, когда действует знак?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/113d78da7c2684f4338073e8d4a6456a.jpg"),
                             answer: Answer(
                                 rightOpinion: 4,
                                 fist: "Только III и IV",
@@ -9927,7 +10448,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1215,
-                            title: "С комбинации данных дорожных знаков, действие, какого не распространяется на транспортные средства, на которых установлен опознавательный знак «Лицо с ограниченными возможностями»?", linkImage: Optional("http://teoria.on.ge/files/new/47927a3dbcb3d2e8772cb8994a5d6c1e.jpg"),
+                            title: "С комбинации данных дорожных знаков, действие, какого не распространяется на транспортные средства, на которых установлен опознавательный знак «Лицо с ограниченными возможностями»?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/47927a3dbcb3d2e8772cb8994a5d6c1e.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Только I",
@@ -9937,7 +10459,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1216,
-                            title: "Комбинация данных дорожных знаков водителю указывают, что обгон запрещен:", linkImage: Optional("http://teoria.on.ge/files/new/0fc54adcc83bce7ecc00880475795466.jpg"),
+                            title: "Комбинация данных дорожных знаков водителю указывают, что обгон запрещен:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0fc54adcc83bce7ecc00880475795466.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "В темное время суток",
@@ -9947,7 +10470,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1239,
-                            title: "Данный дорожный знак:", linkImage: Optional("http://teoria.on.ge/files/new/3056c27ce6af46e21045c87cf27b6b5b.jpg"),
+                            title: "Данный дорожный знак:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/3056c27ce6af46e21045c87cf27b6b5b.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "Обязывает водителя уступить дорогу транспортным средствам, движущим на пересекаемой дороге",
@@ -9957,7 +10481,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1241,
-                            title: "Комбинация данных дорожных знаков водителю указывает, что:", linkImage: Optional("http://teoria.on.ge/files/new/bc2a6686a980b449ad203b26854bc2e7.jpg"),
+                            title: "Комбинация данных дорожных знаков водителю указывает, что:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/bc2a6686a980b449ad203b26854bc2e7.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "От знака на расстоянии 300 метров водитель обязан уступить дорогу встречному транспортному средству",
@@ -9967,7 +10492,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1242,
-                            title: "Данные дорожные знаки водителю предоставляет информацию, что перед местом установки знака:", linkImage: Optional("http://teoria.on.ge/files/new/0121a6a9f99c0aff1af904771cbf5e23.jpg"),
+                            title: "Данные дорожные знаки водителю предоставляет информацию, что перед местом установки знака:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/0121a6a9f99c0aff1af904771cbf5e23.jpg"),
                             answer: Answer(
                                 rightOpinion: 3,
                                 fist: "На расстоянии 400 метров неровная дорога, где рекомендовано движение на скорости 30 км/ч",
@@ -9977,7 +10503,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1243,
-                            title: "В данной ситуации, запрещается или нет, водителю белого автомобиля движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/91d9154a48f1c70af4b57aa2c5a9bae4.jpg"),
+                            title: "В данной ситуации, запрещается или нет, водителю белого автомобиля движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/91d9154a48f1c70af4b57aa2c5a9bae4.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "Запрещается",
@@ -9986,7 +10513,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1244,
-                            title: "В данной ситуации, запрещается или нет, водителю желтого автомобиля движение по направлению стрелки?", linkImage: Optional("http://teoria.on.ge/files/new/257f548e1704a907ae5d33c75f3e71f0.jpg"),
+                            title: "В данной ситуации, запрещается или нет, водителю желтого автомобиля движение по направлению стрелки?",
+                            linkImage: Optional("http://teoria.on.ge/files/new/257f548e1704a907ae5d33c75f3e71f0.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "Запрещается",
@@ -9995,7 +10523,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1245,
-                            title: "Данный дорожный знак водителю указывает, что перед местом установки знака:", linkImage: Optional("http://teoria.on.ge/files/new/f1e76e531015dc34aa312da750ae4b22.jpg"),
+                            title: "Данный дорожный знак водителю указывает, что перед местом установки знака:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/f1e76e531015dc34aa312da750ae4b22.jpg"),
                             answer: Answer(
                                 rightOpinion: 1,
                                 fist: "На расстоянии 300 метров запрещается движение на скорости более 50 км/ч",
@@ -10004,7 +10533,8 @@ final class Content {
             ),
             Qwestion(
                             number: 1246,
-                            title: "Комбинация данных дорожных знаков водителю указывает, что перед местом установки знаков:", linkImage: Optional("http://teoria.on.ge/files/new/a497e154681061efc382c4a54572b5ec.jpg"),
+                            title: "Комбинация данных дорожных знаков водителю указывает, что перед местом установки знаков:",
+                            linkImage: Optional("http://teoria.on.ge/files/new/a497e154681061efc382c4a54572b5ec.jpg"),
                             answer: Answer(
                                 rightOpinion: 2,
                                 fist: "На расстоянии 300 метров запрещается движение на скорости более 50 км/ч",

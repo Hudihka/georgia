@@ -71,11 +71,16 @@ final class ViewControllerQwestion: UIViewController {
             make.height.greaterThanOrEqualTo(scrollView.snp.height)
         }
         
-        if let link = qwestion?.linkImage {
+        if
+            let id = qwestion?.idQwestion,
+            let image = UIImage(named: "georgia_image_for_tiket_\(id)")
+        {
             uiimageView = UIImageView()
             guard let uiimageView = uiimageView else {
                 return
             }
+            
+            uiimageView.image = image
             
             viewContent.addSubview(uiimageView)
             uiimageView.snp.makeConstraints { make in
@@ -93,17 +98,6 @@ final class ViewControllerQwestion: UIViewController {
                 make.top.left.right.equalToSuperview()
                 make.height.equalTo(wDdevice)
             }
-            
-            SaveImg.shared.updateUI(
-                imageURL: link,
-                idQwestion: idQwestion,
-                imageView: uiimageView
-            ) { _ in
-                button.isEnabled = true
-            }
-            
-            
-            
         }
         
         viewContent.addSubview(labelTitle)

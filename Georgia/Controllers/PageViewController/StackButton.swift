@@ -148,7 +148,6 @@ final class StackButton: UIView {
         let newQwestion = Qwestion(
             number: qwestion.idQwestion,
             title: qwestion.title,
-            linkImage: qwestion.linkImage,
             answer: qwestion.answer,
             option: trueAnswer ? .trueOption : .falseOption,
             answerTest: Qwestion.AnswerTest(

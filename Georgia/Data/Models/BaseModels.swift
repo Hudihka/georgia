@@ -41,7 +41,6 @@ extension EpicWithQwestion {
 struct Qwestion: Codable {
     let idQwestion: Int
     let title: String
-    let linkImage: String?
     let answer: Answer
     let option: Option
     let answerTest: AnswerTest?
@@ -49,7 +48,6 @@ struct Qwestion: Codable {
     init(
         number: Int,
         title: String,
-        linkImage: String? = nil,
         answer: Answer,
         option: Option = .clearOption,
         answerTest: AnswerTest? = nil
@@ -57,7 +55,6 @@ struct Qwestion: Codable {
         self.idQwestion = number
         
         self.title = title
-        self.linkImage = linkImage
         self.answer = answer
         self.option = option
         self.answerTest = answerTest

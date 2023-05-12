@@ -16,33 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         
-        sleep(6)
-        firstLoadImages()
-        
         window = UIWindow(frame: CGRect(origin: CGPoint.zero, size: UIScreen.main.bounds.size))
         window?.rootViewController = EpicsViewControllerBuilder.build()
         window?.makeKeyAndVisible()
         
         return true
-    }
-    
-    private func firstLoadImages() {
-        guard UserDefManager.isLoadedAllImages == false else {
-            return
-        }
-        
-        let content = Content.epicQwestions.flatMap({ $0.qwestions }).compactMap({ $0.linkImage })
-        var counter = 0
-        
-        let imageView = UIImageView()
-        content.forEach { string in
-            SaveImg.shared.updateUI(imageURL: string, imageView: imageView) { _ in
-                counter += 1
-                if counter == content.count {
-                    UserDefManager.imLoadedAllImages()
-                }
-            }
-        }
     }
 }
 

@@ -46,6 +46,7 @@
 		E9869DD52A0987FB00AF03DB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9869DD42A0987FB00AF03DB /* SnapKit */; };
 		E98F23EC2A0C295F00ABE154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBD297C5727005B76BE /* LaunchScreen.storyboard */; };
 		E98F23ED2A0C2A1500ABE154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186EBB297C5727005B76BE /* Assets.xcassets */; };
+		E993BCC02A0E7B4700DC9FD4 /* ContentForTrawel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E993BCBF2A0E7B4700DC9FD4 /* ContentForTrawel.swift */; };
 		E9BE46842A0AED83003C8B6C /* UserDefManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE46832A0AED83003C8B6C /* UserDefManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		E9869DC82A09840B00AF03DB /* UIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResources.swift; sourceTree = "<group>"; };
 		E9869DCF2A0985F700AF03DB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E9869DD12A09861C00AF03DB /* BaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
+		E993BCBF2A0E7B4700DC9FD4 /* ContentForTrawel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForTrawel.swift; sourceTree = "<group>"; };
 		E9BE46832A0AED83003C8B6C /* UserDefManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -271,6 +273,7 @@
 			children = (
 				E91FB9032A0A6EA80028F33E /* SaveImage */,
 				E9869DCF2A0985F700AF03DB /* Content.swift */,
+				E993BCBF2A0E7B4700DC9FD4 /* ContentForTrawel.swift */,
 				E90505F22A0CEC08007FC30E /* Content2.swift */,
 				E91FB8C02A0990550028F33E /* DataManager.swift */,
 				E9BE46832A0AED83003C8B6C /* UserDefManager.swift */,
@@ -365,6 +368,7 @@
 				E91FB8EB2A09A8090028F33E /* TestEpicProtocols.swift in Sources */,
 				E9869DC92A09840B00AF03DB /* UIResources.swift in Sources */,
 				E91FB8F72A09BE160028F33E /* BaseCollectionCell.swift in Sources */,
+				E993BCC02A0E7B4700DC9FD4 /* ContentForTrawel.swift in Sources */,
 				E91FB8E12A099D1D0028F33E /* NSObject.swift in Sources */,
 				E91FB9092A0A6F3B0028F33E /* SaveImageExtension.swift in Sources */,
 				E91FB8E32A099E210028F33E /* UINavigationController.swift in Sources */,
@@ -547,7 +551,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testTest.unit.Georgia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTest.unit.Georgia.content.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -581,7 +585,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testTest.unit.Georgia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTest.unit.Georgia.content.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

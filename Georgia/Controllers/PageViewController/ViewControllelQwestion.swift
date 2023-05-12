@@ -96,6 +96,7 @@ final class ViewControllerQwestion: UIViewController {
             
             SaveImg.shared.updateUI(
                 imageURL: link,
+                idQwestion: idQwestion,
                 imageView: uiimageView
             ) { _ in
                 button.isEnabled = true

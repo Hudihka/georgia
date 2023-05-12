@@ -10,10 +10,6 @@ import Foundation
 
 
 extension URL{
-    var keyURL: String {
-        let str = self.absoluteString
-        return str.removeCharacters(from: "/:.")
-    }
 
     // методы ниже нужны для получения/извлечения/проверки есть ли такое изображение в директории
     var attributes: [FileAttributeKey: Any]? {

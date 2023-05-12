@@ -16,10 +16,13 @@ class SaveImg: NSObject {
     
     //сохранение/получение изображения
     
-    func updateUI(imageURL: URL?,
-                  imageView: UIImageView,
-                  placeholder: UIImage? = imagePlaceholder, //nil значит вообще не будет
-        completion:((Error?) -> Void)?) {
+    func updateUI(
+        imageURL: URL?,
+        idQwestion: Int,
+        imageView: UIImageView,
+        placeholder: UIImage? = imagePlaceholder, //nil значит вообще не будет
+        completion:((Error?) -> Void)?
+    ) {
         
         imageView.image = placeholder
         
@@ -28,7 +31,7 @@ class SaveImg: NSObject {
             return
         }
         
-        let keySave = imageURL.keyURL
+        let keySave = ContentForTrawel.shared.customKeyFromUrl(id: idQwestion)
         
         if let image = managerDirectory.loadImageFromDiskWith(name: keySave) {
             imageView.image = image
@@ -42,16 +45,22 @@ class SaveImg: NSObject {
         }
     }
     
-    func updateUI(imageURL: String?,
-                  imageView: UIImageView,
-                  placeholder: UIImage? = imagePlaceholder,  //nil значит вообще не будет,
-        completion:((Error?) -> Void)?) {
+    func updateUI(
+        imageURL: String?,
+        idQwestion: Int,
+        imageView: UIImageView,
+        placeholder: UIImage? = imagePlaceholder,  //nil значит вообще не будет,
+        completion:((Error?) -> Void)?
+    ) {
         
         if let imageURL = imageURL {
-            self.updateUI(imageURL: URL(string: imageURL),
-                                    imageView: imageView,
-                                    placeholder: placeholder) { (error) in
-                                        completion?(error)
+            self.updateUI(
+                imageURL: URL(string: imageURL),
+                idQwestion: idQwestion,
+                imageView: imageView,
+                placeholder: placeholder
+            ) { (error) in
+                completion?(error)
             }
         } else {
             if let placeholder = placeholder {

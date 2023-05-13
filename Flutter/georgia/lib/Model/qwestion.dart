@@ -9,6 +9,9 @@ class Qwestion {
   Option option = Option.clearOption;
   final AnswerTest? answerTest;
 
-  Qwestion(this.answerTest,
-      {required this.idQwestion, required this.title, required this.answer});
+  Qwestion(
+      {required this.idQwestion,
+      required this.title,
+      required this.answer,
+      this.answerTest});
 }

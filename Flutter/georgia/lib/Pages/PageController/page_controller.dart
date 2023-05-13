@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:georgia/Model/qwestion.dart';
 
 class MyPageView extends StatefulWidget {
-  const MyPageView({super.key});
+  final List<Qwestion> qwestions;
+  const MyPageView({super.key, required this.qwestions});
 
   @override
   State<MyPageView> createState() => _MyPageViewState();
@@ -25,28 +27,17 @@ class _MyPageViewState extends State<MyPageView> {
         print(value);
       },
       controller: _pageController,
-      children: <Widget>[
-        _generateText(0),
-        _generateText(1),
-        _generateText(2),
-        _generateText(3),
-        _generateText(4),
-        _generateText(5),
-        _generateText(6),
-        _generateText(7),
-        _generateText(8),
-        _generateText(9),
-        _generateText(10)
-      ],
+      children: _generatePage(),
     );
   }
 
-  Widget _generateText(int ind) {
-    return ColoredBox(
-      color: Colors.red,
-      child: Center(
-        child: Text('$ind'),
-      ),
-    );
+  List<Widget> _generatePage() {
+    return widget.qwestions
+        .map((e) => Container(
+            color: Colors.red,
+            child: Center(
+              child: Text(e.title),
+            )))
+        .toList();
   }
 }

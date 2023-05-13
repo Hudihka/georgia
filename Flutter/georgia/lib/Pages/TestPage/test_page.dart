@@ -88,7 +88,7 @@ class TestPage extends StatelessWidget {
             Container(
               width: double.infinity,
               height: Const.fullHeightBody - _heightCollection,
-              child: const MyPageView(),
+              child: MyPageView(qwestions: epic.qwestions),
             )
           ],
         ));

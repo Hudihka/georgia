@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Support/constant.dart';
 import 'Pages/EpicsPage/epics_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 // import 'package:english/Cubits/group_cubit/group_cubit.dart';
@@ -12,6 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Const.setSize(context);
+
     return MaterialApp(
       theme: ThemeData(),
       home: EpicsPage(),

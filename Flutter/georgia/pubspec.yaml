@@ -34,7 +34,8 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_native_splash: ^2.2.19
   cupertino_icons: ^1.0.2
-  platform: ^3.1.0
+
+  vibration: ^1.7.3
 
 dev_dependencies:
   flutter_test:

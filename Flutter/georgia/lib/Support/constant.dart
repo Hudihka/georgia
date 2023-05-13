@@ -1,11 +1,9 @@
-import 'package:platform/platform.dart';
-
+import 'dart:io' as IO;
 import 'package:flutter/material.dart';
 
 class Const {
   static double _hDevice = 0;
   static double _wDevice = 0;
-  static Platform _platform = const Platform();
   static double _statusBarHeight = 0;
 
   static setSize(BuildContext cont) {
@@ -14,15 +12,15 @@ class Const {
     _hDevice = size.height;
     _wDevice = size.width;
 
-    statusBarHeight = MediaQuery.of(cont).padding.top;
+    _statusBarHeight = MediaQuery.of(cont).padding.top;
   }
 
   static bool get itIOS {
-    return Platform().isAndroid;
+    return IO.Platform.isIOS;
   }
 
   static bool get itAndroid {
-    return Platform.isAndroid;
+    return IO.Platform.isAndroid;
   }
 
   static double get heightDewice {

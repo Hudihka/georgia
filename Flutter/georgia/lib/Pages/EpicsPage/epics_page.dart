@@ -47,8 +47,6 @@ class EpicsPage extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
                   onTap: () {
-                    print("button pressed");
-                    print(index);
                     Navigator.of(context).push(
                       CupertinoPageRoute(
                         fullscreenDialog: true,

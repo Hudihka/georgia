@@ -34,7 +34,7 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_native_splash: ^2.2.19
   cupertino_icons: ^1.0.2
-
+  scrollable_positioned_list: ^0.3.8
   vibration: ^1.7.3
 
 dev_dependencies:

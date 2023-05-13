@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-enum EnumColors { white, black, clear, gray, red }
+enum EnumColors { white, black, clear, gray, red, green }
 
 extension EnumColorsExtension on EnumColors {
   Color color() {
@@ -15,6 +15,8 @@ extension EnumColorsExtension on EnumColors {
         return const Color.fromARGB(255, 209, 209, 209);
       case EnumColors.red:
         return Colors.red;
+      case EnumColors.green:
+        return Colors.green;
     }
   }
 }

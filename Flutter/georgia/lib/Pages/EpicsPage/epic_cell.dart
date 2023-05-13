@@ -12,33 +12,41 @@ class EpicCell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: EnumColors.gray.color(),
+        color: epic.inProgress()
+            ? EnumColors.gray.color()
+            : EnumColors.white.color(),
         width: double.infinity,
         child: Padding(
-          padding: EdgeInsets.symmetric(
-              horizontal: EnumOffsets.offset16.offset(),
-              vertical: EnumOffsets.offset6.offset()),
+          padding: EdgeInsets.fromLTRB(
+              EnumOffsets.offset16.offset(),
+              EnumOffsets.offset16.offset(),
+              EnumOffsets.offset16.offset(),
+              EnumOffsets.offset8.offset()),
           child: Column(
             children: [
               Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  EnumTexts.sections.getText() + " " + group.number.toString(),
-                  style: TextStyleExtension.generate(
-                      size: 20, style: EnumFontStyle.bold),
-                ),
-              ),
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    epic.name,
+                    style: TextStyleExtension.generate(
+                        size: 22, style: EnumFontStyle.bold),
+                    textAlign: TextAlign.left,
+                    maxLines: 3,
+                  )),
               SizedBox(
-                width: EnumOffsets.offset6.offset(),
+                height: EnumOffsets.offset8.offset(),
               ),
               Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    textAlign: TextAlign.left,
-                    group.description,
-                    style: TextStyleExtension.generate(
-                        size: 18, style: EnumFontStyle.regular),
-                  ))
+                alignment: Alignment.bottomLeft,
+                child: SizedBox(
+                    width: 150,
+                    child: Text(
+                      'Вопросов: ${epic.qwestions.length}',
+                      textAlign: TextAlign.left,
+                      style: TextStyleExtension.generate(
+                          size: 16, style: EnumFontStyle.regular),
+                    )),
+              )
             ],
           ),
         ));

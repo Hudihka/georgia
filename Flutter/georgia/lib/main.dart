@@ -12,15 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-        providers: [
-          // BlocProvider<GroupCubit>(
-          //   create: (context) => GroupCubit(GroupContent.generateBase()),
-          // ),
-        ],
-        child: MaterialApp(
-          theme: ThemeData(),
-          home: EpicsPage(),
-        ));
+    return MaterialApp(
+      theme: ThemeData(),
+      home: EpicsPage(),
+    );
   }
 }

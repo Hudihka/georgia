@@ -7,11 +7,11 @@ class EpicWithQwestion {
   EpicWithQwestion({required this.name, required this.qwestions});
 
   bool inProgress() {
-    return qwestions.map((e) => e.answerTest != null).isNotEmpty;
+    return qwestions.where((e) => e.answerTest != null).isNotEmpty;
   }
 
   int procent() {
-    int count = 100 * qwestions.map((e) => e.answerTest != null).length;
+    int count = 100 * qwestions.where((e) => e.answerTest != null).length;
 
     return count ~/ qwestions.length;
   }
@@ -21,7 +21,7 @@ class EpicWithQwestion {
   }
 
   int? activeindex() {
-    return qwestions.map((e) => e.answerTest != null).isEmpty
+    return qwestions.where((e) => e.answerTest != null).isEmpty
         ? null
         : qwestions.indexWhere((e) => e.answerTest == null);
   }

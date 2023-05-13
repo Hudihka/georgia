@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
+import 'package:georgia/Pages/EpicsPage/epic_cell.dart';
 import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_font.dart';
-import 'Pages/EpicsPage/epic_cell.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
 
 import 'package:georgia/Data/content.dart';
@@ -42,12 +42,7 @@ class EpicsPage extends StatelessWidget {
               scrollDirection: Axis.vertical,
               itemCount: _content.length,
               itemBuilder: (BuildContext context, int index) {
-                return EpicCell(epi)
-                
-                StickyHeader(
-                  header: HederCell(group: content[index]),
-                  content: _listCells(words: content[index].words),
-                );
+                return EpicCell(epic: _content[index]);
               }),
         ));
   }

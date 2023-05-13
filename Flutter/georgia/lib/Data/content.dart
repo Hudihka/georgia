@@ -5,7 +5,7 @@ import 'package:georgia/Model/answer.dart';
 class Content {
   static List<EpicWithQwestion> epicQwestions = [
     EpicWithQwestion(name: "Перекресток", qwestions: [
-      Qwestion.new(
+      Qwestion(
           idQwestion: 1,
           title:
               "У водителя, какого автомобиля появляется обязательство уступить дорогу в случае передвижения по стрелке?",

@@ -1,6 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
 import 'package:georgia/Pages/EpicsPage/epic_cell.dart';
+import 'package:georgia/Pages/TestPage/test_page.dart';
 import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_font.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
@@ -25,7 +27,6 @@ class EpicsPage extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          centerTitle: true,
           title: Text(
             'Темы',
             textAlign: TextAlign.center,
@@ -42,7 +43,19 @@ class EpicsPage extends StatelessWidget {
               scrollDirection: Axis.vertical,
               itemCount: _content.length,
               itemBuilder: (BuildContext context, int index) {
-                return EpicCell(epic: _content[index]);
+                return GestureDetector(
+                  onTap: () {
+                    print("button pressed");
+                    print(index);
+                    Navigator.of(context).push(
+                      CupertinoPageRoute(
+                        fullscreenDialog: true,
+                        builder: (context) => TestPage(epic: _content[index]),
+                      ),
+                    );
+                  },
+                  child: EpicCell(epic: _content[index]),
+                );
               }),
         ));
   }

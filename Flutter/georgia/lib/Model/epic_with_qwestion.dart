@@ -17,7 +17,7 @@ class EpicWithQwestion {
   }
 
   int mistakes() {
-    return qwestions.map((e) => e.answerTest?.indexWrong ?? false).length;
+    return qwestions.where((e) => e.answerTest?.indexWrong != null).length;
   }
 
   int? activeindex() {

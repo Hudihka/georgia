@@ -36,19 +36,63 @@ class EpicCell extends StatelessWidget {
               SizedBox(
                 height: EnumOffsets.offset8.offset(),
               ),
-              Align(
-                alignment: Alignment.bottomLeft,
-                child: SizedBox(
-                    width: 150,
-                    child: Text(
-                      'Вопросов: ${epic.qwestions.length}',
-                      textAlign: TextAlign.left,
-                      style: TextStyleExtension.generate(
-                          size: 16, style: EnumFontStyle.regular),
-                    )),
+              Row(
+                children: [
+                  Align(
+                    alignment: Alignment.bottomLeft,
+                    child: SizedBox(
+                        width: 150,
+                        child: Text(
+                          'Вопросов: ${epic.qwestions.length}',
+                          textAlign: TextAlign.left,
+                          style: TextStyleExtension.generate(
+                              size: 16, style: EnumFontStyle.regular),
+                        )),
+                  ),
+                  const Spacer(),
+                  _rowProgress()
+                ],
               )
             ],
           ),
         ));
+  }
+
+  Widget _rowProgress() {
+    if (epic.procent() == 0) {
+      return Row();
+    }
+
+    Widget procent = SizedBox(
+        width: 50,
+        child: Text(
+          '${epic.procent()}%',
+          textAlign: TextAlign.right,
+          style:
+              TextStyleExtension.generate(size: 16, style: EnumFontStyle.bold),
+        ));
+
+    final int misstakes = epic.mistakes();
+
+    if (misstakes != 0) {
+      return Row(
+        children: [
+          procent,
+          SizedBox(
+            height: EnumOffsets.offset8.offset(),
+          ),
+          SizedBox(
+              width: 50,
+              child: Text(
+                '${epic.mistakes()}/${epic.qwestions.length}',
+                textAlign: TextAlign.right,
+                style: TextStyleExtension.generate(
+                    size: 16, style: EnumFontStyle.bold, color: EnumColors.red),
+              )),
+        ],
+      );
+    } else {
+      return procent;
+    }
   }
 }

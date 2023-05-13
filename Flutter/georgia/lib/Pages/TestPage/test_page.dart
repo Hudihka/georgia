@@ -5,6 +5,8 @@ import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_font.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
 
+import '../../Support/constant.dart';
+
 class TestPage extends StatelessWidget {
   final EpicWithQwestion epic;
 
@@ -25,15 +27,25 @@ class TestPage extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text(
-            epic.name,
-            textAlign: TextAlign.center,
-            style: TextStyleExtension.generateSemibold(size: 23),
-          ),
-          backgroundColor: EnumColors.white.color(),
-          shadowColor: EnumColors.clear.color(),
-          automaticallyImplyLeading: false,
-        ),
+            title: Text(
+              epic.name,
+              textAlign: TextAlign.center,
+              style: TextStyleExtension.generateSemibold(size: 23),
+            ),
+            backgroundColor: EnumColors.white.color(),
+            shadowColor: EnumColors.clear.color(),
+            automaticallyImplyLeading: false,
+            leading: Const.itIOS
+                ? IconButton(
+                    icon: Icon(
+                      Icons.clear_rounded,
+                      color: EnumColors.black.color(),
+                    ),
+                    onPressed: () {
+                      Navigator.of(context, rootNavigator: true).pop('dialog');
+                    },
+                  )
+                : null),
         body: Center(
           child: Text(epic.name),
         ));

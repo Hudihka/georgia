@@ -8,12 +8,14 @@ import 'package:georgia/Recources/enum_font.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
 
 import 'package:georgia/Data/content.dart';
+import '../../Support/constant.dart';
 
 class EpicsPage extends StatelessWidget {
   List<EpicWithQwestion> _content = Content.epicQwestions;
 
   @override
   Widget build(BuildContext context) {
+    Const.setSize(context);
     // _contentCubit = context.read();
 
     // SingltonsCubit.shared.saveGroupCubit(_contentCubit);

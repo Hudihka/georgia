@@ -13,8 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Const.setSize(context);
-
     return MaterialApp(
       theme: ThemeData(),
       home: EpicsPage(),

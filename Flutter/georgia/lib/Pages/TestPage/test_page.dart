@@ -9,9 +9,11 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import '../../Model/option.dart';
 import '../../Support/constant.dart';
+import '../PageController/page_controller.dart';
 
 class TestPage extends StatelessWidget {
   final EpicWithQwestion epic;
+  final double _heightCollection = 46;
 
   TestPage({required this.epic});
 
@@ -51,26 +53,44 @@ class TestPage extends StatelessWidget {
                     },
                   )
                 : null),
-        body: SizedBox(
-          width: double.infinity,
-          height: 46,
-          child: ScrollablePositionedList.builder(
-            physics: const BouncingScrollPhysics(),
-            scrollDirection: Axis.horizontal,
-            itemScrollController: _scrollController,
-            itemCount: epic.qwestions.length,
-            itemBuilder: (context, index) {
-              final Option option = epic.qwestions[index].option;
-              return Padding(
-                  padding: EdgeInsets.fromLTRB(
-                      index != 0 ? 4 : 8,
-                      EnumOffsets.offset8.offset(),
-                      index != epic.qwestions.length - 1 ? 4 : 8,
-                      EnumOffsets.offset8.offset()),
-                  child: CellCollection(
-                      index: index + 1, isSelected: false, option: option));
-            },
-          ),
+        body: Column(
+          children: [
+            // MARK: - CollectionView
+            SizedBox(
+              width: double.infinity,
+              height: 46,
+              child: ScrollablePositionedList.builder(
+                physics: const BouncingScrollPhysics(),
+                scrollDirection: Axis.horizontal,
+                itemScrollController: _scrollController,
+                itemCount: epic.qwestions.length,
+                itemBuilder: (context, index) {
+                  final Option option = epic.qwestions[index].option;
+                  return Padding(
+                      padding: EdgeInsets.fromLTRB(
+                          index != 0 ? 4 : 8,
+                          EnumOffsets.offset8.offset(),
+                          index != epic.qwestions.length - 1 ? 4 : 8,
+                          EnumOffsets.offset8.offset()),
+                      child: GestureDetector(
+                        onTap: () {
+                          print(index);
+                        },
+                        child: CellCollection(
+                            index: index + 1,
+                            isSelected: false,
+                            option: option),
+                      ));
+                },
+              ),
+            ),
+            // MARK: - PageViewController
+            Container(
+              width: double.infinity,
+              height: Const.fullHeightBody - _heightCollection,
+              child: const MyPageView(),
+            )
+          ],
         ));
   }
 }

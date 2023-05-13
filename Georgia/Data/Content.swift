@@ -11012,6 +11012,8 @@ extension Array where Element: Equatable {
     }
 }
 
+//- assets/images_tiket/
+
 //[
 //    "georgia_image_for_tiket_1.jpg",
 //    "georgia_image_for_tiket_10.jpg",

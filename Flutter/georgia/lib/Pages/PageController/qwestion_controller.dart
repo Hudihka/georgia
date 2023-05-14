@@ -9,18 +9,16 @@ import '../../Support/constant.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class QwestionController extends StatelessWidget {
+  final ScrollController _scrollController = ScrollController();
+
   final Qwestion qwestion;
 
-  const QwestionController({super.key, required this.qwestion});
+  QwestionController({super.key, required this.qwestion});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: _listAllWidgets(),
-    );
-    // return CustomScrollView(
-    //   slivers: _listAllWidgets(),
-    // );
+    return ListView(
+        physics: const BouncingScrollPhysics(), children: _listAllWidgets());
   }
 
   List<Widget> _listAllWidgets() {

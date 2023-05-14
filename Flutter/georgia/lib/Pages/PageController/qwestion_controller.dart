@@ -139,8 +139,8 @@ class QwestionController extends StatelessWidget {
               EdgeInsets.symmetric(horizontal: EnumOffsets.offset16.offset()),
           child: MaterialButton(
               onPressed: () async {
-                const url =
-                    "http://teoria.on.ge/tickets?ticket=${qwestion.idQwestion}";
+                String url =
+                    "https://teoria.on.ge/tickets?ticket=${qwestion.idQwestion}";
                 final uri = Uri.parse(url);
                 if (await canLaunchUrl(uri)) {
                   await launchUrl(uri);

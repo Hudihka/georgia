@@ -12,4 +12,18 @@ class Answer {
       required this.second,
       this.three,
       this.four});
+
+  List<String> qwestions() {
+    List<String> list = [fist, second];
+
+    if (three != null) {
+      list.add(three!);
+    }
+
+    if (four != null) {
+      list.add(four!);
+    }
+
+    return list;
+  }
 }

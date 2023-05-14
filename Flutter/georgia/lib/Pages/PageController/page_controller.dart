@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:georgia/Model/qwestion.dart';
+import 'package:georgia/Pages/PageController/qwestion_controller.dart';
 
 class MyPageView extends StatefulWidget {
   final List<Qwestion> qwestions;
@@ -33,11 +34,7 @@ class _MyPageViewState extends State<MyPageView> {
 
   List<Widget> _generatePage() {
     return widget.qwestions
-        .map((e) => Container(
-            color: Colors.red,
-            child: Center(
-              child: Text(e.title),
-            )))
+        .map((e) => QwestionController(qwestion: e))
         .toList();
   }
 }

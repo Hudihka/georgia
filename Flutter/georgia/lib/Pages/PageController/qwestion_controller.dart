@@ -113,19 +113,20 @@ class QwestionController extends StatelessWidget {
               ),
               SizedBox(
                 width: 20,
-                height: 20,
                 child: Text("${index + 1}",
                     textAlign: TextAlign.center,
                     style: TextStyleExtension.generate(
                         size: 16, style: EnumFontStyle.bold)),
               ),
-              Padding(
-                  padding: EdgeInsets.all(8),
-                  child: Text(qwestion.answer.qwestions()[index],
-                      textAlign: TextAlign.left,
-                      maxLines: 999,
-                      style: TextStyleExtension.generate(
-                          size: 18, style: EnumFontStyle.bold)))
+              Flexible(
+                  fit: FlexFit.tight,
+                  child: Padding(
+                      padding: EdgeInsets.all(8),
+                      child: Text(qwestion.answer.qwestions()[index],
+                          textAlign: TextAlign.left,
+                          maxLines: 999,
+                          style: TextStyleExtension.generate(
+                              size: 18, style: EnumFontStyle.bold))))
             ]),
           )),
     );

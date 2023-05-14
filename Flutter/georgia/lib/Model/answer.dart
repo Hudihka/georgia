@@ -13,6 +13,21 @@ class Answer {
       this.three,
       this.four});
 
+  factory Answer.fromJson(Map<String, dynamic> json) {
+    final int rightOpinion = json['rightOpinion'] ?? 0;
+    final String fist = json['fist'] ?? "fist";
+    final String second = json['second'] ?? "second";
+    final String? three = json['three'];
+    final String? four = json['four'];
+
+    return Answer(
+        fist: fist,
+        second: second,
+        rightOpinion: rightOpinion,
+        three: three,
+        four: four);
+  }
+
   List<String> qwestions() {
     List<String> list = [fist, second];
 

@@ -34,7 +34,6 @@ class CellCollection extends StatelessWidget {
   }
 
   EnumColors _colorCell() {
-    // trueOption, falseOption, clearOption
     switch (option) {
       case Option.trueOption:
         return EnumColors.green;

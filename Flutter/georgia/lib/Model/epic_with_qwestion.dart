@@ -1,5 +1,11 @@
 import 'package:georgia/Model/qwestion.dart';
 
+// abstract class CodeInJson {
+//   Map<String, dynamic> codeJSON() {
+//     return {};
+//   }
+// }
+
 class EpicWithQwestion {
   final String name;
   final List<Qwestion> qwestions;

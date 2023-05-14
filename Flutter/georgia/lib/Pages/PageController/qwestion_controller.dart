@@ -144,6 +144,14 @@ class QwestionController extends StatelessWidget {
                 final uri = Uri.parse(url);
                 if (await canLaunchUrl(uri)) {
                   await launchUrl(uri);
+                  if (Const.itIOS) {
+                    await launchUrl(uri);
+                  } else {
+                    launchUrl(
+                      uri,
+                      mode: LaunchMode.externalApplication,
+                    );
+                  }
                 }
               },
               color: EnumColors.black.color(),

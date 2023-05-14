@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   scrollable_positioned_list: ^0.3.8
   vibration: ^1.7.3
-  url_launcher: ^6.1.11
+  url_launcher: any
 
 dev_dependencies:
   flutter_test:

@@ -21,6 +21,21 @@ class Qwestion {
   //   return Qwestion(indexTrue: indexTrue, indexWrong: indexWrong);
   // }
 
+  Map<String, dynamic> toJson() {
+    Map<String, dynamic> json = {
+      'idQwestion': idQwestion,
+      'title': title,
+      'answer': answer.toJson(),
+      'option': option.toString()
+    };
+
+    if (answerTest != null) {
+      json['answerTest'] = answerTest!.toJson();
+    }
+
+    return json;
+  }
+
   Qwestion(
       {required this.idQwestion,
       required this.title,

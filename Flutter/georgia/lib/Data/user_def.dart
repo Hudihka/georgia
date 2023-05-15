@@ -26,8 +26,9 @@ class UserDefaults {
 
   void getSaveQwestion() async {
     SharedPreferences defaults = await SharedPreferences.getInstance();
-    Map json = jsonDecode(defaults.getString('userData'));
-    var user = UserModel.fromJson(json);
+    Map json = jsonDecode(defaults.getString('"qwestion_id_1') ?? "");
+    print(json);
+    // var user = UserModel.fromJson(json);
   }
 
   /*

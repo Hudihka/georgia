@@ -1,16 +1,19 @@
 import 'package:georgia/Model/qwestion.dart';
 
-// abstract class CodeInJson {
-//   Map<String, dynamic> codeJSON() {
-//     return {};
-//   }
-// }
-
 class EpicWithQwestion {
   final String name;
   final List<Qwestion> qwestions;
 
   EpicWithQwestion({required this.name, required this.qwestions});
+
+  Map<String, dynamic> toJson() {
+    Map<String, dynamic> json = {
+      'name': name,
+      'qwestions': qwestions.map((e) => e.toJson())
+    };
+
+    return json;
+  }
 
   bool inProgress() {
     return qwestions.where((e) => e.answerTest != null).isNotEmpty;

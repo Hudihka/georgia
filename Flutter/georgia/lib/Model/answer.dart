@@ -28,6 +28,23 @@ class Answer {
         four: four);
   }
 
+  Map<String, dynamic> toJson() {
+    Map<String, dynamic> json = {
+      'rightOpinion': rightOpinion,
+      'fist': fist,
+      'second': second
+    };
+    if (three != null) {
+      json['three'] = three!;
+    }
+
+    if (four != null) {
+      json['four'] = four!;
+    }
+
+    return json;
+  }
+
   List<String> qwestions() {
     List<String> list = [fist, second];
 

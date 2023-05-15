@@ -11,6 +11,15 @@ class AnswerTest {
     return AnswerTest(indexTrue: indexTrue, indexWrong: indexWrong);
   }
 
+  Map<String, dynamic> toJson() {
+    Map<String, dynamic> json = {'indexTrue': indexTrue};
+    if (indexWrong != null) {
+      json['indexWrong'] = indexWrong!;
+    }
+
+    return json;
+  }
+
   bool isWrong() {
     return indexWrong != null;
   }

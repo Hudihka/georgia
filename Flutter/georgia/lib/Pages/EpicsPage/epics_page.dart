@@ -1,6 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:georgia/Data/user_def.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
+import 'package:georgia/Model/answer.dart';
+import 'package:georgia/Model/qwestion.dart';
 import 'package:georgia/Pages/EpicsPage/epic_cell.dart';
 import 'package:georgia/Pages/TestPage/test_page.dart';
 import 'package:georgia/Recources/enum_colors.dart';
@@ -13,9 +18,19 @@ import '../../Support/constant.dart';
 class EpicsPage extends StatelessWidget {
   List<EpicWithQwestion> _content = Content.epicQwestions;
 
+  Qwestion qwestion = Qwestion(
+      idQwestion: 1,
+      title:
+          "У водителя, какого автомобиля появляется обязательство уступить дорогу в случае передвижения по стрелке?",
+      answer: Answer(
+          rightOpinion: 2,
+          fist: "У водителя грузового автомобиля",
+          second: "У водителя легкового автомобиля"));
+
   @override
   Widget build(BuildContext context) {
     Const.setSize(context);
+
     // _contentCubit = context.read();
 
     // SingltonsCubit.shared.saveGroupCubit(_contentCubit);
@@ -46,13 +61,16 @@ class EpicsPage extends StatelessWidget {
               itemCount: _content.length,
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
-                  onTap: () {
-                    Navigator.of(context).push(
-                      CupertinoPageRoute(
-                        fullscreenDialog: true,
-                        builder: (context) => TestPage(epic: _content[index]),
-                      ),
-                    );
+                  onTap: () async {
+                    String userData = jsonEncode(qwestion);
+                    print(userData);
+
+                    // Navigator.of(context).push(
+                    //   CupertinoPageRoute(
+                    //     fullscreenDialog: true,
+                    //     builder: (context) => TestPage(epic: _content[index]),
+                    //   ),
+                    // );
                   },
                   child: EpicCell(epic: _content[index]),
                 );

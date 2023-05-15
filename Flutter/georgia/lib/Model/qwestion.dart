@@ -9,17 +9,26 @@ class Qwestion {
   Option option = Option.clearOption;
   final AnswerTest? answerTest;
 
-  // factory Qwestion.fromJson(Map<String, dynamic> json) {
-  //   final int indexTrue = json['idQwestion'] ?? 0;
-  //   final String title = json['title'] ?? 'title';
+  factory Qwestion.fromJson(Map<String, dynamic> json) {
+    final int idQwestion = json['idQwestion'] ?? 0;
+    final String title = json['title'] ?? 'title';
 
-  //   final Map<String, dynamic> answerJson = json['answer'] ?? {};
-  //   final Answer answer = Answer.fromJson(answerJson);
+    final Map<String, dynamic> answerJson = json['answer'] ?? {};
+    final Answer answer = Answer.fromJson(answerJson);
 
-  //   final int? indexWrong = json['indexWrong'];
+    final Option opinion = OptionExtension.getOption(json['option'] ?? "");
 
-  //   return Qwestion(indexTrue: indexTrue, indexWrong: indexWrong);
-  // }
+    final Map<String, dynamic>? answerTestJson = json['answer'];
+    final AnswerTest? answerTest =
+        answerTestJson == null ? null : AnswerTest.fromJson(answerTestJson);
+
+    return Qwestion(
+        idQwestion: idQwestion,
+        title: title,
+        answer: answer,
+        option: opinion,
+        answerTest: answerTest);
+  }
 
   Map<String, dynamic> toJson() {
     Map<String, dynamic> json = {

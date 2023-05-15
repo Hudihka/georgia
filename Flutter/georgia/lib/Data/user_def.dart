@@ -24,70 +24,26 @@ class UserDefaults {
     defaults.setString(key, userData);
   }
 
-  void getSaveQwestion() async {
+  Future<Qwestion?> getSaveQwestion(int id) async {
+    String key = _generateKey(id);
+
     SharedPreferences defaults = await SharedPreferences.getInstance();
-    Map json = jsonDecode(defaults.getString('"qwestion_id_1') ?? "");
-    print(json);
-    // var user = UserModel.fromJson(json);
+    String? str = defaults.getString(key);
+
+    if (str == null) {
+      return null;
+    }
+
+    Map<String, dynamic> json = jsonDecode(str);
+
+    return Qwestion.fromJson(json);
   }
 
-  /*
-    
-    static func removeQwestion(id: Int) {
-        let key = EnumKeys.qwestion(value: id).key
-        
-        ud.removeObject(forKey: key)
-    }
-    
-    static func getsavedQwestion(id: Int) -> Qwestion? {
-        let key = EnumKeys.qwestion(value: id).key
-        
-        if let savedPerson = ud.object(forKey: key) as? Data {
-            let decoder = JSONDecoder()
-            if let loadedPerson = try? decoder.decode(Qwestion.self, from: savedPerson) {
-                return loadedPerson
-            }
-        }
-        
-        return nil
-    }
-  */
+  void removeQwestion(int id) async {
+    String key = _generateKey(id);
 
-  // save
+    SharedPreferences defaults = await SharedPreferences.getInstance();
 
-  // saveIndexSegment(int index) async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   defaults.setInt(_EnumKeysDefaults.keySegment.toString(), index);
-  // }
-
-  // saveSwitch(bool value) async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   defaults.setBool(_EnumKeysDefaults.keySwitch.toString(), value);
-  // }
-
-  // saveWord(String wordId, bool isFavorit) async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   if (isFavorit == true) {
-  //     defaults.setBool(wordId, true);
-  //   } else {
-  //     defaults.remove(wordId);
-  //   }
-  // }
-
-  // get
-
-  // Future<int> getSegmentIndex() async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   return defaults.getInt(_EnumKeysDefaults.keySegment.toString()) ?? 0;
-  // }
-
-  // Future<bool> getSwitchValue() async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   return defaults.getBool(_EnumKeysDefaults.keySwitch.toString()) ?? false;
-  // }
-
-  // Future<bool> favoritThisWord(String wordId) async {
-  //   SharedPreferences defaults = await SharedPreferences.getInstance();
-  //   return defaults.getBool(wordId) ?? false;
-  // }
+    defaults.remove(key);
+  }
 }

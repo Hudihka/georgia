@@ -6,8 +6,13 @@ class Qwestion {
   final int idQwestion;
   final String title;
   final Answer answer;
-  Option option = Option.clearOption;
+  final Option option;
   final AnswerTest? answerTest;
+
+  static List<Qwestion> generateArrayQwestions(
+      List<Map<String, dynamic>> arrayJson) {
+    return arrayJson.map((e) => Qwestion.fromJson(e)).toList();
+  }
 
   factory Qwestion.fromJson(Map<String, dynamic> json) {
     final int idQwestion = json['idQwestion'] ?? 0;
@@ -49,5 +54,6 @@ class Qwestion {
       {required this.idQwestion,
       required this.title,
       required this.answer,
+      this.option = Option.clearOption,
       this.answerTest});
 }

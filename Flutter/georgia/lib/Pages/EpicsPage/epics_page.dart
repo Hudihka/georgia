@@ -18,15 +18,6 @@ import '../../Support/constant.dart';
 class EpicsPage extends StatelessWidget {
   List<EpicWithQwestion> _content = Content.epicQwestions;
 
-  Qwestion qwestion = Qwestion(
-      idQwestion: 1,
-      title:
-          "У водителя, какого автомобиля появляется обязательство уступить дорогу в случае передвижения по стрелке?",
-      answer: Answer(
-          rightOpinion: 2,
-          fist: "У водителя грузового автомобиля",
-          second: "У водителя легкового автомобиля"));
-
   @override
   Widget build(BuildContext context) {
     Const.setSize(context);
@@ -62,9 +53,6 @@ class EpicsPage extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
                   onTap: () async {
-                    String userData = jsonEncode(qwestion);
-                    print(userData);
-
                     // Navigator.of(context).push(
                     //   CupertinoPageRoute(
                     //     fullscreenDialog: true,

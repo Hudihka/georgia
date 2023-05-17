@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
-import 'package:georgia/Pages/EpicsPage/epic_cell.dart';
 import 'package:georgia/Pages/TestPage/cell_collection.dart';
 import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_font.dart';
@@ -21,17 +20,6 @@ class TestPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // _contentCubit = context.read();
-
-    // SingltonsCubit.shared.saveGroupCubit(_contentCubit);
-
-    // _contentCubit.fetchContent();
-    // if (state is GroupContent) {
-    //   _index = state.index;
-    //   _switchValue = state.switchValue;
-    //   _listGroup = _index == 0 ? state.listGroup : state.listSelectedGroups;
-    // }
-
     return Scaffold(
         appBar: AppBar(
             title: Text(

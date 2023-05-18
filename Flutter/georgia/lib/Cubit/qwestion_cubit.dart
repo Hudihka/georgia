@@ -7,11 +7,11 @@ import '../Data/user_def.dart';
 
 class GroupCubit extends Cubit<QwestionState> {
   final _ud = UserDefaults.shared;
-  final EpicContent groupState;
+  final EpicContentState groupState;
 
   int _indexSelectedEpic = 0;
 
-  GroupCubit(this.groupState) : super(EpicContent.generateBase());
+  GroupCubit(this.groupState) : super(EpicContentState.generateBase());
 
   Future<void> fetchContent() async {
     List<EpicWithQwestion> epics = [];

@@ -6,21 +6,21 @@ import 'package:collection/collection.dart';
 
 abstract class QwestionState {}
 
-class EpicContent extends QwestionState {
+class EpicContentState extends QwestionState {
   final List<EpicWithQwestion> listEpic;
 
-  EpicContent({required this.listEpic});
+  EpicContentState({required this.listEpic});
 
-  factory EpicContent.generateBase() {
-    return EpicContent(listEpic: Content.epicQwestions);
+  factory EpicContentState.generateBase() {
+    return EpicContentState(listEpic: Content.epicQwestions);
   }
 
-  EpicContent copyWithList(List<EpicWithQwestion> listEpic) {
-    return EpicContent(listEpic: listEpic);
+  EpicContentState copyWithList(List<EpicWithQwestion> listEpic) {
+    return EpicContentState(listEpic: listEpic);
   }
 
 // тапнули на один вопрос
-  EpicContent copyWithEpic(
+  EpicContentState copyWithEpic(
       {required Qwestion qwestion,
       required int indexEpic,
       required int indexQwestion}) {
@@ -33,6 +33,6 @@ class EpicContent extends QwestionState {
 
     listEpic[indexEpic] = newEpic;
 
-    return EpicContent(listEpic: listEpic);
+    return EpicContentState(listEpic: listEpic);
   }
 }

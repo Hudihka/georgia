@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
         providers: [
           BlocProvider<GroupCubit>(
-            create: (context) => GroupCubit(EpicContent.generateBase()),
+            create: (context) => GroupCubit(EpicContentState.generateBase()),
           )
         ],
         child: MaterialApp(

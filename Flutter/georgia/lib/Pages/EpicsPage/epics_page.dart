@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:georgia/Cubit/qwestion_state.dart';
 import 'package:georgia/Data/user_def.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
 import 'package:georgia/Model/answer.dart';
@@ -14,54 +16,64 @@ import 'package:georgia/Recources/enum_offsets.dart';
 
 import 'package:collection/collection.dart';
 import 'package:georgia/Data/content.dart';
+import '../../Cubit/qwestion_cubit.dart';
 import '../../Support/constant.dart';
 
 class EpicsPage extends StatelessWidget {
+  late GroupCubit _contentCubit;
+
   List<EpicWithQwestion> _content = [];
 
   @override
   Widget build(BuildContext context) {
+    _contentCubit = context.read();
     Const.setSize(context);
 
-    return Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'Темы',
-            textAlign: TextAlign.center,
-            style: TextStyleExtension.generateSemibold(size: 23),
+    return BlocBuilder<GroupCubit, QwestionState>(builder: (context, state) {
+      _contentCubit.fetchContent();
+
+      if (state is EpicContentState) {
+        _content = state.listEpic;
+      }
+
+      return Scaffold(
+          appBar: AppBar(
+            title: Text(
+              'Темы',
+              textAlign: TextAlign.center,
+              style: TextStyleExtension.generateSemibold(size: 23),
+            ),
+            backgroundColor: EnumColors.white.color(),
+            shadowColor: EnumColors.clear.color(),
           ),
-          backgroundColor: EnumColors.white.color(),
-          shadowColor: EnumColors.clear.color(),
-        ),
-        body: Container(
-          width: double.infinity,
-          color: EnumColors.white.color(),
-          child: ListView.builder(
-              physics: const BouncingScrollPhysics(),
-              scrollDirection: Axis.vertical,
-              itemCount: _content.length,
-              itemBuilder: (BuildContext context, int index) {
-                return GestureDetector(
-                  onTap: () async {
-                    final epic = _content[index];
-                    final bool isEmptyEpic = epic.qwestions
-                            .firstWhereOrNull((e) => e.answerTest != null) ==
-                        null;
+          body: Container(
+            width: double.infinity,
+            color: EnumColors.white.color(),
+            child: ListView.builder(
+                physics: const BouncingScrollPhysics(),
+                scrollDirection: Axis.vertical,
+                itemCount: _content.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return GestureDetector(
+                    onTap: () async {
+                      final epic = _content[index];
+                      final bool isEmptyEpic = epic.qwestions
+                              .firstWhereOrNull((e) => e.answerTest != null) ==
+                          null;
 
-                    // сохраняем индекс эпика
+                      _contentCubit.changeIndexEpic(index);
 
-                    _showAlertDialog(context: context, epic: epic);
-
-                    // if (isEmptyEpic == false) {
-                    //   _showAlertDialog(context: context, epic: epic);
-                    // } else {
-                    //   _showTest(epic, context);
-                    // }
-                  },
-                  child: EpicCell(epic: _content[index]),
-                );
-              }),
-        ));
+                      if (isEmptyEpic == false) {
+                        _showAlertDialog(context: context, epic: epic);
+                      } else {
+                        _showTest(epic, context);
+                      }
+                    },
+                    child: EpicCell(epic: _content[index]),
+                  );
+                }),
+          ));
+    });
   }
 
   void _showTest(EpicWithQwestion epic, BuildContext context) {
@@ -88,7 +100,7 @@ class EpicsPage extends StatelessWidget {
       child: Text("Начать с начала",
           style: TextStyle(color: EnumColors.red.color())),
       onPressed: () {
-        // удаляем сохраненки
+        _contentCubit.clearEpic(epic);
         Navigator.of(context, rootNavigator: true).pop('dialog');
         _showTest(epic, context);
       },

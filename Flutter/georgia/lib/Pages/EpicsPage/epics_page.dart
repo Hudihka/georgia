@@ -23,17 +23,6 @@ class EpicsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     Const.setSize(context);
 
-    // _contentCubit = context.read();
-
-    // SingltonsCubit.shared.saveGroupCubit(_contentCubit);
-
-    // _contentCubit.fetchContent();
-    // if (state is GroupContent) {
-    //   _index = state.index;
-    //   _switchValue = state.switchValue;
-    //   _listGroup = _index == 0 ? state.listGroup : state.listSelectedGroups;
-    // }
-
     return Scaffold(
         appBar: AppBar(
           title: Text(
@@ -61,11 +50,13 @@ class EpicsPage extends StatelessWidget {
 
                     // сохраняем индекс эпика
 
-                    if (isEmptyEpic == false) {
-                      // чистим эпик
-                    }
+                    _showAlertDialog(context: context, epic: epic);
 
-                    _showTest(epic, context);
+                    // if (isEmptyEpic == false) {
+                    //   _showAlertDialog(context: context, epic: epic);
+                    // } else {
+                    //   _showTest(epic, context);
+                    // }
                   },
                   child: EpicCell(epic: _content[index]),
                 );
@@ -79,6 +70,43 @@ class EpicsPage extends StatelessWidget {
         fullscreenDialog: true,
         builder: (context) => TestPage(epic: epic),
       ),
+    );
+  }
+
+  void _showAlertDialog(
+      {required BuildContext context, required EpicWithQwestion epic}) {
+    // set up the buttons
+    Widget cancelButton = TextButton(
+      child: const Text("Продолжить"),
+      onPressed: () {
+        Navigator.of(context, rootNavigator: true).pop('dialog');
+        _showTest(epic, context);
+      },
+    );
+
+    Widget continueButton = TextButton(
+      child: Text("Начать с начала",
+          style: TextStyle(color: EnumColors.red.color())),
+      onPressed: () {
+        // удаляем сохраненки
+        Navigator.of(context, rootNavigator: true).pop('dialog');
+        _showTest(epic, context);
+      },
+    );
+
+    AlertDialog alert = AlertDialog(
+      title: Text("Хотите продолжить ${epic.name}?"),
+      actions: [
+        cancelButton,
+        continueButton,
+      ],
+    );
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
 }

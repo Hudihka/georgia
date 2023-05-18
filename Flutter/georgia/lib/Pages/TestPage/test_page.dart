@@ -25,8 +25,12 @@ class TestPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    _initPageView();
-    _intCollection();
+    int firstIndex =
+        epic.qwestions.indexWhere((element) => element.answerTest != null);
+    int indexScroll = firstIndex == -1 ? 0 : firstIndex;
+
+    _initPageView(indexScroll);
+    _intCollection(indexScroll);
 
     return Scaffold(
         appBar: AppBar(
@@ -67,27 +71,28 @@ class TestPage extends StatelessWidget {
         ));
   }
 
-  void _initPageView() {
-    int firstIndex =
-        epic.qwestions.indexWhere((element) => element.answerTest != null);
-    int index = firstIndex == -1 ? 0 : firstIndex;
-
+  void _initPageView(int indexScroll) {
     _pageview = MyPageView(
       key: _myKey,
       qwestions: epic.qwestions,
-      firstIndex: 9,
+      firstIndex: indexScroll,
     );
 
     _pageview.selectIndexPage = (index) {
-      _collection.itemScrollController
-          ?.scrollTo(index: index, duration: Duration(milliseconds: 250));
+      if (index > 4 && index < epic.qwestions.length - 4) {
+        _collection.itemScrollController?.scrollTo(
+            index: index,
+            duration: Duration(milliseconds: 250),
+            curve: Curves.easeInOutQuad);
+      }
     };
   }
 
-  void _intCollection() {
+  void _intCollection(int indexScroll) {
     _collection = ScrollablePositionedList.builder(
       physics: const BouncingScrollPhysics(),
       scrollDirection: Axis.horizontal,
+      initialScrollIndex: indexScroll,
       itemScrollController: _scrollController,
       itemCount: epic.qwestions.length,
       itemBuilder: (context, index) {

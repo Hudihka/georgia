@@ -12,11 +12,12 @@ import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_font.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
 
+import 'package:collection/collection.dart';
 import 'package:georgia/Data/content.dart';
 import '../../Support/constant.dart';
 
 class EpicsPage extends StatelessWidget {
-  List<EpicWithQwestion> _content = Content.epicQwestions;
+  List<EpicWithQwestion> _content = [];
 
   @override
   Widget build(BuildContext context) {
@@ -53,16 +54,31 @@ class EpicsPage extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
                   onTap: () async {
-                    // Navigator.of(context).push(
-                    //   CupertinoPageRoute(
-                    //     fullscreenDialog: true,
-                    //     builder: (context) => TestPage(epic: _content[index]),
-                    //   ),
-                    // );
+                    final epic = _content[index];
+                    final bool isEmptyEpic = epic.qwestions
+                            .firstWhereOrNull((e) => e.answerTest != null) ==
+                        null;
+
+                    // сохраняем индекс эпика
+
+                    if (isEmptyEpic == false) {
+                      // чистим эпик
+                    }
+
+                    _showTest(epic, context);
                   },
                   child: EpicCell(epic: _content[index]),
                 );
               }),
         ));
+  }
+
+  void _showTest(EpicWithQwestion epic, BuildContext context) {
+    Navigator.of(context).push(
+      CupertinoPageRoute(
+        fullscreenDialog: true,
+        builder: (context) => TestPage(epic: epic),
+      ),
+    );
   }
 }

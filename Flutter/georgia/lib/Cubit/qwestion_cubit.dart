@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:georgia/Cubit/qwestion_state.dart';
-import 'package:georgia/Model/answer.dart';
 import 'package:georgia/Model/answer_test.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
 import 'package:georgia/Model/qwestion.dart';
@@ -59,5 +58,21 @@ class GroupCubit extends Cubit<QwestionState> {
         qwestion: newQwestion,
         indexEpic: _indexSelectedEpic,
         indexQwestion: indexQwestion));
+  }
+
+  void clearEpic(EpicWithQwestion epic) {
+    List<Qwestion> newListQwestions = epic.qwestions.map((e) {
+      _ud.removeQwestion(e.idQwestion);
+
+      return Qwestion.copyWithEmptyAnswer(e);
+    }).toList();
+
+    List<EpicWithQwestion> newList = groupState.listEpic;
+
+    final newEpic =
+        EpicWithQwestion(name: epic.name, qwestions: newListQwestions);
+    newList[_indexSelectedEpic] = newEpic;
+
+    emit(groupState.copyWithList(newList));
   }
 }

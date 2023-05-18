@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
 import 'package:georgia/Data/content.dart';
 import 'package:georgia/Model/qwestion.dart';
+import 'package:collection/collection.dart';
 
 abstract class QwestionState {}
 
 class EpicContent extends QwestionState {
-  List<EpicWithQwestion> listEpic = Content.epicQwestions;
+  final List<EpicWithQwestion> listEpic;
 
   EpicContent({required this.listEpic});
 
@@ -14,32 +15,11 @@ class EpicContent extends QwestionState {
     return EpicContent(listEpic: Content.epicQwestions);
   }
 
-  EpicContent copyWith(Qwestion qwestion) {
-    int indexQwestion = 0;
-    int indexEpic = 0;
-
-    for (var i = 0; i < listEpic.length; i++) {
-      int indexQw = listEpic[i]
-          .qwestions
-          .indexWhere((qw) => qw.idQwestion == qwestion.idQwestion);
-
-      if (indexQw != -1) {
-        indexEpic = i;
-        indexQwestion = indexQw;
-
-        break;
-      }
-    }
-
-    listEpic[indexEpic].qwestions[indexQwestion] = qwestion;
-
-    return EpicContent(listEpic: listEpic);
-  }
-
   EpicContent copyWithList(List<EpicWithQwestion> listEpic) {
     return EpicContent(listEpic: listEpic);
   }
 
+// тапнули на один вопрос
   EpicContent copyWithEpic(
       {required Qwestion qwestion,
       required int indexEpic,

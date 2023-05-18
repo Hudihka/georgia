@@ -50,6 +50,15 @@ class Qwestion {
     return json;
   }
 
+  factory Qwestion.copyWithEmptyAnswer(Qwestion qwestion) {
+    return Qwestion(
+        idQwestion: qwestion.idQwestion,
+        title: qwestion.title,
+        answer: qwestion.answer,
+        option: Option.clearOption,
+        answerTest: null);
+  }
+
   Qwestion(
       {required this.idQwestion,
       required this.title,

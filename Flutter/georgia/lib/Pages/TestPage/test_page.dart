@@ -75,8 +75,7 @@ class TestPage extends StatelessWidget {
     );
 
     _pageview.selectIndexPage = (index) {
-      // _myKeyCollection.currentState
-      //     ?.changeIndex(index: indexScroll, callUpdate: false);
+      _myKeyCollection.currentState?.changeIndexFromPage(index: index);
     };
   }
 

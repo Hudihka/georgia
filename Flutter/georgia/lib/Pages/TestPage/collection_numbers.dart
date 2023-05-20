@@ -42,7 +42,7 @@ class CollectionNumbersState extends State<CollectionNumbers> {
                   EnumOffsets.offset8.offset()),
               child: GestureDetector(
                 onTap: () {
-                  changeIndex(index: index, callUpdate: true);
+                  _changeIndex(index: index);
                 },
                 child: CellCollection(
                     index: index + 1,
@@ -54,16 +54,23 @@ class CollectionNumbersState extends State<CollectionNumbers> {
     );
   }
 
-  void changeIndex({required int index, required bool callUpdate}) {
+  void _changeIndex({required int index}) {
     _scrollController.scrollTo(
         index: index,
         duration: const Duration(milliseconds: 250),
         curve: Curves.easeInOutQuad);
     widget.indexScroll = index;
+    widget.selectNumber(index);
 
-    if (callUpdate) {
-      widget.selectNumber(index);
-    }
+    setState(() {});
+  }
+
+  void changeIndexFromPage({required int index}) {
+    _scrollController.scrollTo(
+        index: index,
+        duration: const Duration(milliseconds: 250),
+        curve: Curves.easeInOutQuad);
+    widget.indexScroll = index;
 
     setState(() {});
   }

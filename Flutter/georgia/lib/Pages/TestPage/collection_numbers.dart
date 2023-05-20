@@ -15,10 +15,10 @@ class CollectionNumbers extends StatefulWidget {
   CollectionNumbers({super.key, required this.epic, required this.indexScroll});
 
   @override
-  State<CollectionNumbers> createState() => _CollectionNumbersState();
+  State<CollectionNumbers> createState() => CollectionNumbersState();
 }
 
-class _CollectionNumbersState extends State<CollectionNumbers> {
+class CollectionNumbersState extends State<CollectionNumbers> {
   ItemScrollController _scrollController = ItemScrollController();
 
   @override

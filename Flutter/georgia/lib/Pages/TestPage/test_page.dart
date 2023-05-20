@@ -18,7 +18,7 @@ class TestPage extends StatelessWidget {
   final GlobalKey<MyPageViewState> _myKeyPage = GlobalKey();
   late MyPageView _pageview;
 
-  final GlobalKey<MyPageViewState> _myKeyCollection = GlobalKey();
+  final GlobalKey<CollectionNumbersState> _myKeyCollection = GlobalKey();
   late CollectionNumbers _collection;
 
   TestPage({required this.epic});
@@ -75,9 +75,8 @@ class TestPage extends StatelessWidget {
     );
 
     _pageview.selectIndexPage = (index) {
-      _myKeyCollection.currentState?.
-          
-          // changeIndex(index: indexScroll, callUpdate: false);
+      // _myKeyCollection.currentState
+      //     ?.changeIndex(index: indexScroll, callUpdate: false);
     };
   }
 

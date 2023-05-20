@@ -46,6 +46,6 @@ class MyPageViewState extends State<MyPageView> {
 
   void scrollToIndex({required int index}) {
     _pageController.animateToPage(index,
-        duration: const Duration(milliseconds: 300), curve: Curves.easeIn);
+        duration: const Duration(milliseconds: 250), curve: Curves.easeIn);
   }
 }

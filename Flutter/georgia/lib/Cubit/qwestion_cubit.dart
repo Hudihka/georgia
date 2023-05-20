@@ -2,7 +2,9 @@ import 'package:bloc/bloc.dart';
 import 'package:georgia/Cubit/qwestion_state.dart';
 import 'package:georgia/Model/answer_test.dart';
 import 'package:georgia/Model/epic_with_qwestion.dart';
+import 'package:georgia/Model/option.dart';
 import 'package:georgia/Model/qwestion.dart';
+import 'package:vibration/vibration.dart';
 import '../Data/user_def.dart';
 
 class GroupCubit extends Cubit<QwestionState> {
@@ -40,14 +42,18 @@ class GroupCubit extends Cubit<QwestionState> {
   Future<void> tapedAnswer(
       Qwestion qwestion, int indexAnswer, int indexQwestion) async {
     final bool trueAnswer = indexAnswer == qwestion.answer.rightOpinion;
+
     if (!trueAnswer) {
-      // вибрация
+      if (await Vibration.hasVibrator() ?? false) {
+        Vibration.vibrate();
+      }
     }
 
     final Qwestion newQwestion = Qwestion(
         idQwestion: qwestion.idQwestion,
         title: qwestion.title,
         answer: qwestion.answer,
+        option: trueAnswer ? Option.trueOption : Option.falseOption,
         answerTest: AnswerTest(
             indexTrue: qwestion.answer.rightOpinion,
             indexWrong: trueAnswer ? null : indexAnswer));

@@ -39,9 +39,12 @@ class MyPageViewState extends State<MyPageView> {
   }
 
   List<Widget> _generatePage() {
-    return widget.qwestions
-        .map((e) => QwestionController(qwestion: e))
-        .toList();
+    List<Widget> widgets = [];
+    widget.qwestions.asMap().forEach((key, value) {
+      widgets.add(QwestionController(qwestion: value, indexQwestion: key));
+    });
+
+    return widgets;
   }
 
   void scrollToIndex({required int index}) {

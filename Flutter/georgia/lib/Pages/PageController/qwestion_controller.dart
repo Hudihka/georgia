@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:georgia/Model/qwestion.dart';
 import 'package:georgia/Recources/enum_colors.dart';
 import 'package:georgia/Recources/enum_offsets.dart';
 
+import '../../Cubit/qwestion_cubit.dart';
+import '../../Cubit/qwestion_state.dart';
 import '../../Data/images_manager.dart';
 import '../../Recources/enum_font.dart';
 import '../../Support/constant.dart';
@@ -10,15 +13,25 @@ import 'package:url_launcher/url_launcher.dart';
 
 class QwestionController extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();
+  late GroupCubit _contentCubit;
 
   final Qwestion qwestion;
+  final int indexQwestion;
 
-  QwestionController({super.key, required this.qwestion});
+  QwestionController(
+      {super.key, required this.qwestion, required this.indexQwestion});
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-        physics: const BouncingScrollPhysics(), children: _listAllWidgets());
+    _contentCubit = context.read();
+
+    return BlocBuilder<GroupCubit, QwestionState>(
+      builder: (context, state) {
+        return ListView(
+            physics: const BouncingScrollPhysics(),
+            children: _listAllWidgets());
+      },
+    );
   }
 
   List<Widget> _listAllWidgets() {
@@ -37,7 +50,7 @@ class QwestionController extends StatelessWidget {
 
     int maxIndex = qwestion.answer.qwestions().length;
 
-    for (var i = 0; i < maxIndex; i++) {
+    for (var i = 1; i < maxIndex + 1; i++) {
       list.add(_buttonOfIndex(i));
       list.add(spacer);
     }
@@ -84,10 +97,10 @@ class QwestionController extends StatelessWidget {
     if (qwestion.answerTest != null) {
       final int indexTrue = qwestion.answerTest!.indexTrue;
 
-      if (indexTrue == index + 1) {
+      if (indexTrue == index) {
         colorBacground = EnumColors.green;
       } else if (qwestion.answerTest?.indexWrong != null &&
-          qwestion.answerTest!.indexWrong == index + 1) {
+          qwestion.answerTest!.indexWrong == index) {
         colorBacground = EnumColors.red;
       }
     }
@@ -97,7 +110,7 @@ class QwestionController extends StatelessWidget {
       child: GestureDetector(
           onTap: isEnableButton
               ? () {
-                  print(index);
+                  _contentCubit.tapedAnswer(qwestion, index, indexQwestion);
                 }
               : null,
           child: Container(
@@ -142,7 +155,6 @@ class QwestionController extends StatelessWidget {
                     "https://teoria.on.ge/tickets?ticket=${qwestion.idQwestion}";
                 final uri = Uri.parse(url);
                 if (await canLaunchUrl(uri)) {
-                  await launchUrl(uri);
                   if (Const.itIOS) {
                     await launchUrl(uri);
                   } else {

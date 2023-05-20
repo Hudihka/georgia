@@ -9,19 +9,19 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import '../../Model/option.dart';
 import '../../Support/constant.dart';
 import '../PageController/page_controller.dart';
+import 'collection_numbers.dart';
 
 class TestPage extends StatelessWidget {
   final EpicWithQwestion epic;
   final double _heightCollection = 46;
 
-  final GlobalKey<MyPageViewState> _myKey = GlobalKey();
+  final GlobalKey<MyPageViewState> _myKeyPage = GlobalKey();
   late MyPageView _pageview;
 
-  late ScrollablePositionedList _collection;
+  final GlobalKey<MyPageViewState> _myKeyCollection = GlobalKey();
+  late CollectionNumbers _collection;
 
   TestPage({required this.epic});
-
-  ItemScrollController _scrollController = ItemScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -56,11 +56,7 @@ class TestPage extends StatelessWidget {
         body: Column(
           children: [
             // MARK: - CollectionView
-            SizedBox(
-              width: double.infinity,
-              height: 46,
-              child: _collection,
-            ),
+            _collection,
             // MARK: - PageViewController
             Container(
               width: double.infinity,
@@ -73,44 +69,24 @@ class TestPage extends StatelessWidget {
 
   void _initPageView(int indexScroll) {
     _pageview = MyPageView(
-      key: _myKey,
+      key: _myKeyPage,
       qwestions: epic.qwestions,
       firstIndex: indexScroll,
     );
 
     _pageview.selectIndexPage = (index) {
-      if (index > 4 && index < epic.qwestions.length - 4) {
-        _collection.itemScrollController?.scrollTo(
-            index: index,
-            duration: Duration(milliseconds: 250),
-            curve: Curves.easeInOutQuad);
-      }
+      _myKeyCollection.currentState?.
+          
+          // changeIndex(index: indexScroll, callUpdate: false);
     };
   }
 
   void _intCollection(int indexScroll) {
-    _collection = ScrollablePositionedList.builder(
-      physics: const BouncingScrollPhysics(),
-      scrollDirection: Axis.horizontal,
-      initialScrollIndex: indexScroll,
-      itemScrollController: _scrollController,
-      itemCount: epic.qwestions.length,
-      itemBuilder: (context, index) {
-        final Option option = epic.qwestions[index].option;
-        return Padding(
-            padding: EdgeInsets.fromLTRB(
-                index != 0 ? 4 : 8,
-                EnumOffsets.offset8.offset(),
-                index != epic.qwestions.length - 1 ? 4 : 8,
-                EnumOffsets.offset8.offset()),
-            child: GestureDetector(
-              onTap: () {
-                _myKey.currentState?.scrollToIndex(index: index);
-              },
-              child: CellCollection(
-                  index: index + 1, isSelected: false, option: option),
-            ));
-      },
-    );
+    _collection = CollectionNumbers(
+        key: _myKeyCollection, epic: epic, indexScroll: indexScroll);
+
+    _collection.selectNumber = (index) {
+      _myKeyPage.currentState?.scrollToIndex(index: index);
+    };
   }
 }

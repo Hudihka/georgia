@@ -15,6 +15,7 @@ extension UINavigationController {
         CATransaction.setCompletionBlock(completion)
         self.popViewController(animated: true)
         CATransaction.commit()
+        ////
     }
     
     func pushViewController(viewController: UIViewController, completion: (() -> Void)?) {
